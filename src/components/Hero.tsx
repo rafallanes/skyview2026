@@ -19,8 +19,8 @@ AI EASY
           <br />
           ARCHITECTURE
         </h1>
-        <p className="text-xl md:text-2xl text-white/80 font-light tracking-wide max-w-2xl mx-auto reveal-delayed">
-          Creating spaces that inspire through thoughtful design and uncompromising quality
+        <p className="text-xl md:text-2xl text-white/80 font-light tracking-wide max-w-2xl mx-auto reveal-delayed">No vendemos herramientas. Hacemos que la IA funcione 
+en tu empresa de forma real, segura y medible.
         </p>
       </div>
       
