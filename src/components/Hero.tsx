@@ -4,18 +4,18 @@ const Hero = () => {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      />
+        style={{ backgroundImage: `url(${heroImage})` }} />
+
       
       {/* Overlay */}
       <div className="absolute inset-0 hero-overlay" />
       
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
-        <h1 className="text-6xl md:text-8xl lg:text-9xl font-light text-white text-architectural mb-8 reveal">
-          MINIMAL
+        <h1 className="text-6xl md:text-8xl font-light text-white text-architectural mb-8 reveal lg:text-8xl">MAKING 
+AI EASY
           <br />
           ARCHITECTURE
         </h1>
@@ -31,8 +31,8 @@ const Hero = () => {
           SCROLL
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Hero;
