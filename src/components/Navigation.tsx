@@ -13,7 +13,7 @@ const Navigation = () => {
         </div>
         
         <div className="hidden md:flex items-center space-x-12">
-          <a href="/work" className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">CLIENTES
+          <a href="/work" className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">QUÉ HACEMOS
 
           </a>
           <a href="/services" className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">OFICINA IA
