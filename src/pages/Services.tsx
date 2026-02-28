@@ -5,12 +5,12 @@ const Services = () => {
   {
     number: "01",
     title: "START",
-    description: "Asignamos tu Core Team y Comité de IA desde el primer día. \n\n\nEl plan: En 14 días tienes tu mapa de casos de uso priorizados (S/M/L) y el plan para el primer trimestre."
+    description: "Asignamos tu Core Team y Comité de IA desde el primer día.\n\nEl plan: En 14 días tienes tu mapa de casos de uso priorizados (S/M/L) y el plan para el primer trimestre."
   },
   {
     number: "02",
     title: "COMMERCIAL",
-    description: "Reuniones periódicas con objetivos claros.\n\n\nEl impacto: Automatización de procesos reales y medición constante del retorno (ROI)"
+    description: "Reuniones periódicas con objetivos claros.\n\nEl impacto: Automatización de procesos reales y medición constante del retorno (ROI)"
   },
   {
     number: "03",
