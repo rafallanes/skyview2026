@@ -13,19 +13,16 @@ const Navigation = () => {
         </div>
         
         <div className="hidden md:flex items-center space-x-12">
-          <a href="/work" className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">CLIENTES
-
+          <a href="/que-hacemos" className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">QUÉ HACEMOS
           </a>
-          <a href="/services" className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">QUÉ HACEMOS
-
+          <a href="/proyectos" className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">CLIENTES
           </a>
           <a href="/about" className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">OFICINA IA
           </a>
           <a href="/blog" className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">BLOG
 
           </a>
-          <a href="/contact" className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">CONTACTO
-
+          <a href="/contacto" className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">CONTACTO
           </a>
         </div>
 
@@ -47,20 +44,20 @@ const Navigation = () => {
       {isMenuOpen &&
       <div className="md:hidden bg-background border-b border-border">
           <div className="container mx-auto px-6 py-6 space-y-4">
-            <a href="/work" className="block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">
-              WORK
+            <a href="/que-hacemos" className="block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">
+              QUÉ HACEMOS
             </a>
-            <a href="/services" className="block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">
-              SERVICES
+            <a href="/proyectos" className="block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">
+              CLIENTES
             </a>
             <a href="/about" className="block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">
-              ABOUT
+              OFICINA IA
             </a>
             <a href="/blog" className="block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">
               BLOG
             </a>
-            <a href="/contact" className="block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">
-              CONTACT
+            <a href="/contacto" className="block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">
+              CONTACTO
             </a>
             
             {/* Mobile Theme Toggle */}
