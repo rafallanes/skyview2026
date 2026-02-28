@@ -20,7 +20,7 @@ AI EASY
           <br />
           ARCHITECTURE
         </h1>
-        <p className="text-xl md:text-2xl text-white/80 font-light tracking-wide max-w-2xl mx-auto reveal-delayed">Hacemos que la IA funcione
+        <p className="text-xl md:text-2xl text-white/80 font-light tracking-wide max-w-2xl mx-auto reveal-delayed">Hacemos que la IA funcione 
 de forma real, segura y medible.
         </p>
       </div>
