@@ -8,7 +8,6 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }} />
 
-      
       {/* Overlay */}
       <div className="absolute inset-0 hero-overlay" />
       
@@ -19,8 +18,9 @@ const Hero = () => {
           <br />
           AI EASY
         </h1>
-        <p className="text-xl md:text-2xl text-white/80 font-light tracking-wide max-w-2xl mx-auto reveal-delayed">Hacemos que la IA funcione
-de forma real, segura y medible.
+        <p className="text-xl md:text-2xl text-white/80 font-light tracking-wide max-w-2xl mx-auto reveal-delayed">
+          Hacemos que la IA funcione<br />
+          de forma real, segura y medible.
         </p>
       </div>
       
@@ -31,7 +31,8 @@ de forma real, segura y medible.
           SCROLL
         </div>
       </div>
-    </section>);
+    </section>
+  );
 };
 
 export default Hero;
