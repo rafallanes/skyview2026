@@ -4,23 +4,23 @@ const Services = () => {
   const services = [
   {
     number: "01",
-    title: "START",
-    description: "Asignamos tu Core Team y Comité de IA desde el primer día.\n\nEl plan: En 14 días tienes tu mapa de casos de uso priorizados (S/M/L) y el plan para el primer trimestre."
+    title: "RESIDENTIAL",
+    description: "Crafting homes that reflect individual lifestyles while maintaining architectural integrity"
   },
   {
     number: "02",
     title: "COMMERCIAL",
-    description: "Reuniones periódicas con objetivos claros.\n\nEl impacto: Automatización de procesos reales y medición constante del retorno (ROI)"
+    description: "Designing functional spaces that enhance business environments and user experiences"
   },
   {
     number: "03",
     title: "RENOVATION",
-    description: "Procesos automatizados de forma regular cada trimestre.\n\nLa tranquilidad: Gestión profesional continua bajo un modelo de \"IA como Servicio\" (FaaS)"
+    description: "Transforming existing structures with contemporary sensibilities and sustainable practices"
   },
   {
     number: "04",
     title: "CONSULTATION",
-    description: "Si lo decides, transferimos todas las capacidades a tu personal propio.\n\nIndependencia: Tu Oficina de IA se vuelve autónoma y totalmente integrada en tu estructura."
+    description: "Providing expert guidance on design direction, planning, and architectural solutions"
   }];
 
 
@@ -31,10 +31,13 @@ const Services = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <div className="mb-20">
-              <h1 className="text-minimal text-muted-foreground mb-4">TECNOLOGIA AL SERVICIO DE LAS PERSONAS
+              <h1 className="text-minimal text-muted-foreground mb-4">EXPERT
               </h1>
-              <h2 className="text-4xl md:text-6xl font-light text-architectural">
-                Adopción Acelerada de {"\n"}Inteligencia Aumentada (IA)
+              <h2 className="text-4xl md:text-6xl font-light text-architectural">Tu Oficina IA en 3 Pasos
+(Inteligencia Aumentada)
+
+
+
               </h2>
             </div>
             
@@ -48,19 +51,16 @@ const Services = () => {
                       <h3 className="text-2xl font-light mb-4 text-architectural group-hover:text-muted-foreground transition-colors duration-500">
                         {service.title}
                       </h3>
-                      <p className="text-muted-foreground leading-relaxed whitespace-pre-line">
+                      <p className="text-muted-foreground leading-relaxed">
                         {service.description}
                       </p>
                     </div>
                   </div>
-                </div>
-              )}
+                </div>)}
             </div>
           </div>
         </div>
       </section>
-    </div>);
-
-};
+    </div>);};
 
 export default Services;

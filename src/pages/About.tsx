@@ -9,29 +9,31 @@ const About = () => {
           <div className="max-w-7xl mx-auto">
             <div className="grid md:grid-cols-2 gap-20 items-center">
               <div>
-                <h1 className="text-minimal text-muted-foreground mb-4">ABOUT</h1>
-                <h2 className="text-4xl md:text-6xl font-light text-architectural mb-12">
-                  Design Philosophy
+                <h1 className="text-minimal text-muted-foreground mb-4">TECNOLOGÍA AL SERVICIO DE LAS PERSONAS</h1>
+                <h2 className="text-4xl md:text-6xl font-light text-architectural mb-12">Filosofía Aumentada
+
                 </h2>
                 
                 <div className="space-y-8">
-                  <p className="text-lg text-muted-foreground leading-relaxed">
-                    We believe architecture should enhance human experience while respecting 
-                    the natural environment. Our practice focuses on creating spaces that 
-                    are both functional and poetic.
+                  <p className="text-lg text-muted-foreground leading-relaxed">Creemos que la inteligencia natural y la artifical son plenamente compatibles, y que la combinación perfecta de las dos origina la inteligencia aumentada.
+
+
+
                   </p>
                   
-                  <p className="text-lg text-muted-foreground leading-relaxed">
-                    Founded in 2015, our studio has completed over 200 projects across 
-                    residential, commercial, and cultural sectors. Each project begins 
-                    with careful listening and ends with thoughtful execution.
+                  <p className="text-lg text-muted-foreground leading-relaxed">Fundada en 2012, nuestra compañía ha acometido más de 200 proyectos para poner la tecnología al servicio de las personas. Cada proyecto empieza con una escucha activa y continúa con una ejecución rápida y efectiva orientada a mejorar tu forma de trabajar.
+
+
+
                   </p>
                 </div>
               </div>
               
               <div className="space-y-12">
                 <div>
-                  <h3 className="text-minimal text-muted-foreground mb-6">APPROACH</h3>
+                  <h3 className="text-minimal text-muted-foreground mb-6">METODOLOGIA SPRINT
+
+                  </h3>
                   <div className="space-y-6">
                     <div className="border-l-2 border-architectural pl-6">
                       <h4 className="text-lg font-medium mb-2">Research</h4>
@@ -52,7 +54,7 @@ const About = () => {
                   <div className="grid grid-cols-2 gap-8">
                     <div>
                       <h3 className="text-minimal text-muted-foreground mb-2">FOUNDED</h3>
-                      <p className="text-xl">2015</p>
+                      <p className="text-xl">2012</p>
                     </div>
                     <div>
                       <h3 className="text-minimal text-muted-foreground mb-2">PROJECTS</h3>
@@ -65,8 +67,6 @@ const About = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
-};
+    </div>);};
 
 export default About;
