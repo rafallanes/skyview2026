@@ -9,63 +9,63 @@ const Work = () => {
   const projects = [
   {
     image: project1,
-    title: "MINIMAL RESIDENCE",
-    location: "NEW YORK, 2024",
+    title: "CARITAS",
+    location: "MADRID, 2024",
     category: "SaaS",
     subTag: undefined as string | undefined,
-    description: "A contemporary home focusing on light, space, and material honesty. The design emphasizes clean lines and natural materials.",
-    area: "450 SQM",
+    description: "START y SPRINT para instaurar buenas prácticas en relación a la IA. Comite de IA desde día uno, camino a Oficina Ia en menos de un año.",
+    area: "PERSONAS",
     year: "2024"
   },
   {
     image: project2,
-    title: "CORPORATE HEADQUARTERS",
-    location: "LONDON, 2023",
+    title: "CODORNIU",
+    location: "BARCELONA, 2015",
     category: "A Medida",
     subTag: undefined as string | undefined,
-    description: "Modern office space emphasizing collaboration and natural elements. Features flexible workspaces and sustainable design principles.",
-    area: "1200 SQM",
-    year: "2023"
+    description: "Automatización de tareas repetitivas en proceso financiero. Eficiencia que aporta un ahorro del 72% de tiempo y dinero calculado por el propio cliente.",
+    area: "FINANCIERO",
+    year: "2015"
   },
   {
     image: project3,
-    title: "CULTURAL CENTER",
-    location: "TOKYO, 2023",
+    title: "DESIGUAL",
+    location: "BARCELONA, 2019",
     category: "IA",
     subTag: "START" as string | undefined,
-    description: "Public architecture that bridges tradition with contemporary design. A space for community gathering and cultural exchange.",
-    area: "800 SQM",
-    year: "2023"
+    description: "Automatización de tareas repetitivas en proceso financiero. Ahorro del 65% de tiempo y dinero. ROI calculado por Controlling Financiero.",
+    area: "OPERACIONES",
+    year: "2019"
   },
   {
     image: project1,
-    title: "URBAN LOFT",
-    location: "BERLIN, 2024",
+    title: "H&M",
+    location: "BARCELONA, 2018",
     category: "IA",
     subTag: "SPRINT" as string | undefined,
     description: "Industrial heritage meets contemporary living. Raw materials balanced with refined details.",
     area: "180 SQM",
-    year: "2024"
+    year: "2018"
   },
   {
     image: project2,
-    title: "GALLERY SPACE",
+    title: "BBRAUN",
     location: "PARIS, 2022",
     category: "IA",
     subTag: "Oficina IA" as string | undefined,
-    description: "Minimalist gallery designed to showcase art without distraction. Pure white spaces with carefully controlled lighting.",
-    area: "600 SQM",
+    description: "Automatización de tares repetitivas en el proceso de volcado de datos de fábrica a AS400. ROI: Ahorro anual del 70% de tiempo y dinero.",
+    area: "FINANCIERO",
     year: "2022"
   },
   {
     image: project3,
-    title: "BOUTIQUE HOTEL",
-    location: "MILAN, 2023",
+    title: "GLOBALIA",
+    location: "MADRID, 2018",
     category: "SaaS",
     subTag: undefined as string | undefined,
-    description: "Luxury hospitality redefined through architectural restraint. Every detail carefully considered for guest experience.",
-    area: "2400 SQM",
-    year: "2023"
+    description: "Automatización del procesamiento de reclamaciones (papel y email). Extracción de metadatos y volcado en sistemas centrales.",
+    area: "OPERACIONES",
+    year: "2018"
   }];
 
   const categories = ["ALL", "SaaS", "A Medida", "IA"];
