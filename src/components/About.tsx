@@ -5,22 +5,22 @@ const About = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-20 items-center">
             <div>
-              <h2 className="text-minimal text-muted-foreground mb-4">ABOUT</h2>
-              <h3 className="text-4xl md:text-6xl font-light text-architectural mb-12">
-                Design Philosophy
+              <h2 className="text-minimal text-muted-foreground mb-4">OFICINA IA</h2>
+              <h3 className="text-4xl md:text-6xl font-light text-architectural mb-12">Filosofía "Aumentada"
+
               </h3>
               
               <div className="space-y-8">
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  We believe architecture should enhance human experience while respecting 
-                  the natural environment. Our practice focuses on creating spaces that 
-                  are both functional and poetic.
+                <p className="text-lg text-muted-foreground leading-relaxed">Creemos que la inteligencia natural y la artifical son plenamente compatibles, y que la combinación perfecta de las dos origina la inteligencia aumentada.
+
+
+
                 </p>
                 
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Founded in 2015, our studio has completed over 200 projects across 
-                  residential, commercial, and cultural sectors. Each project begins 
-                  with careful listening and ends with thoughtful execution.
+                <p className="text-lg text-muted-foreground leading-relaxed">Fundada en 2012, nuestra compañía ha acometido más de 200 proyectos para poner la tecnología al servicio de las personas. Cada proyecto empieza con una escucha activa y continúa con una ejecución rápida y efectiva orientada a mejorar tu forma de trabajar.
+
+
+
                 </p>
               </div>
             </div>
@@ -30,16 +30,16 @@ const About = () => {
                 <h4 className="text-minimal text-muted-foreground mb-6">APPROACH</h4>
                 <div className="space-y-6">
                   <div className="border-l-2 border-architectural pl-6">
-                    <h5 className="text-lg font-medium mb-2">Research</h5>
-                    <p className="text-muted-foreground">Deep understanding of context, culture, and climate</p>
+                    <h5 className="text-lg font-medium mb-2">Rigor Metodológico</h5>
+                    <p className="text-muted-foreground">Aplicamos un marco operativo desde el primer día. No Improvisamos.</p>
                   </div>
                   <div className="border-l-2 border-architectural pl-6">
-                    <h5 className="text-lg font-medium mb-2">Collaboration</h5>
-                    <p className="text-muted-foreground">Close partnership with clients, engineers, and craftspeople</p>
+                    <h5 className="text-lg font-medium mb-2">Personalización Radical</h5>
+                    <p className="text-muted-foreground">Entendemos tus resistencias invisibles. Adaptamos la IA a tu cultura, no al revés.</p>
                   </div>
                   <div className="border-l-2 border-architectural pl-6">
-                    <h5 className="text-lg font-medium mb-2">Innovation</h5>
-                    <p className="text-muted-foreground">Sustainable materials and forward-thinking design solutions</p>
+                    <h5 className="text-lg font-medium mb-2">Foco en Producción</h5>
+                    <p className="text-muted-foreground">Nuestro objetivo no es el piloto, es el escalado. Sino llega a producción, no es éxito.</p>
                   </div>
                 </div>
               </div>
@@ -48,7 +48,7 @@ const About = () => {
                 <div className="grid grid-cols-2 gap-8">
                   <div>
                     <h4 className="text-minimal text-muted-foreground mb-2">FOUNDED</h4>
-                    <p className="text-xl">2015</p>
+                    <p className="text-xl">2014</p>
                   </div>
                   <div>
                     <h4 className="text-minimal text-muted-foreground mb-2">PROJECTS</h4>
@@ -60,8 +60,8 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default About;
