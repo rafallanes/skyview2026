@@ -4,13 +4,13 @@ const Services = () => {
   const services = [
   {
     number: "01",
-    title: "RESIDENTIAL",
-    description: "Crafting homes that reflect individual lifestyles while maintaining architectural integrity"
+    title: "START",
+    description: "Asignamos tu Core Team y Comité de IA desde el primer día.\n\n\nEl plan: En 14 días tienes tu mapa de casos de uso priorizados ($S/M/L$) y el plan para el primer trimestre."
   },
   {
     number: "02",
     title: "COMMERCIAL",
-    description: "Designing functional spaces that enhance business environments and user experiences"
+    description: "Reuniones periódicas con objetivos claros.\n\n+1\n\nEl impacto: Automatización de procesos reales y medición constante del retorno ($ROI$)"
   },
   {
     number: "03",
@@ -31,10 +31,10 @@ const Services = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <div className="mb-20">
-              <h1 className="text-minimal text-muted-foreground mb-4">EXPERT
+              <h1 className="text-minimal text-muted-foreground mb-4">TECNOLOGIA AL SERVICIO DE LAS PERSONAS
               </h1>
               <h2 className="text-4xl md:text-6xl font-light text-architectural">
-                What We Do
+                Adopción Acelerada de {"\n"}Inteligencia Aumentada (IA)
               </h2>
             </div>
             
