@@ -55,18 +55,18 @@ Tres Cantos, MAD 28760
               </div>
               
               <div className="pt-12 border-t border-border">
-                <p className="text-muted-foreground">"Hablemos de resultados, no de promesas." 
+                <p className="text-muted-foreground">"Hablemos de resultados, no de promesas."  
+
+25 minutos para identificar dónde está el mayor  
+impacto de la IA en tu operación actual.  
+Sin compromiso, sin humo.
 
 
-25 minutos para identificar dónde está el mayor 
-impacto de la IA en tu operación actual. 
-Sin compromiso, sin humo.</p>
+
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>);
-};
-
-export default Contact;
+    </section>);};export default Contact;
