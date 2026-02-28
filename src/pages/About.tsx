@@ -36,16 +36,16 @@ const About = () => {
                   </h3>
                   <div className="space-y-6">
                     <div className="border-l-2 border-architectural pl-6">
-                      <h4 className="text-lg font-medium mb-2">Research</h4>
-                      <p className="text-muted-foreground">Deep understanding of context, culture, and climate</p>
+                      <h4 className="text-lg font-medium mb-2">Rigor Metodológico</h4>
+                      <p className="text-muted-foreground">Aplicamos un marco operativo desde el primer día. No Improvisamos.</p>
                     </div>
                     <div className="border-l-2 border-architectural pl-6">
-                      <h4 className="text-lg font-medium mb-2">Collaboration</h4>
-                      <p className="text-muted-foreground">Close partnership with clients, engineers, and craftspeople</p>
+                      <h4 className="text-lg font-medium mb-2">Personalización Radical</h4>
+                      <p className="text-muted-foreground">Entendemos tus resistencias invisibles. Adaptamos la IA a tu cultura, no al revés.</p>
                     </div>
                     <div className="border-l-2 border-architectural pl-6">
-                      <h4 className="text-lg font-medium mb-2">Innovation</h4>
-                      <p className="text-muted-foreground">Sustainable materials and forward-thinking design solutions</p>
+                      <h4 className="text-lg font-medium mb-2">Foco en Producción</h4>
+                      <p className="text-muted-foreground">Nuestro objetivo no es el piloto, es el escalado. Sino llega a producción, no es éxito.</p>
                     </div>
                   </div>
                 </div>
