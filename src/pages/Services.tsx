@@ -15,12 +15,12 @@ const Services = () => {
   {
     number: "03",
     title: "RENOVATION",
-    description: "Procesos automatizados de forma regular cada trimestre.\n\n+1\n\nLa tranquilidad: Gestión profesional continua bajo un modelo de \"IA como Servicio\" (FaaS)"
+    description: "Procesos automatizados de forma regular cada trimestre.\n\nLa tranquilidad: Gestión profesional continua bajo un modelo de \"IA como Servicio\" (FaaS)"
   },
   {
     number: "04",
     title: "CONSULTATION",
-    description: "Si lo decides, transferimos todas las capacidades a tu personal propio.\n\n+1\n\nIndependencia: Tu Oficina de IA se vuelve autónoma y totalmente integrada en tu estructura."
+    description: "Si lo decides, transferimos todas las capacidades a tu personal propio.\n\nIndependencia: Tu Oficina de IA se vuelve autónoma y totalmente integrada en tu estructura."
   }];
 
 
@@ -48,7 +48,7 @@ const Services = () => {
                       <h3 className="text-2xl font-light mb-4 text-architectural group-hover:text-muted-foreground transition-colors duration-500">
                         {service.title}
                       </h3>
-                      <p className="text-muted-foreground leading-relaxed">
+                      <p className="text-muted-foreground leading-relaxed whitespace-pre-line">
                         {service.description}
                       </p>
                     </div>
