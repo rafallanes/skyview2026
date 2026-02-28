@@ -14,14 +14,14 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
-        <h1 className="text-6xl md:text-8xl font-light text-white text-architectural mb-8 reveal lg:text-8xl">MAKING
+        <h1 className="text-6xl md:text-8xl font-light text-white text-architectural mb-8 reveal lg:text-8xl">MAKING 
 AI EASY
 
           <br />
           ARCHITECTURE
         </h1>
-        <p className="text-xl md:text-2xl text-white/80 font-light tracking-wide max-w-2xl mx-auto reveal-delayed">No vendemos herramientas. Hacemos que la IA 
-funcione de forma real, segura y medible.
+        <p className="text-xl md:text-2xl text-white/80 font-light tracking-wide max-w-2xl mx-auto reveal-delayed">Hacemos que la IA funcione 
+de forma real, segura y medible.
         </p>
       </div>
       
