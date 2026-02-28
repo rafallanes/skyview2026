@@ -7,7 +7,7 @@ const About = () => {
       <section className="pt-32 pb-32 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-20 items-center">
+            <div className="grid md:grid-cols-2 gap-20 items-start">
               <div>
                 <h1 className="text-minimal text-muted-foreground mb-4">TECNOLOGÍA AL SERVICIO DE LAS PERSONAS</h1>
                 <h2 className="text-4xl md:text-6xl font-light text-architectural mb-12">Filosofía Aumentada
