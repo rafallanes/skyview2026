@@ -27,7 +27,7 @@ const About = () => {
             
             <div className="space-y-12">
               <div>
-                <h4 className="text-minimal text-muted-foreground mb-6">APPROACH</h4>
+                <h4 className="text-minimal text-muted-foreground mb-6">METODOLOGIA SPRINT</h4>
                 <div className="space-y-6">
                   <div className="border-l-2 border-architectural pl-6">
                     <h5 className="text-lg font-medium mb-2">Rigor Metodológico</h5>

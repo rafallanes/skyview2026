@@ -28,8 +28,8 @@ const Contact = () => {
                 </div>
                 
                 <div>
-                  <h4 className="text-minimal text-muted-foreground mb-2">STUDIO</h4>
-                  <address className="text-xl not-italic">Gemma Mengual, 3
+                  <h4 className="text-minimal text-muted-foreground mb-2">OFICINAS</h4>
+                  <address className="text-xl not-italic">Gemma Mengual, 3 
 Tres Cantos, MAD 28760
                     <br />
                     New York, NY 10001
@@ -55,7 +55,7 @@ Tres Cantos, MAD 28760
               </div>
               
               <div className="pt-12 border-t border-border">
-                <p className="text-muted-foreground">¿Quieres saber donde está el mayor retorno de la IA en tu organización? Agenda una conversación de 25 minutos y aterrizaremos juntos tu propio Roadmap.
+                <p className="text-muted-foreground">"Hablemos de resultados, no de promesas." 25 minutos para identificar dónde está el mayor impacto de la IA en tu operación actual. Sin compromiso, sin humo.
 
 
 
