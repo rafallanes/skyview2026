@@ -14,8 +14,8 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
-        <h1 className="text-6xl md:text-8xl font-light text-white text-architectural mb-8 reveal lg:text-8xl">MAKING
-AI EASY
+        <h1 className="text-6xl md:text-8xl font-light text-white text-architectural mb-8 reveal lg:text-8xl">
+          MAKING
           <br />
           AI EASY
         </h1>
