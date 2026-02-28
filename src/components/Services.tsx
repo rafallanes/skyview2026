@@ -2,23 +2,23 @@ const Services = () => {
   const services = [
   {
     number: "01",
-    title: "RESIDENTIAL",
-    description: "Crafting homes that reflect individual lifestyles while maintaining architectural integrity"
+    title: "START",
+    description: "Consultoría de diagnóstico y roadmap ¡en tan sólo 2 semanas! Con entregables imprescindibles para empezar con buen pie: Plan estratégico, Mapa de casos de uso y Marco de gobierno."
   },
   {
     number: "02",
-    title: "COMMERCIAL",
-    description: "Designing functional spaces that enhance business environments and user experiences"
+    title: "SPRINT",
+    description: "Automatización de procesos reales y medición constante del retorno (ROI). Incluye métricas de impacto, evaluación de resultados y ajuste de roadmap."
   },
   {
     number: "03",
-    title: "RENOVATION",
-    description: "Transforming existing structures with contemporary sensibilities and sustainable practices"
+    title: "OFICINA IA (as a Service)",
+    description: "Gestión profesional continua bajo un modelo de \"IA como servicio\" (FaaS). Servicio anual para pasar del laboratorio a una oficina IA operativa al 100%."
   },
   {
     number: "04",
-    title: "CONSULTATION",
-    description: "Providing expert guidance on design direction, planning, and architectural solutions"
+    title: "OFICINA IA INTERNA (OPCIONAL)",
+    description: "Si lo decides, transferimos progresivamente capacidades a tu personal propio. Tu Oficina IA se vuelve autónoma y totalmente integrada en tu estructura."
   }];
 
 
@@ -28,9 +28,9 @@ const Services = () => {
         <div className="max-w-7xl mx-auto">
           <div className="mb-20">
             <h2 className="text-minimal text-muted-foreground mb-4">
+              QUÉ HACEMOS
             </h2>
-            <h3 className="text-4xl md:text-6xl font-light text-architectural">Lo Que Hacemos
-
+            <h3 className="text-4xl md:text-6xl font-light text-architectural">Tu Oficina IA en 3 Pasos
             </h3>
           </div>
           
