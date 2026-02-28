@@ -11,7 +11,8 @@ const Work = () => {
     image: project1,
     title: "MINIMAL RESIDENCE",
     location: "NEW YORK, 2024",
-    category: "RESIDENTIAL",
+    category: "SaaS",
+    subTag: undefined as string | undefined,
     description: "A contemporary home focusing on light, space, and material honesty. The design emphasizes clean lines and natural materials.",
     area: "450 SQM",
     year: "2024"
@@ -20,7 +21,8 @@ const Work = () => {
     image: project2,
     title: "CORPORATE HEADQUARTERS",
     location: "LONDON, 2023",
-    category: "COMMERCIAL",
+    category: "A Medida",
+    subTag: undefined as string | undefined,
     description: "Modern office space emphasizing collaboration and natural elements. Features flexible workspaces and sustainable design principles.",
     area: "1200 SQM",
     year: "2023"
@@ -29,7 +31,8 @@ const Work = () => {
     image: project3,
     title: "CULTURAL CENTER",
     location: "TOKYO, 2023",
-    category: "CULTURAL",
+    category: "IA",
+    subTag: "START" as string | undefined,
     description: "Public architecture that bridges tradition with contemporary design. A space for community gathering and cultural exchange.",
     area: "800 SQM",
     year: "2023"
@@ -38,7 +41,8 @@ const Work = () => {
     image: project1,
     title: "URBAN LOFT",
     location: "BERLIN, 2024",
-    category: "RESIDENTIAL",
+    category: "IA",
+    subTag: "SPRINT" as string | undefined,
     description: "Industrial heritage meets contemporary living. Raw materials balanced with refined details.",
     area: "180 SQM",
     year: "2024"
@@ -47,7 +51,8 @@ const Work = () => {
     image: project2,
     title: "GALLERY SPACE",
     location: "PARIS, 2022",
-    category: "CULTURAL",
+    category: "IA",
+    subTag: "Oficina IA" as string | undefined,
     description: "Minimalist gallery designed to showcase art without distraction. Pure white spaces with carefully controlled lighting.",
     area: "600 SQM",
     year: "2022"
@@ -56,14 +61,14 @@ const Work = () => {
     image: project3,
     title: "BOUTIQUE HOTEL",
     location: "MILAN, 2023",
-    category: "HOSPITALITY",
+    category: "SaaS",
+    subTag: undefined as string | undefined,
     description: "Luxury hospitality redefined through architectural restraint. Every detail carefully considered for guest experience.",
     area: "2400 SQM",
     year: "2023"
   }];
 
-
-  const categories = ["ALL", "RESIDENTIAL", "COMMERCIAL", "CULTURAL", "HOSPITALITY"];
+  const categories = ["ALL", "SaaS", "A Medida", "IA"];
 
   const filteredProjects = activeCategory === "ALL" ?
   projects :
@@ -135,10 +140,15 @@ const Work = () => {
                     <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                     
                     {/* Project Category Badge */}
-                    <div className="absolute top-6 left-6 bg-background/90 backdrop-blur-sm px-4 py-2">
-                      <span className="text-minimal text-foreground">
+                    <div className="absolute top-6 left-6 flex gap-2">
+                      <span className="bg-background/90 backdrop-blur-sm px-4 py-2 text-minimal text-foreground">
                         {project.category}
                       </span>
+                      {project.subTag && (
+                        <span className="bg-primary/90 backdrop-blur-sm px-4 py-2 text-minimal text-primary-foreground">
+                          {project.subTag}
+                        </span>
+                      )}
                     </div>
                   </div>
                   
