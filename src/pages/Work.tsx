@@ -78,12 +78,13 @@ const Work = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <div className="mb-12">
-              <h1 className="text-6xl md:text-8xl font-light text-architectural mb-8">PROYECTOS
-
-              </h1>
-              <p className="text-xl text-muted-foreground max-w-3xl">"Resultados medibles en organizaciones que ya no esperan." Transformamos la complejidad técnica en modelos operativos que escalan. De la visión a la producción rea
-
-
+            <h1 className="text-6xl md:text-8xl font-light text-architectural mb-8">PROYECTOS</h1>
+              <p className="text-xl text-muted-foreground max-w-3xl">
+                Resultados medibles en empresas que ya automatizan tareas repetitivas con IA
+                <br /><br />
+                Transformamos la complejidad técnica en modelos operativos que escalan.
+                <br />
+                De la visión a la producción real.
               </p>
             </div>
           </div>
