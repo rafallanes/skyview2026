@@ -84,8 +84,12 @@ const Work = () => {
           <div className="max-w-7xl mx-auto">
             <div className="mb-12">
             <h1 className="text-6xl md:text-8xl font-light text-architectural mb-8">PROYECTOS</h1>
-              <p className="text-xl text-muted-foreground max-w-3xl">
-                Resultados medibles en empresas que ya automatizan tareas repetitivas con IA
+              <p className="text-xl text-muted-foreground max-w-3xl">Desde su creación en 2014 la misión de SKYVIEW ha sido poner la tecnología al servicio de las personas. Multitud de clientes en todos los sectores se benefician de nuestra experiencia aportando eficiencia a los procesos.
+
+
+Nuestra obsesión es conseguir resultados medibles al automatizar tareas repetitivas. Transformamos la complejidad técnica en modelos operativos que escalan.
+De la visión a la producción real.
+
                 <br /><br />
                 Transformamos la complejidad técnica en modelos operativos que escalan.
                 <br />
@@ -101,15 +105,11 @@ const Work = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-wrap gap-8 justify-center md:justify-start">
-              {categories.map((category) =>
-              <button
-                key={category}
-                onClick={() => setActiveCategory(category)}
-                className={`text-minimal transition-colors duration-300 relative group ${
-                activeCategory === category ?
-                "text-foreground" :
-                "text-muted-foreground hover:text-foreground"}`
-                }>
+              {categories.map((category) => <button key={category} onClick={() => setActiveCategory(category)} className={`text-minimal transition-colors duration-300 relative group ${
+              activeCategory === category ?
+              "text-foreground" :
+              "text-muted-foreground hover:text-foreground"}`
+              }>
 
                   {category}
                   <span className={`absolute bottom-0 left-0 w-full h-px bg-foreground transition-transform duration-300 origin-left ${
@@ -144,11 +144,11 @@ const Work = () => {
                       <span className="bg-background/90 backdrop-blur-sm px-4 py-2 text-minimal text-foreground">
                         {project.category}
                       </span>
-                      {project.subTag && (
-                        <span className="bg-primary/90 backdrop-blur-sm px-4 py-2 text-minimal text-primary-foreground">
+                      {project.subTag &&
+                    <span className="bg-primary/90 backdrop-blur-sm px-4 py-2 text-minimal text-primary-foreground">
                           {project.subTag}
                         </span>
-                      )}
+                    }
                     </div>
                   </div>
                   
