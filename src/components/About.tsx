@@ -141,7 +141,7 @@ const About = () => {
                   <Reveal key={i} delay={i * 0.08}>
                     <div className="group relative border-t border-primary-foreground/10 py-10 md:py-14 pr-8 overflow-hidden">
                       {/* Ghost number */}
-                      <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-primary-foreground/[0.06] select-none pointer-events-none leading-none">
+                      <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-primary-foreground/[0.15] select-none pointer-events-none leading-none">
                         {item.ghost}
                       </span>
                       <div className="relative z-10">
@@ -173,7 +173,7 @@ const About = () => {
             <img
               src={servicesArch2}
               alt="Motion-blurred people in a minimalist architectural hall"
-              className="w-full h-full object-cover grayscale min-h-[50vh] md:min-h-full"
+              className="w-full h-full object-cover grayscale brightness-75 min-h-[50vh] md:min-h-full"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-background/20 to-transparent" />
           </Reveal>
@@ -242,7 +242,7 @@ const About = () => {
                 <Reveal key={i} delay={i * 0.08}>
                   <div className="group relative border-t xl:border-t-0 xl:border-l border-border py-10 xl:py-0 xl:pl-6 xl:pr-4 xl:min-h-[320px] flex flex-col justify-start">
                     {/* Large ghost letter */}
-                    <span className="text-[6rem] xl:text-[7rem] font-bold text-foreground/[0.05] leading-none select-none pointer-events-none -mb-6 xl:-mb-4">
+                    <span className="text-[6rem] xl:text-[7rem] font-bold text-foreground/[0.12] leading-none select-none pointer-events-none -mb-6 xl:-mb-4">
                       {pillar.letter}
                     </span>
                     <div className="relative z-10">
