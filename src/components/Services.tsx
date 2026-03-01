@@ -64,7 +64,7 @@ const Services = () => {
                     className="flex-1 relative px-6 py-10 border-r border-border last:border-r-0 animate-fade-in-up"
                     style={{ animationDelay: `${index * 150}ms`, animationFillMode: "both" }}
                   >
-                    <span className="text-4xl font-light text-foreground/10 block mb-3">{event.year}</span>
+                    <span className="text-4xl font-light text-foreground/30 block mb-3">{event.year}</span>
                     <span className="text-minimal text-foreground font-semibold block mb-3">{event.label}</span>
                     <p className="text-sm text-muted-foreground leading-relaxed">{event.description}</p>
                   </div>
@@ -80,7 +80,7 @@ const Services = () => {
                   style={{ animationDelay: `${index * 100}ms`, animationFillMode: "both" }}
                 >
                   <div className="flex items-baseline gap-4 mb-2">
-                    <span className="text-2xl font-light text-foreground/15">{event.year}</span>
+                    <span className="text-2xl font-light text-foreground/30">{event.year}</span>
                     <span className="text-minimal text-foreground font-semibold">{event.label}</span>
                   </div>
                   <p className="text-sm text-muted-foreground leading-relaxed">{event.description}</p>
@@ -133,7 +133,7 @@ const Services = () => {
                   className="group relative border-t border-border py-12 md:py-16 md:pr-16 md:odd:pr-16 md:even:pl-16 md:even:pr-0 overflow-hidden"
                 >
                   {/* Large background number */}
-                  <span className="absolute top-4 right-4 md:top-6 md:right-8 text-7xl md:text-8xl font-bold text-foreground/[0.04] select-none pointer-events-none leading-none">
+                  <span className="absolute top-4 right-4 md:top-6 md:right-8 text-7xl md:text-8xl font-bold text-foreground/[0.12] select-none pointer-events-none leading-none">
                     {step.number}
                   </span>
                   <div className="relative z-10">
