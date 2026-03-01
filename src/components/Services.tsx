@@ -43,7 +43,7 @@ const Services = () => {
         <div className="max-w-7xl mx-auto">
 
           {/* HEADER & INTRO */}
-          <div className="mb-24 md:mb-32">
+          <div className="mb-16 md:mb-24">
             <h2 className="text-minimal text-muted-foreground mb-6">MAKING AI EASY</h2>
             <h3 className="text-4xl md:text-6xl lg:text-7xl font-light text-architectural max-w-4xl mb-10">
               Una década diseñando{"\n"}el futuro de la eficiencia.
@@ -53,22 +53,48 @@ const Services = () => {
             </p>
           </div>
 
-          {/* EVOLUTIONARY TIMELINE */}
-          <div className="mb-24 md:mb-32">
-            <h4 className="text-minimal text-muted-foreground mb-12">TRAYECTORIA</h4>
-            <div className="space-y-0">
+          {/* INFOGRAPHIC TIMELINE */}
+          <div className="mb-16 md:mb-24 w-full bg-background">
+            {/* Desktop: horizontal scrollable timeline */}
+            <div className="hidden md:block overflow-x-auto">
+              <div className="flex items-stretch min-w-[900px] border-t border-b border-border">
+                {timelineEvents.map((event, index) => (
+                  <div
+                    key={index}
+                    className="flex-1 relative px-6 py-10 border-r border-border last:border-r-0 animate-fade-in-up"
+                    style={{ animationDelay: `${index * 150}ms`, animationFillMode: "both" }}
+                  >
+                    <span className="text-4xl font-light text-foreground/10 block mb-3">{event.year}</span>
+                    <span className="text-minimal text-foreground font-semibold block mb-3">{event.label}</span>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{event.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            {/* Mobile: vertical list */}
+            <div className="md:hidden space-y-0">
               {timelineEvents.map((event, index) => (
                 <div
                   key={index}
-                  className="grid grid-cols-1 md:grid-cols-[120px_200px_1fr] gap-4 md:gap-8 py-8 border-t border-border items-start"
+                  className="py-8 border-t border-border animate-fade-in-up"
+                  style={{ animationDelay: `${index * 100}ms`, animationFillMode: "both" }}
                 >
-                  <span className="text-2xl md:text-3xl font-light text-architectural">{event.year}</span>
-                  <span className="text-minimal text-foreground font-medium pt-1 md:pt-2">{event.label}</span>
-                  <p className="text-muted-foreground leading-relaxed">{event.description}</p>
+                  <div className="flex items-baseline gap-4 mb-2">
+                    <span className="text-2xl font-light text-foreground/15">{event.year}</span>
+                    <span className="text-minimal text-foreground font-semibold">{event.label}</span>
+                  </div>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{event.description}</p>
                 </div>
               ))}
               <div className="border-t border-border" />
             </div>
+          </div>
+
+          {/* REINFORCEMENT TEXT */}
+          <div className="mb-24 md:mb-32">
+            <p className="text-base md:text-lg text-muted-foreground/50 italic max-w-3xl leading-relaxed">
+              Nuestra experiencia nace de la eficiencia operativa y evoluciona hacia la inteligencia estratégica.
+            </p>
           </div>
 
           {/* FULL-BLEED PHOTOS */}
@@ -104,23 +130,22 @@ const Services = () => {
               {methodologySteps.map((step, index) => (
                 <div
                   key={index}
-                  className="group border-t border-border py-10 md:py-14 md:pr-16 md:odd:pr-16 md:even:pl-16 md:even:pr-0"
+                  className="group relative border-t border-border py-12 md:py-16 md:pr-16 md:odd:pr-16 md:even:pl-16 md:even:pr-0 overflow-hidden"
                 >
-                  <div className="flex items-start space-x-6">
-                    <span className="text-minimal text-muted-foreground font-medium shrink-0 pt-1">
-                      {step.number}
+                  {/* Large background number */}
+                  <span className="absolute top-4 right-4 md:top-6 md:right-8 text-7xl md:text-8xl font-bold text-foreground/[0.04] select-none pointer-events-none leading-none">
+                    {step.number}
+                  </span>
+                  <div className="relative z-10">
+                    <h4 className="text-xl md:text-2xl font-semibold text-architectural mb-1 group-hover:text-muted-foreground transition-colors duration-500">
+                      {step.title}
+                    </h4>
+                    <span className="text-minimal text-muted-foreground/60 block mb-4">
+                      {step.subtitle}
                     </span>
-                    <div>
-                      <h4 className="text-xl md:text-2xl font-light text-architectural mb-1 group-hover:text-muted-foreground transition-colors duration-500">
-                        {step.title}
-                      </h4>
-                      <span className="text-minimal text-muted-foreground/60 block mb-4">
-                        {step.subtitle}
-                      </span>
-                      <p className="text-muted-foreground leading-relaxed">
-                        {step.description}
-                      </p>
-                    </div>
+                    <p className="text-muted-foreground leading-relaxed font-light">
+                      {step.description}
+                    </p>
                   </div>
                 </div>
               ))}
