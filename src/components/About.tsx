@@ -3,8 +3,9 @@ import { motion, useInView } from "framer-motion";
 import { ArrowRight, Download, Mail, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import servicesArch1 from "@/assets/services-architecture-1.jpg";
-import servicesArch2 from "@/assets/services-architecture-2.jpg";
+import aboutLaberinto from "@/assets/about-laberinto.jpg";
+import aboutFilosofia from "@/assets/about-filosofia.jpg";
+import aboutCta from "@/assets/about-cta.jpg";
 
 /* ── DATA ── */
 
@@ -111,7 +112,7 @@ const About = () => {
         {/* Background architectural image */}
         <div className="absolute inset-0 z-0">
           <img
-            src={servicesArch1}
+            src={aboutLaberinto}
             alt=""
             className="w-full h-full object-cover grayscale opacity-[0.15]"
             aria-hidden="true"
@@ -171,9 +172,9 @@ const About = () => {
           {/* Left: Full-bleed photo */}
           <Reveal className="relative overflow-hidden">
             <img
-              src={servicesArch2}
-              alt="Motion-blurred people in a minimalist architectural hall"
-              className="w-full h-full object-cover grayscale brightness-75 min-h-[50vh] md:min-h-full"
+              src={aboutFilosofia}
+              alt="Pasillo de hormigón con luz al fondo"
+              className="w-full h-full object-cover min-h-[50vh] md:min-h-full"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-background/20 to-transparent" />
           </Reveal>
@@ -267,7 +268,7 @@ const About = () => {
       <div className="relative bg-foreground text-primary-foreground overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src={servicesArch1}
+            src={aboutCta}
             alt=""
             className="w-full h-full object-cover grayscale opacity-[0.08]"
             aria-hidden="true"
