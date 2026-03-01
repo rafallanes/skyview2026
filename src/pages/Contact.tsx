@@ -10,8 +10,8 @@ const Contact = () => {
             <div className="grid md:grid-cols-2 gap-20">
               <div>
                 <h1 className="text-minimal text-muted-foreground mb-4">CONTACTO</h1>
-                <h2 className="text-4xl md:text-6xl font-light text-architectural mb-12">Hablemos de Impacto
-No de herramientas
+                <h2 className="text-4xl md:text-6xl font-light text-architectural mb-12">Hablemos de Impacto No de herramientas
+
                   <br />
                   Extraordinary
                 </h2>
@@ -33,8 +33,8 @@ No de herramientas
                   
                   <div>
                     <h3 className="text-minimal text-muted-foreground mb-2">STUDIO</h3>
-                    <address className="text-xl not-italic">Gemma Mengual 2
-Tres Cantos, MAD 28760
+                    <address className="text-xl not-italic">Valportillo Primera, 5 Alcobendas
+MAD 28108 SPAIN
                       <br />
                       New York, NY 10001
                     </address>
