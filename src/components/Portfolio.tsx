@@ -30,7 +30,7 @@ const Portfolio = () => {
         <div className="max-w-7xl mx-auto">
           <div className="mb-20">
             <h2 className="text-minimal text-muted-foreground mb-4">CASOS DE ÉXITO</h2>
-            <h3 className="text-4xl md:text-6xl font-light text-architectural">Nuestros Proyectos
+            <h3 className="text-4xl md:text-6xl font-light text-architectural">El Impacto de la Oficina IA en cifras reales
 
             </h3>
           </div>
