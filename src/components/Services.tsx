@@ -2,8 +2,8 @@ import servicesArch1 from "@/assets/services-architecture-1.jpg";
 import servicesArch2 from "@/assets/services-architecture-2.jpg";
 
 const timelineEvents = [
-  { year: "2014", label: "EL ORIGEN", description: "Enfoque fundacional en el ahorro de tiempo y costes mediante arquitectura tecnológica." },
-  { year: "2016", label: "ECOSISTEMA SAAS", description: "Alianzas estratégicas para la agilidad operativa (Xeerpa, Captio, Monday, Signaturit, Odoo, Zoho)." },
+  { year: "2014", label: "EL ORIGEN", description: "Enfoque fundacional en el ahorro de tiempo y dinero gracias a la tecnología." },
+  { year: "2016", label: "ECOSISTEMA SAAS", description: "Alianzas estratégicas para la agilidad operativa (Monday, Signaturit, Odoo, Zoho, Xeerpa, Captio)." },
   { year: "2017", label: "LA FÁBRICA RPA", description: "Especialización en automatización robótica de procesos como factoría para 'Big Four' del norte de Europa." },
   { year: "2022", label: "INTELIGENCIA AVANZADA", description: "Colaboración en proyectos de gran escala con líderes mundiales en visión artificial y ML (ML6, Robovision)." },
   { year: "2024", label: "METODOLOGÍA SPRINT", description: "Lanzamiento de nuestra metodología propia para acelerar la adopción de la IA y creación de las primeras Oficinas de IA." },
