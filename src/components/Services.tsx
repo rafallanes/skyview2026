@@ -2,39 +2,39 @@ import servicesArch1 from "@/assets/services-architecture-1.jpg";
 import servicesArch2 from "@/assets/services-architecture-2.jpg";
 
 const timelineEvents = [
-  { year: "2014", label: "EL ORIGEN", description: "Enfoque fundacional en el ahorro de tiempo y dinero gracias a la tecnología." },
-  { year: "2016", label: "ECOSISTEMA SAAS", description: "Alianzas estratégicas para la agilidad operativa (Monday, Signaturit, Odoo, Zoho, Xeerpa, Captio)." },
-  { year: "2017", label: "LA FÁBRICA RPA", description: "Especialización en automatización robótica de procesos como factoría para 'Big Four' del norte de Europa." },
-  { year: "2022", label: "INTELIGENCIA AVANZADA", description: "Colaboración en proyectos de gran escala con líderes mundiales en visión artificial y ML (ML6, Robovision)." },
-  { year: "2024", label: "METODOLOGÍA SPRINT", description: "Lanzamiento de nuestra metodología propia para acelerar la adopción de la IA y creación de las primeras Oficinas de IA." },
-];
+{ year: "2014", label: "EL ORIGEN", description: "Enfoque fundacional en el ahorro de tiempo y dinero gracias a la tecnología." },
+{ year: "2016", label: "ECOSISTEMA SAAS", description: "Alianzas estratégicas para la agilidad operativa (Monday, Signaturit, Odoo, Zoho, Xeerpa, Captio)." },
+{ year: "2017", label: "LA FÁBRICA RPA", description: "Especialización en automatización robótica de procesos como factoría para 'Big Four' del norte de Europa." },
+{ year: "2022", label: "INTELIGENCIA AVANZADA", description: "Colaboración en proyectos de gran escala con líderes mundiales en visión artificial y ML (ML6, Robovision)." },
+{ year: "2024", label: "METODOLOGÍA SPRINT", description: "Lanzamiento de nuestra metodología propia para acelerar la adopción de la IA y creación de las primeras Oficinas de IA." }];
+
 
 const methodologySteps = [
-  {
-    number: "01",
-    title: "START",
-    subtitle: "EL GERMEN",
-    description: "En 2 semanas asignamos tu Core Team, definimos objetivos y planificamos tu primer trimestre con casos priorizados (S/M/L).",
-  },
-  {
-    number: "02",
-    title: "SPRINT",
-    subtitle: "EL MOTOR",
-    description: "90 días de ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real.",
-  },
-  {
-    number: "03",
-    title: "OFICINA IA AS A SERVICE",
-    subtitle: "LA CONSOLIDACIÓN",
-    description: "Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo.",
-  },
-  {
-    number: "04",
-    title: "OFICINA IA PROPIA",
-    subtitle: "LA AUTONOMÍA",
-    description: "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% independiente.",
-  },
-];
+{
+  number: "01",
+  title: "START",
+  subtitle: "EL GERMEN",
+  description: "En 2 semanas asignamos tu Core Team, definimos objetivos y planificamos tu primer trimestre con casos priorizados (S/M/L)."
+},
+{
+  number: "02",
+  title: "SPRINT",
+  subtitle: "EL MOTOR",
+  description: "90 días de ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real."
+},
+{
+  number: "03",
+  title: "OFICINA IA AS A SERVICE",
+  subtitle: "LA CONSOLIDACIÓN",
+  description: "Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo."
+},
+{
+  number: "04",
+  title: "OFICINA IA PROPIA",
+  subtitle: "LA AUTONOMÍA",
+  description: "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% independiente."
+}];
+
 
 const Services = () => {
   return (
@@ -48,8 +48,8 @@ const Services = () => {
             <h3 className="text-4xl md:text-6xl lg:text-7xl font-light text-architectural max-w-4xl mb-10">
               Una década diseñando{"\n"}el futuro de la eficiencia.
             </h3>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl" style={{ whiteSpace: "pre-line" }}>
-              No nacimos con la IA generativa. Llevamos 10 años optimizando la operativa de las organizaciones más exigentes de Europa.
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl" style={{ whiteSpace: "pre-line" }}>No nacimos con la IA generativa. Llevamos una década optimizando la operativa de las organizaciones más exigentes de Europa.
+
             </p>
           </div>
 
@@ -58,34 +58,34 @@ const Services = () => {
             {/* Desktop: horizontal scrollable timeline */}
             <div className="hidden md:block overflow-x-auto">
               <div className="flex items-stretch min-w-[900px] border-t border-b border-border">
-                {timelineEvents.map((event, index) => (
-                  <div
-                    key={index}
-                    className="flex-1 relative px-6 py-10 border-r border-border last:border-r-0 animate-fade-in-up"
-                    style={{ animationDelay: `${index * 150}ms`, animationFillMode: "both" }}
-                  >
+                {timelineEvents.map((event, index) =>
+                <div
+                  key={index}
+                  className="flex-1 relative px-6 py-10 border-r border-border last:border-r-0 animate-fade-in-up"
+                  style={{ animationDelay: `${index * 150}ms`, animationFillMode: "both" }}>
+
                     <span className="text-4xl font-light text-foreground/30 block mb-3">{event.year}</span>
                     <span className="text-minimal text-foreground font-semibold block mb-3">{event.label}</span>
                     <p className="text-sm text-muted-foreground leading-relaxed">{event.description}</p>
                   </div>
-                ))}
+                )}
               </div>
             </div>
             {/* Mobile: vertical list */}
             <div className="md:hidden space-y-0">
-              {timelineEvents.map((event, index) => (
-                <div
-                  key={index}
-                  className="py-8 border-t border-border animate-fade-in-up"
-                  style={{ animationDelay: `${index * 100}ms`, animationFillMode: "both" }}
-                >
+              {timelineEvents.map((event, index) =>
+              <div
+                key={index}
+                className="py-8 border-t border-border animate-fade-in-up"
+                style={{ animationDelay: `${index * 100}ms`, animationFillMode: "both" }}>
+
                   <div className="flex items-baseline gap-4 mb-2">
                     <span className="text-2xl font-light text-foreground/30">{event.year}</span>
                     <span className="text-minimal text-foreground font-semibold">{event.label}</span>
                   </div>
                   <p className="text-sm text-muted-foreground leading-relaxed">{event.description}</p>
                 </div>
-              ))}
+              )}
               <div className="border-t border-border" />
             </div>
           </div>
@@ -105,16 +105,16 @@ const Services = () => {
                   src={servicesArch1}
                   alt="Arquitectura corporativa moderna en blanco y negro"
                   className="w-full h-full object-cover grayscale"
-                  loading="lazy"
-                />
+                  loading="lazy" />
+
               </div>
               <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={servicesArch2}
                   alt="Personas en movimiento en un espacio arquitectónico moderno"
                   className="w-full h-full object-cover grayscale"
-                  loading="lazy"
-                />
+                  loading="lazy" />
+
               </div>
             </div>
           </div>
@@ -127,11 +127,11 @@ const Services = () => {
             </h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-              {methodologySteps.map((step, index) => (
-                <div
-                  key={index}
-                  className="group relative border-t border-border py-12 md:py-16 md:pr-16 md:odd:pr-16 md:even:pl-16 md:even:pr-0 overflow-hidden"
-                >
+              {methodologySteps.map((step, index) =>
+              <div
+                key={index}
+                className="group relative border-t border-border py-12 md:py-16 md:pr-16 md:odd:pr-16 md:even:pl-16 md:even:pr-0 overflow-hidden">
+
                   {/* Large background number */}
                   <span className="absolute top-4 right-4 md:top-6 md:right-8 text-7xl md:text-8xl font-bold text-foreground/[0.12] select-none pointer-events-none leading-none">
                     {step.number}
@@ -148,15 +148,15 @@ const Services = () => {
                     </p>
                   </div>
                 </div>
-              ))}
+              )}
             </div>
             <div className="border-t border-border" />
           </div>
 
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Services;
