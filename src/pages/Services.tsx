@@ -1,6 +1,5 @@
 import Navigation from "@/components/Navigation";
-import servicesArch1 from "@/assets/services-architecture-1.jpg";
-import servicesArch2 from "@/assets/services-architecture-2.jpg";
+import servicesArch from "@/assets/about-cta.png";
 
 const timelineEvents = [
   { year: "2014", label: "EL ORIGEN", description: "Enfoque fundacional en el ahorro de tiempo y dinero gracias a la tecnología." },
@@ -100,25 +99,15 @@ const Services = () => {
               </p>
             </div>
 
-            {/* FULL-BLEED PHOTOS */}
+            {/* FULL-BLEED PHOTO */}
             <div className="mb-24 md:mb-32 -mx-6 md:-mx-0">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-                <div className="aspect-[4/3] overflow-hidden">
-                  <img
-                    src={servicesArch1}
-                    alt="Arquitectura corporativa moderna en blanco y negro"
-                    className="w-full h-full object-cover grayscale"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="aspect-[4/3] overflow-hidden">
-                  <img
-                    src={servicesArch2}
-                    alt="Personas en movimiento en un espacio arquitectónico moderno"
-                    className="w-full h-full object-cover grayscale"
-                    loading="lazy"
-                  />
-                </div>
+              <div className="aspect-[21/9] overflow-hidden">
+                <img
+                  src={servicesArch}
+                  alt="Arcos geométricos de hormigón en blanco y negro"
+                  className="w-full h-full object-cover object-center grayscale"
+                  loading="lazy"
+                />
               </div>
             </div>
 
