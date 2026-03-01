@@ -31,7 +31,7 @@ const Services = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <div className="mb-20">
-              <h1 className="text-minimal text-muted-foreground mb-4">EXPERT
+              <h1 className="text-minimal text-muted-foreground mb-4">MAKING AI EASY
               </h1>
               <h2 className="text-4xl md:text-6xl font-light text-architectural">Tu Oficina IA en 3 Pasos
 (Inteligencia Aumentada)
