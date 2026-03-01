@@ -33,8 +33,9 @@ const Contact = () => {
                   
                   <div>
                     <h3 className="text-minimal text-muted-foreground mb-2">STUDIO</h3>
-                    <address className="text-xl not-italic">Valportillo Primera, 5 Alcobendas
+                    <address className="text-xl not-italic">Valportillo Primera, 5 Alcobendas 
 MAD 28108 SPAIN
+
                       <br />
                       New York, NY 10001
                     </address>
@@ -74,7 +75,6 @@ MAD 28108 SPAIN
           </div>
         </div>
       </section>
-    </div>);
-};
+    </div>);};
 
 export default Contact;
