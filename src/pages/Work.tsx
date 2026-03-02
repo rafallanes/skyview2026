@@ -9,66 +9,76 @@ const Work = () => {
   const projects = [
   {
     image: project1,
-    title: "CARITAS",
-    location: "MADRID, 2024",
-    category: "SaaS",
-    subTag: undefined as string | undefined,
-    description: "START y SPRINT para instaurar buenas prácticas en relación a la IA. Comite de IA desde día uno, camino a Oficina Ia en menos de un año.",
+    title: "AMURA",
+    location: "TECH, 2019",
+    category: "Oficina IA",
+    subTag: "START" as string | undefined,
+    description: "Oficina IA para el departamento de Personas y cultura. Segmentando el \"viaje\" del empleado: selección, on-boarding, formación, desarrollo,... y automatizando progresivamente tareas de todos los procesos.",
     area: "PERSONAS",
-    year: "2024"
+    year: "2019"
   },
   {
     image: project2,
-    title: "CODORNIU",
-    location: "BARCELONA, 2015",
+    title: "BBRAUN",
+    location: "HEALTH, 2016",
     category: "A Medida",
     subTag: undefined as string | undefined,
-    description: "Automatización de tareas repetitivas en proceso financiero. Eficiencia que aporta un ahorro del 72% de tiempo y dinero calculado por el propio cliente.",
+    description: "Automatización de tareas repetitivas en proceso de gestión de datos en fábrica y volcado automático a AS400. ROI Ahorro anual del 70% de tiempo y dinero.",
     area: "FINANCIERO",
-    year: "2015"
+    year: "2016"
   },
   {
     image: project3,
+    title: "CARITAS",
+    location: "NGO, 2024",
+    category: "Oficina IA",
+    subTag: "SPRINT" as string | undefined,
+    description: "START y SPRINT para instaurar buenas prácticas en relación a la IA. Comité de IA desde día uno. Objetivo final a 18 meses: Oficina IA.",
+    area: "OPERACIONES",
+    year: "2024"
+  },
+  {
+    image: project1,
+    title: "CODORNIU",
+    location: "RETAIL, 2014",
+    category: "SaaS",
+    subTag: undefined as string | undefined,
+    description: "Automatización de tareas repetitivas en proceso financiero. Eficiencia que aporta un ahorro del 72% de tiempo y dinero. Cálculo realizado por el propio cliente.",
+    area: "FINANCIERO",
+    year: "2014"
+  },
+  {
+    image: project2,
     title: "DESIGUAL",
-    location: "BARCELONA, 2019",
-    category: "IA",
-    subTag: "START" as string | undefined,
+    location: "RETAIL, 2019",
+    category: "A Medida",
+    subTag: undefined as string | undefined,
     description: "Automatización de tareas repetitivas en proceso financiero. Ahorro del 65% de tiempo y dinero. ROI calculado por Controlling Financiero.",
     area: "OPERACIONES",
     year: "2019"
   },
   {
-    image: project1,
-    title: "H&M",
-    location: "BARCELONA, 2018",
-    category: "IA",
-    subTag: "SPRINT" as string | undefined,
-    description: "Industrial heritage meets contemporary living. Raw materials balanced with refined details.",
-    area: "180 SQM",
-    year: "2018"
-  },
-  {
-    image: project2,
-    title: "BBRAUN",
-    location: "PARIS, 2022",
-    category: "IA",
-    subTag: "Oficina IA" as string | undefined,
-    description: "Automatización de tares repetitivas en el proceso de volcado de datos de fábrica a AS400. ROI: Ahorro anual del 70% de tiempo y dinero.",
-    area: "FINANCIERO",
-    year: "2022"
-  },
-  {
     image: project3,
-    title: "GLOBALIA",
-    location: "MADRID, 2018",
+    title: "DIAFARM",
+    location: "HEALTH, 2020",
     category: "SaaS",
     subTag: undefined as string | undefined,
-    description: "Automatización del procesamiento de reclamaciones (papel y email). Extracción de metadatos y volcado en sistemas centrales.",
+    description: "Solución B2B SaaS para el departamento financiero con eficiencias superiores al 50% calculadas por el propio departamento financiero.",
+    area: "FINANCIERO",
+    year: "2020"
+  },
+  {
+    image: project1,
+    title: "EUSKALTEL",
+    location: "TECH, 2023",
+    category: "Oficina IA",
+    subTag: "SPRINT" as string | undefined,
+    description: "Oficina IA como servicio enfocada en la gobernanza y escalabilidad de procesos operativos.",
     area: "OPERACIONES",
-    year: "2018"
+    year: "2023"
   }];
 
-  const categories = ["ALL", "SaaS", "A Medida", "IA"];
+  const categories = ["ALL", "SaaS", "A Medida", "Oficina IA"];
 
   const filteredProjects = activeCategory === "ALL" ?
   projects :
