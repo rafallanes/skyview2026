@@ -3,6 +3,12 @@ import Navigation from "@/components/Navigation";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
+import projectHm from "@/assets/project-hm.jpg";
+import projectGlobalia from "@/assets/project-globalia.jpg";
+import projectInfojobs from "@/assets/project-infojobs.jpg";
+import projectKluber from "@/assets/project-kluber.jpg";
+import projectLantero from "@/assets/project-lantero.jpg";
+import projectLeroymerlin from "@/assets/project-leroymerlin.jpg";
 
 const Work = () => {
   const [activeCategory, setActiveCategory] = useState("ALL");
@@ -76,6 +82,66 @@ const Work = () => {
     description: "Oficina IA como servicio enfocada en la gobernanza y escalabilidad de procesos operativos.",
     area: "OPERACIONES",
     year: "2023"
+  },
+  {
+    image: projectHm,
+    title: "H&M",
+    location: "RETAIL, 2022",
+    category: "SaaS",
+    subTag: undefined as string | undefined,
+    description: "Digitalización de facturas simplificadas homologadas por la AEAT. Automatización del 80% del proceso y volcado automático en ERP.",
+    area: "PERSONAS",
+    year: "2022"
+  },
+  {
+    image: projectGlobalia,
+    title: "GLOBALIA",
+    location: "TURISM, 2018",
+    category: "A Medida",
+    subTag: undefined as string | undefined,
+    description: "Automatización del procesamiento de reclamaciones (papel y email). Extracción de metadatos y volcado en sistemas centrales.",
+    area: "PERSONAS",
+    year: "2018"
+  },
+  {
+    image: projectInfojobs,
+    title: "INFOJOBS",
+    location: "TECH, 2018",
+    category: "SaaS",
+    subTag: undefined as string | undefined,
+    description: "Automatización de tareas repetitivas en proceso financiero. Ahorro de tiempo y mejora de eficiencia superior al 60%.",
+    area: "FINANCIERO",
+    year: "2018"
+  },
+  {
+    image: projectKluber,
+    title: "KLUBER",
+    location: "INDUSTRIA, 2024",
+    category: "Oficina IA",
+    subTag: "START" as string | undefined,
+    description: "Programa de Oficina IA para operaciones industriales. Definición de hoja de ruta estratégica y adopción de buenas prácticas de IA.",
+    area: "OPERACIONES",
+    year: "2024"
+  },
+  {
+    image: projectLantero,
+    title: "LANTERO",
+    location: "INDUSTRIA, 2018",
+    category: "Oficina IA",
+    subTag: "OFICINA IA" as string | undefined,
+    description: "Oficina IA aplicada a procesos financieros industriales. Identificación y priorización de casos de uso para automatización.",
+    area: "FINANCIERO",
+    year: "2018"
+  },
+  {
+    image: projectLeroymerlin,
+    title: "LEROY MERLIN",
+    location: "RETAIL, 2019",
+    category: "A Medida",
+    subTag: undefined as string | undefined,
+    description: "Digitalización de documentos y facturas simplificadas (AEAT). Automatización del 80% del proceso con integración en ERP y Oracle.",
+    area: "OPERACIONES",
+    year: "2019"
   }];
 
   const categories = ["ALL", "SaaS", "A Medida", "Oficina IA"];
