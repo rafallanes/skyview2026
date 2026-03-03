@@ -142,7 +142,7 @@ const About = () => {
                   <Reveal key={i} delay={i * 0.08}>
                     <div className="group relative border-t border-primary-foreground/10 py-10 md:py-14 pr-8 overflow-hidden">
                       {/* Ghost number */}
-                      <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-primary-foreground/[0.15] select-none pointer-events-none leading-none">
+                      <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-primary-foreground/[0.25] select-none pointer-events-none leading-none">
                         {item.ghost}
                       </span>
                       <div className="relative z-10">
