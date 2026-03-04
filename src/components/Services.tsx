@@ -1,4 +1,5 @@
 import servicesArch2 from "@/assets/services-architecture-2.png";
+import LogoCarousel from "@/components/LogoCarousel";
 
 const timelineEvents = [
 { year: "2014", label: "EL ORIGEN", description: "Enfoque fundacional en el ahorro de tiempo y dinero gracias a la tecnología." },
@@ -90,10 +91,15 @@ const Services = () => {
           </div>
 
           {/* REINFORCEMENT TEXT */}
-          <div className="mb-24 md:mb-32">
+          <div className="mb-16 md:mb-20">
             <p className="text-base md:text-lg text-muted-foreground/50 italic max-w-3xl leading-relaxed">
               Nuestra experiencia nace de la eficiencia operativa y evoluciona hacia la inteligencia estratégica.
             </p>
+          </div>
+
+          {/* LOGO CAROUSEL */}
+          <div className="mb-24 md:mb-32 -mx-6 md:-mx-0">
+            <LogoCarousel />
           </div>
 
           {/* FULL-BLEED PHOTOS */}
