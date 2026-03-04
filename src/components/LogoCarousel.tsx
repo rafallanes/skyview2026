@@ -1,8 +1,5 @@
 import logoRafaNadal from "@/assets/logos/rafa-nadal-academy.svg";
 import logoReigJofre from "@/assets/logos/reig-jofre.png";
-import logoSecuritas from "@/assets/logos/securitas-clean.png";
-import logoSeur from "@/assets/logos/seur.png";
-import logoStihl from "@/assets/logos/stihl-clean.png";
 import logoViessmann from "@/assets/logos/viessmann.png";
 import logoLeroyMerlin from "@/assets/logos/leroy-merlin.png";
 import logoLinde from "@/assets/logos/linde.png";
@@ -12,30 +9,25 @@ import logoGlobalia from "@/assets/logos/globalia.png";
 import logoGrupoLantero from "@/assets/logos/grupo-lantero.png";
 import logoHM from "@/assets/logos/hm.png";
 import logoInfojobs from "@/assets/logos/infojobs-clean.png";
-import logoBBraun from "@/assets/logos/b-braun.png";
+import logoBBraun from "@/assets/logos/b-braun.svg";
 import logoCaritas from "@/assets/logos/caritas.png";
 import logoCodorniu from "@/assets/logos/codorniu.png";
 import logoDesigual from "@/assets/logos/desigual.png";
-import logoDiafarm from "@/assets/logos/diafarm-clean.png";
 import logoEuskaltel from "@/assets/logos/euskaltel-clean.png";
 
 interface LogoItem {
   src: string;
   alt: string;
-  isWhite?: boolean; // Already white on transparent — no invert needed
 }
 
 const logos: LogoItem[] = [
   { src: logoRafaNadal, alt: "Rafa Nadal Academy" },
   { src: logoReigJofre, alt: "Reig Jofre" },
-  { src: logoSecuritas, alt: "Securitas", isWhite: true },
-  { src: logoSeur, alt: "SEUR" },
-  { src: logoStihl, alt: "Stihl", isWhite: true },
   { src: logoViessmann, alt: "Viessmann" },
   { src: logoLeroyMerlin, alt: "Leroy Merlin" },
   { src: logoLinde, alt: "Linde" },
   { src: logoPrivalia, alt: "Privalia" },
-  { src: logoProclinic, alt: "Proclinic", isWhite: true },
+  { src: logoProclinic, alt: "Proclinic Group" },
   { src: logoGlobalia, alt: "Globalia" },
   { src: logoGrupoLantero, alt: "Grupo Lantero" },
   { src: logoHM, alt: "H&M" },
@@ -44,20 +36,18 @@ const logos: LogoItem[] = [
   { src: logoCaritas, alt: "Cáritas" },
   { src: logoCodorniu, alt: "Codorníu Raventós" },
   { src: logoDesigual, alt: "Desigual" },
-  { src: logoDiafarm, alt: "Diafarm" },
   { src: logoEuskaltel, alt: "Euskaltel" },
 ];
 
 const LogoCarousel = () => {
   return (
-    <div className="py-16 md:py-24 overflow-hidden bg-foreground/95 rounded-sm">
-      <h4 className="text-minimal text-background/40 mb-12 text-center tracking-widest">
+    <div className="py-16 md:py-24 overflow-hidden bg-black rounded-sm">
+      <h4 className="text-minimal text-white/40 mb-12 text-center tracking-widest">
         CONFÍAN EN NOSOTROS
       </h4>
       <div className="relative w-full">
-        {/* Fade edges matching dark bg */}
-        <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-foreground/95 to-transparent z-10" />
-        <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-foreground/95 to-transparent z-10" />
+        <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-black to-transparent z-10" />
+        <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-black to-transparent z-10" />
 
         <div className="flex animate-logo-scroll">
           {[...logos, ...logos].map((logo, index) => (
@@ -69,9 +59,7 @@ const LogoCarousel = () => {
               <img
                 src={logo.src}
                 alt={logo.alt}
-                className={`max-h-10 md:max-h-12 w-auto object-contain opacity-60 hover:opacity-90 transition-opacity duration-300 ${
-                  logo.isWhite ? "" : "brightness-0 invert"
-                }`}
+                className="max-h-10 md:max-h-12 w-auto object-contain opacity-60 hover:opacity-90 transition-opacity duration-300 brightness-0 invert"
                 loading="lazy"
               />
             </div>
