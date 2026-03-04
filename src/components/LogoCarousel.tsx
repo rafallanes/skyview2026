@@ -10,9 +10,10 @@ import logoHM from "@/assets/logos/hm.png";
 import logoInfojobs from "@/assets/logos/infojobs-clean.png";
 import logoBBraun from "@/assets/logos/b-braun.svg";
 import logoCaritas from "@/assets/logos/caritas.png";
-import logoCodorniu from "@/assets/logos/codorniu.png";
 import logoDesigual from "@/assets/logos/desigual.png";
 import logoEuskaltel from "@/assets/logos/euskaltel-clean.png";
+import logoSeur from "@/assets/logos/seur.png";
+import logoCodorniu from "@/assets/logos/codorniu.png";
 
 const logos = [
   { src: logoRafaNadal, alt: "Rafa Nadal Academy" },
@@ -27,9 +28,10 @@ const logos = [
   { src: logoInfojobs, alt: "InfoJobs" },
   { src: logoBBraun, alt: "B. Braun" },
   { src: logoCaritas, alt: "Cáritas" },
-  { src: logoCodorniu, alt: "Codorníu Raventós" },
   { src: logoDesigual, alt: "Desigual" },
   { src: logoEuskaltel, alt: "Euskaltel" },
+  { src: logoSeur, alt: "SEUR" },
+  { src: logoCodorniu, alt: "Codorníu" },
 ];
 
 const LogoCarousel = () => {
