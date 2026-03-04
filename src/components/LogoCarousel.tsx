@@ -5,7 +5,6 @@ import logoLeroyMerlin from "@/assets/logos/leroy-merlin.png";
 import logoLinde from "@/assets/logos/linde.png";
 import logoPrivalia from "@/assets/logos/privalia-clean.png";
 import logoProclinic from "@/assets/logos/proclinic-clean.png";
-import logoGlobalia from "@/assets/logos/globalia.png";
 import logoGrupoLantero from "@/assets/logos/grupo-lantero.png";
 import logoHM from "@/assets/logos/hm.png";
 import logoInfojobs from "@/assets/logos/infojobs-clean.png";
@@ -15,12 +14,7 @@ import logoCodorniu from "@/assets/logos/codorniu.png";
 import logoDesigual from "@/assets/logos/desigual.png";
 import logoEuskaltel from "@/assets/logos/euskaltel-clean.png";
 
-interface LogoItem {
-  src: string;
-  alt: string;
-}
-
-const logos: LogoItem[] = [
+const logos = [
   { src: logoRafaNadal, alt: "Rafa Nadal Academy" },
   { src: logoReigJofre, alt: "Reig Jofre" },
   { src: logoViessmann, alt: "Viessmann" },
@@ -28,7 +22,6 @@ const logos: LogoItem[] = [
   { src: logoLinde, alt: "Linde" },
   { src: logoPrivalia, alt: "Privalia" },
   { src: logoProclinic, alt: "Proclinic Group" },
-  { src: logoGlobalia, alt: "Globalia" },
   { src: logoGrupoLantero, alt: "Grupo Lantero" },
   { src: logoHM, alt: "H&M" },
   { src: logoInfojobs, alt: "InfoJobs" },
@@ -40,6 +33,9 @@ const logos: LogoItem[] = [
 ];
 
 const LogoCarousel = () => {
+  // Duplicate logos enough times for seamless loop
+  const repeated = [...logos, ...logos, ...logos, ...logos];
+
   return (
     <div className="py-16 md:py-24 overflow-hidden bg-black rounded-sm">
       <h4 className="text-minimal text-white/40 mb-12 text-center tracking-widest">
@@ -49,8 +45,8 @@ const LogoCarousel = () => {
         <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-black to-transparent z-10" />
         <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-black to-transparent z-10" />
 
-        <div className="flex animate-logo-scroll">
-          {[...logos, ...logos].map((logo, index) => (
+        <div className="flex animate-logo-scroll" style={{ width: `${logos.length * 4 * 200}px` }}>
+          {repeated.map((logo, index) => (
             <div
               key={index}
               className="flex-shrink-0 flex items-center justify-center px-8 md:px-12"
