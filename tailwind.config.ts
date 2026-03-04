@@ -94,7 +94,7 @@ export default {
         },
         "logo-scroll": {
           "0%": { transform: "translateX(0)" },
-          "100%": { transform: "translateX(-50%)" },
+          "100%": { transform: "translateX(-25%)" },
         },
       },
       animation: {
