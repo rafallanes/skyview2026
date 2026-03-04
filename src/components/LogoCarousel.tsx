@@ -1,51 +1,77 @@
 import logoRafaNadal from "@/assets/logos/rafa-nadal-academy.svg";
 import logoReigJofre from "@/assets/logos/reig-jofre.png";
-import logoSecuritas from "@/assets/logos/securitas.png";
+import logoSecuritas from "@/assets/logos/securitas-clean.png";
 import logoSeur from "@/assets/logos/seur.png";
-import logoStihl from "@/assets/logos/stihl.png";
+import logoStihl from "@/assets/logos/stihl-clean.png";
 import logoViessmann from "@/assets/logos/viessmann.png";
 import logoLeroyMerlin from "@/assets/logos/leroy-merlin.png";
 import logoLinde from "@/assets/logos/linde.png";
-import logoPrivalia from "@/assets/logos/privalia.jpg";
-import logoProclinic from "@/assets/logos/proclinic.jpg";
+import logoPrivalia from "@/assets/logos/privalia-clean.png";
+import logoProclinic from "@/assets/logos/proclinic-clean.png";
+import logoGlobalia from "@/assets/logos/globalia.png";
+import logoGrupoLantero from "@/assets/logos/grupo-lantero.png";
+import logoHM from "@/assets/logos/hm.png";
+import logoInfojobs from "@/assets/logos/infojobs-clean.png";
+import logoBBraun from "@/assets/logos/b-braun.png";
+import logoCaritas from "@/assets/logos/caritas.png";
+import logoCodorniu from "@/assets/logos/codorniu.png";
+import logoDesigual from "@/assets/logos/desigual.png";
+import logoDiafarm from "@/assets/logos/diafarm-clean.png";
+import logoEuskaltel from "@/assets/logos/euskaltel-clean.png";
 
-const logos = [
+interface LogoItem {
+  src: string;
+  alt: string;
+  isWhite?: boolean; // Already white on transparent — no invert needed
+}
+
+const logos: LogoItem[] = [
   { src: logoRafaNadal, alt: "Rafa Nadal Academy" },
   { src: logoReigJofre, alt: "Reig Jofre" },
-  { src: logoSecuritas, alt: "Securitas" },
+  { src: logoSecuritas, alt: "Securitas", isWhite: true },
   { src: logoSeur, alt: "SEUR" },
-  { src: logoStihl, alt: "Stihl" },
+  { src: logoStihl, alt: "Stihl", isWhite: true },
   { src: logoViessmann, alt: "Viessmann" },
   { src: logoLeroyMerlin, alt: "Leroy Merlin" },
   { src: logoLinde, alt: "Linde" },
   { src: logoPrivalia, alt: "Privalia" },
-  { src: logoProclinic, alt: "Proclinic" },
+  { src: logoProclinic, alt: "Proclinic", isWhite: true },
+  { src: logoGlobalia, alt: "Globalia" },
+  { src: logoGrupoLantero, alt: "Grupo Lantero" },
+  { src: logoHM, alt: "H&M" },
+  { src: logoInfojobs, alt: "InfoJobs" },
+  { src: logoBBraun, alt: "B. Braun" },
+  { src: logoCaritas, alt: "Cáritas" },
+  { src: logoCodorniu, alt: "Codorníu Raventós" },
+  { src: logoDesigual, alt: "Desigual" },
+  { src: logoDiafarm, alt: "Diafarm" },
+  { src: logoEuskaltel, alt: "Euskaltel" },
 ];
 
 const LogoCarousel = () => {
   return (
-    <div className="py-16 md:py-24 overflow-hidden">
-      <h4 className="text-minimal text-muted-foreground mb-12 text-center tracking-widest">
+    <div className="py-16 md:py-24 overflow-hidden bg-foreground/95 rounded-sm">
+      <h4 className="text-minimal text-background/40 mb-12 text-center tracking-widest">
         CONFÍAN EN NOSOTROS
       </h4>
-      {/* Infinite scroll wrapper */}
       <div className="relative w-full">
-        {/* Fade edges */}
-        <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-background to-transparent z-10" />
-        <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-background to-transparent z-10" />
+        {/* Fade edges matching dark bg */}
+        <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-foreground/95 to-transparent z-10" />
+        <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-foreground/95 to-transparent z-10" />
 
         <div className="flex animate-logo-scroll">
-          {/* Duplicate logos for seamless loop */}
           {[...logos, ...logos].map((logo, index) => (
             <div
               key={index}
               className="flex-shrink-0 flex items-center justify-center px-8 md:px-12"
-              style={{ width: "180px", height: "60px" }}
+              style={{ width: "200px", height: "60px" }}
             >
               <img
                 src={logo.src}
                 alt={logo.alt}
-                className="max-h-10 md:max-h-12 w-auto object-contain brightness-0 invert opacity-50 hover:opacity-80 transition-opacity duration-300"
+                className={`max-h-10 md:max-h-12 w-auto object-contain opacity-60 hover:opacity-90 transition-opacity duration-300 ${
+                  logo.isWhite ? "" : "brightness-0 invert"
+                }`}
                 loading="lazy"
               />
             </div>
