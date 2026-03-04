@@ -13,7 +13,7 @@ const methodologySteps = [
   number: "01",
   title: "START",
   subtitle: "EL GERMEN",
-  description: "En 2 semanas asignamos tu Core Team, definimos objetivos y planificamos tu primer trimestre con casos priorizados (S/M/L)."
+  description: "En 2 semanas asignamos tu primer Comité IA, definimos objetivos y planificamos tu primer trimestre con casos priorizados (S/M/L) por departamentos."
 },
 {
   number: "02",
