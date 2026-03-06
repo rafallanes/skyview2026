@@ -13,37 +13,37 @@ const diagnosisItems = [
   {
     ghost: "01",
     title: "Valor Inexistente",
-    stat: "78% vs 5%",
+    stat: "BOSTON CONSULTING GROUP\nTHE WIDENING AI VALUE GAP, 2025",
     description: "El 78% usa GenAI, pero solo el 5% extrae valor sustancial.",
   },
   {
     ghost: "02",
     title: "El Vacío del EBIT",
-    stat: "80%",
+    stat: "STANFORD HAI\nAI INDEZ REPORT 2025, 2025",
     description: "El 80% de las empresas no perciben impacto en EBIT tras 12 meses.",
   },
   {
     ghost: "03",
     title: "Shadow AI",
-    stat: "78% / 57%",
+    stat: "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025",
     description: "El 78% de empleados usa IA 'informal'. El 57% lo oculta, arriesgando datos corporativos.",
   },
   {
     ghost: "04",
     title: "Gobernanza llega 'Tarde'",
-    stat: "15%",
+    stat: "DELOITTE\nTHE STATE OF GENERATIVE AI IN ENTERPRISE, 2024",
     description: "Solo el 15% se siente preparado en riesgos. Se acelera sin guardrails o se frena por miedo.",
   },
   {
     ghost: "05",
     title: "\"Pruebas eternas\" que no avanzan",
-    stat: "80-85%",
-    description: "El 80-85% de los pilotos nunca llegan a producción.",
+    stat: "MCKINSEY\nTHE STATE OF AI: HOW ORGANIZATIONS ARE REWRITING, 2025",
+    description: "El 80-85% de los pilotos nunca llegan a producción. Sólo el 10% reporta usar agentes en alguna función.",
   },
   {
     ghost: "06",
     title: "Resistencias Invisibles",
-    stat: "—",
+    stat: "KPMG 6 UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025",
     description: "Miedo al empleo y formación genérica que no cambia hábitos.",
   },
 ];
@@ -146,7 +146,7 @@ const About = () => {
                         {item.ghost}
                       </span>
                       <div className="relative z-10">
-                        <span className="text-minimal text-primary-foreground/30 block mb-2">{item.stat}</span>
+                        <span className="text-minimal text-primary-foreground/30 block mb-2 whitespace-pre-line">{item.stat}</span>
                         <h5 className="text-xl font-semibold mb-3 group-hover:text-primary-foreground/70 transition-colors duration-500">
                           {item.title}
                         </h5>
