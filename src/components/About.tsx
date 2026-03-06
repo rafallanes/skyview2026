@@ -296,7 +296,7 @@ const About = () => {
                       <div className="border border-primary-foreground/20 aspect-[3/4] flex flex-col items-center justify-center p-6 text-center">
                         <span className="text-minimal text-primary-foreground/30 mb-4">WHITE PAPER</span>
                         <h5 className="text-lg font-semibold leading-tight mb-2">El Laberinto<br />de la IA</h5>
-                        <span className="text-xs text-primary-foreground/30 mt-auto">AUMENTA · 2025</span>
+                        <span className="text-xs text-primary-foreground/30 mt-auto">SKYVIEW · 2026</span>
                       </div>
                     </div>
 
