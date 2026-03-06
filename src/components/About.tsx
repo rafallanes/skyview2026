@@ -1,91 +1,89 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { ArrowRight, Download, Mail, Building2, Map, Users, Zap } from "lucide-react";
+import { ArrowRight, Download, Mail, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Link } from "react-router-dom";
 import aboutLaberinto from "@/assets/about-laberinto.jpg";
 import aboutFilosofia from "@/assets/about-filosofia.jpg";
 import aboutCta from "@/assets/about-cta.jpg";
-import LogoCarousel from "@/components/LogoCarousel";
 
 /* ── DATA ── */
 
 const diagnosisItems = [
-  {
-    ghost: "01",
-    title: "Valor Inexistente",
-    stat: "BOSTON CONSULTING GROUP\nTHE WIDENING AI VALUE GAP, 2025",
-    description: "El 78% usa GenAI, pero solo el 5% extrae valor sustancial.",
-  },
-  {
-    ghost: "02",
-    title: "El Vacío del EBIT",
-    stat: "STANFORD HAI\nAI INDEX REPORT 2025",
-    description: "El 80% de las empresas no perciben impacto en EBIT tras 12 meses.",
-  },
-  {
-    ghost: "03",
-    title: "Shadow AI",
-    stat: "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025",
-    description: "El 78% de empleados usa IA 'informal'. El 57% lo oculta, arriesgando datos corporativos.",
-  },
-  {
-    ghost: "04",
-    title: "Gobernanza llega 'Tarde'",
-    stat: "DELOITTE\nTHE STATE OF GENERATIVE AI IN ENTERPRISE, 2024",
-    description: "Solo el 15% se siente preparado en riesgos. Se acelera sin guardrails o se frena por miedo.",
-  },
-  {
-    ghost: "05",
-    title: "\"Pruebas eternas\" que no avanzan",
-    stat: "MCKINSEY\nTHE STATE OF AI: HOW ORGANIZATIONS ARE REWRITING, 2025",
-    description: "El 80-85% de los pilotos nunca llegan a producción. Sólo el 10% reporta usar agentes en alguna función.",
-  },
-  {
-    ghost: "06",
-    title: "Resistencias Invisibles",
-    stat: "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025",
-    description: "Miedo al empleo y formación genérica que no cambia hábitos.",
-  },
-];
+{
+  ghost: "01",
+  title: "Valor Inexistente",
+  stat: "BOSTON CONSULTING GROUP\nTHE WIDENING AI VALUE GAP, 2025",
+  description: "El 78% usa GenAI, pero solo el 5% extrae valor sustancial."
+},
+{
+  ghost: "02",
+  title: "El Vacío del EBIT",
+  stat: "STANFORD HAI\nAI INDEZ REPORT 2025, 2025",
+  description: "El 80% de las empresas no perciben impacto en EBIT tras 12 meses."
+},
+{
+  ghost: "03",
+  title: "Shadow AI",
+  stat: "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025",
+  description: "El 78% de empleados usa IA 'informal'. El 57% lo oculta, arriesgando datos corporativos."
+},
+{
+  ghost: "04",
+  title: "Gobernanza llega 'Tarde'",
+  stat: "DELOITTE\nTHE STATE OF GENERATIVE AI IN ENTERPRISE, 2024",
+  description: "Solo el 15% se siente preparado en riesgos. Se acelera sin guardrails o se frena por miedo."
+},
+{
+  ghost: "05",
+  title: "\"Pruebas eternas\" que no avanzan",
+  stat: "MCKINSEY\nTHE STATE OF AI: HOW ORGANIZATIONS ARE REWRITING, 2025",
+  description: "El 80-85% de los pilotos nunca llegan a producción. Sólo el 10% reporta usar agentes en alguna función."
+},
+{
+  ghost: "06",
+  title: "Resistencias Invisibles",
+  stat: "KPMG 6 UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025",
+  description: "Miedo al empleo y formación genérica que no cambia hábitos."
+}];
+
 
 const sprintPillars = [
-  {
-    letter: "S",
-    title: "Squads",
-    description: "Especialización por equipos (squads) para aterrizar casos reales del día a día. Nada de demos genéricas.",
-  },
-  {
-    letter: "P",
-    title: "Priorities",
-    description: "El negocio decide y prioriza qué cambiar primero. Siempre está al volante. Y tiene la Oficina IA activa desde el minuto uno.",
-  },
-  {
-    letter: "R",
-    title: "Roadmap",
-    description: "Mapa de ruta claro y 'fast tracks' o periodos cortos para replicar lo que funciona.",
-  },
-  {
-    letter: "I",
-    title: "Impact",
-    description: "Equilibrio entre formación, consultoría y automatización para procesos eficientes.",
-  },
-  {
-    letter: "N",
-    title: "Numbers",
-    description: "Objetivos medibles y ROI (OPEX y CAPEX). Claridad y objetividad total.",
-  },
-  {
-    letter: "T",
-    title: "Trust",
-    description: "Gobernanza, ética y seguridad desde el inicio para garantizar la integridad de la información.",
-  },
-];
+{
+  letter: "S",
+  title: "Squads",
+  description: "Especialización por equipos (squads) para aterrizar casos reales del día a día. Nada de demos genéricas."
+},
+{
+  letter: "P",
+  title: "Priorities",
+  description: "El negocio decide y prioriza qué cambiar primero. Siempre está al volante. Y tiene la Oficina IA activa desde el minuto uno."
+},
+{
+  letter: "R",
+  title: "Roadmap",
+  description: "Mapa de ruta claro y 'fast tracks' o periodos cortos para replicar lo que funciona."
+},
+{
+  letter: "I",
+  title: "Impact",
+  description: "Equilibrio entre formación, consultoría y automatización para procesos eficientes."
+},
+{
+  letter: "N",
+  title: "Numbers",
+  description: "Objetivos medibles y ROI (OPEX y CAPEX). Claridad y objetividad total."
+},
+{
+  letter: "T",
+  title: "Trust",
+  description: "Gobernanza, ética y seguridad desde el inicio para garantizar la integridad de la información."
+}];
+
 
 /* ── REVEAL WRAPPER ── */
 
-function Reveal({ children, className = "", delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
+function Reveal({ children, className = "", delay = 0 }: {children: React.ReactNode;className?: string;delay?: number;}) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-60px" });
   return (
@@ -94,11 +92,11 @@ function Reveal({ children, className = "", delay = 0 }: { children: React.React
       initial={{ opacity: 0, y: 36 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 36 }}
       transition={{ duration: 0.9, delay, ease: [0.16, 1, 0.3, 1] }}
-      className={className}
-    >
+      className={className}>
+      
       {children}
-    </motion.div>
-  );
+    </motion.div>);
+
 }
 
 /* ── COMPONENT ── */
@@ -108,45 +106,42 @@ const About = () => {
     <section id="about">
 
       {/* ═══════════════════════════════════════════════
-          SECTION 1 — NAVEGANDO EL ECOSISTEMA (Dark Mode)
-          ═══════════════════════════════════════════════ */}
+            SECTION 1 — EL LABERINTO (Dark Mode Impact)
+            ═══════════════════════════════════════════════ */}
       <div className="relative bg-foreground text-primary-foreground overflow-hidden">
+        {/* Background architectural image */}
         <div className="absolute inset-0 z-0">
           <img
             src={aboutLaberinto}
             alt=""
             className="w-full h-full object-cover grayscale opacity-[0.15]"
-            aria-hidden="true"
-          />
+            aria-hidden="true" />
+          
         </div>
 
-        <div className="relative z-10 py-20 md:py-28">
+        <div className="relative z-10 py-28 md:py-40">
           <div className="container mx-auto px-6">
             <div className="max-w-7xl mx-auto">
               <Reveal>
-                <div className="flex items-center gap-3 mb-6">
-                  <Map className="h-5 w-5 text-primary-foreground/40" strokeWidth={1.5} />
-                  <h4 className="text-minimal text-primary-foreground/50">EL DIAGNÓSTICO</h4>
-                </div>
+                <h4 className="text-minimal text-primary-foreground/50 mb-6">EL DIAGNÓSTICO</h4>
               </Reveal>
               <Reveal delay={0.1}>
                 <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-architectural max-w-5xl mb-8">
-                  Navegando el Complejo{" "}
-                  <br className="hidden md:block" />
-                  Ecosistema de la IA.
+                  El Laberinto de la IA:<br />¿Por qué no avanzas?
                 </h2>
               </Reveal>
               <Reveal delay={0.15}>
                 <p className="text-lg md:text-xl text-primary-foreground/60 max-w-3xl mb-20 font-light leading-relaxed">
-                  Sabemos que el panorama de la IA es abrumador. Nuestra misión es eliminar el ruido y la complejidad. Identificamos, mapeamos y estructuramos las soluciones de IA más eficaces y seguras para su modelo de negocio, reduciendo el coste de error operativo y financiero.
+                  El 85% de los proyectos de IA fallan por falta de método. Diseñamos la estructura que garantiza el impacto real en tu cuenta de resultados.
                 </p>
               </Reveal>
 
               {/* Pain-point grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
-                {diagnosisItems.map((item, i) => (
-                  <Reveal key={i} delay={i * 0.08}>
+                {diagnosisItems.map((item, i) =>
+                <Reveal key={i} delay={i * 0.08}>
                     <div className="group relative border-t border-primary-foreground/10 py-10 md:py-14 pr-8 overflow-hidden">
+                      {/* Ghost number */}
                       <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-primary-foreground/[0.25] select-none pointer-events-none leading-none">
                         {item.ghost}
                       </span>
@@ -161,7 +156,7 @@ const About = () => {
                       </div>
                     </div>
                   </Reveal>
-                ))}
+                )}
               </div>
               <div className="border-t border-primary-foreground/10" />
             </div>
@@ -170,8 +165,8 @@ const About = () => {
       </div>
 
       {/* ═══════════════════════════════════════════════
-          SECTION 2 — IA ÉTICA E INTEGRACIÓN HUMANO-IA
-          ═══════════════════════════════════════════════ */}
+            SECTION 2 — FILOSOFÍA AUMENTADA (Split Screen)
+            ═══════════════════════════════════════════════ */}
       <div className="bg-background">
         <div className="grid md:grid-cols-2 min-h-[85vh]">
           {/* Left: Full-bleed photo */}
@@ -179,33 +174,29 @@ const About = () => {
             <img
               src={aboutFilosofia}
               alt="Pasillo de hormigón con luz al fondo"
-              className="w-full h-full object-cover min-h-[50vh] md:min-h-full"
-            />
+              className="w-full h-full object-cover min-h-[50vh] md:min-h-full" />
+            
             <div className="absolute inset-0 bg-gradient-to-r from-background/20 to-transparent" />
           </Reveal>
 
           {/* Right: Philosophy text */}
-          <div className="flex items-center py-20 md:py-28 px-8 md:px-16 lg:px-24">
+          <div className="flex items-center py-20 md:py-32 px-8 md:px-16 lg:px-24">
             <div className="max-w-xl">
               <Reveal>
-                <div className="flex items-center gap-3 mb-4">
-                  <Users className="h-5 w-5 text-muted-foreground/60" strokeWidth={1.5} />
-                  <h4 className="text-minimal text-muted-foreground">GESTIÓN DEL CAMBIO</h4>
-                </div>
+                <h4 className="text-minimal text-muted-foreground mb-4">TECNOLOGÍA AL SERVICIO DE LAS PERSONAS</h4>
               </Reveal>
               <Reveal delay={0.1}>
                 <h3 className="text-4xl md:text-5xl lg:text-6xl font-light text-architectural mb-10">
-                  IA Ética e{" "}
-                  <br className="hidden md:block" />
-                  Integración{" "}
-                  <br className="hidden md:block" />
-                  Humano-IA.
+                  Filosofía<br />"Aumentada"
                 </h3>
               </Reveal>
               <Reveal delay={0.2}>
                 <div className="space-y-6">
                   <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                    La IA no sustituye al talento, lo potencia. Diseñamos su Oficina de IA con un enfoque ético, seguro y centrado en la colaboración humano-máquina, facilitando la gestión del cambio y asegurando que la tecnología trabaje alineada con los objetivos de la dirección financiera y de operaciones (CFO/COO).
+                    Creemos en la combinación perfecta de inteligencia natural y artificial. No venimos a sustituir, venimos a liberar talento para lo estratégico.
+                  </p>
+                  <p className="text-lg text-muted-foreground leading-relaxed font-light">
+                    Fundada en 2012, nuestra compañía ha acometido más de 200 proyectos para poner la tecnología al servicio de las personas. Cada proyecto empieza con una escucha activa y continúa con una ejecución rápida y efectiva.
                   </p>
                 </div>
               </Reveal>
@@ -213,7 +204,9 @@ const About = () => {
                 <div className="mt-12 pt-8 border-t border-border flex gap-12">
                   <div>
                     <span className="text-minimal text-muted-foreground">FOUNDED</span>
-                    <p className="text-2xl font-semibold mt-1">2014</p>
+                    <p className="text-2xl font-semibold mt-1">La IA no sustituye personas, libera talento. La combinación ideal de humanos y tecnología da lugar a la Inteligencia Aumentada.
+Creamos equipos aumentados: el escenario ideal para multiplicar resultados con una adopción natural, segura y sin friccione
+</p>
                   </div>
                   <div>
                     <span className="text-minimal text-muted-foreground">PROJECTS</span>
@@ -227,16 +220,13 @@ const About = () => {
       </div>
 
       {/* ═══════════════════════════════════════════════
-          SECTION 3 — METODOLOGÍA S-P-R-I-N-T
-          ═══════════════════════════════════════════════ */}
-      <div className="py-20 md:py-28 bg-background">
+            SECTION 3 — EL MODELO OPERATIVO (S-P-R-I-N-T)
+            ═══════════════════════════════════════════════ */}
+      <div className="py-28 md:py-40 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <Reveal>
-              <div className="flex items-center gap-3 mb-6">
-                <Zap className="h-5 w-5 text-muted-foreground/60" strokeWidth={1.5} />
-                <h4 className="text-minimal text-muted-foreground">NUESTRO MODELO</h4>
-              </div>
+              <h4 className="text-minimal text-muted-foreground mb-6">NUESTRO MODELO</h4>
             </Reveal>
             <Reveal delay={0.1}>
               <h3 className="text-3xl md:text-5xl lg:text-6xl font-bold text-architectural mb-6 max-w-5xl">
@@ -244,16 +234,16 @@ const About = () => {
               </h3>
             </Reveal>
             <Reveal delay={0.15}>
-              <p className="text-lg text-muted-foreground mb-20 max-w-3xl font-light leading-relaxed">
-                Resultados Tangibles en Semanas, No Meses. Nuestro proceso de alto rendimiento (Descubrimiento → Validación → Despliegue → Optimización) está diseñado para grandes empresas corporativas y multinacionales que necesitan agilidad, minimizando el riesgo y maximizando el ROI de forma rápida.
+              <p className="text-lg text-muted-foreground mb-20 max-w-2xl font-light leading-relaxed">
+                Seis pilares que transforman la incertidumbre en un sistema operativo de IA productivo y medible.
               </p>
             </Reveal>
 
             {/* SPRINT 6-column grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-0">
-              {sprintPillars.map((pillar, i) => (
-                <Reveal key={i} delay={i * 0.08}>
+              {sprintPillars.map((pillar, i) => <Reveal key={i} delay={i * 0.08}>
                   <div className="group relative border-t xl:border-t-0 xl:border-l border-border py-10 xl:py-0 xl:pl-6 xl:pr-4 xl:min-h-[320px] flex flex-col justify-start">
+                    {/* Large ghost letter */}
                     <span className="text-[6rem] xl:text-[7rem] font-bold text-foreground/[0.12] leading-none select-none pointer-events-none -mb-6 xl:-mb-4">
                       {pillar.letter}
                     </span>
@@ -266,27 +256,26 @@ const About = () => {
                       </p>
                     </div>
                   </div>
-                </Reveal>
-              ))}
+                </Reveal>)}
             </div>
           </div>
         </div>
       </div>
 
       {/* ═══════════════════════════════════════════════
-          SECTION 4 — LEAD MAGNET & CTA
-          ═══════════════════════════════════════════════ */}
+            SECTION 4 — LEAD MAGNET & CTA
+            ═══════════════════════════════════════════════ */}
       <div className="relative bg-foreground text-primary-foreground overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src={aboutCta}
             alt=""
             className="w-full h-full object-cover grayscale opacity-[0.08]"
-            aria-hidden="true"
-          />
+            aria-hidden="true" />
+          
         </div>
 
-        <div className="relative z-10 py-20 md:py-28">
+        <div className="relative z-10 py-28 md:py-40">
           <div className="container mx-auto px-6">
             <div className="max-w-7xl mx-auto">
               <div className="grid md:grid-cols-2 gap-16 md:gap-24 items-start">
@@ -317,15 +306,15 @@ const About = () => {
                         <Mail className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-primary-foreground/30" />
                         <Input
                           placeholder="Email corporativo"
-                          className="bg-transparent border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/30 rounded-none pl-10 h-12 focus-visible:ring-primary-foreground/30"
-                        />
+                          className="bg-transparent border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/30 rounded-none pl-10 h-12 focus-visible:ring-primary-foreground/30" />
+                        
                       </div>
                       <div className="relative">
                         <Building2 className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-primary-foreground/30" />
                         <Input
                           placeholder="Empresa"
-                          className="bg-transparent border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/30 rounded-none pl-10 h-12 focus-visible:ring-primary-foreground/30"
-                        />
+                          className="bg-transparent border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/30 rounded-none pl-10 h-12 focus-visible:ring-primary-foreground/30" />
+                        
                       </div>
                       <Button className="w-full bg-primary-foreground text-foreground hover:bg-primary-foreground/90 rounded-none h-12 text-sm tracking-wide font-semibold">
                         <Download className="mr-2 h-4 w-4" />
@@ -373,57 +362,8 @@ const About = () => {
           </div>
         </div>
       </div>
+    </section>);
 
-      {/* ═══════════════════════════════════════════════
-          SECTION 5 — SOCIAL PROOF
-          ═══════════════════════════════════════════════ */}
-      <div className="py-20 md:py-28 bg-background">
-        <div className="container mx-auto px-6">
-          <div className="max-w-7xl mx-auto">
-            <Reveal>
-              <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest">CLIENTES</h3>
-            </Reveal>
-            <Reveal delay={0.1}>
-              <h4 className="text-3xl md:text-5xl font-light text-architectural mb-12 max-w-4xl">
-                Empresas Líderes que ya Confían en Nuestra Metodología SPRINT.
-              </h4>
-            </Reveal>
-            <div className="-mx-6 md:mx-0">
-              <LogoCarousel />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* ═══════════════════════════════════════════════
-          SECTION 6 — CTA FINAL
-          ═══════════════════════════════════════════════ */}
-      <div className="py-20 md:py-28 bg-foreground text-background">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <Reveal>
-              <h2 className="text-3xl md:text-5xl lg:text-6xl font-light mb-8 leading-tight">
-                ¿Listo para convertir la IA en resultados?
-              </h2>
-            </Reveal>
-            <Reveal delay={0.1}>
-              <p className="text-lg md:text-xl text-background/60 leading-relaxed max-w-2xl mx-auto mb-12">
-                Descubra en 15 minutos cómo su organización puede capturar valor real con nuestra metodología.
-              </p>
-            </Reveal>
-            <Reveal delay={0.2}>
-              <Link
-                to="/contacto"
-                className="inline-block bg-accent text-accent-foreground px-12 py-5 text-sm font-bold tracking-widest uppercase shadow-lg hover:shadow-xl hover:brightness-110 hover:-translate-y-0.5 transition-all duration-300"
-              >
-                Agendar una auditoría inicial de 15 min
-              </Link>
-            </Reveal>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
 };
 
 export default About;
