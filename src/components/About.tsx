@@ -187,7 +187,7 @@ const About = () => {
               </Reveal>
               <Reveal delay={0.1}>
                 <h3 className="text-4xl md:text-5xl lg:text-6xl font-light text-architectural mb-10">
-                  Filosofía<br />"Aumentada"
+                  Tu equipo,<br />potenciado.
                 </h3>
               </Reveal>
               <Reveal delay={0.2}>
