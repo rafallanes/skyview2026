@@ -106,8 +106,8 @@ const About = () => {
     <section id="about">
 
       {/* ═══════════════════════════════════════════════
-            SECTION 1 — EL LABERINTO (Dark Mode Impact)
-            ═══════════════════════════════════════════════ */}
+                                                                                                      SECTION 1 — EL LABERINTO (Dark Mode Impact)
+                                                                                                      ═══════════════════════════════════════════════ */}
       <div className="relative bg-foreground text-primary-foreground overflow-hidden">
         {/* Background architectural image */}
         <div className="absolute inset-0 z-0">
@@ -165,8 +165,8 @@ const About = () => {
       </div>
 
       {/* ═══════════════════════════════════════════════
-            SECTION 2 — FILOSOFÍA AUMENTADA (Split Screen)
-            ═══════════════════════════════════════════════ */}
+                                                                                                      SECTION 2 — FILOSOFÍA AUMENTADA (Split Screen)
+                                                                                                      ═══════════════════════════════════════════════ */}
       <div className="bg-background">
         <div className="grid md:grid-cols-2 min-h-[85vh]">
           {/* Left: Full-bleed photo */}
@@ -187,7 +187,7 @@ const About = () => {
               </Reveal>
               <Reveal delay={0.1}>
                 <h3 className="text-4xl md:text-5xl lg:text-6xl font-light text-architectural mb-10">
-                  Tu equipo,<br />potenciado.
+                  Filosofía<br />"Aumentada"
                 </h3>
               </Reveal>
               <Reveal delay={0.2}>
@@ -195,23 +195,22 @@ const About = () => {
                   <p className="text-lg text-muted-foreground leading-relaxed font-light">
                     Creemos en la combinación perfecta de inteligencia natural y artificial. No venimos a sustituir, venimos a liberar talento para lo estratégico.
                   </p>
-                  <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                    Fundada en 2012, nuestra compañía ha acometido más de 200 proyectos para poner la tecnología al servicio de las personas. Cada proyecto empieza con una escucha activa y continúa con una ejecución rápida y efectiva.
+                  <p className="text-lg text-muted-foreground leading-relaxed font-light">Creamos equipos aumentados. Liberados de tareas repetitivas y manuales. El escenario ideal para multiplicar resultados es poner la tecnología al servicio de las personas. Y en esa sencilla meta ponemos todos nuestros esfuerzos.
+
                   </p>
                 </div>
               </Reveal>
               <Reveal delay={0.3}>
-                <div className="mt-12 pt-8 border-t border-border">
-                  <p className="text-base font-light text-muted-foreground leading-relaxed mb-10">La IA no sustituye personas, libera talento. La combinación ideal de humanos y tecnología da lugar a la Inteligencia Aumentada. Creamos equipos aumentados: el escenario ideal para multiplicar resultados con una adopción natural, segura y sin fricciones.</p>
-                  <div className="flex gap-12">
-                    <div>
-                      <span className="text-minimal text-muted-foreground">FOUNDED</span>
-                      <p className="text-2xl font-semibold mt-1">2012</p>
-                    </div>
-                    <div>
-                      <span className="text-minimal text-muted-foreground">PROJECTS</span>
-                      <p className="text-2xl font-semibold mt-1">200+</p>
-                    </div>
+                <div className="mt-12 pt-8 border-t border-border flex gap-12">
+                  <div>
+                    <span className="text-minimal text-muted-foreground">FOUNDED</span>
+                    <p className="text-2xl font-semibold mt-1">La IA no sustituye personas, libera talento. La combinación ideal de humanos y tecnología da lugar a la Inteligencia Aumentada.
+Creamos equipos aumentados: el escenario ideal para multiplicar resultados con una adopción natural, segura y sin friccione
+</p>
+                  </div>
+                  <div>
+                    <span className="text-minimal text-muted-foreground">PROJECTS</span>
+                    <p className="text-2xl font-semibold mt-1">200+</p>
                   </div>
                 </div>
               </Reveal>
@@ -221,8 +220,8 @@ const About = () => {
       </div>
 
       {/* ═══════════════════════════════════════════════
-            SECTION 3 — EL MODELO OPERATIVO (S-P-R-I-N-T)
-            ═══════════════════════════════════════════════ */}
+                                                                                                      SECTION 3 — EL MODELO OPERATIVO (S-P-R-I-N-T)
+                                                                                                      ═══════════════════════════════════════════════ */}
       <div className="py-28 md:py-40 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
@@ -264,8 +263,8 @@ const About = () => {
       </div>
 
       {/* ═══════════════════════════════════════════════
-            SECTION 4 — LEAD MAGNET & CTA
-            ═══════════════════════════════════════════════ */}
+                                                                                                      SECTION 4 — LEAD MAGNET & CTA
+                                                                                                      ═══════════════════════════════════════════════ */}
       <div className="relative bg-foreground text-primary-foreground overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
