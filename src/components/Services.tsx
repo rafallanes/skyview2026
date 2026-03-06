@@ -14,25 +14,25 @@ const methodologySteps = [
   number: "01",
   title: "START",
   subtitle: "EL GERMEN",
-  description: "PRIMERAS"
+  description: "PRIMERAS DOS SEMANAS - Consultoría Intensiva. Asignamos Comité IA, definimos objetivos y planificamos primer trimestre con casos de uso."
 },
 {
   number: "02",
   title: "SPRINT",
   subtitle: "EL MOTOR",
-  description: "90 días de ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real."
+  description: "PRIMER TRIMESTRE - Ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real."
 },
 {
   number: "03",
   title: "OFICINA IA AS A SERVICE",
   subtitle: "LA CONSOLIDACIÓN",
-  description: "Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo."
+  description: "PRIMER AÑO Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo."
 },
 {
   number: "04",
-  title: "OFICINA IA PROPIA",
+  title: "OFICINA IA PROPIA (OPCIONAL)",
   subtitle: "LA AUTONOMÍA",
-  description: "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% independiente."
+  description: "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% autónoma e independiente."
 }];
 
 
