@@ -201,13 +201,17 @@ const About = () => {
                 </div>
               </Reveal>
               <Reveal delay={0.3}>
-                <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row gap-8 md:gap-12">
-                  <div className="flex-1">
-                    <p className="text-base font-light text-muted-foreground leading-relaxed">La IA no sustituye personas, libera talento. La combinación ideal de humanos y tecnología da lugar a la Inteligencia Aumentada. Creamos equipos aumentados: el escenario ideal para multiplicar resultados con una adopción natural, segura y sin fricciones.</p>
-                  </div>
-                  <div>
-                    <span className="text-minimal text-muted-foreground">PROJECTS</span>
-                    <p className="text-2xl font-semibold mt-1">200+</p>
+                <div className="mt-12 pt-8 border-t border-border">
+                  <p className="text-base font-light text-muted-foreground leading-relaxed mb-10">La IA no sustituye personas, libera talento. La combinación ideal de humanos y tecnología da lugar a la Inteligencia Aumentada. Creamos equipos aumentados: el escenario ideal para multiplicar resultados con una adopción natural, segura y sin fricciones.</p>
+                  <div className="flex gap-12">
+                    <div>
+                      <span className="text-minimal text-muted-foreground">FOUNDED</span>
+                      <p className="text-2xl font-semibold mt-1">2012</p>
+                    </div>
+                    <div>
+                      <span className="text-minimal text-muted-foreground">PROJECTS</span>
+                      <p className="text-2xl font-semibold mt-1">200+</p>
+                    </div>
                   </div>
                 </div>
               </Reveal>
