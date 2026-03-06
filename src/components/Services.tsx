@@ -5,8 +5,8 @@ const timelineEvents = [
 { year: "2014", label: "EL ORIGEN", description: "Enfoque fundacional en el ahorro de tiempo y dinero gracias a la tecnología." },
 { year: "2016", label: "ECOSISTEMA SAAS", description: "Alianzas estratégicas para la agilidad operativa (Monday, Signaturit, Odoo, Zoho, Xeerpa, Captio)." },
 { year: "2017", label: "LA FÁBRICA RPA", description: "Especialización en automatización robótica de procesos como factoría para 'Big Four' del norte de Europa." },
-{ year: "2022", label: "INTELIGENCIA AVANZADA", description: "Colaboración en proyectos de gran escala con líderes mundiales en visión artificial y ML (ML6, Robovision)." },
-{ year: "2024", label: "METODOLOGÍA SPRINT", description: "Lanzamiento de nuestra metodología propia para acelerar la adopción de la IA y creación de las primeras Oficinas de IA." }];
+{ year: "2022", label: "INTELIGENCIA\nARTIFICIAL", description: "Colaboración en proyectos de gran escala con líderes mundiales en visión artificial y ML (ML6, Robovision)." },
+{ year: "2024", label: "INTELIGENCIA\nAUMENTADA", description: "Desarrollo de metodología propia para hacer la IA fácil y puesta en marcha de las primeras Oficinas IA." }];
 
 
 const methodologySteps = [
@@ -14,7 +14,7 @@ const methodologySteps = [
   number: "01",
   title: "START",
   subtitle: "EL GERMEN",
-  description: "En 2 semanas asignamos tu primer Comité IA, definimos objetivos y planificamos tu primer trimestre con casos priorizados (S/M/L) por departamentos."
+  description: "PRIMERAS"
 },
 {
   number: "02",
@@ -65,7 +65,7 @@ const Services = () => {
                   style={{ animationDelay: `${index * 150}ms`, animationFillMode: "both" }}>
 
                     <span className="text-4xl font-light text-foreground/30 block mb-3">{event.year}</span>
-                    <span className="text-minimal text-foreground font-semibold block mb-3">{event.label}</span>
+                    <span className="text-minimal text-foreground font-semibold block mb-3 whitespace-pre-line">{event.label}</span>
                     <p className="text-sm text-muted-foreground leading-relaxed">{event.description}</p>
                   </div>
                 )}
@@ -81,7 +81,7 @@ const Services = () => {
 
                   <div className="flex items-baseline gap-4 mb-2">
                     <span className="text-2xl font-light text-foreground/30">{event.year}</span>
-                    <span className="text-minimal text-foreground font-semibold">{event.label}</span>
+                    <span className="text-minimal text-foreground font-semibold whitespace-pre-line">{event.label}</span>
                   </div>
                   <p className="text-sm text-muted-foreground leading-relaxed">{event.description}</p>
                 </div>
