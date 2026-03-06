@@ -19,30 +19,10 @@ const timelineEvents = [
 ];
 
 const methodologySteps = [
-  {
-    number: "01",
-    title: "START",
-    subtitle: "DIAGNÓSTICO",
-    description: "PRIMERAS DOS SEMANAS - Consultoría Intensiva. Asignamos Comité IA, definimos objetivos y planificamos primer trimestre con casos de uso.",
-  },
-  {
-    number: "02",
-    title: "SPRINT",
-    subtitle: "ESTRATEGIA",
-    description: "PRIMER TRIMESTRE - Ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real.",
-  },
-  {
-    number: "03",
-    title: "OFICINA IA AS A SERVICE",
-    subtitle: "IMPLEMENTACIÓN",
-    description: "PRIMER AÑO - Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo.",
-  },
-  {
-    number: "04",
-    title: "OFICINA IA PROPIA (OPCIONAL)",
-    subtitle: "CONSOLIDACIÓN",
-    description: "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% autónoma e independiente.",
-  },
+  { number: "01", title: "START", subtitle: "DIAGNÓSTICO", description: "PRIMERAS DOS SEMANAS - Consultoría Intensiva. Asignamos Comité IA, definimos objetivos y planificamos primer trimestre con casos de uso." },
+  { number: "02", title: "SPRINT", subtitle: "ESTRATEGIA", description: "PRIMER TRIMESTRE - Ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real." },
+  { number: "03", title: "OFICINA IA AS A SERVICE", subtitle: "IMPLEMENTACIÓN", description: "PRIMER AÑO - Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo." },
+  { number: "04", title: "OFICINA IA PROPIA (OPCIONAL)", subtitle: "CONSOLIDACIÓN", description: "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% autónoma e independiente." },
 ];
 
 const techLogos = [
@@ -55,26 +35,10 @@ const techLogos = [
 ];
 
 const impactAreas = [
-  {
-    icon: Cog,
-    title: "Operaciones y Procesos",
-    description: "Automatización de tareas críticas y optimización de flujos para reducir costes operativos.",
-  },
-  {
-    icon: TrendingUp,
-    title: "Ventas y Marketing",
-    description: "Modelos predictivos de demanda y personalización de la experiencia de cliente para acelerar el crecimiento.",
-  },
-  {
-    icon: BarChart3,
-    title: "Departamento Financiero (CFO)",
-    description: "Optimización de flujos de caja, detección de anomalías y proyecciones inteligentes para decisiones basadas en datos.",
-  },
-  {
-    icon: Users,
-    title: "Talento Humano",
-    description: "Herramientas de IA para multiplicar la productividad de sus equipos y facilitar la gestión del cambio.",
-  },
+  { icon: Cog, title: "Operaciones y Procesos", description: "Automatización de tareas críticas y optimización de flujos para reducir costes operativos." },
+  { icon: TrendingUp, title: "Ventas y Marketing", description: "Modelos predictivos de demanda y personalización de la experiencia de cliente para acelerar el crecimiento." },
+  { icon: BarChart3, title: "Departamento Financiero (CFO)", description: "Optimización de flujos de caja, detección de anomalías y proyecciones inteligentes para decisiones basadas en datos." },
+  { icon: Users, title: "Talento Humano", description: "Herramientas de IA para multiplicar la productividad de sus equipos y facilitar la gestión del cambio." },
 ];
 
 const Services = () => {
@@ -83,55 +47,22 @@ const Services = () => {
       <Navigation />
 
       {/* ─── HERO / HEADER ─── */}
-      <section className="pt-32 pb-24 md:pb-32 bg-background">
+      <section className="pt-32 pb-20 md:pb-28 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
-            <div className="mb-16 md:mb-24">
-              <h1 className="text-minimal text-muted-foreground mb-6">MAKING AI EASY</h1>
-              <h2 className="text-4xl md:text-6xl lg:text-7xl font-light text-architectural max-w-4xl mb-10">
-                10 años optimizando procesos, ahora potenciados por IA.
-              </h2>
-              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl">
-                Nuestra historia no empieza con el auge de la IA generativa; llevamos una década eliminando fricciones operativas en grandes organizaciones. La IA es el motor que hemos integrado para que su empresa sea más inteligente y rentable.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── STACK TECNOLÓGICO ─── */}
-      <section className="py-24 md:py-32 bg-muted/30">
-        <div className="container mx-auto px-6">
-          <div className="max-w-7xl mx-auto">
-            <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest">STACK TECNOLÓGICO</h3>
-            <h4 className="text-3xl md:text-5xl font-light text-architectural mb-16 md:mb-20 max-w-3xl">
-              Stack Tecnológico de Vanguardia
-            </h4>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 md:gap-12">
-              {techLogos.map((logo, index) => (
-                <div
-                  key={index}
-                  className="flex flex-col items-center justify-center gap-3 py-6 animate-fade-in-up"
-                  style={{ animationDelay: `${index * 100}ms`, animationFillMode: "both" }}
-                >
-                  <div className="h-16 w-full flex items-center justify-center">
-                    <img
-                      src={logo.src}
-                      alt={logo.alt}
-                      className="max-h-14 w-auto object-contain grayscale opacity-70 hover:opacity-100 hover:grayscale-0 transition-all duration-500"
-                      loading="lazy"
-                    />
-                  </div>
-                  <span className="text-xs text-muted-foreground/60 font-medium tracking-wide">{logo.alt}</span>
-                </div>
-              ))}
-            </div>
+            <h1 className="text-minimal text-muted-foreground mb-6">MAKING AI EASY</h1>
+            <h2 className="text-4xl md:text-6xl lg:text-7xl font-light text-architectural max-w-4xl mb-10">
+              10 años optimizando procesos, ahora potenciados por IA.
+            </h2>
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl">
+              Nuestra historia no empieza con el auge de la IA generativa; llevamos una década eliminando fricciones operativas en grandes organizaciones. La IA es el motor que hemos integrado para que su empresa sea más inteligente y rentable.
+            </p>
           </div>
         </div>
       </section>
 
       {/* ─── TIMELINE ─── */}
-      <section className="py-24 md:py-32 bg-background">
+      <section className="py-20 md:py-28 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             {/* Desktop */}
@@ -169,7 +100,7 @@ const Services = () => {
             </div>
 
             {/* Reinforcement */}
-            <div className="mt-16 md:mt-24">
+            <div className="mt-16">
               <p className="text-base md:text-lg text-muted-foreground/50 italic max-w-3xl leading-relaxed">
                 Nuestra experiencia nace de la eficiencia operativa y evoluciona hacia la inteligencia estratégica.
               </p>
@@ -178,8 +109,39 @@ const Services = () => {
         </div>
       </section>
 
+      {/* ─── STACK TECNOLÓGICO (after reinforcement text) ─── */}
+      <section className="py-20 md:py-28 bg-muted/30">
+        <div className="container mx-auto px-6">
+          <div className="max-w-7xl mx-auto">
+            <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest">STACK TECNOLÓGICO</h3>
+            <h4 className="text-3xl md:text-5xl font-light text-architectural mb-16 max-w-3xl">
+              Stack Tecnológico de Vanguardia
+            </h4>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 md:gap-12">
+              {techLogos.map((logo, index) => (
+                <div
+                  key={index}
+                  className="flex flex-col items-center justify-center gap-3 py-6 animate-fade-in-up"
+                  style={{ animationDelay: `${index * 100}ms`, animationFillMode: "both" }}
+                >
+                  <div className="h-16 w-full flex items-center justify-center">
+                    <img
+                      src={logo.src}
+                      alt={logo.alt}
+                      className="max-h-14 w-auto object-contain grayscale opacity-70 hover:opacity-100 hover:grayscale-0 transition-all duration-500"
+                      loading="lazy"
+                    />
+                  </div>
+                  <span className="text-xs text-muted-foreground/60 font-medium tracking-wide">{logo.alt}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ─── FULL-BLEED PHOTO ─── */}
-      <section className="py-0 bg-background">
+      <section className="bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto -mx-6 md:mx-0">
             <div className="aspect-[21/9] overflow-hidden">
@@ -195,11 +157,11 @@ const Services = () => {
       </section>
 
       {/* ─── ÁREAS DE IMPACTO ─── */}
-      <section className="py-24 md:py-32 bg-background">
+      <section className="py-20 md:py-28 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest">ÁREAS DE IMPACTO</h3>
-            <h4 className="text-3xl md:text-5xl font-light text-architectural mb-16 md:mb-20 max-w-4xl">
+            <h4 className="text-3xl md:text-5xl font-light text-architectural mb-16 max-w-4xl">
               Soluciones con impacto real en su organización.
             </h4>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0">
@@ -229,11 +191,11 @@ const Services = () => {
       </section>
 
       {/* ─── METODOLOGÍA ─── */}
-      <section className="py-24 md:py-32 bg-background">
+      <section className="py-20 md:py-28 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h3 className="text-minimal text-muted-foreground mb-6">METODOLOGÍA</h3>
-            <h2 className="text-3xl md:text-5xl font-light text-architectural mb-16 md:mb-20 max-w-3xl">
+            <h2 className="text-3xl md:text-5xl font-light text-architectural mb-16 max-w-3xl">
               Tu Oficina IA en 4 pasos.
             </h2>
 
@@ -266,11 +228,11 @@ const Services = () => {
       </section>
 
       {/* ─── SOCIAL PROOF / LOGO CAROUSEL ─── */}
-      <section className="py-24 md:py-32 bg-background">
+      <section className="py-20 md:py-28 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest text-center">SOCIAL PROOF</h3>
-            <h4 className="text-3xl md:text-5xl font-light text-architectural mb-16 md:mb-20 max-w-4xl mx-auto text-center">
+            <h4 className="text-3xl md:text-5xl font-light text-architectural mb-16 max-w-4xl mx-auto text-center">
               Empresas que ya simplifican su futuro con nosotros.
             </h4>
             <div className="-mx-6 md:mx-0">
@@ -281,7 +243,7 @@ const Services = () => {
       </section>
 
       {/* ─── CTA FINAL ─── */}
-      <section className="py-24 md:py-32 bg-foreground text-background">
+      <section className="py-20 md:py-28 bg-foreground text-background">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-light mb-8 leading-tight">
