@@ -26,7 +26,7 @@ const methodologySteps = [
   number: "03",
   title: "OFICINA IA AS A SERVICE",
   subtitle: "LA CONSOLIDACIÓN",
-  description: "PRIMER AÑO Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo."
+  description: "PRIMER AÑO - Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo."
 },
 {
   number: "04",
