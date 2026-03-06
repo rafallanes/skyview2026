@@ -157,7 +157,7 @@ const Services = () => {
       </section>
 
       {/* ─── ÁREAS DE IMPACTO ─── */}
-      <section className="py-20 md:py-28 bg-background">
+      <section className="pt-10 md:pt-12 pb-20 md:pb-28 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest">ÁREAS DE IMPACTO</h3>
@@ -191,7 +191,7 @@ const Services = () => {
       </section>
 
       {/* ─── METODOLOGÍA ─── */}
-      <section className="py-20 md:py-28 bg-background">
+      <section className="pt-10 md:pt-12 pb-20 md:pb-28 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h3 className="text-minimal text-muted-foreground mb-6">METODOLOGÍA</h3>
@@ -228,11 +228,11 @@ const Services = () => {
       </section>
 
       {/* ─── SOCIAL PROOF / LOGO CAROUSEL ─── */}
-      <section className="py-20 md:py-28 bg-background">
+      <section className="pt-10 md:pt-12 pb-20 md:pb-28 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
-            <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest text-center">SOCIAL PROOF</h3>
-            <h4 className="text-3xl md:text-5xl font-light text-architectural mb-16 max-w-4xl mx-auto text-center">
+            <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest">CONFÍAN EN NOSOTROS</h3>
+            <h4 className="text-3xl md:text-5xl font-light text-architectural mb-12 max-w-4xl">
               Empresas que ya simplifican su futuro con nosotros.
             </h4>
             <div className="-mx-6 md:mx-0">
