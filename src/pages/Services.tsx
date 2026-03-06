@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import LogoCarousel from "@/components/LogoCarousel";
 import servicesArch from "@/assets/about-cta.png";
 import logoOpenAI from "@/assets/logos/openai.png";
@@ -261,6 +262,7 @@ const Services = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

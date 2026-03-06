@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import { blogPosts } from "@/data/blogPosts";
 
 const Blog = () => {
@@ -139,6 +140,7 @@ const Blog = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

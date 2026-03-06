@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 const Contact = () => {
   return (
@@ -75,6 +76,7 @@ MAD 28108 SPAIN
           </div>
         </div>
       </section>
+      <Footer />
     </div>);};
 
 export default Contact;
