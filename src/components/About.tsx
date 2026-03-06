@@ -1,11 +1,13 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { ArrowRight, Download, Mail, Building2 } from "lucide-react";
+import { ArrowRight, Download, Mail, Building2, Map, Users, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Link } from "react-router-dom";
 import aboutLaberinto from "@/assets/about-laberinto.jpg";
 import aboutFilosofia from "@/assets/about-filosofia.jpg";
 import aboutCta from "@/assets/about-cta.jpg";
+import LogoCarousel from "@/components/LogoCarousel";
 
 /* ── DATA ── */
 
@@ -19,7 +21,7 @@ const diagnosisItems = [
   {
     ghost: "02",
     title: "El Vacío del EBIT",
-    stat: "STANFORD HAI\nAI INDEZ REPORT 2025, 2025",
+    stat: "STANFORD HAI\nAI INDEX REPORT 2025",
     description: "El 80% de las empresas no perciben impacto en EBIT tras 12 meses.",
   },
   {
@@ -43,7 +45,7 @@ const diagnosisItems = [
   {
     ghost: "06",
     title: "Resistencias Invisibles",
-    stat: "KPMG 6 UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025",
+    stat: "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025",
     description: "Miedo al empleo y formación genérica que no cambia hábitos.",
   },
 ];
@@ -106,10 +108,9 @@ const About = () => {
     <section id="about">
 
       {/* ═══════════════════════════════════════════════
-          SECTION 1 — EL LABERINTO (Dark Mode Impact)
+          SECTION 1 — NAVEGANDO EL ECOSISTEMA (Dark Mode)
           ═══════════════════════════════════════════════ */}
       <div className="relative bg-foreground text-primary-foreground overflow-hidden">
-        {/* Background architectural image */}
         <div className="absolute inset-0 z-0">
           <img
             src={aboutLaberinto}
@@ -119,20 +120,25 @@ const About = () => {
           />
         </div>
 
-        <div className="relative z-10 py-28 md:py-40">
+        <div className="relative z-10 py-20 md:py-28">
           <div className="container mx-auto px-6">
             <div className="max-w-7xl mx-auto">
               <Reveal>
-                <h4 className="text-minimal text-primary-foreground/50 mb-6">EL DIAGNÓSTICO</h4>
+                <div className="flex items-center gap-3 mb-6">
+                  <Map className="h-5 w-5 text-primary-foreground/40" strokeWidth={1.5} />
+                  <h4 className="text-minimal text-primary-foreground/50">EL DIAGNÓSTICO</h4>
+                </div>
               </Reveal>
               <Reveal delay={0.1}>
                 <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-architectural max-w-5xl mb-8">
-                  El Laberinto de la IA:<br />¿Por qué no avanzas?
+                  Navegando el Complejo{" "}
+                  <br className="hidden md:block" />
+                  Ecosistema de la IA.
                 </h2>
               </Reveal>
               <Reveal delay={0.15}>
                 <p className="text-lg md:text-xl text-primary-foreground/60 max-w-3xl mb-20 font-light leading-relaxed">
-                  El 85% de los proyectos de IA fallan por falta de método. Diseñamos la estructura que garantiza el impacto real en tu cuenta de resultados.
+                  Sabemos que el panorama de la IA es abrumador. Nuestra misión es eliminar el ruido y la complejidad. Identificamos, mapeamos y estructuramos las soluciones de IA más eficaces y seguras para su modelo de negocio, reduciendo el coste de error operativo y financiero.
                 </p>
               </Reveal>
 
@@ -141,7 +147,6 @@ const About = () => {
                 {diagnosisItems.map((item, i) => (
                   <Reveal key={i} delay={i * 0.08}>
                     <div className="group relative border-t border-primary-foreground/10 py-10 md:py-14 pr-8 overflow-hidden">
-                      {/* Ghost number */}
                       <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-primary-foreground/[0.25] select-none pointer-events-none leading-none">
                         {item.ghost}
                       </span>
@@ -165,7 +170,7 @@ const About = () => {
       </div>
 
       {/* ═══════════════════════════════════════════════
-          SECTION 2 — FILOSOFÍA AUMENTADA (Split Screen)
+          SECTION 2 — IA ÉTICA E INTEGRACIÓN HUMANO-IA
           ═══════════════════════════════════════════════ */}
       <div className="bg-background">
         <div className="grid md:grid-cols-2 min-h-[85vh]">
@@ -180,23 +185,27 @@ const About = () => {
           </Reveal>
 
           {/* Right: Philosophy text */}
-          <div className="flex items-center py-20 md:py-32 px-8 md:px-16 lg:px-24">
+          <div className="flex items-center py-20 md:py-28 px-8 md:px-16 lg:px-24">
             <div className="max-w-xl">
               <Reveal>
-                <h4 className="text-minimal text-muted-foreground mb-4">TECNOLOGÍA AL SERVICIO DE LAS PERSONAS</h4>
+                <div className="flex items-center gap-3 mb-4">
+                  <Users className="h-5 w-5 text-muted-foreground/60" strokeWidth={1.5} />
+                  <h4 className="text-minimal text-muted-foreground">GESTIÓN DEL CAMBIO</h4>
+                </div>
               </Reveal>
               <Reveal delay={0.1}>
                 <h3 className="text-4xl md:text-5xl lg:text-6xl font-light text-architectural mb-10">
-                  Filosofía<br />"Aumentada"
+                  IA Ética e{" "}
+                  <br className="hidden md:block" />
+                  Integración{" "}
+                  <br className="hidden md:block" />
+                  Humano-IA.
                 </h3>
               </Reveal>
               <Reveal delay={0.2}>
                 <div className="space-y-6">
                   <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                    Creemos en la combinación perfecta de inteligencia natural y artificial. No venimos a sustituir, venimos a liberar talento para lo estratégico.
-                  </p>
-                  <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                    Fundada en 2012, nuestra compañía ha acometido más de 200 proyectos para poner la tecnología al servicio de las personas. Cada proyecto empieza con una escucha activa y continúa con una ejecución rápida y efectiva.
+                    La IA no sustituye al talento, lo potencia. Diseñamos su Oficina de IA con un enfoque ético, seguro y centrado en la colaboración humano-máquina, facilitando la gestión del cambio y asegurando que la tecnología trabaje alineada con los objetivos de la dirección financiera y de operaciones (CFO/COO).
                   </p>
                 </div>
               </Reveal>
@@ -218,13 +227,16 @@ const About = () => {
       </div>
 
       {/* ═══════════════════════════════════════════════
-          SECTION 3 — EL MODELO OPERATIVO (S-P-R-I-N-T)
+          SECTION 3 — METODOLOGÍA S-P-R-I-N-T
           ═══════════════════════════════════════════════ */}
-      <div className="py-28 md:py-40 bg-background">
+      <div className="py-20 md:py-28 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <Reveal>
-              <h4 className="text-minimal text-muted-foreground mb-6">NUESTRO MODELO</h4>
+              <div className="flex items-center gap-3 mb-6">
+                <Zap className="h-5 w-5 text-muted-foreground/60" strokeWidth={1.5} />
+                <h4 className="text-minimal text-muted-foreground">NUESTRO MODELO</h4>
+              </div>
             </Reveal>
             <Reveal delay={0.1}>
               <h3 className="text-3xl md:text-5xl lg:text-6xl font-bold text-architectural mb-6 max-w-5xl">
@@ -232,8 +244,8 @@ const About = () => {
               </h3>
             </Reveal>
             <Reveal delay={0.15}>
-              <p className="text-lg text-muted-foreground mb-20 max-w-2xl font-light leading-relaxed">
-                Seis pilares que transforman la incertidumbre en un sistema operativo de IA productivo y medible.
+              <p className="text-lg text-muted-foreground mb-20 max-w-3xl font-light leading-relaxed">
+                Resultados Tangibles en Semanas, No Meses. Nuestro proceso de alto rendimiento (Descubrimiento → Validación → Despliegue → Optimización) está diseñado para grandes empresas corporativas y multinacionales que necesitan agilidad, minimizando el riesgo y maximizando el ROI de forma rápida.
               </p>
             </Reveal>
 
@@ -242,7 +254,6 @@ const About = () => {
               {sprintPillars.map((pillar, i) => (
                 <Reveal key={i} delay={i * 0.08}>
                   <div className="group relative border-t xl:border-t-0 xl:border-l border-border py-10 xl:py-0 xl:pl-6 xl:pr-4 xl:min-h-[320px] flex flex-col justify-start">
-                    {/* Large ghost letter */}
                     <span className="text-[6rem] xl:text-[7rem] font-bold text-foreground/[0.12] leading-none select-none pointer-events-none -mb-6 xl:-mb-4">
                       {pillar.letter}
                     </span>
@@ -275,7 +286,7 @@ const About = () => {
           />
         </div>
 
-        <div className="relative z-10 py-28 md:py-40">
+        <div className="relative z-10 py-20 md:py-28">
           <div className="container mx-auto px-6">
             <div className="max-w-7xl mx-auto">
               <div className="grid md:grid-cols-2 gap-16 md:gap-24 items-start">
@@ -359,6 +370,55 @@ const About = () => {
 
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ═══════════════════════════════════════════════
+          SECTION 5 — SOCIAL PROOF
+          ═══════════════════════════════════════════════ */}
+      <div className="py-20 md:py-28 bg-background">
+        <div className="container mx-auto px-6">
+          <div className="max-w-7xl mx-auto">
+            <Reveal>
+              <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest">CLIENTES</h3>
+            </Reveal>
+            <Reveal delay={0.1}>
+              <h4 className="text-3xl md:text-5xl font-light text-architectural mb-12 max-w-4xl">
+                Empresas Líderes que ya Confían en Nuestra Metodología SPRINT.
+              </h4>
+            </Reveal>
+            <div className="-mx-6 md:mx-0">
+              <LogoCarousel />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ═══════════════════════════════════════════════
+          SECTION 6 — CTA FINAL
+          ═══════════════════════════════════════════════ */}
+      <div className="py-20 md:py-28 bg-foreground text-background">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto text-center">
+            <Reveal>
+              <h2 className="text-3xl md:text-5xl lg:text-6xl font-light mb-8 leading-tight">
+                ¿Listo para convertir la IA en resultados?
+              </h2>
+            </Reveal>
+            <Reveal delay={0.1}>
+              <p className="text-lg md:text-xl text-background/60 leading-relaxed max-w-2xl mx-auto mb-12">
+                Descubra en 15 minutos cómo su organización puede capturar valor real con nuestra metodología.
+              </p>
+            </Reveal>
+            <Reveal delay={0.2}>
+              <Link
+                to="/contacto"
+                className="inline-block bg-accent text-accent-foreground px-12 py-5 text-sm font-bold tracking-widest uppercase shadow-lg hover:shadow-xl hover:brightness-110 hover:-translate-y-0.5 transition-all duration-300"
+              >
+                Agendar una auditoría inicial de 15 min
+              </Link>
+            </Reveal>
           </div>
         </div>
       </div>
