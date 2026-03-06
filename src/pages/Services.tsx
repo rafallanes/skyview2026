@@ -124,11 +124,11 @@ const Services = () => {
                   className="flex flex-col items-center justify-center gap-3 py-6 animate-fade-in-up"
                   style={{ animationDelay: `${index * 100}ms`, animationFillMode: "both" }}
                 >
-                  <div className="h-16 w-full flex items-center justify-center">
+                  <div className="h-20 w-full flex items-center justify-center">
                     <img
                       src={logo.src}
                       alt={logo.alt}
-                      className="max-h-14 w-auto object-contain grayscale opacity-70 hover:opacity-100 hover:grayscale-0 transition-all duration-500"
+                      className="max-h-16 w-auto object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-all duration-500"
                       loading="lazy"
                     />
                   </div>
