@@ -106,8 +106,8 @@ const About = () => {
     <section id="about">
 
       {/* ═══════════════════════════════════════════════
-                                                                                                          SECTION 1 — EL LABERINTO (Dark Mode Impact)
-                                                                                                          ═══════════════════════════════════════════════ */}
+                                                                                                                                                                                                                                                                                                                         SECTION 1 — EL LABERINTO (Dark Mode Impact)
+                                                                                                                                                                                                                                                                                                                         ═══════════════════════════════════════════════ */}
       <div className="relative bg-foreground text-primary-foreground overflow-hidden">
         {/* Background architectural image */}
         <div className="absolute inset-0 z-0">
@@ -165,8 +165,8 @@ const About = () => {
       </div>
 
       {/* ═══════════════════════════════════════════════
-                                                                                                          SECTION 2 — FILOSOFÍA AUMENTADA (Split Screen)
-                                                                                                          ═══════════════════════════════════════════════ */}
+                                                                                                                                                                                                                                                                                                                         SECTION 2 — FILOSOFÍA AUMENTADA (Split Screen)
+                                                                                                                                                                                                                                                                                                                         ═══════════════════════════════════════════════ */}
       <div className="bg-background">
         <div className="grid md:grid-cols-2 min-h-[85vh]">
           {/* Left: Full-bleed photo */}
@@ -192,10 +192,10 @@ const About = () => {
               </Reveal>
               <Reveal delay={0.2}>
                 <div className="space-y-6">
-                  <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                    Creemos en la combinación perfecta de inteligencia natural y artificial. No venimos a sustituir, venimos a liberar talento para lo estratégico.
+                  <p className="text-lg text-muted-foreground leading-relaxed font-light">No sustituimos personas, potenciamos su talento. Creamos Inteligencia Aumentada uniendo el criterio humano a la potencia tecnológica.
+
                   </p>
-                  <p className="text-lg text-muted-foreground leading-relaxed font-light">Creamos equipos aumentados. Liberados de tareas repetitivas y manuales. El escenario ideal para multiplicar resultados es poner la tecnología al servicio de las personas. Y en esa sencilla meta ponemos todos nuestros esfuerzos.
+                  <p className="text-lg text-muted-foreground leading-relaxed font-light">El resultado son Equipos Aumentados y resultados multiplicados. Menos tareas manuales, más impacto estratégico. Así de sencillo.
 
                   </p>
                 </div>
@@ -220,8 +220,8 @@ const About = () => {
       </div>
 
       {/* ═══════════════════════════════════════════════
-                                                                                                          SECTION 3 — EL MODELO OPERATIVO (S-P-R-I-N-T)
-                                                                                                          ═══════════════════════════════════════════════ */}
+                                                                                                                                                                                                                                                                                                                         SECTION 3 — EL MODELO OPERATIVO (S-P-R-I-N-T)
+                                                                                                                                                                                                                                                                                                                         ═══════════════════════════════════════════════ */}
       <div className="py-28 md:py-40 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
@@ -263,8 +263,8 @@ const About = () => {
       </div>
 
       {/* ═══════════════════════════════════════════════
-                                                                                                          SECTION 4 — LEAD MAGNET & CTA
-                                                                                                          ═══════════════════════════════════════════════ */}
+                                                                                                                                                                                                                                                                                                                         SECTION 4 — LEAD MAGNET & CTA
+                                                                                                                                                                                                                                                                                                                         ═══════════════════════════════════════════════ */}
       <div className="relative bg-foreground text-primary-foreground overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
