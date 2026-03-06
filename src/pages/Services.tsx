@@ -231,10 +231,7 @@ const Services = () => {
       <section className="py-20 md:py-28 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
-            <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest text-center">SOCIAL PROOF</h3>
-            <h4 className="text-3xl md:text-5xl font-light text-architectural mb-16 max-w-4xl mx-auto text-center">
-              Empresas que ya simplifican su futuro con nosotros.
-            </h4>
+            <h3 className="text-minimal text-muted-foreground mb-12 tracking-widest text-center">CONFÍAN EN NOSOTROS</h3>
             <div className="-mx-6 md:mx-0">
               <LogoCarousel />
             </div>
