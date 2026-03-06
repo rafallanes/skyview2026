@@ -106,8 +106,8 @@ const About = () => {
     <section id="about">
 
       {/* ═══════════════════════════════════════════════
-                                                                                                      SECTION 1 — EL LABERINTO (Dark Mode Impact)
-                                                                                                      ═══════════════════════════════════════════════ */}
+                                                                                                        SECTION 1 — EL LABERINTO (Dark Mode Impact)
+                                                                                                        ═══════════════════════════════════════════════ */}
       <div className="relative bg-foreground text-primary-foreground overflow-hidden">
         {/* Background architectural image */}
         <div className="absolute inset-0 z-0">
@@ -165,8 +165,8 @@ const About = () => {
       </div>
 
       {/* ═══════════════════════════════════════════════
-                                                                                                      SECTION 2 — FILOSOFÍA AUMENTADA (Split Screen)
-                                                                                                      ═══════════════════════════════════════════════ */}
+                                                                                                        SECTION 2 — FILOSOFÍA AUMENTADA (Split Screen)
+                                                                                                        ═══════════════════════════════════════════════ */}
       <div className="bg-background">
         <div className="grid md:grid-cols-2 min-h-[85vh]">
           {/* Left: Full-bleed photo */}
@@ -204,9 +204,9 @@ const About = () => {
                 <div className="mt-12 pt-8 border-t border-border flex gap-12">
                   <div>
                     <span className="text-minimal text-muted-foreground">FOUNDED</span>
-                    <p className="text-2xl font-semibold mt-1">La IA no sustituye personas, libera talento. La combinación ideal de humanos y tecnología da lugar a la Inteligencia Aumentada.
-Creamos equipos aumentados: el escenario ideal para multiplicar resultados con una adopción natural, segura y sin friccione
-</p>
+                    <p className="text-2xl font-semibold mt-1">2012
+
+                    </p>
                   </div>
                   <div>
                     <span className="text-minimal text-muted-foreground">PROJECTS</span>
@@ -220,8 +220,8 @@ Creamos equipos aumentados: el escenario ideal para multiplicar resultados con u
       </div>
 
       {/* ═══════════════════════════════════════════════
-                                                                                                      SECTION 3 — EL MODELO OPERATIVO (S-P-R-I-N-T)
-                                                                                                      ═══════════════════════════════════════════════ */}
+                                                                                                        SECTION 3 — EL MODELO OPERATIVO (S-P-R-I-N-T)
+                                                                                                        ═══════════════════════════════════════════════ */}
       <div className="py-28 md:py-40 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
@@ -263,8 +263,8 @@ Creamos equipos aumentados: el escenario ideal para multiplicar resultados con u
       </div>
 
       {/* ═══════════════════════════════════════════════
-                                                                                                      SECTION 4 — LEAD MAGNET & CTA
-                                                                                                      ═══════════════════════════════════════════════ */}
+                                                                                                        SECTION 4 — LEAD MAGNET & CTA
+                                                                                                        ═══════════════════════════════════════════════ */}
       <div className="relative bg-foreground text-primary-foreground overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
