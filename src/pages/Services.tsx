@@ -254,7 +254,7 @@ const Services = () => {
             </p>
             <Link
               to="/contacto"
-              className="inline-block border border-background/30 px-10 py-4 text-sm tracking-widest uppercase hover:bg-background hover:text-foreground transition-all duration-500"
+              className="inline-block bg-accent text-accent-foreground px-12 py-5 text-sm font-bold tracking-widest uppercase shadow-lg hover:shadow-xl hover:brightness-110 hover:-translate-y-0.5 transition-all duration-300"
             >
               Agendar sesión estratégica
             </Link>
