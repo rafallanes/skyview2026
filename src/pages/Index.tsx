@@ -14,20 +14,20 @@ import logoLangChain from "@/assets/logos/langchain.png";
 import logoPinecone from "@/assets/logos/pinecone.png";
 
 const techLogos = [
-  { src: logoOpenAI, alt: "OpenAI" },
-  { src: logoAzure, alt: "Microsoft Azure" },
-  { src: logoGoogleCloud, alt: "Google Cloud" },
-  { src: logoAnthropic, alt: "Anthropic" },
-  { src: logoLangChain, alt: "LangChain" },
-  { src: logoPinecone, alt: "Pinecone" },
-];
+{ src: logoOpenAI, alt: "OpenAI" },
+{ src: logoAzure, alt: "Microsoft Azure" },
+{ src: logoGoogleCloud, alt: "Google Cloud" },
+{ src: logoAnthropic, alt: "Anthropic" },
+{ src: logoLangChain, alt: "LangChain" },
+{ src: logoPinecone, alt: "Pinecone" }];
+
 
 const impactAreas = [
-  { icon: Cog, title: "Operaciones y Procesos", department: "Operaciones", description: "Automatización de tareas críticas y optimización de flujos para reducir costes operativos." },
-  { icon: TrendingUp, title: "Ventas y Marketing", department: "Ventas", description: "Modelos predictivos de demanda y personalización de la experiencia de cliente para acelerar el crecimiento." },
-  { icon: BarChart3, title: "Departamento Financiero (CFO)", department: "Financiero", description: "Optimización de flujos de caja, detección de anomalías y proyecciones inteligentes para decisiones basadas en datos." },
-  { icon: Users, title: "Talento Humano", department: "Talento", description: "Herramientas de IA para multiplicar la productividad de sus equipos y facilitar la gestión del cambio." },
-];
+{ icon: Cog, title: "Operaciones y Procesos", department: "Operaciones", description: "Automatización de tareas críticas y optimización de flujos para reducir costes operativos." },
+{ icon: TrendingUp, title: "Ventas y Marketing", department: "Ventas", description: "Modelos predictivos de demanda y personalización de la experiencia de cliente para acelerar el crecimiento." },
+{ icon: BarChart3, title: "Departamento Financiero (CFO)", department: "Financiero", description: "Optimización de flujos de caja, detección de anomalías y proyecciones inteligentes para decisiones basadas en datos." },
+{ icon: Users, title: "Talento Humano", department: "Talento", description: "Herramientas de IA para multiplicar la productividad de sus equipos y facilitar la gestión del cambio." }];
+
 
 const Index = () => {
   return (
@@ -41,19 +41,19 @@ const Index = () => {
           <div className="max-w-7xl mx-auto">
             <h4 className="text-minimal text-muted-foreground mb-10 text-center tracking-widest">STACK TECNOLÓGICO</h4>
             <div className="grid grid-cols-3 sm:grid-cols-6 gap-8 md:gap-12">
-              {techLogos.map((logo, index) => (
-                <div key={index} className="flex flex-col items-center justify-center gap-3 py-4">
+              {techLogos.map((logo, index) =>
+              <div key={index} className="flex flex-col items-center justify-center gap-3 py-4">
                   <div className="h-16 w-full flex items-center justify-center">
                     <img
-                      src={logo.src}
-                      alt={logo.alt}
-                      className="max-h-12 w-auto object-contain brightness-0 invert opacity-70 hover:opacity-100 transition-all duration-500"
-                      loading="lazy"
-                    />
+                    src={logo.src}
+                    alt={logo.alt}
+                    className="max-h-12 w-auto object-contain brightness-0 invert opacity-70 hover:opacity-100 transition-all duration-500"
+                    loading="lazy" />
+                  
                   </div>
                   <span className="text-xs text-muted-foreground/60 font-medium tracking-wide">{logo.alt}</span>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </div>
@@ -83,16 +83,16 @@ const Index = () => {
               Soluciones con impacto real en su organización.
             </h4>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0">
-              {impactAreas.map((area, index) => (
-                <div
-                  key={index}
-                  className="group relative border-t border-border lg:border-r lg:last:border-r-0 py-12 px-6 lg:px-8 hover:bg-muted/30 transition-colors duration-500"
-                >
+              {impactAreas.map((area, index) =>
+              <div
+                key={index}
+                className="group relative border-t border-border lg:border-r lg:last:border-r-0 py-12 px-6 lg:px-8 hover:bg-muted/30 transition-colors duration-500">
+                
                   <area.icon
-                    className="text-foreground/20 group-hover:text-foreground/50 transition-colors duration-500 mb-6"
-                    size={36}
-                    strokeWidth={1.5}
-                  />
+                  className="text-foreground/20 group-hover:text-foreground/50 transition-colors duration-500 mb-6"
+                  size={36}
+                  strokeWidth={1.5} />
+                
                   <h5 className="text-lg font-semibold text-architectural mb-3 group-hover:text-muted-foreground transition-colors duration-500">
                     {area.title}
                   </h5>
@@ -100,14 +100,14 @@ const Index = () => {
                     {area.description}
                   </p>
                   <a
-                    href="#"
-                    className="inline-flex items-center gap-2 text-sm font-semibold text-foreground hover:text-muted-foreground transition-colors duration-300 border-b border-foreground/30 hover:border-foreground/60 pb-0.5"
-                  >
+                  href="#"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-foreground hover:text-muted-foreground transition-colors duration-300 border-b border-foreground/30 hover:border-foreground/60 pb-0.5">
+                  
                     <FileText size={14} />
                     Descargar Caso de Uso: {area.department}
                   </a>
                 </div>
-              ))}
+              )}
             </div>
             <div className="border-t border-border" />
           </div>
@@ -118,7 +118,7 @@ const Index = () => {
       <section className="py-28 md:py-36 bg-muted/30">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-minimal text-muted-foreground mb-6">METODOLOGÍA</h2>
+            <h2 className="text-minimal text-muted-foreground mb-6">EL CAMINO MÁS RÁPIDO HACIA TU OFICINA IA</h2>
             <h3 className="text-3xl md:text-5xl lg:text-6xl font-light text-architectural max-w-4xl mb-8">
               Metodología SPRINT: Resultados en semanas.
             </h3>
@@ -149,15 +149,15 @@ const Index = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#"
-                className="inline-flex items-center gap-3 bg-primary-foreground text-foreground px-8 py-5 text-sm font-semibold tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300"
-              >
+                className="inline-flex items-center gap-3 bg-primary-foreground text-foreground px-8 py-5 text-sm font-semibold tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300">
+                
                 <FileText size={18} />
                 Guía para CEOs: El ROI de la IA en 2026
               </a>
               <a
                 href="#"
-                className="inline-flex items-center gap-3 border border-primary-foreground/30 text-primary-foreground px-8 py-5 text-sm font-semibold tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300"
-              >
+                className="inline-flex items-center gap-3 border border-primary-foreground/30 text-primary-foreground px-8 py-5 text-sm font-semibold tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300">
+                
                 <FileText size={18} />
                 Radiografía del CFO: Automatización y Control Financiero
               </a>
@@ -178,8 +178,8 @@ const Index = () => {
       </section>
 
       <Footer />
-    </div>
-  );
+    </div>);
+
 };
 
 export default Index;
