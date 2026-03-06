@@ -47,7 +47,7 @@ const Services = () => {
       <Navigation />
 
       {/* ─── HERO / HEADER ─── */}
-      <section className="pt-32 pb-20 md:pb-28 bg-background">
+      <section className="pt-32 pb-10 md:pb-12 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h1 className="text-minimal text-muted-foreground mb-6">MAKING AI EASY</h1>
@@ -62,7 +62,7 @@ const Services = () => {
       </section>
 
       {/* ─── TIMELINE ─── */}
-      <section className="py-20 md:py-28 bg-background">
+      <section className="pt-10 md:pt-12 pb-20 md:pb-28 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             {/* Desktop */}
@@ -110,7 +110,7 @@ const Services = () => {
       </section>
 
       {/* ─── STACK TECNOLÓGICO (after reinforcement text) ─── */}
-      <section className="py-20 md:py-28 bg-muted/30">
+      <section className="pt-10 md:pt-12 pb-20 md:pb-28 bg-muted/30">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest">STACK TECNOLÓGICO</h3>
