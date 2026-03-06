@@ -106,8 +106,8 @@ const About = () => {
     <section id="about">
 
       {/* ═══════════════════════════════════════════════
-                                                                                                        SECTION 1 — EL LABERINTO (Dark Mode Impact)
-                                                                                                        ═══════════════════════════════════════════════ */}
+                                                                                                          SECTION 1 — EL LABERINTO (Dark Mode Impact)
+                                                                                                          ═══════════════════════════════════════════════ */}
       <div className="relative bg-foreground text-primary-foreground overflow-hidden">
         {/* Background architectural image */}
         <div className="absolute inset-0 z-0">
@@ -165,8 +165,8 @@ const About = () => {
       </div>
 
       {/* ═══════════════════════════════════════════════
-                                                                                                        SECTION 2 — FILOSOFÍA AUMENTADA (Split Screen)
-                                                                                                        ═══════════════════════════════════════════════ */}
+                                                                                                          SECTION 2 — FILOSOFÍA AUMENTADA (Split Screen)
+                                                                                                          ═══════════════════════════════════════════════ */}
       <div className="bg-background">
         <div className="grid md:grid-cols-2 min-h-[85vh]">
           {/* Left: Full-bleed photo */}
@@ -220,8 +220,8 @@ const About = () => {
       </div>
 
       {/* ═══════════════════════════════════════════════
-                                                                                                        SECTION 3 — EL MODELO OPERATIVO (S-P-R-I-N-T)
-                                                                                                        ═══════════════════════════════════════════════ */}
+                                                                                                          SECTION 3 — EL MODELO OPERATIVO (S-P-R-I-N-T)
+                                                                                                          ═══════════════════════════════════════════════ */}
       <div className="py-28 md:py-40 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
@@ -263,8 +263,8 @@ const About = () => {
       </div>
 
       {/* ═══════════════════════════════════════════════
-                                                                                                        SECTION 4 — LEAD MAGNET & CTA
-                                                                                                        ═══════════════════════════════════════════════ */}
+                                                                                                          SECTION 4 — LEAD MAGNET & CTA
+                                                                                                          ═══════════════════════════════════════════════ */}
       <div className="relative bg-foreground text-primary-foreground overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
@@ -350,7 +350,7 @@ const About = () => {
                         <p className="text-xs text-primary-foreground/40 mt-1">Sprint medio</p>
                       </div>
                       <div>
-                        <span className="text-2xl font-bold">2014</span>
+                        <span className="text-2xl font-bold">2012</span>
                         <p className="text-xs text-primary-foreground/40 mt-1">Desde</p>
                       </div>
                     </div>
