@@ -13,25 +13,25 @@ const methodologySteps = [
   {
     number: "01",
     title: "START",
-    subtitle: "EL GERMEN",
+    subtitle: "DIAGNÓSTICO",
     description: "PRIMERAS DOS SEMANAS - Consultoría Intensiva. Asignamos Comité IA, definimos objetivos y planificamos primer trimestre con casos de uso.",
   },
   {
     number: "02",
     title: "SPRINT",
-    subtitle: "EL MOTOR",
+    subtitle: "ESTRATEGIA",
     description: "PRIMER TRIMESTRE - Ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real.",
   },
   {
     number: "03",
     title: "OFICINA IA AS A SERVICE",
-    subtitle: "LA CONSOLIDACIÓN",
+    subtitle: "IMPLEMENTACIÓN",
     description: "PRIMER AÑO - Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo.",
   },
   {
     number: "04",
     title: "OFICINA IA PROPIA (OPCIONAL)",
-    subtitle: "LA AUTONOMÍA",
+    subtitle: "CONSOLIDACIÓN",
     description: "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% autónoma e independiente.",
   },
 ];
@@ -48,10 +48,10 @@ const Services = () => {
             <div className="mb-16 md:mb-24">
               <h1 className="text-minimal text-muted-foreground mb-6">MAKING AI EASY</h1>
               <h2 className="text-4xl md:text-6xl lg:text-7xl font-light text-architectural max-w-4xl mb-10">
-                Una década diseñando{"\n"}el futuro de la eficiencia.
+                14 años optimizando procesos, ahora potenciados por IA.
               </h2>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl" style={{ whiteSpace: "pre-line" }}>
-                No nacimos con la IA generativa. Llevamos 10 años optimizando la operativa de las organizaciones más exigentes de Europa.
+                Nuestra historia no empieza con el auge de la IA generativa. Llevamos una década analizando procesos operativos y eliminando fricciones en grandes organizaciones. La Inteligencia Artificial es el motor definitivo que hemos integrado en nuestro ADN para que su empresa sea, simplemente, más inteligente y más rentable.
               </p>
             </div>
 
