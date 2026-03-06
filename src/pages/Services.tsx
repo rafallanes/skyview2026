@@ -29,7 +29,7 @@ const techLogos = [
   { src: logoOpenAI, alt: "OpenAI" },
   { src: logoAzure, alt: "Microsoft Azure" },
   { src: logoGoogleCloud, alt: "Google Cloud" },
-  { src: logoAnthropic, alt: "Anthropic" },
+  { src: logoAnthropic, alt: "Claude" },
   { src: logoLangChain, alt: "LangChain" },
   { src: logoPinecone, alt: "Pinecone" },
 ];
