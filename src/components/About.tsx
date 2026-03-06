@@ -30,13 +30,13 @@ const diagnosisItems = [
   },
   {
     ghost: "04",
-    title: "Gobernanza 'Tarde'",
+    title: "Gobernanza llega 'Tarde'",
     stat: "15%",
     description: "Solo el 15% se siente preparado en riesgos. Se acelera sin guardrails o se frena por miedo.",
   },
   {
     ghost: "05",
-    title: "POCs Atrapadas",
+    title: "\"Pruebas eternas\" que no avanzan",
     stat: "80-85%",
     description: "El 80-85% de los pilotos nunca llegan a producción.",
   },
