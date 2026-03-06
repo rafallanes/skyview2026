@@ -52,17 +52,17 @@ const sprintPillars = [
   {
     letter: "S",
     title: "Squads",
-    description: "Especialización por equipos para casos reales del día a día. Nada de demos genéricas.",
+    description: "Especialización por equipos (squads) para aterrizar casos reales del día a día. Nada de demos genéricas.",
   },
   {
     letter: "P",
     title: "Priorities",
-    description: "El negocio decide y prioriza qué cambiar primero. Oficina IA activa desde el minuto uno.",
+    description: "El negocio decide y prioriza qué cambiar primero. Siempre está al volante. Y tiene la Oficina IA activa desde el minuto uno.",
   },
   {
     letter: "R",
     title: "Roadmap",
-    description: "Mapa de ruta claro y 'fast tracks' cortos para replicar lo que funciona.",
+    description: "Mapa de ruta claro y 'fast tracks' o periodos cortos para replicar lo que funciona.",
   },
   {
     letter: "I",
