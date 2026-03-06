@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import AboutSection from "@/components/About";
 
 const About = () => {
@@ -24,6 +25,7 @@ const About = () => {
       </section>
 
       <AboutSection />
+      <Footer />
     </div>
   );
 };
