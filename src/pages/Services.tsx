@@ -5,8 +5,8 @@ const timelineEvents = [
   { year: "2014", label: "EL ORIGEN", description: "Enfoque fundacional en el ahorro de tiempo y dinero gracias a la tecnología." },
   { year: "2016", label: "ECOSISTEMA SAAS", description: "Alianzas estratégicas para la agilidad operativa (Monday, Signaturit, Odoo, Zoho, Xeerpa, Captio)." },
   { year: "2017", label: "LA FÁBRICA RPA", description: "Especialización en automatización robótica de procesos como factoría para 'Big Four' del norte de Europa." },
-  { year: "2022", label: "INTELIGENCIA AVANZADA", description: "Colaboración en proyectos de gran escala con líderes mundiales en visión artificial y ML (ML6, Robovision)." },
-  { year: "2024", label: "METODOLOGÍA SPRINT", description: "Lanzamiento de nuestra metodología propia para acelerar la adopción de la IA y creación de las primeras Oficinas de IA." },
+  { year: "2022", label: "INTELIGENCIA\nARTIFICIAL", description: "Colaboración en proyectos de gran escala con líderes mundiales en visión artificial y ML (ML6, Robovision)." },
+  { year: "2024", label: "INTELIGENCIA\nAUMENTADA", description: "Desarrollo de metodología propia para hacer la IA fácil y puesta en marcha de las primeras Oficinas IA." },
 ];
 
 const methodologySteps = [
@@ -14,25 +14,25 @@ const methodologySteps = [
     number: "01",
     title: "START",
     subtitle: "EL GERMEN",
-    description: "En 2 semanas asignamos tu primer Comité IA, definimos objetivos y planificamos tu primer trimestre con casos priorizados (S/M/L) por departamentos.",
+    description: "PRIMERAS DOS SEMANAS - Consultoría Intensiva. Asignamos Comité IA, definimos objetivos y planificamos primer trimestre con casos de uso.",
   },
   {
     number: "02",
     title: "SPRINT",
     subtitle: "EL MOTOR",
-    description: "90 días de ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real.",
+    description: "PRIMER TRIMESTRE - Ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real.",
   },
   {
     number: "03",
     title: "OFICINA IA AS A SERVICE",
     subtitle: "LA CONSOLIDACIÓN",
-    description: "Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo.",
+    description: "PRIMER AÑO - Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo.",
   },
   {
     number: "04",
-    title: "OFICINA IA PROPIA",
+    title: "OFICINA IA PROPIA (OPCIONAL)",
     subtitle: "LA AUTONOMÍA",
-    description: "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% independiente.",
+    description: "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% autónoma e independiente.",
   },
 ];
 
@@ -67,7 +67,7 @@ const Services = () => {
                       style={{ animationDelay: `${index * 150}ms`, animationFillMode: "both" }}
                     >
                       <span className="text-4xl font-light text-foreground/30 block mb-3">{event.year}</span>
-                      <span className="text-minimal text-foreground font-semibold block mb-3">{event.label}</span>
+                      <span className="text-minimal text-foreground font-semibold block mb-3 whitespace-pre-line">{event.label}</span>
                       <p className="text-sm text-muted-foreground leading-relaxed">{event.description}</p>
                     </div>
                   ))}
@@ -83,7 +83,7 @@ const Services = () => {
                   >
                     <div className="flex items-baseline gap-4 mb-2">
                       <span className="text-2xl font-light text-foreground/30">{event.year}</span>
-                      <span className="text-minimal text-foreground font-semibold">{event.label}</span>
+                      <span className="text-minimal text-foreground font-semibold whitespace-pre-line">{event.label}</span>
                     </div>
                     <p className="text-sm text-muted-foreground leading-relaxed">{event.description}</p>
                   </div>
