@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { ThemeToggle } from "@/components/ThemeToggle";
+import { LanguageToggle } from "@/components/LanguageToggle";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +21,7 @@ const Navigation = () => {
         </div>
 
         <div className="hidden md:flex items-center space-x-4">
-          <ThemeToggle />
+          <LanguageToggle />
         </div>
 
         <Button
@@ -46,7 +46,7 @@ const Navigation = () => {
             
             {/* Mobile Theme Toggle */}
             <div className="pt-4 border-t border-border">
-              <ThemeToggle />
+              <LanguageToggle />
             </div>
           </div>
         </div>
