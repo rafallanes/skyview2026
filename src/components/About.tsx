@@ -114,7 +114,7 @@ const About = () => {
           <img
             src={aboutLaberinto}
             alt=""
-            className="w-full h-full object-cover grayscale opacity-[0.15]"
+            className="w-full h-full object-cover grayscale opacity-[0.15] contrast-[1.8] brightness-[1.2] mix-blend-multiply"
             aria-hidden="true" />
           
         </div>
@@ -270,7 +270,7 @@ const About = () => {
           <img
             src={aboutCta}
             alt=""
-            className="w-full h-full object-cover grayscale opacity-[0.08]"
+            className="w-full h-full object-cover grayscale opacity-[0.15] contrast-[1.8] brightness-[1.2] mix-blend-multiply"
             aria-hidden="true" />
           
         </div>

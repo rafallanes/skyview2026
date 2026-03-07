@@ -10,10 +10,9 @@ const Contact = () => {
         <img
           src={contactBg}
           alt=""
-          className="w-full h-full object-cover opacity-30"
+          className="w-full h-full object-cover opacity-[0.15] grayscale contrast-[1.8] brightness-[1.2] mix-blend-multiply"
           aria-hidden="true"
         />
-        <div className="absolute inset-0 bg-foreground/70" />
       </div>
 
       <div className="relative z-10 py-16 md:py-24">
