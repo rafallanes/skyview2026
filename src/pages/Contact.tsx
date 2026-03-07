@@ -61,11 +61,14 @@ Tres Cantos 28108 MAD SPAIN
                 </div>
                 
                 <div className="pt-12 border-t border-border">
-                  <p className="text-muted-foreground">Hablemos de resultados, no de promesas.
+                  <p className="text-muted-foreground">Hablemos de resultados, no de promesas. 
 
-25 minutos para identificar dónde está el mayor
-impacto de la IA en tu operación actual.
-Sin compromiso, sin humo.<br /><br />
+25 minutos para identificar dónde está el mayor impacto de la IA en tu operación actual. Sin compromiso, sin humo.
+
+
+
+
+                    <br /><br />
                     25 minutos para identificar dónde está el mayor
                     <br />
                     impacto de la IA en tu operación actual.
