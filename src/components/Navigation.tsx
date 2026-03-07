@@ -46,15 +46,16 @@ const Navigation = () => {
           </Link>
         </div>
 
-        {/* CTA Button */}
+        {/* Language Toggle */}
         <div className="hidden md:flex items-center">
-          <Link to="/contacto">
-            <Button
-              className="bg-[hsl(0_0%_100%)] text-[hsl(0_0%_0%)] hover:bg-[hsl(0_0%_90%)] text-xs font-semibold tracking-widest uppercase rounded-sm px-6 py-2 transition-colors duration-300"
-            >
-              Get Started
-            </Button>
-          </Link>
+          <Button
+            variant="ghost"
+            size="sm"
+            className="text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] hover:bg-[hsl(0_0%_15%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300 gap-1.5"
+            disabled
+          >
+            ES
+          </Button>
         </div>
 
         {/* Mobile Toggle */}
@@ -101,11 +102,14 @@ const Navigation = () => {
               Contact
             </Link>
             <div className="pt-4 border-t border-[hsl(0_0%_15%)]">
-              <Link to="/contacto" onClick={() => setIsMenuOpen(false)}>
-                <Button className="w-full bg-[hsl(0_0%_100%)] text-[hsl(0_0%_0%)] hover:bg-[hsl(0_0%_90%)] text-xs font-semibold tracking-widest uppercase rounded-sm px-6 py-2">
-                  Get Started
-                </Button>
-              </Link>
+              <Button
+                variant="ghost"
+                size="sm"
+                className="text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] hover:bg-[hsl(0_0%_15%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300 gap-1.5"
+                disabled
+              >
+                ES
+              </Button>
             </div>
           </div>
         </div>
