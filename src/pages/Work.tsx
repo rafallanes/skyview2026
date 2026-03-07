@@ -132,7 +132,7 @@ const Work = () => {
     subTag: "OFICINA IA" as string | undefined,
     description: "Oficina IA aplicada a procesos financieros industriales. Identificación y priorización de casos de uso para automatización.",
     area: "FINANCIERO",
-    year: "2018"
+    year: "2017"
   },
   {
     image: projectLeroymerlin,
