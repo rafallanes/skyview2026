@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { Globe } from "lucide-react";
 import logoSkyview from "@/assets/logo-skyview.png";
 
 const Navigation = () => {
@@ -54,6 +55,7 @@ const Navigation = () => {
             className="text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] hover:bg-[hsl(0_0%_15%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300 gap-1.5"
             disabled
           >
+            <Globe className="h-3.5 w-3.5" />
             ES
           </Button>
         </div>
@@ -108,6 +110,7 @@ const Navigation = () => {
                 className="text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] hover:bg-[hsl(0_0%_15%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300 gap-1.5"
                 disabled
               >
+                <Globe className="h-3.5 w-3.5" />
                 ES
               </Button>
             </div>
