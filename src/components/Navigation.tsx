@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import logoSkyview from "@/assets/logo-skyview.jpg";
+import logoSkyview from "@/assets/logo-skyview.png";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +14,7 @@ const Navigation = () => {
           <img
             src={logoSkyview}
             alt="Skyview"
-            className="h-10 w-auto object-contain brightness-0 invert"
+            className="h-10 w-auto object-contain"
           />
         </Link>
 
