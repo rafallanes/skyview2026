@@ -14,7 +14,7 @@ const Navigation = () => {
           <img
             src={logoSkyview}
             alt="Skyview"
-            className="h-10 w-auto object-contain"
+            className="h-20 w-auto object-contain"
           />
         </Link>
 
