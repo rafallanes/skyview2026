@@ -33,7 +33,7 @@ const Contact = () => {
                   </div>
                   
                   <div>
-                    <h3 className="text-minimal text-muted-foreground mb-2">STUDIO</h3>
+                    <h3 className="text-minimal text-muted-foreground mb-2">OFICINAS</h3>
                     <address className="text-xl not-italic">Gemma Mengual, 2 - Edificio 23  Tres Cantos 28108 MAD SPAIN
 
 
