@@ -64,8 +64,6 @@ const LogoCarousel = () => {
                 className={`${logo.sizeClass || "max-h-10 md:max-h-12"} w-auto object-contain opacity-60 hover:opacity-90 transition-opacity duration-300 brightness-0 invert`}
                 loading="lazy"
               />
-                loading="lazy"
-              />
             </div>
           ))}
         </div>
