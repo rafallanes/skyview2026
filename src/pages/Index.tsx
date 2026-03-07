@@ -36,7 +36,7 @@ const Index = () => {
       <Hero />
 
       {/* ─── TECH STACK ─── */}
-      <section className="py-16 md:py-20 bg-muted/30">
+      <section className="py-10 md:py-12 bg-muted/30">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h4 className="text-minimal text-muted-foreground mb-10 text-center tracking-widest">STACK TECNOLÓGICO</h4>
@@ -60,7 +60,7 @@ const Index = () => {
       </section>
 
       {/* ─── EXPERIENCIA (Simplificado) ─── */}
-      <section className="py-28 md:py-36 bg-background">
+      <section className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-minimal text-muted-foreground mb-6">EXPERIENCIA</h2>
@@ -75,7 +75,7 @@ const Index = () => {
       </section>
 
       {/* ─── ÁREAS DE IMPACTO (Router de Personas) ─── */}
-      <section className="py-20 md:py-28 bg-background">
+      <section className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest">ÁREAS DE IMPACTO</h3>
@@ -115,7 +115,7 @@ const Index = () => {
       </section>
 
       {/* ─── METODOLOGÍA SPRINT (Teaser) ─── */}
-      <section className="py-28 md:py-36 bg-muted/30">
+      <section className="py-12 md:py-16 bg-muted/30">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-minimal text-muted-foreground mb-6">EL CAMINO MÁS RÁPIDO HACIA TU OFICINA IA</h2>
@@ -136,7 +136,7 @@ const Index = () => {
       </section>
 
       {/* ─── CENTRO DE RECURSOS (Inbound / Lead Magnet) ─── */}
-      <section className="py-28 md:py-36 bg-foreground text-primary-foreground">
+      <section className="py-12 md:py-16 bg-foreground text-primary-foreground">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-minimal text-primary-foreground/40 mb-6">RECURSOS ESTRATÉGICOS</h2>
@@ -167,7 +167,7 @@ const Index = () => {
       </section>
 
       {/* ─── SOCIAL PROOF / LOGO CAROUSEL ─── */}
-      <section className="py-20 md:py-28 bg-background">
+      <section className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <div className="-mx-6 md:mx-0">
