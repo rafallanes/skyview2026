@@ -35,6 +35,7 @@ const logos = [
   { src: logoSeur, alt: "SEUR" },
   { src: logoCodorniu, alt: "Codorníu" },
   { src: logoEconocom, alt: "Econocom" },
+  { src: logoAirEuropa, alt: "Air Europa" },
 ];
 
 const LogoCarousel = () => {
