@@ -33,6 +33,7 @@ const logos = [
   { src: logoEuskaltel, alt: "Euskaltel" },
   { src: logoSeur, alt: "SEUR" },
   { src: logoCodorniu, alt: "Codorníu" },
+  { src: logoEconocom, alt: "Econocom" },
 ];
 
 const LogoCarousel = () => {
