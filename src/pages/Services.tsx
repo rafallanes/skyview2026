@@ -141,25 +141,19 @@ const Services = () => {
         </div>
       </section>
 
-      {/* ─── FULL-BLEED PHOTO ─── */}
-      <section className="bg-background">
-        <div className="container mx-auto px-6">
-          <div className="max-w-7xl mx-auto -mx-6 md:mx-0">
-            <div className="aspect-[21/9] overflow-hidden">
-              <img
-                src={servicesArch}
-                alt="Arcos geométricos de hormigón en blanco y negro"
-                className="w-full h-full object-cover object-center grayscale"
-                loading="lazy"
-              />
-            </div>
-          </div>
+      {/* ─── ÁREAS DE IMPACTO (con foto de fondo) ─── */}
+      <section className="relative pt-8 md:pt-10 pb-12 md:pb-16 bg-background overflow-hidden">
+        {/* Background image with architectural effect */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src={servicesArch}
+            alt=""
+            className="w-full h-full object-cover opacity-[0.15] grayscale contrast-[1.8] brightness-[1.2] mix-blend-multiply"
+            aria-hidden="true"
+          />
         </div>
-      </section>
 
-      {/* ─── ÁREAS DE IMPACTO ─── */}
-      <section className="pt-8 md:pt-10 pb-12 md:pb-16 bg-background">
-        <div className="container mx-auto px-6">
+        <div className="relative z-10 container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest">ÁREAS DE IMPACTO</h3>
             <h4 className="text-3xl md:text-5xl font-light text-architectural mb-16 max-w-4xl">
