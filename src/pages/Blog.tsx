@@ -18,7 +18,7 @@ const Blog = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-20">
+      <section className="pt-32 pb-12">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <div className="mb-12">
@@ -63,7 +63,7 @@ const Blog = () => {
       </section>
 
       {/* Blog Posts Grid */}
-      <section className="pb-32">
+      <section className="pb-16">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16">
@@ -118,7 +118,7 @@ const Blog = () => {
       </section>
 
       {/* Newsletter Section */}
-      <section className="py-32 bg-muted">
+      <section className="py-12 md:py-16 bg-muted">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-6xl font-light text-architectural mb-8">

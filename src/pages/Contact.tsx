@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
-      <section className="pt-32 pb-32 bg-background">
+      <section className="pt-32 pb-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <div className="grid md:grid-cols-2 gap-20">

@@ -63,7 +63,7 @@ const Services = () => {
       </section>
 
       {/* ─── TIMELINE ─── */}
-      <section className="pt-10 md:pt-12 pb-20 md:pb-28 bg-background">
+      <section className="pt-8 md:pt-10 pb-12 md:pb-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             {/* Desktop */}
@@ -111,7 +111,7 @@ const Services = () => {
       </section>
 
       {/* ─── STACK TECNOLÓGICO (after reinforcement text) ─── */}
-      <section className="pt-10 md:pt-12 pb-20 md:pb-28 bg-muted/30">
+      <section className="pt-8 md:pt-10 pb-12 md:pb-16 bg-muted/30">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest">STACK TECNOLÓGICO</h3>
@@ -158,7 +158,7 @@ const Services = () => {
       </section>
 
       {/* ─── ÁREAS DE IMPACTO ─── */}
-      <section className="pt-10 md:pt-12 pb-20 md:pb-28 bg-background">
+      <section className="pt-8 md:pt-10 pb-12 md:pb-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest">ÁREAS DE IMPACTO</h3>
@@ -192,7 +192,7 @@ const Services = () => {
       </section>
 
       {/* ─── METODOLOGÍA ─── */}
-      <section className="pt-10 md:pt-12 pb-20 md:pb-28 bg-background">
+      <section className="pt-8 md:pt-10 pb-12 md:pb-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h3 className="text-minimal text-muted-foreground mb-6">METODOLOGÍA</h3>
@@ -229,7 +229,7 @@ const Services = () => {
       </section>
 
       {/* ─── SOCIAL PROOF / LOGO CAROUSEL ─── */}
-      <section className="pt-10 md:pt-12 pb-20 md:pb-28 bg-background">
+      <section className="pt-8 md:pt-10 pb-12 md:pb-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest">CLIENTES</h3>
@@ -244,7 +244,7 @@ const Services = () => {
       </section>
 
       {/* ─── CTA FINAL ─── */}
-      <section className="py-20 md:py-28 bg-foreground text-background">
+      <section className="py-12 md:py-16 bg-foreground text-background">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-light mb-8 leading-tight">

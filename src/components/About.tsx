@@ -119,7 +119,7 @@ const About = () => {
           
         </div>
 
-        <div className="relative z-10 py-28 md:py-40">
+        <div className="relative z-10 py-12 md:py-16">
           <div className="container mx-auto px-6">
             <div className="max-w-7xl mx-auto">
               <Reveal>
@@ -180,7 +180,7 @@ const About = () => {
           </Reveal>
 
           {/* Right: Philosophy text */}
-          <div className="flex items-center py-20 md:py-32 px-8 md:px-16 lg:px-24">
+          <div className="flex items-center py-12 md:py-16 px-8 md:px-16 lg:px-24">
             <div className="max-w-xl">
               <Reveal>
                 <h4 className="text-minimal text-muted-foreground mb-4">TECNOLOGÍA AL SERVICIO DE LAS PERSONAS</h4>
@@ -222,7 +222,7 @@ const About = () => {
       {/* ═══════════════════════════════════════════════
                                                                                                                                                                                                                                                                                                                          SECTION 3 — EL MODELO OPERATIVO (S-P-R-I-N-T)
                                                                                                                                                                                                                                                                                                                          ═══════════════════════════════════════════════ */}
-      <div className="py-28 md:py-40 bg-background">
+      <div className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <Reveal>
@@ -275,7 +275,7 @@ const About = () => {
           
         </div>
 
-        <div className="relative z-10 py-28 md:py-40">
+        <div className="relative z-10 py-12 md:py-16">
           <div className="container mx-auto px-6">
             <div className="max-w-7xl mx-auto">
               <div className="grid md:grid-cols-2 gap-16 md:gap-24 items-start">
