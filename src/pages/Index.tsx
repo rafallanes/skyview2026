@@ -23,11 +23,6 @@ const techLogos = [
 { src: logoPinecone, alt: "Pinecone" }];
 
 
-const impactAreas = [
-{ icon: Cog, title: "Operaciones y Procesos", department: "Operaciones", description: "Automatización de tareas críticas y optimización de flujos para reducir costes operativos." },
-{ icon: TrendingUp, title: "Ventas y Marketing", department: "Ventas", description: "Modelos predictivos de demanda y personalización de la experiencia de cliente para acelerar el crecimiento." },
-{ icon: BarChart3, title: "Departamento Financiero (CFO)", department: "Financiero", description: "Optimización de flujos de caja, detección de anomalías y proyecciones inteligentes para decisiones basadas en datos." },
-{ icon: Users, title: "Talento Humano", department: "Talento", description: "Herramientas de IA para multiplicar la productividad de sus equipos y facilitar la gestión del cambio." }];
 
 
 const Index = () => {

@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import LogoCarousel from "@/components/LogoCarousel";
-import servicesArch from "@/assets/about-cta.png";
+
 import logoOpenAI from "@/assets/logos/openai.png";
 import logoAzure from "@/assets/logos/azure.png";
 import logoGoogleCloud from "@/assets/logos/google-cloud.png";
@@ -35,11 +35,6 @@ const techLogos = [
 { src: logoPinecone, alt: "Pinecone" }];
 
 
-const impactAreas = [
-{ icon: Cog, title: "Operaciones y Procesos", description: "Automatización de tareas críticas y optimización de flujos para reducir costes operativos." },
-{ icon: TrendingUp, title: "Ventas y Marketing", description: "Modelos predictivos de demanda y personalización de la experiencia de cliente para acelerar el crecimiento." },
-{ icon: BarChart3, title: "Departamento Financiero (CFO)", description: "Optimización de flujos de caja, detección de anomalías y proyecciones inteligentes para decisiones basadas en datos." },
-{ icon: Users, title: "Talento Humano", description: "Herramientas de IA para multiplicar la productividad de sus equipos y facilitar la gestión del cambio." }];
 
 
 const Services = () => {
