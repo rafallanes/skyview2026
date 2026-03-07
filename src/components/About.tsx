@@ -108,7 +108,7 @@ const About = () => {
       {/* ═══════════════════════════════════════════════
                                                                                                                                                                                                                                                                                                                          SECTION 1 — EL LABERINTO (Dark Mode Impact)
                                                                                                                                                                                                                                                                                                                          ═══════════════════════════════════════════════ */}
-      <div className="relative bg-foreground text-primary-foreground overflow-hidden">
+      <div className="relative bg-black text-white overflow-hidden">
         {/* Background architectural image */}
         <div className="absolute inset-0 z-0">
           <img
@@ -123,7 +123,7 @@ const About = () => {
           <div className="container mx-auto px-6">
             <div className="max-w-7xl mx-auto">
               <Reveal>
-                <h4 className="text-minimal text-primary-foreground/50 mb-6">EL DIAGNÓSTICO</h4>
+                <h4 className="text-minimal text-white/50 mb-6">EL DIAGNÓSTICO</h4>
               </Reveal>
               <Reveal delay={0.1}>
                 <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-architectural max-w-5xl mb-8">
@@ -131,7 +131,7 @@ const About = () => {
                 </h2>
               </Reveal>
               <Reveal delay={0.15}>
-                <p className="text-lg md:text-xl text-primary-foreground/60 max-w-3xl mb-20 font-light leading-relaxed">
+                <p className="text-lg md:text-xl text-white/60 max-w-3xl mb-20 font-light leading-relaxed">
                   El 85% de los proyectos de IA fallan por falta de método. Diseñamos la estructura que garantiza el impacto real en tu cuenta de resultados.
                 </p>
               </Reveal>
@@ -140,17 +140,17 @@ const About = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
                 {diagnosisItems.map((item, i) =>
                 <Reveal key={i} delay={i * 0.08}>
-                    <div className="group relative border-t border-primary-foreground/10 py-10 md:py-14 pr-8 overflow-hidden">
+                    <div className="group relative border-t border-white/10 py-10 md:py-14 pr-8 overflow-hidden">
                       {/* Ghost number */}
-                      <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-primary-foreground/[0.25] select-none pointer-events-none leading-none">
+                      <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-white/[0.25] select-none pointer-events-none leading-none">
                         {item.ghost}
                       </span>
                       <div className="relative z-10">
-                        <span className="text-minimal text-primary-foreground/30 block mb-2 whitespace-pre-line">{item.stat}</span>
-                        <h5 className="text-xl font-semibold mb-3 group-hover:text-primary-foreground/70 transition-colors duration-500">
+                        <span className="text-minimal text-white/30 block mb-2 whitespace-pre-line">{item.stat}</span>
+                        <h5 className="text-xl font-semibold mb-3 group-hover:text-white/70 transition-colors duration-500">
                           {item.title}
                         </h5>
-                        <p className="text-primary-foreground/50 leading-relaxed font-light text-sm md:text-base">
+                        <p className="text-white/50 leading-relaxed font-light text-sm md:text-base">
                           {item.description}
                         </p>
                       </div>
@@ -158,7 +158,7 @@ const About = () => {
                   </Reveal>
                 )}
               </div>
-              <div className="border-t border-primary-foreground/10" />
+              <div className="border-t border-white/10" />
             </div>
           </div>
         </div>
