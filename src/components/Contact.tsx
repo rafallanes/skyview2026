@@ -1,76 +1,81 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Mail, Phone, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import contactBg from "@/assets/contact-bg.jpg";
 
 const Contact = () => {
   return (
     <section id="contact" className="relative bg-foreground text-primary-foreground overflow-hidden">
-      {/* Background image */}
+      {/* Background image with overlay */}
       <div className="absolute inset-0 z-0">
         <img
           src={contactBg}
           alt=""
-          className="w-full h-full object-cover grayscale opacity-[0.08]"
+          className="w-full h-full object-cover opacity-30"
           aria-hidden="true"
         />
+        <div className="absolute inset-0 bg-foreground/70" />
       </div>
 
-      <div className="relative z-10 py-12 md:py-16">
+      <div className="relative z-10 py-16 md:py-24">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <div className="grid md:grid-cols-2 gap-16 md:gap-24 items-start">
 
-              {/* Left column — Contact info */}
+              {/* Left column — Contacto Directo */}
               <div>
-                <h2 className="text-minimal text-primary-foreground/40 mb-4">CONTACTO</h2>
-                <h3 className="text-4xl md:text-6xl font-light text-architectural mb-12">
-                  Hablemos de impacto, no de herramientas.
+                <h2 className="text-minimal text-primary-foreground/40 mb-4">CONTACTO DIRECTO</h2>
+                <h3 className="text-3xl md:text-5xl font-bold mb-12" style={{ lineHeight: 1.1 }}>
+                  Estamos a un clic de transformar su operativa.
                 </h3>
 
                 <div className="space-y-8">
-                  <div>
-                    <h4 className="text-minimal text-primary-foreground/40 mb-2">EMAIL</h4>
-                    <a href="mailto:info@skyview.es" className="text-xl text-primary-foreground hover:text-primary-foreground/70 transition-colors duration-300">
-                      info@skyview.es
-                    </a>
-                  </div>
-
-                  <div>
-                    <h4 className="text-minimal text-primary-foreground/40 mb-2">TELÉFONO</h4>
-                    <a href="tel:+34691824746" className="text-xl text-primary-foreground hover:text-primary-foreground/70 transition-colors duration-300">
-                      (+34) 691-824 746
-                    </a>
-                  </div>
-
-                  <div>
-                    <h4 className="text-minimal text-primary-foreground/40 mb-2">OFICINAS</h4>
-                    <address className="text-xl not-italic text-primary-foreground/80">
-                      Gemma Mengual, 2 - Edificio 23
-                      <br />
-                      Tres Cantos 28108 MAD SPAIN
-                    </address>
-                  </div>
-
-                  <div>
-                    <h4 className="text-minimal text-primary-foreground/40 mb-6">SÍGUENOS</h4>
-                    <div className="space-y-4">
-                      <a href="#" className="block text-xl text-primary-foreground hover:text-primary-foreground/70 transition-colors duration-300">
-                        Instagram
-                      </a>
-                      <a href="#" className="block text-xl text-primary-foreground hover:text-primary-foreground/70 transition-colors duration-300">
-                        LinkedIn
-                      </a>
-                      <a href="#" className="block text-xl text-primary-foreground hover:text-primary-foreground/70 transition-colors duration-300">
-                        Behance
+                  <div className="flex items-start gap-4">
+                    <Mail className="h-5 w-5 text-primary-foreground/50 mt-1 shrink-0" />
+                    <div>
+                      <h4 className="text-minimal text-primary-foreground/40 mb-1">EMAIL</h4>
+                      <a href="mailto:info@skyview.es" className="text-lg text-primary-foreground hover:text-primary-foreground/70 transition-colors duration-300">
+                        info@skyview.es
                       </a>
                     </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <Phone className="h-5 w-5 text-primary-foreground/50 mt-1 shrink-0" />
+                    <div>
+                      <h4 className="text-minimal text-primary-foreground/40 mb-1">TELÉFONO</h4>
+                      <a href="tel:+34691824746" className="text-lg text-primary-foreground hover:text-primary-foreground/70 transition-colors duration-300">
+                        (+34) 691-824 746
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <MapPin className="h-5 w-5 text-primary-foreground/50 mt-1 shrink-0" />
+                    <div>
+                      <h4 className="text-minimal text-primary-foreground/40 mb-1">OFICINAS</h4>
+                      <address className="text-lg not-italic text-primary-foreground/80 leading-relaxed">
+                        Gemma Mengual, 2 - Edificio 23
+                        <br />
+                        Tres Cantos 28108 MAD SPAIN
+                      </address>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Social */}
+                <div className="mt-12 pt-8 border-t border-primary-foreground/10">
+                  <h4 className="text-minimal text-primary-foreground/40 mb-4">SÍGUENOS</h4>
+                  <div className="flex gap-8">
+                    <a href="#" className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors duration-300">LinkedIn</a>
+                    <a href="#" className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors duration-300">Instagram</a>
+                    <a href="#" className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors duration-300">Behance</a>
                   </div>
                 </div>
               </div>
 
               {/* Right column — CTA Agenda */}
               <div>
-                <h4 className="text-minimal text-primary-foreground/40 mb-6">SIGUIENTE PASO</h4>
+                <h4 className="text-minimal text-primary-foreground/40 mb-4">SIGUIENTE PASO</h4>
                 <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6" style={{ lineHeight: 1.1 }}>
                   Agenda tu sesión<br />START de 25 minutos.
                 </h3>
