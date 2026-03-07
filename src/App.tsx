@@ -25,12 +25,12 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/proyectos" element={<Work />} />
           <Route path="/que-hacemos" element={<Services />} />
           <Route path="/oficina-IA" element={<About />} />
+          <Route path="/casos-de-exito" element={<Work />} />
+          <Route path="/recursos" element={<Blog />} />
+          <Route path="/recursos/:id" element={<BlogPost />} />
           <Route path="/contacto" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:id" element={<BlogPost />} />
           <Route path="/aviso-legal" element={<AvisoLegal />} />
           <Route path="/privacidad" element={<Privacidad />} />
           <Route path="/condiciones-sow" element={<CondicionesSow />} />

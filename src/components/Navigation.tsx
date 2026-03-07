@@ -22,28 +22,34 @@ const Navigation = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-10">
           <Link
-            to="/"
-            className="text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300"
-          >
-            Home
-          </Link>
-          <Link
             to="/que-hacemos"
             className="text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300"
           >
-            What We Do
+            Qué Hacemos
           </Link>
           <Link
             to="/oficina-IA"
             className="text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300"
           >
-            AI Office
+            Oficina IA
+          </Link>
+          <Link
+            to="/casos-de-exito"
+            className="text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300"
+          >
+            Casos de Éxito
+          </Link>
+          <Link
+            to="/recursos"
+            className="text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300"
+          >
+            Recursos
           </Link>
           <Link
             to="/contacto"
             className="text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300"
           >
-            Contact
+            Contacto
           </Link>
         </div>
 
@@ -76,32 +82,39 @@ const Navigation = () => {
         <div className="md:hidden bg-[hsl(0_0%_0%)] border-t border-[hsl(0_0%_15%)]">
           <div className="container mx-auto px-6 py-6 space-y-5">
             <Link
-              to="/"
-              onClick={() => setIsMenuOpen(false)}
-              className="block text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300"
-            >
-              Home
-            </Link>
-            <Link
               to="/que-hacemos"
               onClick={() => setIsMenuOpen(false)}
               className="block text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300"
             >
-              What We Do
+              Qué Hacemos
             </Link>
             <Link
               to="/oficina-IA"
               onClick={() => setIsMenuOpen(false)}
               className="block text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300"
             >
-              AI Office
+              Oficina IA
+            </Link>
+            <Link
+              to="/casos-de-exito"
+              onClick={() => setIsMenuOpen(false)}
+              className="block text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300"
+            >
+              Casos de Éxito
+            </Link>
+            <Link
+              to="/recursos"
+              onClick={() => setIsMenuOpen(false)}
+              className="block text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300"
+            >
+              Recursos
             </Link>
             <Link
               to="/contacto"
               onClick={() => setIsMenuOpen(false)}
               className="block text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300"
             >
-              Contact
+              Contacto
             </Link>
             <div className="pt-4 border-t border-[hsl(0_0%_15%)]">
               <Button
