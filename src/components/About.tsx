@@ -287,36 +287,36 @@ const About = () => {
                     <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6" style={{ lineHeight: 1.1 }}>
                       Descarga el Paper:<br />El Laberinto de la IA
                     </h3>
-                    <p className="text-primary-foreground/50 leading-relaxed mb-10 font-light text-lg">
+                    <p className="text-white/50 leading-relaxed mb-10 font-light text-lg">
                       Todo lo que necesitas saber sobre por qué fallan los proyectos de IA y cómo evitarlo. Datos, frameworks y casos reales.
                     </p>
 
                     {/* Mini PDF mockup */}
-                    <div className="border border-primary-foreground/10 p-8 mb-10 max-w-xs">
-                      <div className="border border-primary-foreground/20 aspect-[3/4] flex flex-col items-center justify-center p-6 text-center">
-                        <span className="text-minimal text-primary-foreground/30 mb-4">WHITE PAPER</span>
+                    <div className="border border-white/10 p-8 mb-10 max-w-xs">
+                      <div className="border border-white/20 aspect-[3/4] flex flex-col items-center justify-center p-6 text-center">
+                        <span className="text-minimal text-white/30 mb-4">WHITE PAPER</span>
                         <h5 className="text-lg font-semibold leading-tight mb-2">El Laberinto<br />de la IA</h5>
-                        <span className="text-xs text-primary-foreground/30 mt-auto">SKYVIEW · 2026</span>
+                        <span className="text-xs text-white/30 mt-auto">SKYVIEW · 2026</span>
                       </div>
                     </div>
 
                     {/* Lead form */}
                     <div className="space-y-4 max-w-sm">
                       <div className="relative">
-                        <Mail className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-primary-foreground/30" />
+                        <Mail className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-white/30" />
                         <Input
                           placeholder="Email corporativo"
-                          className="bg-transparent border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/30 rounded-none pl-10 h-12 focus-visible:ring-primary-foreground/30" />
+                          className="bg-transparent border-white/20 text-white placeholder:text-white/30 rounded-none pl-10 h-12 focus-visible:ring-white/30" />
                         
                       </div>
                       <div className="relative">
-                        <Building2 className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-primary-foreground/30" />
+                        <Building2 className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-white/30" />
                         <Input
                           placeholder="Empresa"
-                          className="bg-transparent border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/30 rounded-none pl-10 h-12 focus-visible:ring-primary-foreground/30" />
+                          className="bg-transparent border-white/20 text-white placeholder:text-white/30 rounded-none pl-10 h-12 focus-visible:ring-white/30" />
                         
                       </div>
-                      <Button className="w-full bg-primary-foreground text-foreground hover:bg-primary-foreground/90 rounded-none h-12 text-sm tracking-wide font-semibold">
+                      <Button className="w-full bg-white text-black hover:bg-white/90 rounded-none h-12 text-sm tracking-wide font-semibold">
                         <Download className="mr-2 h-4 w-4" />
                         DESCARGAR PAPER
                       </Button>
@@ -327,31 +327,31 @@ const About = () => {
                 {/* CTA — Agenda */}
                 <Reveal delay={0.15}>
                   <div>
-                    <h4 className="text-minimal text-primary-foreground/40 mb-6">SIGUIENTE PASO</h4>
+                    <h4 className="text-minimal text-white/40 mb-6">SIGUIENTE PASO</h4>
                     <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6" style={{ lineHeight: 1.1 }}>
                       Agenda tu sesión START de 25 minutos.
                     </h3>
-                    <p className="text-primary-foreground/50 leading-relaxed mb-10 font-light text-lg">
+                    <p className="text-white/50 leading-relaxed mb-10 font-light text-lg">
                       Sin compromiso. Te mostramos cómo aplicar nuestra metodología a tu caso concreto y qué resultados puedes esperar.
                     </p>
-                    <Button className="bg-primary-foreground text-foreground hover:bg-primary-foreground/90 rounded-none px-10 py-6 text-sm tracking-wide font-semibold">
+                    <Button className="bg-white text-black hover:bg-white/90 rounded-none px-10 py-6 text-sm tracking-wide font-semibold">
                       AGENDAR SESIÓN START
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
 
                     {/* Trust signals */}
-                    <div className="mt-16 pt-8 border-t border-primary-foreground/10 grid grid-cols-3 gap-6">
+                    <div className="mt-16 pt-8 border-t border-white/10 grid grid-cols-3 gap-6">
                       <div>
                         <span className="text-2xl font-bold">200+</span>
-                        <p className="text-xs text-primary-foreground/40 mt-1">Proyectos</p>
+                        <p className="text-xs text-white/40 mt-1">Proyectos</p>
                       </div>
                       <div>
                         <span className="text-2xl font-bold">90d</span>
-                        <p className="text-xs text-primary-foreground/40 mt-1">Sprint medio</p>
+                        <p className="text-xs text-white/40 mt-1">Sprint medio</p>
                       </div>
                       <div>
                         <span className="text-2xl font-bold">2012</span>
-                        <p className="text-xs text-primary-foreground/40 mt-1">Desde</p>
+                        <p className="text-xs text-white/40 mt-1">Desde</p>
                       </div>
                     </div>
                   </div>
