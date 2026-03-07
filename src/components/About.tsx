@@ -146,7 +146,7 @@ const About = () => {
                         {item.ghost}
                       </span>
                       <div className="relative z-10">
-                        <span className="text-minimal text-gray-400 block mb-2 whitespace-pre-line">{item.stat}</span>
+                        <span className="text-minimal text-gray-600 block mb-2 whitespace-pre-line">{item.stat}</span>
                         <h5 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-gray-500 transition-colors duration-500">
                           {item.title}
                         </h5>
