@@ -15,6 +15,7 @@ import logoEuskaltel from "@/assets/logos/euskaltel-clean.png";
 import logoSeur from "@/assets/logos/seur.png";
 import logoCodorniu from "@/assets/logos/codorniu.png";
 import logoEconocom from "@/assets/logos/econocom.png";
+import logoAirEuropa from "@/assets/logos/air-europa.png";
 
 const logos = [
   { src: logoRafaNadal, alt: "Rafa Nadal Academy" },
@@ -34,6 +35,7 @@ const logos = [
   { src: logoSeur, alt: "SEUR" },
   { src: logoCodorniu, alt: "Codorníu" },
   { src: logoEconocom, alt: "Econocom" },
+  { src: logoAirEuropa, alt: "Air Europa" },
 ];
 
 const LogoCarousel = () => {
