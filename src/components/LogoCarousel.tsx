@@ -34,8 +34,8 @@ const logos = [
   { src: logoEuskaltel, alt: "Euskaltel" },
   { src: logoSeur, alt: "SEUR" },
   { src: logoCodorniu, alt: "Codorníu" },
-  { src: logoEconocom, alt: "Econocom" },
-  { src: logoAirEuropa, alt: "Air Europa" },
+  { src: logoEconocom, alt: "Econocom", sizeClass: "max-h-8 md:max-h-10" },
+  { src: logoAirEuropa, alt: "Air Europa", sizeClass: "max-h-14 md:max-h-16" },
 ];
 
 const LogoCarousel = () => {
@@ -61,7 +61,7 @@ const LogoCarousel = () => {
               <img
                 src={logo.src}
                 alt={logo.alt}
-                className="max-h-10 md:max-h-12 w-auto object-contain opacity-60 hover:opacity-90 transition-opacity duration-300 brightness-0 invert"
+                className={`${logo.sizeClass || "max-h-10 md:max-h-12"} w-auto object-contain opacity-60 hover:opacity-90 transition-opacity duration-300 brightness-0 invert`}
                 loading="lazy"
               />
             </div>
