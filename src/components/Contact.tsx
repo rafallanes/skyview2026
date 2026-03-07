@@ -33,8 +33,8 @@ const Contact = () => {
                     <Mail className="h-5 w-5 text-primary-foreground/50 mt-1 shrink-0" />
                     <div>
                       <h4 className="text-minimal text-primary-foreground/40 mb-1">EMAIL</h4>
-                      <a href="mailto:info@skyview.es" className="text-lg text-primary-foreground hover:text-primary-foreground/70 transition-colors duration-300">
-                        info@skyview.es
+                      <a href="mailto:hola@skyview.es" className="text-lg text-primary-foreground hover:text-primary-foreground/70 transition-colors duration-300">
+                        hola@skyview.es
                       </a>
                     </div>
                   </div>
