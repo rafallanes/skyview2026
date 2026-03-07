@@ -265,7 +265,7 @@ const About = () => {
       {/* ═══════════════════════════════════════════════
                                                                                                                                                                                                                                                                                                                          SECTION 4 — LEAD MAGNET & CTA
                                                                                                                                                                                                                                                                                                                          ═══════════════════════════════════════════════ */}
-      <div className="relative bg-foreground text-primary-foreground overflow-hidden">
+      <div className="relative bg-black text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src={aboutCta}
@@ -283,7 +283,7 @@ const About = () => {
                 {/* Lead Magnet — Paper */}
                 <Reveal>
                   <div>
-                    <h4 className="text-minimal text-primary-foreground/40 mb-6">RECURSO DESTACADO</h4>
+                    <h4 className="text-minimal text-white/40 mb-6">RECURSO DESTACADO</h4>
                     <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6" style={{ lineHeight: 1.1 }}>
                       Descarga el Paper:<br />El Laberinto de la IA
                     </h3>
