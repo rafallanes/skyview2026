@@ -39,12 +39,7 @@ const Navigation = () => {
           >
             Casos de Éxito
           </Link>
-          <Link
-            to="/recursos"
-            className="text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300"
-          >
-            Recursos
-          </Link>
+          {/* Recursos - oculto temporalmente */}
           <Link
             to="/contacto"
             className="text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300"
@@ -102,13 +97,7 @@ const Navigation = () => {
             >
               Casos de Éxito
             </Link>
-            <Link
-              to="/recursos"
-              onClick={() => setIsMenuOpen(false)}
-              className="block text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300"
-            >
-              Recursos
-            </Link>
+            {/* Recursos - oculto temporalmente */}
             <Link
               to="/contacto"
               onClick={() => setIsMenuOpen(false)}
