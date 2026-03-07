@@ -108,7 +108,7 @@ const About = () => {
       {/* ═══════════════════════════════════════════════
                                                                                                                                                                                                                                                                                                                          SECTION 1 — EL LABERINTO (Dark Mode Impact)
                                                                                                                                                                                                                                                                                                                          ═══════════════════════════════════════════════ */}
-      <div className="relative bg-foreground text-primary-foreground overflow-hidden">
+      <div className="relative bg-black text-white overflow-hidden">
         {/* Background architectural image */}
         <div className="absolute inset-0 z-0">
           <img
@@ -123,7 +123,7 @@ const About = () => {
           <div className="container mx-auto px-6">
             <div className="max-w-7xl mx-auto">
               <Reveal>
-                <h4 className="text-minimal text-primary-foreground/50 mb-6">EL DIAGNÓSTICO</h4>
+                <h4 className="text-minimal text-white/50 mb-6">EL DIAGNÓSTICO</h4>
               </Reveal>
               <Reveal delay={0.1}>
                 <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-architectural max-w-5xl mb-8">
@@ -131,7 +131,7 @@ const About = () => {
                 </h2>
               </Reveal>
               <Reveal delay={0.15}>
-                <p className="text-lg md:text-xl text-primary-foreground/60 max-w-3xl mb-20 font-light leading-relaxed">
+                <p className="text-lg md:text-xl text-white/60 max-w-3xl mb-20 font-light leading-relaxed">
                   El 85% de los proyectos de IA fallan por falta de método. Diseñamos la estructura que garantiza el impacto real en tu cuenta de resultados.
                 </p>
               </Reveal>
@@ -140,17 +140,17 @@ const About = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
                 {diagnosisItems.map((item, i) =>
                 <Reveal key={i} delay={i * 0.08}>
-                    <div className="group relative border-t border-primary-foreground/10 py-10 md:py-14 pr-8 overflow-hidden">
+                    <div className="group relative border-t border-white/10 py-10 md:py-14 pr-8 overflow-hidden">
                       {/* Ghost number */}
-                      <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-primary-foreground/[0.25] select-none pointer-events-none leading-none">
+                      <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-white/[0.25] select-none pointer-events-none leading-none">
                         {item.ghost}
                       </span>
                       <div className="relative z-10">
-                        <span className="text-minimal text-primary-foreground/30 block mb-2 whitespace-pre-line">{item.stat}</span>
-                        <h5 className="text-xl font-semibold mb-3 group-hover:text-primary-foreground/70 transition-colors duration-500">
+                        <span className="text-minimal text-white/30 block mb-2 whitespace-pre-line">{item.stat}</span>
+                        <h5 className="text-xl font-semibold mb-3 group-hover:text-white/70 transition-colors duration-500">
                           {item.title}
                         </h5>
-                        <p className="text-primary-foreground/50 leading-relaxed font-light text-sm md:text-base">
+                        <p className="text-white/50 leading-relaxed font-light text-sm md:text-base">
                           {item.description}
                         </p>
                       </div>
@@ -158,7 +158,7 @@ const About = () => {
                   </Reveal>
                 )}
               </div>
-              <div className="border-t border-primary-foreground/10" />
+              <div className="border-t border-white/10" />
             </div>
           </div>
         </div>
@@ -265,7 +265,7 @@ const About = () => {
       {/* ═══════════════════════════════════════════════
                                                                                                                                                                                                                                                                                                                          SECTION 4 — LEAD MAGNET & CTA
                                                                                                                                                                                                                                                                                                                          ═══════════════════════════════════════════════ */}
-      <div className="relative bg-foreground text-primary-foreground overflow-hidden">
+      <div className="relative bg-black text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src={aboutCta}
@@ -283,40 +283,40 @@ const About = () => {
                 {/* Lead Magnet — Paper */}
                 <Reveal>
                   <div>
-                    <h4 className="text-minimal text-primary-foreground/40 mb-6">RECURSO DESTACADO</h4>
+                    <h4 className="text-minimal text-white/40 mb-6">RECURSO DESTACADO</h4>
                     <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6" style={{ lineHeight: 1.1 }}>
                       Descarga el Paper:<br />El Laberinto de la IA
                     </h3>
-                    <p className="text-primary-foreground/50 leading-relaxed mb-10 font-light text-lg">
+                    <p className="text-white/50 leading-relaxed mb-10 font-light text-lg">
                       Todo lo que necesitas saber sobre por qué fallan los proyectos de IA y cómo evitarlo. Datos, frameworks y casos reales.
                     </p>
 
                     {/* Mini PDF mockup */}
-                    <div className="border border-primary-foreground/10 p-8 mb-10 max-w-xs">
-                      <div className="border border-primary-foreground/20 aspect-[3/4] flex flex-col items-center justify-center p-6 text-center">
-                        <span className="text-minimal text-primary-foreground/30 mb-4">WHITE PAPER</span>
+                    <div className="border border-white/10 p-8 mb-10 max-w-xs">
+                      <div className="border border-white/20 aspect-[3/4] flex flex-col items-center justify-center p-6 text-center">
+                        <span className="text-minimal text-white/30 mb-4">WHITE PAPER</span>
                         <h5 className="text-lg font-semibold leading-tight mb-2">El Laberinto<br />de la IA</h5>
-                        <span className="text-xs text-primary-foreground/30 mt-auto">SKYVIEW · 2026</span>
+                        <span className="text-xs text-white/30 mt-auto">SKYVIEW · 2026</span>
                       </div>
                     </div>
 
                     {/* Lead form */}
                     <div className="space-y-4 max-w-sm">
                       <div className="relative">
-                        <Mail className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-primary-foreground/30" />
+                        <Mail className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-white/30" />
                         <Input
                           placeholder="Email corporativo"
-                          className="bg-transparent border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/30 rounded-none pl-10 h-12 focus-visible:ring-primary-foreground/30" />
+                          className="bg-transparent border-white/20 text-white placeholder:text-white/30 rounded-none pl-10 h-12 focus-visible:ring-white/30" />
                         
                       </div>
                       <div className="relative">
-                        <Building2 className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-primary-foreground/30" />
+                        <Building2 className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-white/30" />
                         <Input
                           placeholder="Empresa"
-                          className="bg-transparent border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/30 rounded-none pl-10 h-12 focus-visible:ring-primary-foreground/30" />
+                          className="bg-transparent border-white/20 text-white placeholder:text-white/30 rounded-none pl-10 h-12 focus-visible:ring-white/30" />
                         
                       </div>
-                      <Button className="w-full bg-primary-foreground text-foreground hover:bg-primary-foreground/90 rounded-none h-12 text-sm tracking-wide font-semibold">
+                      <Button className="w-full bg-white text-black hover:bg-white/90 rounded-none h-12 text-sm tracking-wide font-semibold">
                         <Download className="mr-2 h-4 w-4" />
                         DESCARGAR PAPER
                       </Button>
@@ -327,31 +327,31 @@ const About = () => {
                 {/* CTA — Agenda */}
                 <Reveal delay={0.15}>
                   <div>
-                    <h4 className="text-minimal text-primary-foreground/40 mb-6">SIGUIENTE PASO</h4>
+                    <h4 className="text-minimal text-white/40 mb-6">SIGUIENTE PASO</h4>
                     <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6" style={{ lineHeight: 1.1 }}>
                       Agenda tu sesión START de 25 minutos.
                     </h3>
-                    <p className="text-primary-foreground/50 leading-relaxed mb-10 font-light text-lg">
+                    <p className="text-white/50 leading-relaxed mb-10 font-light text-lg">
                       Sin compromiso. Te mostramos cómo aplicar nuestra metodología a tu caso concreto y qué resultados puedes esperar.
                     </p>
-                    <Button className="bg-primary-foreground text-foreground hover:bg-primary-foreground/90 rounded-none px-10 py-6 text-sm tracking-wide font-semibold">
+                    <Button className="bg-white text-black hover:bg-white/90 rounded-none px-10 py-6 text-sm tracking-wide font-semibold">
                       AGENDAR SESIÓN START
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
 
                     {/* Trust signals */}
-                    <div className="mt-16 pt-8 border-t border-primary-foreground/10 grid grid-cols-3 gap-6">
+                    <div className="mt-16 pt-8 border-t border-white/10 grid grid-cols-3 gap-6">
                       <div>
                         <span className="text-2xl font-bold">200+</span>
-                        <p className="text-xs text-primary-foreground/40 mt-1">Proyectos</p>
+                        <p className="text-xs text-white/40 mt-1">Proyectos</p>
                       </div>
                       <div>
                         <span className="text-2xl font-bold">90d</span>
-                        <p className="text-xs text-primary-foreground/40 mt-1">Sprint medio</p>
+                        <p className="text-xs text-white/40 mt-1">Sprint medio</p>
                       </div>
                       <div>
                         <span className="text-2xl font-bold">2012</span>
-                        <p className="text-xs text-primary-foreground/40 mt-1">Desde</p>
+                        <p className="text-xs text-white/40 mt-1">Desde</p>
                       </div>
                     </div>
                   </div>
