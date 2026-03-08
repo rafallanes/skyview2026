@@ -21,7 +21,7 @@ const Privacidad = () => {
               Última actualización: Marzo 2026
             </p>
 
-            <div className="space-y-14">
+            <div className="space-y-14 legal-prose" lang="es">
 
               <section>
                 <h3 className="text-xl font-semibold text-foreground mb-4">

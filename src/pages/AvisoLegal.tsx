@@ -23,7 +23,7 @@ const AvisoLegal = () => {
             </p>
 
             {/* Content */}
-            <div className="space-y-14">
+            <div className="space-y-14 legal-prose" lang="es">
 
               {/* 1 */}
               <section>
@@ -48,7 +48,7 @@ const AvisoLegal = () => {
                   2. Objeto y Ámbito de Aplicación
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  El presente Aviso Legal regula el acceso, navegación y utilización del sitio web skyview2026.lovable.app (en adelante, el "Sitio Web"). El acceso al Sitio Web le atribuye la condición de Usuario, lo cual implica la aceptación sin reservas de todas las cláusulas aquí expuestas. El presente Aviso Legal regula el acceso, navegación y utilización del sitio web skyview2026.lovable.app (en adelante, el "Sitio Web"). El acceso al Sitio Web le atribuye la condición de Usuario, lo cual implica la aceptación sin reservas de todas las cláusulas aquí expuestas. SkyView Iberia S.L. se reserva el derecho a modificar estas condiciones para adaptarlas a novedades legislativas o estrategias de negocio.
+                  El presente Aviso Legal regula el acceso, navegación y utilización del sitio web skyview2026.lovable.app (en adelante, el "Sitio Web"). El acceso al Sitio Web le atribuye la condición de Usuario, lo cual implica la aceptación sin reservas de todas las cláusulas aquí expuestas. SkyView Iberia S.L. se reserva el derecho a modificar estas condiciones para adaptarlas a novedades legislativas o estrategias de negocio.
                 </p>
               </section>
 
@@ -97,7 +97,7 @@ const AvisoLegal = () => {
                   5. Protección de Datos y Seguridad
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  El tratamiento de los datos de carácter personal que el Usuario facilite a través de los formularios de contacto o sesiones estratégicas se rige por nuestra <Link to="/privacidad" className="underline underline-offset-4 hover:text-foreground transition-colors duration-300">Política de Privacidad</Link>, la cual cumple estrictamente con el Reglamento (UE) 2016/679 (RGPD) y la LOPDGDD 3/2018. El tratamiento de los datos de carácter personal que el Usuario facilite a través de los formularios de contacto o sesiones estratégicas se rige por nuestra <Link to="/privacidad" className="underline underline-offset-4 hover:text-foreground transition-colors duration-300">Política de Privacidad</Link>, la cual cumple estrictamente con el Reglamento (UE) 2016/679 (RGPD) y la LOPDGDD 3/2018. SkyView Iberia S.L. emplea protocolos de seguridad para proteger la integridad y confidencialidad de los datos.
+                  El tratamiento de los datos de carácter personal que el Usuario facilite a través de los formularios de contacto o sesiones estratégicas se rige por nuestra <Link to="/privacidad" className="underline underline-offset-4 hover:text-foreground transition-colors duration-300">Política de Privacidad</Link>, la cual cumple estrictamente con el Reglamento (UE) 2016/679 (RGPD) y la LOPDGDD 3/2018. SkyView Iberia S.L. emplea protocolos de seguridad para proteger la integridad y confidencialidad de los datos.
                 </p>
               </section>
 
@@ -107,7 +107,7 @@ const AvisoLegal = () => {
                   6. Política de Enlaces
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  El Sitio Web puede contener enlaces a sitios de terceros (partners tecnológicos como OpenAI, Microsoft o Google). El Sitio Web puede contener enlaces a sitios de terceros (partners tecnológicos como OpenAI, Microsoft o Google). SkyView Iberia S.L. no asume responsabilidad alguna por el contenido, políticas de privacidad o prácticas de dichos sitios web.
+                  El Sitio Web puede contener enlaces a sitios de terceros (partners tecnológicos como OpenAI, Microsoft o Google). SkyView Iberia S.L. no asume responsabilidad alguna por el contenido, políticas de privacidad o prácticas de dichos sitios web.
                 </p>
               </section>
 
