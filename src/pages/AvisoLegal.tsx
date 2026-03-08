@@ -10,6 +10,7 @@ const tocIds = ["identificativa", "objeto", "propiedad", "responsabilidad", "coo
 
 const AvisoLegal = () => {
   const { t, i18n } = useTranslation();
+  const lp = useLocalizedPath();
   const lang = i18n.language?.startsWith("pt") ? "pt" : i18n.language?.startsWith("en") ? "en" : "es";
 
   return (
