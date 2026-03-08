@@ -19,12 +19,12 @@ import logoAirEuropa from "@/assets/logos/air-europa.png";
 
 const logos = [
   { src: logoRafaNadal, alt: "Rafa Nadal Academy" },
-  { src: logoReigJofre, alt: "Reig Jofre", sizeClass: "max-h-20 md:max-h-24" },
-  { src: logoViessmann, alt: "Viessmann" },
+  { src: logoReigJofre, alt: "Reig Jofre", sizeClass: "max-h-28 md:max-h-32" },
+  { src: logoViessmann, alt: "Viessmann", sizeClass: "max-h-20 md:max-h-24" },
   { src: logoLeroyMerlin, alt: "Leroy Merlin" },
   { src: logoLinde, alt: "Linde" },
   { src: logoPrivalia, alt: "Privalia" },
-  { src: logoProclinic, alt: "Proclinic Group", sizeClass: "max-h-20 md:max-h-24" },
+  { src: logoProclinic, alt: "Proclinic Group", sizeClass: "max-h-28 md:max-h-32" },
   { src: logoGrupoLantero, alt: "Grupo Lantero", sizeClass: "max-h-20 md:max-h-24" },
   { src: logoHM, alt: "H&M" },
   { src: logoInfojobs, alt: "InfoJobs" },
