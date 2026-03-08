@@ -107,7 +107,7 @@ const AvisoLegal = () => {
                   6. Política de Enlaces
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  El Sitio Web puede contener enlaces a sitios de terceros (partners tecnológicos como OpenAI, Microsoft o Google). El Sitio Web puede contener enlaces a sitios de terceros (partners tecnológicos como OpenAI, Microsoft o Google). SkyView Iberia S.L. no asume responsabilidad alguna por el contenido, políticas de privacidad o prácticas de dichos sitios web.
+                  El Sitio Web puede contener enlaces a sitios de terceros (partners tecnológicos como OpenAI, Microsoft o Google). SkyView Iberia S.L. no asume responsabilidad alguna por el contenido, políticas de privacidad o prácticas de dichos sitios web.
                 </p>
               </section>
 
