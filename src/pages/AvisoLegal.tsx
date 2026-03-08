@@ -16,7 +16,16 @@ const AvisoLegal = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <SEO titleKey="seo.avisoLegal.title" descriptionKey="seo.avisoLegal.description" routeKey="avisoLegal" noIndex />
+      <SEO
+        titleKey="seo.avisoLegal.title"
+        descriptionKey="seo.avisoLegal.description"
+        routeKey="avisoLegal"
+        noIndex
+        breadcrumbs={[
+          { name: t("nav.home", "Home"), routeKey: "home" },
+          { name: t("avisoLegal.title"), routeKey: "avisoLegal" },
+        ]}
+      />
       <Navigation />
 
       <main className="flex-1 pt-32 pb-20 bg-background">

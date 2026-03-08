@@ -113,7 +113,7 @@ const Work = () => {
               {filteredProjects.map((project, index) => (
                 <div key={index} className="group cursor-pointer">
                   <div className="relative overflow-hidden mb-8">
-                    <img src={project.image} alt={project.title} className="w-full h-[60vh] object-cover transition-transform duration-700 group-hover:scale-105" />
+                    <img src={project.image} alt={t(`workProjects.${project.key}.title`, project.title)} className="w-full h-[60vh] object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" width={800} height={600} />
                     <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                     <div className="absolute top-6 left-6 flex gap-2">
                       <span className="bg-background/90 backdrop-blur-sm px-4 py-2 text-minimal text-foreground">{getCategoryLabel(project.filterCat)}</span>
