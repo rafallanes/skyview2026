@@ -169,6 +169,10 @@ const AvisoLegal = () => {
                   Contactar con Soporte
                 </a>
               </Button>
+              <Button variant="outline" className="rounded-none print:hidden" onClick={() => window.print()}>
+                <Printer className="mr-2 h-4 w-4" />
+                Imprimir PDF
+              </Button>
             </div>
 
           </div>
