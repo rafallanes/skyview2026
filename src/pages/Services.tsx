@@ -180,7 +180,7 @@ const Services = () => {
                   style={{ animationDelay: `${index * 100}ms`, animationFillMode: "both" }}
                 >
                   <div className="h-20 w-full flex items-center justify-center">
-                    <img src={logo.src} alt={logo.alt} className="max-h-16 w-auto object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-all duration-500" loading="lazy" />
+                    <img src={logo.src} alt={logo.alt} className="max-h-16 w-auto object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-all duration-500" loading="lazy" width={120} height={64} />
                   </div>
                   <span className="text-xs text-muted-foreground/60 font-medium tracking-wide">{logo.alt}</span>
                 </div>

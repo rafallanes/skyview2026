@@ -6,7 +6,15 @@ import SEO from "@/components/SEO";
 const ContactPage = () => {
   return (
     <div className="min-h-screen">
-      <SEO titleKey="seo.contact.title" descriptionKey="seo.contact.description" routeKey="contact" />
+      <SEO
+        titleKey="seo.contact.title"
+        descriptionKey="seo.contact.description"
+        routeKey="contact"
+        breadcrumbs={[
+          { name: "Home", routeKey: "home" },
+          { name: "Contact", routeKey: "contact" },
+        ]}
+      />
       <Navigation />
       <div className="pt-16">
         <Contact />
