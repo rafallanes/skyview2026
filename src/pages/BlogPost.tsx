@@ -9,6 +9,7 @@ import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 const BlogPost = () => {
   const { id } = useParams<{ id: string }>();
   const { t } = useTranslation();
+  const lp = useLocalizedPath();
   const posts = getBlogPosts(t);
   const post = posts.find(p => p.id === id);
 
