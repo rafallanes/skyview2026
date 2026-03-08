@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
+import SEO from "@/components/SEO";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
@@ -56,6 +57,7 @@ const Work = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO titleKey="seo.work.title" descriptionKey="seo.work.description" routeKey="work" />
       <Navigation />
 
       <section className="pt-32 pb-12">

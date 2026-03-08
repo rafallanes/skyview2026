@@ -5,6 +5,7 @@ import { ArrowLeft, Mail, Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
+import SEO from "@/components/SEO";
 import {
   Table, TableBody, TableCell, TableHead, TableHeader, TableRow,
 } from "@/components/ui/table";
@@ -25,6 +26,7 @@ const Privacidad = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO titleKey="seo.privacidad.title" descriptionKey="seo.privacidad.description" routeKey="privacidad" noIndex />
       <Navigation />
 
       <main className="flex-1 pt-32 pb-20 bg-background">

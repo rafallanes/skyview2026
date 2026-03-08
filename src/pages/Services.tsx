@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import LogoCarousel from "@/components/LogoCarousel";
 import { useTranslation } from "react-i18next";
+import SEO from "@/components/SEO";
 
 import logoOpenAI from "@/assets/logos/openai.png";
 import logoAzure from "@/assets/logos/azure.png";
@@ -32,6 +33,7 @@ const Services = () => {
 
   return (
     <div className="min-h-screen">
+      <SEO titleKey="seo.services.title" descriptionKey="seo.services.description" routeKey="services" />
       <Navigation />
 
       {/* ─── HERO ─── */}

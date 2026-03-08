@@ -8,6 +8,7 @@ import ImpactAreas from "@/components/ImpactAreas";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
+import SEO from "@/components/SEO";
 
 import logoOpenAI from "@/assets/logos/openai.png";
 import logoAzure from "@/assets/logos/azure.png";
@@ -31,6 +32,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
+      <SEO titleKey="seo.home.title" descriptionKey="seo.home.description" routeKey="home" />
       <Navigation />
       <Hero />
 

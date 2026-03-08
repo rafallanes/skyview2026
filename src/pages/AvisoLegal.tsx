@@ -5,6 +5,7 @@ import { ArrowLeft, Mail, Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
+import SEO from "@/components/SEO";
 
 const tocIds = ["identificativa", "objeto", "propiedad", "responsabilidad", "cookies", "enlaces", "datos", "jurisdiccion"];
 
@@ -15,6 +16,7 @@ const AvisoLegal = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO titleKey="seo.avisoLegal.title" descriptionKey="seo.avisoLegal.description" routeKey="avisoLegal" noIndex />
       <Navigation />
 
       <main className="flex-1 pt-32 pb-20 bg-background">

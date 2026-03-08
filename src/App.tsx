@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import { useTranslation } from "react-i18next";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -21,11 +19,6 @@ import CondicionesSow from "./pages/CondicionesSow";
 const queryClient = new QueryClient();
 
 const App = () => {
-  const { i18n } = useTranslation();
-
-  useEffect(() => {
-    document.documentElement.lang = i18n.language?.substring(0, 2) || "es";
-  }, [i18n.language]);
 
   return (
     <QueryClientProvider client={queryClient}>

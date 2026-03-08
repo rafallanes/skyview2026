@@ -571,5 +571,43 @@
       "excerpt": "Examinando el papel de la planificación urbana reflexiva en la creación de comunidades vibrantes e inclusivas a través del diseño arquitectónico.",
       "readTime": "10 min de lectura"
     }
+  },
+  "seo": {
+    "home": {
+      "title": "SkyView 2026 | Consultoría de Inteligencia Artificial · Making AI easy",
+      "description": "Consultoría de IA en Madrid. Ayudamos a empresas a integrar inteligencia artificial para mejorar la eficiencia operativa con metodología START, SPRINT y Oficina IA."
+    },
+    "services": {
+      "title": "Qué Hacemos | SkyView 2026 · Servicios de IA",
+      "description": "Descubre nuestros servicios: START (diagnóstico IA en 25 min), SPRINT (implementación en 90 días) y Oficina IA (integración continua). Consultoría IA en Madrid."
+    },
+    "about": {
+      "title": "Oficina IA | SkyView 2026 · Tu departamento de IA externo",
+      "description": "Oficina IA de SkyView: un equipo externo de inteligencia artificial integrado en tu empresa. Supervisión continua, optimización y soporte desde Madrid."
+    },
+    "work": {
+      "title": "Casos de Éxito | SkyView 2026 · Proyectos de IA",
+      "description": "Más de 200 proyectos de inteligencia artificial completados. Casos reales de automatización, análisis de datos y transformación digital con IA."
+    },
+    "contact": {
+      "title": "Contacto | SkyView 2026 · Reserva tu sesión estratégica",
+      "description": "Reserva una llamada START de 25 minutos con SkyView. Consultoría de IA en Madrid. Diagnóstico gratuito de oportunidades de inteligencia artificial."
+    },
+    "blog": {
+      "title": "Recursos | SkyView 2026 · Blog de IA y consultoría",
+      "description": "Artículos, guías y recursos sobre inteligencia artificial aplicada a empresas. Tendencias, casos de uso y mejores prácticas de IA."
+    },
+    "avisoLegal": {
+      "title": "Aviso Legal | SkyView 2026",
+      "description": "Aviso legal de SkyView 2026 S.L. Información sobre el titular del sitio web, condiciones de uso y legislación aplicable."
+    },
+    "privacidad": {
+      "title": "Política de Privacidad | SkyView 2026",
+      "description": "Política de privacidad de SkyView 2026 S.L. Información sobre tratamiento de datos personales y derechos RGPD."
+    },
+    "sow": {
+      "title": "Condiciones SOW | SkyView 2026",
+      "description": "Condiciones generales del Statement of Work (SOW) de SkyView 2026 S.L. para proyectos de consultoría de inteligencia artificial."
+    }
   }
 }

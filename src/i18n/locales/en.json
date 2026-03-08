@@ -571,5 +571,43 @@
       "excerpt": "Examining the role of thoughtful urban planning in creating vibrant, inclusive communities through architectural design.",
       "readTime": "10 min read"
     }
+  },
+  "seo": {
+    "home": {
+      "title": "SkyView 2026 | AI Consulting & Strategy · Making AI easy",
+      "description": "Madrid-based AI consultancy. We help businesses integrate artificial intelligence to boost operational efficiency with our START, SPRINT and AI Office methodology."
+    },
+    "services": {
+      "title": "What We Do | SkyView 2026 · AI Services",
+      "description": "Explore our services: START (25-min AI diagnostic), SPRINT (90-day implementation) and AI Office (ongoing integration). AI consulting from Madrid."
+    },
+    "about": {
+      "title": "AI Office | SkyView 2026 · Your external AI department",
+      "description": "SkyView AI Office: an external artificial intelligence team embedded in your company. Continuous supervision, optimization and support from Madrid."
+    },
+    "work": {
+      "title": "Case Studies | SkyView 2026 · AI Projects",
+      "description": "Over 200 artificial intelligence projects delivered. Real cases of automation, data analysis and digital transformation with AI."
+    },
+    "contact": {
+      "title": "Contact | SkyView 2026 · Book your strategy session",
+      "description": "Book a 25-minute START call with SkyView. Madrid-based AI consultancy. Free diagnostic of artificial intelligence opportunities for your business."
+    },
+    "blog": {
+      "title": "Resources | SkyView 2026 · AI & Consulting Blog",
+      "description": "Articles, guides and resources on artificial intelligence applied to business. Trends, use cases and AI best practices."
+    },
+    "avisoLegal": {
+      "title": "Legal Notice | SkyView 2026",
+      "description": "Legal notice of SkyView 2026 S.L. Information about the website owner, terms of use and applicable legislation."
+    },
+    "privacidad": {
+      "title": "Privacy Policy | SkyView 2026",
+      "description": "Privacy policy of SkyView 2026 S.L. Information about personal data processing and GDPR rights."
+    },
+    "sow": {
+      "title": "SOW Terms | SkyView 2026",
+      "description": "General conditions of the Statement of Work (SOW) by SkyView 2026 S.L. for artificial intelligence consulting projects."
+    }
   }
 }
