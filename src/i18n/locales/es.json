@@ -609,5 +609,14 @@
       "title": "Condiciones SOW | SkyView 2026",
       "description": "Condiciones generales del Statement of Work (SOW) de SkyView 2026 S.L. para proyectos de consultoría de inteligencia artificial."
     }
+  },
+  "imageAlt": {
+    "logo": "SkyView 2026 – Consultoría de Inteligencia Artificial",
+    "hero": "Oficina moderna de consultoría de inteligencia artificial en Madrid",
+    "servicesPhilosophy": "Filosofía de trabajo de SkyView: integración de IA en empresas",
+    "impactBackground": "Fondo decorativo de áreas de impacto de IA",
+    "contactBackground": "Fondo decorativo de la sección de contacto",
+    "aboutLaberinto": "Fondo decorativo del diagnóstico de madurez IA",
+    "aboutCta": "Fondo decorativo de la sección de consultoría IA"
   }
 }

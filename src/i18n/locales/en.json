@@ -609,5 +609,14 @@
       "title": "SOW Terms | SkyView 2026",
       "description": "General conditions of the Statement of Work (SOW) by SkyView 2026 S.L. for artificial intelligence consulting projects."
     }
+  },
+  "imageAlt": {
+    "logo": "SkyView 2026 – AI Consulting & Strategy",
+    "hero": "Modern artificial intelligence consulting office in Madrid",
+    "servicesPhilosophy": "SkyView work philosophy: AI integration for businesses",
+    "impactBackground": "Decorative background for AI impact areas",
+    "contactBackground": "Decorative background for the contact section",
+    "aboutLaberinto": "Decorative background for AI maturity diagnostic",
+    "aboutCta": "Decorative background for AI consulting section"
   }
 }
