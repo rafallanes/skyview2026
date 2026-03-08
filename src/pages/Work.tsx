@@ -161,7 +161,7 @@ const Work = () => {
           <div className="max-w-7xl mx-auto">
             <div className="mb-12">
             <h1 className="text-6xl md:text-8xl font-light text-architectural mb-8">PROYECTOS</h1>
-              <p className="text-xl text-muted-foreground max-w-3xl">Desde su creación en 2014 la misión de SKYVIEW ha sido poner la tecnología al servicio de las personas. Multitud de clientes en todos los sectores se benefician de nuestra experiencia aportando eficiencia a los procesos.
+              <p className="text-xl text-muted-foreground max-w-3xl">Desde su creación en 2012 la misión de SKYVIEW ha sido poner la tecnología al servicio de las personas. Multitud de clientes en todos los sectores se benefician de nuestra experiencia aportando eficiencia a los procesos. la misión de SKYVIEW ha sido poner la tecnología al servicio de las personas. Multitud de clientes en todos los sectores se benefician de nuestra experiencia aportando eficiencia a los procesos. ha sido poner la tecnología al servicio de las personas. Multitud de clientes en todos los sectores se benefician de nuestra experiencia aportando eficiencia a los procesos.
                 <br /><br />
                 Nuestra obsesión es conseguir resultados medibles al automatizar tareas repetitivas. Transformamos la complejidad técnica en modelos operativos que escalan. De la visión a la producción real.
               </p>

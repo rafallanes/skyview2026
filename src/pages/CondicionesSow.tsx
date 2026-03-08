@@ -64,7 +64,7 @@ const CondicionesSow = () => {
                 <h1 className="text-3xl md:text-4xl font-light text-[hsl(240_6%_10%)] leading-tight">
                   Statement of Work
                   <br />
-                  <span className="text-[hsl(0_0%_40%)]">SkyView 2026</span>
+                  <span className="text-[hsl(0_0%_40%)]">SkyView Iberia, S.L.</span>
                 </h1>
               </div>
               <button
@@ -79,7 +79,7 @@ const CondicionesSow = () => {
             {/* Meta */}
             <div className="text-xs text-[hsl(0_0%_50%)] space-y-1 mb-12">
               <p>Documento ID: SOW-IA-MASTER-v0.2 &nbsp;|&nbsp; Versión 0.2 — 23/02/2025</p>
-              <p>Preparado por: <strong>SkyView 2026</strong> (en adelante, "el Consultor")</p>
+              <p>Preparado por: <strong>SkyView Iberia, S.L.</strong> (en adelante, "el Consultor")</p>
               <p>Preparado para: <strong>El Cliente</strong> (según se define en la Orden de Pedido correspondiente)</p>
             </div>
 
@@ -105,7 +105,7 @@ const CondicionesSow = () => {
               {/* 1 */}
               <section>
                 <SectionTitle id="introduccion" number="1" title="Introducción y propósito" />
-                <P>Este documento define el marco de trabajo, los objetivos y el alcance de los servicios de consultoría estratégica en Inteligencia Artificial que <strong>SkyView 2026</strong> prestará al Cliente.</P>
+                <P>Este documento define el marco de trabajo, los objetivos y el alcance de los servicios de consultoría estratégica en Inteligencia Artificial que <strong>SkyView Iberia, S.L.</strong> prestará al Cliente.</P>
                 <P>Nuestro objetivo es claro: ayudarte a integrar la IA en tu operativa real, no en un piloto eterno. Transformamos la complejidad tecnológica en decisiones accionables que impactan directamente en tu EBIT.</P>
                 <P>Este SOW establece qué se hace, quién lo hace, cuándo y bajo qué condiciones. Sin letra pequeña innecesaria; con toda la claridad que una relación profesional de alto nivel requiere.</P>
               </section>
@@ -421,7 +421,7 @@ const CondicionesSow = () => {
               {/* Footer legal */}
               <div className="pt-12 border-t border-[hsl(0_0%_90%)]">
                 <p className="text-sm font-medium text-[hsl(240_6%_10%)] text-center mb-2">
-                  SkyView 2026 — Making AI easy
+                  SkyView Iberia, S.L. — Making AI easy
                 </p>
                 <p className="text-xs text-[hsl(0_0%_60%)] text-center">
                   Madrid, España &nbsp;|&nbsp; Documento ID: SOW-IA-MASTER-v0.2 &nbsp;|&nbsp; Versión 0.2 — 23/02/2025
