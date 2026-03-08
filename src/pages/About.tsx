@@ -9,6 +9,7 @@ const About = () => {
 
   return (
     <div className="min-h-screen">
+      <SEO titleKey="seo.about.title" descriptionKey="seo.about.description" routeKey="about" />
       <Navigation />
 
       {/* ─── HERO ─── */}

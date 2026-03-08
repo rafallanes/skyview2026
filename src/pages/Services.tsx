@@ -33,6 +33,7 @@ const Services = () => {
 
   return (
     <div className="min-h-screen">
+      <SEO titleKey="seo.services.title" descriptionKey="seo.services.description" routeKey="services" />
       <Navigation />
 
       {/* ─── HERO ─── */}
