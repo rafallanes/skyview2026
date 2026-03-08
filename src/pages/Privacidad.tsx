@@ -74,7 +74,7 @@ const Privacidad = () => {
                   5. Seguridad en el uso de IA
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  En SkyView 2026 nos tomamos en serio la confidencialidad corporativa. Garantizamos que los datos introducidos en nuestras sesiones estratégicas no se utilizan para entrenar modelos públicos de terceros, manteniendo su propiedad intelectual y secreto comercial protegidos en todo momento.
+                  En SkyView Iberia S.L. nos tomamos en serio la confidencialidad corporativa. Garantizamos que los datos introducidos en nuestras sesiones estratégicas no se utilizan para entrenar modelos públicos de terceros, manteniendo su propiedad intelectual y secreto comercial protegidos en todo momento.
                 </p>
               </section>
 
