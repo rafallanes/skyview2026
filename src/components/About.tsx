@@ -4,8 +4,13 @@ import { ArrowRight, Download, Mail, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import aboutLaberinto from "@/assets/about-laberinto.jpg";
-import aboutFilosofia from "@/assets/about-filosofia.jpg";
 import aboutCta from "@/assets/about-cta.jpg";
+
+const methodologySteps = [
+{ number: "01", title: "START", subtitle: "DIAGNÓSTICO", description: "PRIMERAS DOS SEMANAS - Consultoría Intensiva. Asignamos Comité IA, definimos objetivos y planificamos primer trimestre con casos de uso." },
+{ number: "02", title: "SPRINT", subtitle: "ESTRATEGIA", description: "PRIMER TRIMESTRE - Ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real." },
+{ number: "03", title: "OFICINA IA AS A SERVICE", subtitle: "IMPLEMENTACIÓN", description: "PRIMER AÑO - Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo." },
+{ number: "04", title: "OFICINA IA PROPIA (OPCIONAL)", subtitle: "CONSOLIDACIÓN", description: "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% autónoma e independiente." }];
 
 /* ── DATA ── */
 
@@ -165,56 +170,43 @@ const About = () => {
       </div>
 
       {/* ═══════════════════════════════════════════════
-                                                                                                                                                                                                                                                                                                                         SECTION 2 — FILOSOFÍA AUMENTADA (Split Screen)
+                                                                                                                                                                                                                                                                                                                         SECTION 2 — METODOLOGÍA: TU OFICINA IA EN 4 PASOS
                                                                                                                                                                                                                                                                                                                          ═══════════════════════════════════════════════ */}
-      <div className="bg-background">
-        <div className="grid md:grid-cols-2 min-h-[85vh]">
-          {/* Left: Full-bleed photo */}
-          <Reveal className="relative overflow-hidden">
-            <img
-              src={aboutFilosofia}
-              alt="Pasillo de hormigón con luz al fondo"
-              className="w-full h-full object-cover min-h-[50vh] md:min-h-full" />
-            
-            <div className="absolute inset-0 bg-gradient-to-r from-background/20 to-transparent" />
-          </Reveal>
+      <div className="py-12 md:py-16 bg-background">
+        <div className="container mx-auto px-6">
+          <div className="max-w-7xl mx-auto">
+            <Reveal>
+              <h3 className="text-minimal text-muted-foreground mb-6">METODOLOGÍA</h3>
+            </Reveal>
+            <Reveal delay={0.1}>
+              <h2 className="text-3xl md:text-5xl font-light text-architectural mb-16 max-w-3xl">
+                Tu Oficina IA en 4 pasos.
+              </h2>
+            </Reveal>
 
-          {/* Right: Philosophy text */}
-          <div className="flex items-center py-12 md:py-16 px-8 md:px-16 lg:px-24">
-            <div className="max-w-xl">
-              <Reveal>
-                <h4 className="text-minimal text-muted-foreground mb-4">TECNOLOGÍA AL SERVICIO DE LAS PERSONAS</h4>
-              </Reveal>
-              <Reveal delay={0.1}>
-                <h3 className="text-4xl md:text-5xl lg:text-6xl font-light text-architectural mb-10">
-                  Filosofía<br />"Aumentada"
-                </h3>
-              </Reveal>
-              <Reveal delay={0.2}>
-                <div className="space-y-6">
-                  <p className="text-lg text-muted-foreground leading-relaxed font-light">No sustituimos personas, potenciamos su talento. Creamos Inteligencia Aumentada uniendo el criterio humano a la potencia tecnológica.
-
-                  </p>
-                  <p className="text-lg text-muted-foreground leading-relaxed font-light">El resultado son Equipos Aumentados y resultados multiplicados. Menos tareas manuales, más impacto estratégico. Así de sencillo.
-
-                  </p>
-                </div>
-              </Reveal>
-              <Reveal delay={0.3}>
-                <div className="mt-12 pt-8 border-t border-border flex gap-12">
-                  <div>
-                    <span className="text-minimal text-muted-foreground">FOUNDED</span>
-                    <p className="text-2xl font-semibold mt-1">2012
-
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
+              {methodologySteps.map((step, index) =>
+              <Reveal key={index} delay={index * 0.08}>
+                <div className="group relative border-t border-border py-12 md:py-16 md:pr-16 md:odd:pr-16 md:even:pl-16 md:even:pr-0 overflow-hidden">
+                  <span className="absolute top-4 right-4 md:top-6 md:right-8 text-7xl md:text-8xl font-bold text-foreground/[0.12] select-none pointer-events-none leading-none">
+                    {step.number}
+                  </span>
+                  <div className="relative z-10">
+                    <h4 className="text-xl md:text-2xl font-semibold text-architectural mb-1 group-hover:text-muted-foreground transition-colors duration-500">
+                      {step.title}
+                    </h4>
+                    <span className="text-minimal text-muted-foreground/60 block mb-4">
+                      {step.subtitle}
+                    </span>
+                    <p className="text-muted-foreground leading-relaxed font-light">
+                      {step.description}
                     </p>
                   </div>
-                  <div>
-                    <span className="text-minimal text-muted-foreground">PROJECTS</span>
-                    <p className="text-2xl font-semibold mt-1">200+</p>
-                  </div>
                 </div>
               </Reveal>
+              )}
             </div>
+            <div className="border-t border-border" />
           </div>
         </div>
       </div>
