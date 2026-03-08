@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { getBlogPosts } from "@/data/blogPosts";
 import { useTranslation } from "react-i18next";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
+import SEO from "@/components/SEO";
 
 const Blog = () => {
   const { t } = useTranslation();

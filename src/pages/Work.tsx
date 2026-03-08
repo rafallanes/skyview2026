@@ -57,6 +57,7 @@ const Work = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO titleKey="seo.work.title" descriptionKey="seo.work.description" routeKey="work" />
       <Navigation />
 
       <section className="pt-32 pb-12">
