@@ -111,8 +111,101 @@ const About = () => {
     <section id="about">
 
       {/* ═══════════════════════════════════════════════
-                                                                                                                                                                                                                                                                                                                         SECTION 1 — EL LABERINTO (Dark Mode Impact)
-                                                                                                                                                                                                                                                                                                                         ═══════════════════════════════════════════════ */}
+           SECTION 1 — METODOLOGÍA: TU OFICINA IA EN 4 PASOS
+           ═══════════════════════════════════════════════ */}
+      <div className="py-12 md:py-16 bg-background">
+        <div className="container mx-auto px-6">
+          <div className="max-w-7xl mx-auto">
+            <Reveal>
+              <h3 className="text-minimal text-muted-foreground mb-6">METODOLOGÍA</h3>
+            </Reveal>
+            <Reveal delay={0.1}>
+              <h2 className="text-3xl md:text-5xl font-light text-architectural mb-16 max-w-3xl">
+                Tu Oficina IA en 4 pasos.
+              </h2>
+            </Reveal>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
+              {methodologySteps.map((step, index) =>
+              <Reveal key={index} delay={index * 0.08}>
+                <div className="group relative border-t border-border py-12 md:py-16 md:pr-16 md:odd:pr-16 md:even:pl-16 md:even:pr-0 overflow-hidden">
+                  <span className="absolute top-4 right-4 md:top-6 md:right-8 text-7xl md:text-8xl font-bold text-foreground/[0.12] select-none pointer-events-none leading-none">
+                    {step.number}
+                  </span>
+                  <div className="relative z-10">
+                    <h4 className="text-xl md:text-2xl font-semibold text-architectural mb-1 group-hover:text-muted-foreground transition-colors duration-500">
+                      {step.title}
+                    </h4>
+                    <span className="text-minimal text-muted-foreground/60 block mb-4">
+                      {step.subtitle}
+                    </span>
+                    <p className="text-muted-foreground leading-relaxed font-light">
+                      {step.description}
+                    </p>
+                  </div>
+                </div>
+              </Reveal>
+              )}
+            </div>
+            <div className="border-t border-border" />
+          </div>
+        </div>
+      </div>
+
+      {/* ═══════════════════════════════════════════════
+           SECTION 2 — EL LABERINTO (Dark Mode Impact)
+           ═══════════════════════════════════════════════ */}
+      <div className="relative bg-white text-gray-900 overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src={aboutLaberinto}
+            alt=""
+            className="w-full h-full object-cover grayscale opacity-[0.15] contrast-[1.8] brightness-[1.2] mix-blend-multiply"
+            aria-hidden="true" />
+        </div>
+
+        <div className="relative z-10 py-12 md:py-16">
+          <div className="container mx-auto px-6">
+            <div className="max-w-7xl mx-auto">
+              <Reveal>
+                <h4 className="text-minimal text-gray-400 mb-6">EL DIAGNÓSTICO</h4>
+              </Reveal>
+              <Reveal delay={0.1}>
+                <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 max-w-5xl mb-8">
+                  El Laberinto de la IA:<br />¿Por qué no avanzas?
+                </h2>
+              </Reveal>
+              <Reveal delay={0.15}>
+                <p className="text-lg md:text-xl text-gray-500 max-w-3xl mb-20 font-light leading-relaxed">
+                  El 85% de los proyectos de IA fallan por falta de método. Diseñamos la estructura que garantiza el impacto real en tu cuenta de resultados.
+                </p>
+              </Reveal>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
+                {diagnosisItems.map((item, i) =>
+                <Reveal key={i} delay={i * 0.08}>
+                    <div className="group relative border-t border-gray-200 py-10 md:py-14 pr-8 overflow-hidden">
+                      <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-gray-300 select-none pointer-events-none leading-none">
+                        {item.ghost}
+                      </span>
+                      <div className="relative z-10">
+                        <span className="text-minimal text-gray-600 block mb-2 whitespace-pre-line">{item.stat}</span>
+                        <h5 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-gray-500 transition-colors duration-500">
+                          {item.title}
+                        </h5>
+                        <p className="text-gray-500 leading-relaxed font-light text-sm md:text-base">
+                          {item.description}
+                        </p>
+                      </div>
+                    </div>
+                  </Reveal>
+                )}
+              </div>
+              <div className="border-t border-gray-200" />
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="relative bg-white text-gray-900 overflow-hidden">
         {/* Background architectural image */}
         <div className="absolute inset-0 z-0">
