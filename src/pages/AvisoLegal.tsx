@@ -48,7 +48,7 @@ const AvisoLegal = () => {
                   2. Objeto y Ámbito de Aplicación
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  El presente Aviso Legal regula el acceso, navegación y utilización del sitio web skyview2026.lovable.app (en adelante, el "Sitio Web"). El acceso al Sitio Web le atribuye la condición de Usuario, lo cual implica la aceptación sin reservas de todas las cláusulas aquí expuestas. El presente Aviso Legal regula el acceso, navegación y utilización del sitio web skyview2026.lovable.app (en adelante, el "Sitio Web"). El acceso al Sitio Web le atribuye la condición de Usuario, lo cual implica la aceptación sin reservas de todas las cláusulas aquí expuestas. SkyView Iberia S.L. se reserva el derecho a modificar estas condiciones para adaptarlas a novedades legislativas o estrategias de negocio.
+                  El presente Aviso Legal regula el acceso, navegación y utilización del sitio web skyview2026.lovable.app (en adelante, el "Sitio Web"). El acceso al Sitio Web le atribuye la condición de Usuario, lo cual implica la aceptación sin reservas de todas las cláusulas aquí expuestas. SkyView Iberia S.L. se reserva el derecho a modificar estas condiciones para adaptarlas a novedades legislativas o estrategias de negocio.
                 </p>
               </section>
 
