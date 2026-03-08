@@ -56,7 +56,7 @@ const LogoCarousel = () => {
             <div
               key={index}
               className="flex-shrink-0 flex items-center justify-center px-8 md:px-12"
-              style={{ width: "200px", height: "60px" }}
+              style={{ width: "200px", height: "120px" }}
             >
               <img
                 src={logo.src}
