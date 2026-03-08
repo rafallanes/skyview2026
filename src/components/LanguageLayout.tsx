@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { parsePathname, detectLanguage, getLocalizedPath, type SupportedLang } from "@/lib/i18n-routes";
+import { parsePathname, detectLanguage, type SupportedLang } from "@/lib/i18n-routes";
 
 /**
  * Layout wrapper that syncs URL language prefix with i18n.
