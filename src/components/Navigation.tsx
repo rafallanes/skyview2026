@@ -66,15 +66,10 @@ const Navigation = () => {
               {/* Recursos - oculto temporalmente */}
               <Link to="/contacto" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>Contacto</Link>
               <div className="pt-4 border-t border-[hsl(0_0%_15%)]">
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className={`${linkClass} hover:bg-[hsl(0_0%_15%)] gap-1.5`}
-                  disabled
-                >
+                <span className={`${linkClass} flex items-center gap-1.5 justify-end cursor-default`}>
                   <Globe className="h-3.5 w-3.5" />
                   ES
-                </Button>
+                </span>
               </div>
             </div>
           </div>
