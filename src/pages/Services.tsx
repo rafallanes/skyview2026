@@ -192,34 +192,6 @@ const Services = () => {
         </div>
       </section>
 
-      {/* ─── METHODOLOGY ─── */}
-      <section className="py-12 md:py-16 bg-background">
-        <div className="container mx-auto px-6">
-          <div className="max-w-7xl mx-auto">
-            <h4 className="text-minimal text-muted-foreground mb-6">{t("services.methodLabel")}</h4>
-            <h3 className="text-3xl md:text-5xl font-light text-architectural mb-16 md:mb-20 max-w-3xl">
-              {t("services.methodTitle")}
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-              {methodologySteps.map((step, index) => (
-                <div key={index} className="group relative border-t border-border py-12 md:py-16 md:pr-16 md:odd:pr-16 md:even:pl-16 md:even:pr-0 overflow-hidden">
-                  <span className="absolute top-4 right-4 md:top-6 md:right-8 text-7xl md:text-8xl font-bold text-foreground/[0.12] select-none pointer-events-none leading-none">
-                    {step.number}
-                  </span>
-                  <div className="relative z-10">
-                    <h4 className="text-xl md:text-2xl font-semibold text-architectural mb-1 group-hover:text-muted-foreground transition-colors duration-500">
-                      {step.title}
-                    </h4>
-                    <span className="text-minimal text-muted-foreground/60 block mb-4">{step.subtitle}</span>
-                    <p className="text-muted-foreground leading-relaxed font-light">{step.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className="border-t border-border" />
-          </div>
-        </div>
-      </section>
 
       <Footer />
     </div>
