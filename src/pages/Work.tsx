@@ -143,13 +143,13 @@ const Work = () => {
               {t("work.ctaTitle")}
             </h2>
             <p className="text-xl text-muted-foreground mb-12">{t("work.ctaDesc")}</p>
-            <a
-              href="/contacto"
+            <Link
+              to={lp("contact")}
               className="inline-block text-minimal text-foreground hover:text-muted-foreground transition-colors duration-300 relative group"
             >
               {t("work.ctaCta")}
               <span className="absolute bottom-0 left-0 w-full h-px bg-foreground group-hover:bg-muted-foreground transition-colors duration-300"></span>
-            </a>
+            </Link>
           </div>
         </div>
       </section>

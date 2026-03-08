@@ -104,7 +104,7 @@ const BlogPost = () => {
                   .filter(p => p.id !== post.id && p.category === post.category)
                   .slice(0, 2)
                   .map(relatedPost => (
-                    <Link key={relatedPost.id} to={`/recursos/${relatedPost.id}`} className="group">
+                    <Link key={relatedPost.id} to={lp("blogPost", { id: relatedPost.id })} className="group">
                       <div className="w-full h-48 mb-4 overflow-hidden">
                         <img src={relatedPost.image} alt={relatedPost.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                       </div>
