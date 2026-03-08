@@ -33,7 +33,44 @@ const Services = () => {
 
   return (
     <div className="min-h-screen">
-      <SEO titleKey="seo.services.title" descriptionKey="seo.services.description" routeKey="services" />
+      <SEO
+        titleKey="seo.services.title"
+        descriptionKey="seo.services.description"
+        routeKey="services"
+        breadcrumbs={[
+          { name: t("nav.home", "Home"), routeKey: "home" },
+          { name: t("nav.whatWeDo"), routeKey: "services" },
+        ]}
+        jsonLd={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "START — Diagnóstico IA",
+            "description": "Consultoría intensiva de 2 semanas. Diagnóstico de madurez IA, mapa de oportunidades y roadmap ejecutivo de 90 días.",
+            "provider": { "@type": "Organization", "name": "SkyView 2026" },
+            "areaServed": "ES",
+            "serviceType": "AI Strategy Consulting",
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "SPRINT — Implementación IA",
+            "description": "Ejecución intensiva por trimestres. Automatización de procesos con evaluación de impacto real en KPIs financieros.",
+            "provider": { "@type": "Organization", "name": "SkyView 2026" },
+            "areaServed": "ES",
+            "serviceType": "AI Implementation Consulting",
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Oficina de IA as a Service",
+            "description": "Gestión profesional continua de la inteligencia artificial en tu organización. Procesos automatizados y evolución constante del modelo.",
+            "provider": { "@type": "Organization", "name": "SkyView 2026" },
+            "areaServed": "ES",
+            "serviceType": "AI Managed Services",
+          },
+        ]}
+      />
       <Navigation />
 
       {/* ─── HERO ─── */}
@@ -99,7 +136,7 @@ const Services = () => {
       <section className="bg-background">
         <div className="grid md:grid-cols-2 min-h-[85vh]">
           <div className="relative overflow-hidden">
-            <img src={aboutFilosofia} alt="" className="w-full h-full object-cover min-h-[50vh] md:min-h-full" loading="lazy" />
+            <img src={aboutFilosofia} alt={t("imageAlt.servicesPhilosophy")} className="w-full h-full object-cover min-h-[50vh] md:min-h-full" loading="lazy" width={800} height={600} />
             <div className="absolute inset-0 bg-gradient-to-r from-background/20 to-transparent" />
           </div>
           <div className="flex items-center py-12 md:py-16 px-8 md:px-16 lg:px-24">
@@ -143,7 +180,7 @@ const Services = () => {
                   style={{ animationDelay: `${index * 100}ms`, animationFillMode: "both" }}
                 >
                   <div className="h-20 w-full flex items-center justify-center">
-                    <img src={logo.src} alt={logo.alt} className="max-h-16 w-auto object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-all duration-500" loading="lazy" />
+                    <img src={logo.src} alt={logo.alt} className="max-h-16 w-auto object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-all duration-500" loading="lazy" width={120} height={64} />
                   </div>
                   <span className="text-xs text-muted-foreground/60 font-medium tracking-wide">{logo.alt}</span>
                 </div>

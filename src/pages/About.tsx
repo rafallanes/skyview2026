@@ -9,7 +9,15 @@ const About = () => {
 
   return (
     <div className="min-h-screen">
-      <SEO titleKey="seo.about.title" descriptionKey="seo.about.description" routeKey="about" />
+      <SEO
+        titleKey="seo.about.title"
+        descriptionKey="seo.about.description"
+        routeKey="about"
+        breadcrumbs={[
+          { name: t("nav.home", "Home"), routeKey: "home" },
+          { name: t("nav.officeIA"), routeKey: "about" },
+        ]}
+      />
       <Navigation />
 
       {/* ─── HERO ─── */}

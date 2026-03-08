@@ -67,7 +67,16 @@ const CondicionesSow = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <SEO titleKey="seo.sow.title" descriptionKey="seo.sow.description" routeKey="sow" noIndex />
+      <SEO
+        titleKey="seo.sow.title"
+        descriptionKey="seo.sow.description"
+        routeKey="sow"
+        noIndex
+        breadcrumbs={[
+          { name: t("nav.home", "Home"), routeKey: "home" },
+          { name: t("sow.title"), routeKey: "sow" },
+        ]}
+      />
       <div className="print:hidden"><Navigation /></div>
 
       <main className="flex-1 pt-32 pb-20 bg-[hsl(0_0%_100%)]" ref={contentRef}>

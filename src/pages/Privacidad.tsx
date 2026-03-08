@@ -26,7 +26,16 @@ const Privacidad = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <SEO titleKey="seo.privacidad.title" descriptionKey="seo.privacidad.description" routeKey="privacidad" noIndex />
+      <SEO
+        titleKey="seo.privacidad.title"
+        descriptionKey="seo.privacidad.description"
+        routeKey="privacidad"
+        noIndex
+        breadcrumbs={[
+          { name: t("nav.home", "Home"), routeKey: "home" },
+          { name: t("privacidad.title"), routeKey: "privacidad" },
+        ]}
+      />
       <Navigation />
 
       <main className="flex-1 pt-32 pb-20 bg-background">

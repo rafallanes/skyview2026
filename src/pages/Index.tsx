@@ -50,6 +50,8 @@ const Index = () => {
                       alt={logo.alt}
                       className="max-h-12 w-auto object-contain brightness-0 invert opacity-70 hover:opacity-100 transition-all duration-500"
                       loading="lazy"
+                      width={120}
+                      height={48}
                     />
                   </div>
                   <span className="text-xs text-muted-foreground/60 font-medium tracking-wide">{logo.alt}</span>

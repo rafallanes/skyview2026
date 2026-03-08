@@ -80,6 +80,8 @@ const LogoCarousel = () => {
                 style={{ maxHeight: logo.maxH }}
                 className="w-auto object-contain opacity-60 hover:opacity-90 transition-opacity duration-300 brightness-0 invert"
                 loading="lazy"
+                width={120}
+                height={48}
               />
             </div>
           ))}

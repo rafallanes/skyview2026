@@ -29,7 +29,15 @@ const Blog = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <SEO titleKey="seo.blog.title" descriptionKey="seo.blog.description" routeKey="blog" />
+      <SEO
+        titleKey="seo.blog.title"
+        descriptionKey="seo.blog.description"
+        routeKey="blog"
+        breadcrumbs={[
+          { name: t("nav.home", "Home"), routeKey: "home" },
+          { name: t("nav.resources"), routeKey: "blog" },
+        ]}
+      />
       <Navigation />
       
       <section className="pt-32 pb-12">
@@ -82,7 +90,7 @@ const Blog = () => {
                 <article key={post.id} className="group">
                   <Link to={lp("blogPost", { id: post.id })} className="block">
                     <div className="relative overflow-hidden mb-6">
-                      <img src={post.image} alt={post.title} className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105" />
+                      <img src={post.image} alt={post.title} className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" width={600} height={256} />
                       <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                       <div className="absolute top-4 left-4 bg-background/90 backdrop-blur-sm px-3 py-1">
                         <span className="text-xs text-foreground font-medium">{categoryMap[post.category] || post.category}</span>

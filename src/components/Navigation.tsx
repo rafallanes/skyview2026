@@ -57,8 +57,10 @@ const Navigation = () => {
         <Link to={lp("home")} className="flex-shrink-0">
           <img
             src={logoSkyview}
-            alt="Skyview"
+            alt={t("imageAlt.logo", "SkyView 2026 - AI Consulting")}
             className="h-[45px] w-auto object-contain transition-all duration-300 hover:brightness-[1.15] hover:scale-[1.03]"
+            width={140}
+            height={45}
           />
         </Link>
 

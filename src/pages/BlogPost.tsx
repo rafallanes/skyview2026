@@ -60,7 +60,7 @@ const BlogPost = () => {
             </div>
             
             <div className="w-full h-96 mb-12 overflow-hidden">
-              <img src={post.image} alt={post.title} className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+              <img src={post.image} alt={post.title} className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" loading="eager" width={1200} height={384} />
             </div>
             
             <div className="prose prose-lg max-w-none">
@@ -106,7 +106,7 @@ const BlogPost = () => {
                   .map(relatedPost => (
                     <Link key={relatedPost.id} to={lp("blogPost", { id: relatedPost.id })} className="group">
                       <div className="w-full h-48 mb-4 overflow-hidden">
-                        <img src={relatedPost.image} alt={relatedPost.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                        <img src={relatedPost.image} alt={relatedPost.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy" width={400} height={192} />
                       </div>
                       <h4 className="text-lg font-light text-architectural group-hover:text-muted-foreground transition-colors duration-300 mb-2">{relatedPost.title}</h4>
                       <p className="text-minimal text-muted-foreground">{relatedPost.date} • {relatedPost.readTime}</p>
