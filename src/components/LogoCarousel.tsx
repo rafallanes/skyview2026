@@ -19,7 +19,7 @@ import logoAirEuropa from "@/assets/logos/air-europa.png";
 
 const logos = [
   { src: logoRafaNadal, alt: "Rafa Nadal Academy" },
-  { src: logoReigJofre, alt: "Reig Jofre" },
+  { src: logoReigJofre, alt: "Reig Jofre", sizeClass: "max-h-20 md:max-h-24" },
   { src: logoViessmann, alt: "Viessmann" },
   { src: logoLeroyMerlin, alt: "Leroy Merlin" },
   { src: logoLinde, alt: "Linde" },
@@ -56,7 +56,7 @@ const LogoCarousel = () => {
             <div
               key={index}
               className="flex-shrink-0 flex items-center justify-center px-8 md:px-12"
-              style={{ width: "200px", height: "60px" }}
+              style={{ width: "200px", height: "120px" }}
             >
               <img
                 src={logo.src}
