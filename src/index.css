@@ -149,3 +149,20 @@
     }
   }
 }
+
+/* Print styles for legal pages */
+@media print {
+  .print\:hidden {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+  }
+  
+  main {
+    padding-top: 0 !important;
+  }
+}
