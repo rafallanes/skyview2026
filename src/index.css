@@ -150,6 +150,19 @@
   }
 }
 
+/* Legal page typography — justified, hyphenated, formal contract style */
+.legal-prose p,
+.legal-prose li {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+}
+
+.legal-prose p + p {
+  margin-top: 1rem;
+}
+
 /* Print styles for legal pages */
 @media print {
   .print\:hidden {

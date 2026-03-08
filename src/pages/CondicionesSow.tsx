@@ -70,7 +70,7 @@ const CondicionesSow = () => {
             </nav>
 
             {/* Legal Content */}
-            <div className="space-y-16 text-[hsl(240_6%_10%)] leading-relaxed">
+            <div className="space-y-16 text-[hsl(240_6%_10%)] leading-relaxed legal-prose" lang="es">
 
               {/* Section 1 — SOW PDF */}
               <section id="introduccion">

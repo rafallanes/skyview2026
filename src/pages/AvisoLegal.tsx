@@ -23,7 +23,7 @@ const AvisoLegal = () => {
             </p>
 
             {/* Content */}
-            <div className="space-y-14">
+            <div className="space-y-14 legal-prose" lang="es">
 
               {/* 1 */}
               <section>
