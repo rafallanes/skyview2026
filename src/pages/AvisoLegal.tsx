@@ -4,6 +4,17 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+const tocSections = [
+  { id: "identificativa", label: "1. Información identificativa" },
+  { id: "objeto", label: "2. Objeto y aceptación" },
+  { id: "propiedad", label: "3. Propiedad intelectual e industrial" },
+  { id: "responsabilidad", label: "4. Limitación de responsabilidad" },
+  { id: "cookies", label: "5. Política de cookies" },
+  { id: "enlaces", label: "6. Enlaces externos" },
+  { id: "datos", label: "7. Protección de datos" },
+  { id: "jurisdiccion", label: "8. Legislación aplicable y jurisdicción" },
+];
+
 const AvisoLegal = () => {
   return (
     <div className="min-h-screen flex flex-col">
@@ -13,7 +24,6 @@ const AvisoLegal = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto">
 
-            {/* Header */}
             <p className="text-minimal text-muted-foreground mb-4">LEGAL</p>
             <h1 className="text-4xl md:text-5xl font-light text-architectural mb-4">
               Aviso Legal y Condiciones de Uso
@@ -22,107 +32,130 @@ const AvisoLegal = () => {
               Última actualización: Marzo 2026
             </p>
 
-            {/* Content */}
+            {/* Table of Contents */}
+            <nav className="mb-16 p-6 border border-border rounded-sm bg-muted/30">
+              <h2 className="text-sm font-semibold text-foreground uppercase tracking-wider mb-4">Índice</h2>
+              <ol className="space-y-2">
+                {tocSections.map((section) => (
+                  <li key={section.id}>
+                    <a
+                      href={`#${section.id}`}
+                      className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300 underline-offset-4 hover:underline"
+                    >
+                      {section.label}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+
             <div className="space-y-14 legal-prose" lang="es">
 
               {/* 1 */}
-              <section>
+              <section id="identificativa">
                 <h3 className="text-xl font-semibold text-foreground mb-4">
-                  1. Información Identificativa
+                  1. Información identificativa
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed mb-6">
-                  En cumplimiento con el deber de información dispuesto en la Ley 34/2002 de Servicios de la Sociedad de la Información y el Comercio Electrónico (LSSI-CE) de 11 de julio, se facilitan a continuación los datos de información general de este sitio web:
+                  En cumplimiento de la Ley 34/2002 de Servicios de la Sociedad de la Información (LSSI-CE), se facilitan los datos identificativos del titular de este sitio web:
                 </p>
                 <ul className="ml-6 space-y-2 text-base text-muted-foreground leading-relaxed list-disc">
                   <li><strong className="text-foreground/80">Titular:</strong> SkyView Iberia, S.L.</li>
-                  <li><strong className="text-foreground/80">NIF/CIF:</strong> B-87205951</li>
-                  <li><strong className="text-foreground/80">Domicilio Social:</strong> c/ Gemma Mengual, 2 — Tres Cantos 28760 Madrid, España.</li>
-                  <li><strong className="text-foreground/80">Actividad:</strong> Consultoría estratégica de Inteligencia Artificial y Eficiencia Operativa.</li>
-                  <li><strong className="text-foreground/80">Email de contacto:</strong> hola@skyview.es</li>
+                  <li><strong className="text-foreground/80">CIF:</strong> B-87205951</li>
+                  <li><strong className="text-foreground/80">Domicilio Social:</strong> C/ Gemma Mengual, 2 — 28760 Tres Cantos, Madrid, España</li>
+                  <li><strong className="text-foreground/80">Actividad:</strong> Consultoría estratégica en Inteligencia Artificial y Eficiencia Operativa</li>
+                  <li><strong className="text-foreground/80">Email:</strong>{" "}
+                    <a href="mailto:hola@skyview.es" className="underline underline-offset-4 hover:text-foreground transition-colors duration-300">hola@skyview.es</a>
+                  </li>
                 </ul>
               </section>
 
               {/* 2 */}
-              <section>
+              <section id="objeto">
                 <h3 className="text-xl font-semibold text-foreground mb-4">
-                  2. Objeto y Ámbito de Aplicación
+                  2. Objeto y aceptación
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  El presente Aviso Legal regula el acceso, navegación y utilización del sitio web skyview2026.lovable.app (en adelante, el "Sitio Web"). El acceso al Sitio Web le atribuye la condición de Usuario, lo cual implica la aceptación sin reservas de todas las cláusulas aquí expuestas. SkyView Iberia S.L. se reserva el derecho a modificar estas condiciones para adaptarlas a novedades legislativas o estrategias de negocio.
+                  Este Aviso Legal regula el acceso y uso del sitio web de SkyView 2026. El acceso al sitio implica la aceptación de las presentes condiciones. SkyView Iberia, S.L. se reserva el derecho a actualizarlas cuando sea necesario por cambios normativos o estratégicos, publicando siempre la fecha de la última revisión.
                 </p>
               </section>
 
               {/* 3 */}
-              <section>
+              <section id="propiedad">
                 <h3 className="text-xl font-semibold text-foreground mb-4">
-                  3. Propiedad Intelectual e Industrial
+                  3. Propiedad intelectual e industrial
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed mb-6">
-                  SkyView Iberia S.L. es titular de todos los derechos de propiedad intelectual e industrial de este Sitio Web. Esto incluye, a título enunciativo:
+                  SkyView Iberia, S.L. es titular de todos los derechos de propiedad intelectual e industrial sobre este sitio web, incluyendo:
                 </p>
                 <ul className="ml-6 space-y-2 text-base text-muted-foreground leading-relaxed list-disc">
-                  <li>Diseño gráfico, interfaces de usuario, arquitectura de información y código fuente.</li>
-                  <li>Textos, logotipos, marcas comerciales y lemas (incluyendo "Making AI easy").</li>
-                  <li>Metodologías propias descritas (como la Metodología SPRINT o el concepto de Inteligencia Aumentada).</li>
+                  <li>Diseño gráfico, arquitectura de información, interfaces y código fuente.</li>
+                  <li>Textos, logotipos, marcas y lemas, incluyendo "Making AI easy".</li>
+                  <li>Metodologías propias descritas en el sitio, como la Metodología SPRINT y el modelo de Oficina de IA.</li>
                 </ul>
-                <p className="text-base text-muted-foreground leading-relaxed mt-6">Queda estrictamente prohibida la reproducción, distribución o transformación de cualquier contenido de este sitio sin la autorización expresa y por escrito de SkyView Iberia, S.L. Cualquier uso no autorizado será considerado un incumplimiento grave de los derechos de propiedad intelectual.
-
+                <p className="text-base text-muted-foreground leading-relaxed mt-6">
+                  Queda prohibida la reproducción, distribución o transformación de cualquier contenido sin autorización expresa y por escrito de SkyView Iberia, S.L.
                 </p>
               </section>
 
               {/* 4 */}
-              <section>
+              <section id="responsabilidad">
                 <h3 className="text-xl font-semibold text-foreground mb-4">
-                  4. Exclusión de Garantías y Responsabilidad
+                  4. Limitación de responsabilidad
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed mb-6">
-                  SkyView Iberia S.L. desarrolla sus mejores esfuerzos para que el contenido sea preciso y actualizado. No obstante, dada la naturaleza cambiante de la Inteligencia Artificial, el titular no se hace responsable de:
+                  SkyView mantiene el contenido de este sitio actualizado con el máximo rigor. No obstante:
                 </p>
-                <ul className="ml-6 space-y-4 text-base text-muted-foreground leading-relaxed list-disc">
-                  <li>
-                    <strong className="text-foreground/80">Exactitud de la información:</strong> Los contenidos son informativos y no constituyen un diagnóstico vinculante sin una auditoría previa personalizada.
-                  </li>
-                  <li>
-                    <strong className="text-foreground/80">Disponibilidad Técnica:</strong> El acceso puede verse interrumpido por mantenimiento o causas de fuerza mayor ajenas a SkyView Iberia S.L.
-                  </li>
-                  <li>
-                    <strong className="text-foreground/80">Uso de la Información:</strong> SkyView Iberia S.L. no se hace responsable del uso que el Usuario realice de la información contenida en la web, ni de las decisiones tomadas en base a la misma.
-                  </li>
+                <ul className="ml-6 space-y-3 text-base text-muted-foreground leading-relaxed list-disc">
+                  <li>Los contenidos publicados tienen carácter informativo y no constituyen un diagnóstico vinculante. Cualquier recomendación estratégica requiere una auditoría previa personalizada.</li>
+                  <li>Dada la velocidad de evolución del sector de la IA, algunos contenidos pueden quedar desactualizados entre revisiones. Consultarás siempre la fecha de última actualización.</li>
+                  <li>SkyView no se hace responsable de interrupciones técnicas del servicio web derivadas de mantenimiento o causas de fuerza mayor.</li>
+                  <li>Los resultados descritos en casos de uso son ilustrativos del potencial de la tecnología. Los resultados específicos dependen del contexto, los procesos y la implementación de cada organización.</li>
                 </ul>
               </section>
 
               {/* 5 */}
-              <section>
+              <section id="cookies">
                 <h3 className="text-xl font-semibold text-foreground mb-4">
-                  5. Protección de Datos y Seguridad
+                  5. Política de cookies
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  El tratamiento de los datos de carácter personal que el Usuario facilite a través de los formularios de contacto o sesiones estratégicas se rige por nuestra <Link to="/privacidad" className="underline underline-offset-4 hover:text-foreground transition-colors duration-300">Política de Privacidad</Link>, la cual cumple estrictamente con el Reglamento (UE) 2016/679 (RGPD) y la LOPDGDD 3/2018. SkyView Iberia S.L. emplea protocolos de seguridad para proteger la integridad y confidencialidad de los datos.
+                  Este sitio web puede utilizar cookies técnicas necesarias para su funcionamiento y, con tu consentimiento previo, cookies analíticas para entender cómo se utiliza el sitio y mejorar la experiencia. Puedes gestionar tus preferencias de cookies en cualquier momento desde el banner de consentimiento o desde la configuración de tu navegador. Para más información, consulta nuestra Política de Cookies.
                 </p>
               </section>
 
               {/* 6 */}
-              <section>
+              <section id="enlaces">
                 <h3 className="text-xl font-semibold text-foreground mb-4">
-                  6. Política de Enlaces
+                  6. Enlaces externos
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  El Sitio Web puede contener enlaces a sitios de terceros (partners tecnológicos como OpenAI, Microsoft o Google). SkyView Iberia S.L. no asume responsabilidad alguna por el contenido, políticas de privacidad o prácticas de dichos sitios web.
+                  El sitio puede incluir enlaces a webs de terceros (partners tecnológicos como OpenAI, Microsoft, Google o Anthropic). SkyView no asume responsabilidad sobre el contenido, la disponibilidad ni las políticas de privacidad de sitios externos.
                 </p>
               </section>
 
               {/* 7 */}
-              <section>
+              <section id="datos">
                 <h3 className="text-xl font-semibold text-foreground mb-4">
-                  7. Legislación Aplicable y Jurisdicción
+                  7. Protección de datos
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  Para la resolución de cualquier controversia o cuestión litigiosa relacionada con este sitio web, será de aplicación la legislación española. Ambas partes se someten, con renuncia expresa a cualquier otro fuero, a los Juzgados y Tribunales de la ciudad de Madrid, España.
+                  El tratamiento de los datos personales que facilites a través de este sitio se rige por nuestra{" "}
+                  <Link to="/privacidad" className="underline underline-offset-4 hover:text-foreground transition-colors duration-300">Política de Privacidad</Link>, disponible en este mismo sitio, conforme al RGPD (UE) 2016/679 y la LOPDGDD 3/2018.
+                </p>
+              </section>
+
+              {/* 8 */}
+              <section id="jurisdiccion">
+                <h3 className="text-xl font-semibold text-foreground mb-4">
+                  8. Legislación aplicable y jurisdicción
+                </h3>
+                <p className="text-base text-muted-foreground leading-relaxed">
+                  Este aviso legal se rige por la legislación española. Para cualquier controversia derivada del acceso o uso de este sitio web, ambas partes se someten expresamente a los Juzgados y Tribunales de Madrid, con renuncia a cualquier otro fuero.
                 </p>
               </section>
             </div>
 
-            {/* CTAs */}
             <div className="mt-20 pt-10 border-t border-border flex flex-col sm:flex-row gap-4">
               <Button variant="outline" asChild className="rounded-none">
                 <Link to="/">
@@ -143,8 +176,8 @@ const AvisoLegal = () => {
       </main>
 
       <Footer />
-    </div>);
-
+    </div>
+  );
 };
 
 export default AvisoLegal;
