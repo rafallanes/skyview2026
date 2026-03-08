@@ -37,6 +37,16 @@ const BlogPost = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        titleKey="seo.blogPost.title"
+        descriptionKey="seo.blogPost.description"
+        routeKey="blogPost"
+        breadcrumbs={[
+          { name: t("nav.home", "Home"), routeKey: "home" },
+          { name: t("nav.resources"), routeKey: "blog" },
+          { name: post.title, routeKey: "blogPost" },
+        ]}
+      />
       <Navigation />
       
       <article className="pt-32 pb-32">

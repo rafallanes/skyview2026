@@ -16,6 +16,12 @@ const NotFound = () => {
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-muted">
+      <SEO
+        titleKey="seo.notFound.title"
+        descriptionKey="seo.notFound.description"
+        routeKey="notFound"
+        noIndex
+      />
       <div className="text-center">
         <h1 className="mb-4 text-4xl font-bold text-foreground">{t("notFound.title")}</h1>
         <p className="mb-4 text-xl text-muted-foreground">{t("notFound.message")}</p>
