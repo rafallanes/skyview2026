@@ -19,7 +19,7 @@ import logoAirEuropa from "@/assets/logos/air-europa.png";
 
 const logos = [
   { src: logoRafaNadal, alt: "Rafa Nadal Academy" },
-  { src: logoReigJofre, alt: "Reig Jofre" },
+  { src: logoReigJofre, alt: "Reig Jofre", sizeClass: "max-h-20 md:max-h-24" },
   { src: logoViessmann, alt: "Viessmann" },
   { src: logoLeroyMerlin, alt: "Leroy Merlin" },
   { src: logoLinde, alt: "Linde" },
