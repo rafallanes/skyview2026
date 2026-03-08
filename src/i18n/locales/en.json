@@ -608,6 +608,14 @@
     "sow": {
       "title": "SOW Terms | SkyView 2026",
       "description": "General conditions of the Statement of Work (SOW) by SkyView 2026 S.L. for artificial intelligence consulting projects."
+    },
+    "blogPost": {
+      "title": "{{title}} | SkyView 2026",
+      "description": "{{excerpt}}"
+    },
+    "notFound": {
+      "title": "Page not found | SkyView 2026",
+      "description": "The page you are looking for does not exist. Return to the SkyView 2026 homepage."
     }
   },
   "imageAlt": {
