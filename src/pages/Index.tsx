@@ -7,6 +7,7 @@ import { ArrowRight, FileText } from "lucide-react";
 import ImpactAreas from "@/components/ImpactAreas";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 import logoOpenAI from "@/assets/logos/openai.png";
 import logoAzure from "@/assets/logos/azure.png";
