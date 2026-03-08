@@ -33,7 +33,44 @@ const Services = () => {
 
   return (
     <div className="min-h-screen">
-      <SEO titleKey="seo.services.title" descriptionKey="seo.services.description" routeKey="services" />
+      <SEO
+        titleKey="seo.services.title"
+        descriptionKey="seo.services.description"
+        routeKey="services"
+        breadcrumbs={[
+          { name: t("nav.home", "Home"), routeKey: "home" },
+          { name: t("nav.whatWeDo"), routeKey: "services" },
+        ]}
+        jsonLd={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "START — Diagnóstico IA",
+            "description": "Consultoría intensiva de 2 semanas. Diagnóstico de madurez IA, mapa de oportunidades y roadmap ejecutivo de 90 días.",
+            "provider": { "@type": "Organization", "name": "SkyView 2026" },
+            "areaServed": "ES",
+            "serviceType": "AI Strategy Consulting",
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "SPRINT — Implementación IA",
+            "description": "Ejecución intensiva por trimestres. Automatización de procesos con evaluación de impacto real en KPIs financieros.",
+            "provider": { "@type": "Organization", "name": "SkyView 2026" },
+            "areaServed": "ES",
+            "serviceType": "AI Implementation Consulting",
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Oficina de IA as a Service",
+            "description": "Gestión profesional continua de la inteligencia artificial en tu organización. Procesos automatizados y evolución constante del modelo.",
+            "provider": { "@type": "Organization", "name": "SkyView 2026" },
+            "areaServed": "ES",
+            "serviceType": "AI Managed Services",
+          },
+        ]}
+      />
       <Navigation />
 
       {/* ─── HERO ─── */}
