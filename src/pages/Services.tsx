@@ -101,40 +101,6 @@ const Services = () => {
         </div>
       </section>
 
-      {/* ─── STACK TECNOLÓGICO (after reinforcement text) ─── */}
-      <section className="pt-8 md:pt-10 pb-12 md:pb-16 bg-muted/30">
-        <div className="container mx-auto px-6">
-          <div className="max-w-7xl mx-auto">
-            <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest">STACK TECNOLÓGICO</h3>
-            <h4 className="text-3xl md:text-5xl font-light text-architectural mb-16 max-w-3xl">
-              Stack Tecnológico de Vanguardia
-            </h4>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 md:gap-12">
-              {techLogos.map((logo, index) =>
-              <div
-                key={index}
-                className="flex flex-col items-center justify-center gap-3 py-6 animate-fade-in-up"
-                style={{ animationDelay: `${index * 100}ms`, animationFillMode: "both" }}>
-                
-                  <div className="h-20 w-full flex items-center justify-center">
-                    <img
-                    src={logo.src}
-                    alt={logo.alt}
-                    className="max-h-16 w-auto object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-all duration-500"
-                    loading="lazy" />
-                  
-                  </div>
-                  <span className="text-xs text-muted-foreground/60 font-medium tracking-wide">{logo.alt}</span>
-                </div>
-              )}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── ÁREAS DE IMPACTO ─── */}
-      <ImpactAreas />
-
       {/* ─── FILOSOFÍA AUMENTADA ─── */}
       <section className="bg-background">
         <div className="grid md:grid-cols-2 min-h-[85vh]">
@@ -177,6 +143,40 @@ const Services = () => {
           </div>
         </div>
       </section>
+
+      {/* ─── STACK TECNOLÓGICO ─── */}
+      <section className="pt-8 md:pt-10 pb-12 md:pb-16 bg-muted/30">
+        <div className="container mx-auto px-6">
+          <div className="max-w-7xl mx-auto">
+            <h3 className="text-minimal text-muted-foreground mb-6 tracking-widest">STACK TECNOLÓGICO</h3>
+            <h4 className="text-3xl md:text-5xl font-light text-architectural mb-16 max-w-3xl">
+              Stack Tecnológico de Vanguardia
+            </h4>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 md:gap-12">
+              {techLogos.map((logo, index) =>
+              <div
+                key={index}
+                className="flex flex-col items-center justify-center gap-3 py-6 animate-fade-in-up"
+                style={{ animationDelay: `${index * 100}ms`, animationFillMode: "both" }}>
+                
+                  <div className="h-20 w-full flex items-center justify-center">
+                    <img
+                    src={logo.src}
+                    alt={logo.alt}
+                    className="max-h-16 w-auto object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-all duration-500"
+                    loading="lazy" />
+                  
+                  </div>
+                  <span className="text-xs text-muted-foreground/60 font-medium tracking-wide">{logo.alt}</span>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── ÁREAS DE IMPACTO ─── */}
+      <ImpactAreas />
 
       {/* ─── SOCIAL PROOF / LOGO CAROUSEL ─── */}
       <section className="pt-8 md:pt-10 pb-12 md:pb-16 bg-background">
