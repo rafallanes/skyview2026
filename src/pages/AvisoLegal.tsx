@@ -76,7 +76,7 @@ const AvisoLegal = () => {
                   4. Exclusión de Garantías y Responsabilidad
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed mb-6">
-                  SkyView 2026 desarrolla sus mejores esfuerzos para que el contenido sea preciso y actualizado. No obstante, dada la naturaleza cambiante de la Inteligencia Artificial, el titular no se hace responsable de:
+                  SkyView Iberia S.L. desarrolla sus mejores esfuerzos para que el contenido sea preciso y actualizado. No obstante, dada la naturaleza cambiante de la Inteligencia Artificial, el titular no se hace responsable de:
                 </p>
                 <ul className="ml-6 space-y-4 text-base text-muted-foreground leading-relaxed list-disc">
                   <li>
