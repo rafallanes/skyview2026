@@ -105,7 +105,7 @@ const CondicionesSow = () => {
               {/* 1 */}
               <section>
                 <SectionTitle id="introduccion" number="1" title="Introducción y propósito" />
-                <P>Este documento define el marco de trabajo, los objetivos y el alcance de los servicios de consultoría estratégica en Inteligencia Artificial que <strong>SkyView 2026</strong> prestará al Cliente.</P>
+                <P>Este documento define el marco de trabajo, los objetivos y el alcance de los servicios de consultoría estratégica en Inteligencia Artificial que <strong>SkyView Iberia, S.L.</strong> prestará al Cliente.</P>
                 <P>Nuestro objetivo es claro: ayudarte a integrar la IA en tu operativa real, no en un piloto eterno. Transformamos la complejidad tecnológica en decisiones accionables que impactan directamente en tu EBIT.</P>
                 <P>Este SOW establece qué se hace, quién lo hace, cuándo y bajo qué condiciones. Sin letra pequeña innecesaria; con toda la claridad que una relación profesional de alto nivel requiere.</P>
               </section>
