@@ -527,5 +527,49 @@
     "backToBlog": "← BACK TO BLOG",
     "relatedArticles": "Related Articles",
     "authorRole": "Architect & Writer"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Page not found",
+    "backHome": "Return to Home"
+  },
+  "workProjects": {
+    "catAll": "ALL",
+    "catSaas": "SaaS",
+    "catCustom": "Custom",
+    "catOffice": "AI Office",
+    "areaPersonas": "PEOPLE",
+    "areaFinanciero": "FINANCE",
+    "areaOperaciones": "OPERATIONS",
+    "amura": { "location": "TECH, 2019", "desc": "AI Office for the People & Culture department. Segmenting the employee \"journey\": selection, onboarding, training, development... and progressively automating tasks across all processes." },
+    "bbraun": { "location": "HEALTH, 2016", "desc": "Automation of repetitive tasks in factory data management and automatic transfer to AS400. ROI: 70% annual savings in time and cost." },
+    "caritas": { "location": "NGO, 2024", "desc": "START and SPRINT to establish AI best practices. AI Committee from day one. Final goal at 18 months: AI Office." },
+    "codorniu": { "location": "RETAIL, 2014", "desc": "Automation of repetitive tasks in financial processes. Efficiency delivering 72% savings in time and cost. Calculated by the client." },
+    "desigual": { "location": "RETAIL, 2019", "desc": "Automation of repetitive tasks in financial processes. 65% savings in time and cost. ROI calculated by Financial Controlling." },
+    "diafarm": { "location": "HEALTH, 2020", "desc": "B2B SaaS solution for the finance department with efficiencies exceeding 50%, calculated by the finance department itself." },
+    "euskaltel": { "location": "TECH, 2023", "desc": "AI Office as a service focused on governance and scalability of operational processes." },
+    "hm": { "location": "RETAIL, 2022", "desc": "Digitization of simplified invoices certified by AEAT. 80% process automation with automatic ERP upload." },
+    "globalia": { "location": "TOURISM, 2018", "desc": "Automation of claims processing (paper and email). Metadata extraction and upload to central systems." },
+    "infojobs": { "location": "TECH, 2018", "desc": "Automation of repetitive tasks in financial processes. Time savings and efficiency improvement exceeding 60%." },
+    "kluber": { "location": "INDUSTRY, 2024", "desc": "AI Office program for industrial operations. Strategic roadmap definition and adoption of AI best practices." },
+    "lantero": { "location": "INDUSTRY, 2018", "desc": "AI Office applied to industrial financial processes. Identification and prioritization of use cases for automation." },
+    "leroymerlin": { "location": "RETAIL, 2019", "desc": "Document and simplified invoice digitization (AEAT). 80% process automation with ERP and Oracle integration." }
+  },
+  "blogPosts": {
+    "post1": {
+      "title": "The Future of Sustainable Architecture",
+      "excerpt": "Exploring how modern architectural practices are evolving to meet environmental challenges while maintaining design excellence.",
+      "readTime": "8 min read"
+    },
+    "post2": {
+      "title": "Minimalism in Modern Living Spaces",
+      "excerpt": "How the principles of minimalist design are reshaping contemporary residential architecture and interior spaces.",
+      "readTime": "6 min read"
+    },
+    "post3": {
+      "title": "Urban Planning and Community Spaces",
+      "excerpt": "Examining the role of thoughtful urban planning in creating vibrant, inclusive communities through architectural design.",
+      "readTime": "10 min read"
+    }
   }
 }

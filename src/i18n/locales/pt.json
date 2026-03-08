@@ -527,5 +527,49 @@
     "backToBlog": "← VOLTAR AO BLOG",
     "relatedArticles": "Artigos Relacionados",
     "authorRole": "Arquiteto e Escritor"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ups! Página não encontrada",
+    "backHome": "Voltar ao Início"
+  },
+  "workProjects": {
+    "catAll": "TODOS",
+    "catSaas": "SaaS",
+    "catCustom": "Personalizado",
+    "catOffice": "Escritório IA",
+    "areaPersonas": "PESSOAS",
+    "areaFinanciero": "FINANCEIRO",
+    "areaOperaciones": "OPERAÇÕES",
+    "amura": { "location": "TECH, 2019", "desc": "Escritório IA para o departamento de Pessoas e cultura. Segmentando a \"jornada\" do colaborador: seleção, onboarding, formação, desenvolvimento... e automatizando progressivamente tarefas de todos os processos." },
+    "bbraun": { "location": "SAÚDE, 2016", "desc": "Automação de tarefas repetitivas no processo de gestão de dados em fábrica e transferência automática para AS400. ROI: poupança anual de 70% em tempo e custos." },
+    "caritas": { "location": "ONG, 2024", "desc": "START e SPRINT para instaurar boas práticas em relação à IA. Comité de IA desde o primeiro dia. Objetivo final a 18 meses: Escritório IA." },
+    "codorniu": { "location": "RETAIL, 2014", "desc": "Automação de tarefas repetitivas no processo financeiro. Eficiência que proporciona uma poupança de 72% em tempo e custos. Cálculo realizado pelo próprio cliente." },
+    "desigual": { "location": "RETAIL, 2019", "desc": "Automação de tarefas repetitivas no processo financeiro. Poupança de 65% em tempo e custos. ROI calculado pelo Controlo Financeiro." },
+    "diafarm": { "location": "SAÚDE, 2020", "desc": "Solução B2B SaaS para o departamento financeiro com eficiências superiores a 50%, calculadas pelo próprio departamento financeiro." },
+    "euskaltel": { "location": "TECH, 2023", "desc": "Escritório IA como serviço focado na governança e escalabilidade de processos operacionais." },
+    "hm": { "location": "RETAIL, 2022", "desc": "Digitalização de faturas simplificadas homologadas pela AEAT. Automação de 80% do processo e transferência automática para ERP." },
+    "globalia": { "location": "TURISMO, 2018", "desc": "Automação do processamento de reclamações (papel e email). Extração de metadados e transferência para sistemas centrais." },
+    "infojobs": { "location": "TECH, 2018", "desc": "Automação de tarefas repetitivas no processo financeiro. Poupança de tempo e melhoria de eficiência superior a 60%." },
+    "kluber": { "location": "INDÚSTRIA, 2024", "desc": "Programa de Escritório IA para operações industriais. Definição de roteiro estratégico e adoção de boas práticas de IA." },
+    "lantero": { "location": "INDÚSTRIA, 2018", "desc": "Escritório IA aplicado a processos financeiros industriais. Identificação e priorização de casos de uso para automação." },
+    "leroymerlin": { "location": "RETAIL, 2019", "desc": "Digitalização de documentos e faturas simplificadas (AEAT). Automação de 80% do processo com integração em ERP e Oracle." }
+  },
+  "blogPosts": {
+    "post1": {
+      "title": "O Futuro da Arquitetura Sustentável",
+      "excerpt": "Explorando como as práticas arquitetónicas modernas estão a evoluir para enfrentar os desafios ambientais mantendo a excelência no design.",
+      "readTime": "8 min de leitura"
+    },
+    "post2": {
+      "title": "Minimalismo nos Espaços de Vida Modernos",
+      "excerpt": "Como os princípios do design minimalista estão a remodelar a arquitetura residencial contemporânea e os espaços interiores.",
+      "readTime": "6 min de leitura"
+    },
+    "post3": {
+      "title": "Urbanismo e Espaços Comunitários",
+      "excerpt": "Examinando o papel do planeamento urbano reflexivo na criação de comunidades vibrantes e inclusivas através do design arquitetónico.",
+      "readTime": "10 min de leitura"
+    }
   }
 }
