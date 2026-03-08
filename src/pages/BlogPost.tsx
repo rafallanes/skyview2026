@@ -23,7 +23,7 @@ const BlogPost = () => {
               <h1 className="text-4xl md:text-6xl font-light text-architectural mb-8">
                 {t("blogPage.postNotFound")}
               </h1>
-              <Link to="/recursos" className="text-minimal text-foreground hover:text-muted-foreground transition-colors duration-300">
+              <Link to={lp("blog")} className="text-minimal text-foreground hover:text-muted-foreground transition-colors duration-300">
                 {t("blogPage.backToBlog")}
               </Link>
             </div>
