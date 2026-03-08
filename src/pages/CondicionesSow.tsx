@@ -64,7 +64,7 @@ const CondicionesSow = () => {
                 <h1 className="text-3xl md:text-4xl font-light text-[hsl(240_6%_10%)] leading-tight">
                   Statement of Work
                   <br />
-                  <span className="text-[hsl(0_0%_40%)]">SkyView 2026</span>
+                  <span className="text-[hsl(0_0%_40%)]">SkyView Iberia, S.L.</span>
                 </h1>
               </div>
               <button
