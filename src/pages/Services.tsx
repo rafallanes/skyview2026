@@ -12,6 +12,7 @@ import logoPinecone from "@/assets/logos/pinecone.png";
 import aboutFilosofia from "@/assets/about-filosofia.jpg";
 import ImpactAreas from "@/components/ImpactAreas";
 import { Link } from "react-router-dom";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 const techLogos = [
   { src: logoOpenAI, alt: "OpenAI" },
