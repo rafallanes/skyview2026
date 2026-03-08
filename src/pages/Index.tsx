@@ -27,6 +27,7 @@ const techLogos = [
 
 const Index = () => {
   const { t } = useTranslation();
+  const lp = useLocalizedPath();
 
   return (
     <div className="min-h-screen">
