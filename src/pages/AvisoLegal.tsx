@@ -82,11 +82,11 @@ const AvisoLegal = () => {
                   <li>
                     <strong className="text-foreground/80">Exactitud de la información:</strong> Los contenidos son informativos y no constituyen un diagnóstico vinculante sin una auditoría previa personalizada.
                   </li>
-                  <li>Disponibilidad Técnica: El acceso puede verse interrumpido por mantenimiento o causas de fuerza mayor ajenas a SkyView Iberia S.L.
-                    <strong className="text-foreground/80">Disponibilidad Técnica:</strong> El acceso puede verse interrumpido por mantenimiento o causas de fuerza mayor ajenas a SkyView 2026.
+                  <li>
+                    <strong className="text-foreground/80">Disponibilidad Técnica:</strong> El acceso puede verse interrumpido por mantenimiento o causas de fuerza mayor ajenas a SkyView Iberia S.L.
                   </li>
-                  <li>Uso de la Información: SkyView Iberia S.L. no se hace responsable del uso que el Usuario realice de la información contenida en la web, ni de las decisiones tomadas en base a la misma.
-                    <strong className="text-foreground/80">Uso de la Información:</strong> SkyView 2026 no se hace responsable del uso que el Usuario realice de la información contenida en la web, ni de las decisiones tomadas en base a la misma.
+                  <li>
+                    <strong className="text-foreground/80">Uso de la Información:</strong> SkyView Iberia S.L. no se hace responsable del uso que el Usuario realice de la información contenida en la web, ni de las decisiones tomadas en base a la misma.
                   </li>
                 </ul>
               </section>
