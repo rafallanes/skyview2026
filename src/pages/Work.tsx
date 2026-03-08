@@ -24,6 +24,7 @@ const CATEGORY_FILTER_MAP: Record<string, string> = {
 const Work = () => {
   const [activeCatKey, setActiveCatKey] = useState("catAll");
   const { t } = useTranslation();
+  const lp = useLocalizedPath();
 
   const projects = [
     { image: project1, title: "AMURA", key: "amura", filterCat: "Oficina IA", subTag: "START" as string | undefined, area: "areaPersonas", year: "2019" },
