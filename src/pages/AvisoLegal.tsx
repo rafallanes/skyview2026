@@ -58,7 +58,7 @@ const AvisoLegal = () => {
                   3. Propiedad Intelectual e Industrial
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed mb-6">
-                  SkyView 2026 es titular de todos los derechos de propiedad intelectual e industrial de este Sitio Web. Esto incluye, a título enunciativo:
+                  SkyView Iberia S.L. es titular de todos los derechos de propiedad intelectual e industrial de este Sitio Web. Esto incluye, a título enunciativo:
                 </p>
                 <ul className="ml-6 space-y-2 text-base text-muted-foreground leading-relaxed list-disc">
                   <li>Diseño gráfico, interfaces de usuario, arquitectura de información y código fuente.</li>
