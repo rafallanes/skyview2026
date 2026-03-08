@@ -33,15 +33,10 @@ const Navigation = () => {
 
         {/* Language Toggle */}
         <div className="hidden md:flex items-center">
-          <Button
-            variant="ghost"
-            size="sm"
-            className={`${linkClass} hover:bg-[hsl(0_0%_15%)] gap-1.5`}
-            disabled
-          >
+          <span className={`${linkClass} flex items-center gap-1.5 cursor-default`}>
             <Globe className="h-3.5 w-3.5" />
             ES
-          </Button>
+          </span>
         </div>
 
         {/* Mobile Toggle */}
