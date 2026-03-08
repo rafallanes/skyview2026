@@ -27,12 +27,6 @@ const Services = () => {
 
   const timelineYears = ["2014", "2016", "2017", "2022", "2024"];
 
-  const methodologySteps = [
-    { number: "01", title: t("methodology.steps.01.title"), subtitle: t("methodology.steps.01.subtitle"), description: t("methodology.steps.01.desc") },
-    { number: "02", title: t("methodology.steps.02.title"), subtitle: t("methodology.steps.02.subtitle"), description: t("methodology.steps.02.desc") },
-    { number: "03", title: t("methodology.steps.03.title"), subtitle: t("methodology.steps.03.subtitle"), description: t("methodology.steps.03.desc") },
-    { number: "04", title: t("methodology.steps.04.title"), subtitle: t("methodology.steps.04.subtitle"), description: t("methodology.steps.04.desc") },
-  ];
 
   return (
     <div className="min-h-screen">
