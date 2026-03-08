@@ -169,7 +169,7 @@ const About = () => {
       {/* ═══ SECTION 4 — LEAD MAGNET & CTA ═══ */}
       <div className="relative bg-black text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src={aboutCta} alt="" className="w-full h-full object-cover grayscale opacity-[0.15] contrast-[1.8] brightness-[1.2] mix-blend-multiply" aria-hidden="true" />
+          <img src={aboutCta} alt={t("imageAlt.aboutCta")} className="w-full h-full object-cover grayscale opacity-[0.15] contrast-[1.8] brightness-[1.2] mix-blend-multiply" aria-hidden="true" loading="lazy" width={1920} height={1080} />
         </div>
         <div className="relative z-10 py-12 md:py-16">
           <div className="container mx-auto px-6">
