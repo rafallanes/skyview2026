@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
-import { ArrowLeft, Mail } from "lucide-react";
+import { ArrowLeft, Mail, Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const tocSections = [
@@ -168,6 +168,10 @@ const AvisoLegal = () => {
                   <Mail className="mr-2 h-4 w-4" />
                   Contactar con Soporte
                 </a>
+              </Button>
+              <Button variant="outline" className="rounded-none print:hidden" onClick={() => window.print()}>
+                <Printer className="mr-2 h-4 w-4" />
+                Imprimir PDF
               </Button>
             </div>
 
