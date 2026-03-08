@@ -32,6 +32,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
+      <SEO titleKey="seo.home.title" descriptionKey="seo.home.description" routeKey="home" />
       <Navigation />
       <Hero />
 
