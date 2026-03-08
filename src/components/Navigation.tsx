@@ -64,7 +64,7 @@ const Navigation = () => {
             aria-hidden="true"
           />
           <div className="md:hidden bg-[hsl(0_0%_0%)] border-t border-[hsl(0_0%_15%)]">
-            <div className="container mx-auto px-6 py-6 space-y-5">
+            <div className="container mx-auto px-6 py-6 space-y-5 flex flex-col items-end">
               <Link to="/que-hacemos" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>Qué Hacemos</Link>
               <Link to="/oficina-IA" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>Oficina IA</Link>
               <Link to="/casos-de-exito" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>Casos de Éxito</Link>
