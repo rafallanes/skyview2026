@@ -9,6 +9,7 @@ import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 const Blog = () => {
   const { t } = useTranslation();
   const [activeCategory, setActiveCategory] = useState("ALL");
+  const lp = useLocalizedPath();
 
   const posts = getBlogPosts(t);
 
