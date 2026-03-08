@@ -87,7 +87,7 @@ const Index = () => {
               {t("index.sprintDesc")}
             </p>
             <Button asChild variant="outline" className="rounded-none px-10 py-6 text-sm tracking-wide font-semibold">
-              <Link to="/oficina-IA">
+              <Link to={lp("about")}>
                 {t("index.sprintCta")}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
