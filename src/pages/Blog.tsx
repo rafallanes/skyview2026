@@ -4,10 +4,12 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { getBlogPosts } from "@/data/blogPosts";
 import { useTranslation } from "react-i18next";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 const Blog = () => {
   const { t } = useTranslation();
   const [activeCategory, setActiveCategory] = useState("ALL");
+  const lp = useLocalizedPath();
 
   const posts = getBlogPosts(t);
 
@@ -76,7 +78,7 @@ const Blog = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16">
               {filteredPosts.map((post) => (
                 <article key={post.id} className="group">
-                  <Link to={`/recursos/${post.id}`} className="block">
+                  <Link to={lp("blogPost", { id: post.id })} className="block">
                     <div className="relative overflow-hidden mb-6">
                       <img src={post.image} alt={post.title} className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105" />
                       <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />

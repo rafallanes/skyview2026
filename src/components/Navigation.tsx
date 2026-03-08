@@ -1,10 +1,12 @@
 import { useState, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Globe, Menu, X } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
+import { switchLanguagePath, type SupportedLang } from "@/lib/i18n-routes";
 import logoSkyview from "@/assets/logo-skyview-alpha.png";
 
-const LANGUAGES = ["es", "en", "pt"] as const;
+const LANGUAGES: SupportedLang[] = ["es", "en", "pt"];
 
 const getLangCode = (lang: string): string => {
   if (lang.startsWith("pt")) return "PT";
@@ -17,13 +19,20 @@ const Navigation = () => {
   const [isLangOpen, setIsLangOpen] = useState(false);
   const langTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const { t, i18n } = useTranslation();
+  const location = useLocation();
+  const navigate = useNavigate();
+  const lp = useLocalizedPath();
 
   const currentLang = getLangCode(i18n.language);
 
-  const changeLanguage = (lang: string) => {
+  const changeLanguage = (lang: SupportedLang) => {
+    // Calculate the equivalent path in the target language
+    const newPath = switchLanguagePath(location.pathname, lang);
     i18n.changeLanguage(lang);
+    localStorage.setItem("i18nextLng", lang);
     setIsLangOpen(false);
     setIsMenuOpen(false);
+    navigate(newPath);
   };
 
   const handleLangEnter = () => {
@@ -45,7 +54,7 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[hsl(0_0%_0%)] border-b border-[hsl(0_0%_15%)]">
       <div className="container mx-auto px-6 py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex-shrink-0">
+        <Link to={lp("home")} className="flex-shrink-0">
           <img
             src={logoSkyview}
             alt="Skyview"
@@ -55,10 +64,10 @@ const Navigation = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-10">
-          <Link to="/que-hacemos" className={linkClass}>{t("nav.whatWeDo")}</Link>
-          <Link to="/oficina-IA" className={linkClass}>{t("nav.officeIA")}</Link>
-          <Link to="/casos-de-exito" className={linkClass}>{t("nav.caseStudies")}</Link>
-          <Link to="/contacto" className={linkClass}>{t("nav.contact")}</Link>
+          <Link to={lp("services")} className={linkClass}>{t("nav.whatWeDo")}</Link>
+          <Link to={lp("about")} className={linkClass}>{t("nav.officeIA")}</Link>
+          <Link to={lp("work")} className={linkClass}>{t("nav.caseStudies")}</Link>
+          <Link to={lp("contact")} className={linkClass}>{t("nav.contact")}</Link>
         </div>
 
         {/* Desktop Language Dropdown */}
@@ -120,10 +129,10 @@ const Navigation = () => {
           />
           <div className="md:hidden bg-[hsl(0_0%_0%)] border-t border-[hsl(0_0%_15%)]">
             <div className="container mx-auto px-6 py-6 space-y-5 flex flex-col items-end">
-              <Link to="/que-hacemos" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>{t("nav.whatWeDo")}</Link>
-              <Link to="/oficina-IA" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>{t("nav.officeIA")}</Link>
-              <Link to="/casos-de-exito" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>{t("nav.caseStudies")}</Link>
-              <Link to="/contacto" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>{t("nav.contact")}</Link>
+              <Link to={lp("services")} onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>{t("nav.whatWeDo")}</Link>
+              <Link to={lp("about")} onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>{t("nav.officeIA")}</Link>
+              <Link to={lp("work")} onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>{t("nav.caseStudies")}</Link>
+              <Link to={lp("contact")} onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>{t("nav.contact")}</Link>
 
               {/* Mobile Language Row */}
               <div className="pt-4 border-t border-[hsl(0_0%_15%)] w-full flex justify-end gap-4">

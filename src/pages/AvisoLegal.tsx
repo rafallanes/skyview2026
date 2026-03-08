@@ -4,11 +4,13 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Mail, Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 const tocIds = ["identificativa", "objeto", "propiedad", "responsabilidad", "cookies", "enlaces", "datos", "jurisdiccion"];
 
 const AvisoLegal = () => {
   const { t, i18n } = useTranslation();
+  const lp = useLocalizedPath();
   const lang = i18n.language?.startsWith("pt") ? "pt" : i18n.language?.startsWith("en") ? "en" : "es";
 
   return (
@@ -96,7 +98,7 @@ const AvisoLegal = () => {
                 <h3 className="text-xl font-semibold text-foreground mb-4">{t("avisoLegal.s7Title")}</h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
                   {t("avisoLegal.s7Content")}{" "}
-                  <Link to="/privacidad" className="underline underline-offset-4 hover:text-foreground transition-colors duration-300">{t("avisoLegal.s7LinkText")}</Link>
+                  <Link to={lp("privacidad")} className="underline underline-offset-4 hover:text-foreground transition-colors duration-300">{t("avisoLegal.s7LinkText")}</Link>
                   {t("avisoLegal.s7ContentAfter")}
                 </p>
               </section>
@@ -109,7 +111,7 @@ const AvisoLegal = () => {
 
             <div className="mt-20 pt-10 border-t border-border flex flex-col sm:flex-row gap-4">
               <Button variant="outline" asChild className="rounded-none">
-                <Link to="/"><ArrowLeft className="mr-2 h-4 w-4" />{t("avisoLegal.backBtn")}</Link>
+                <Link to={lp("home")}><ArrowLeft className="mr-2 h-4 w-4" />{t("avisoLegal.backBtn")}</Link>
               </Button>
               <Button variant="outline" asChild className="rounded-none">
                 <a href="mailto:hola@skyview.es"><Mail className="mr-2 h-4 w-4" />{t("avisoLegal.supportBtn")}</a>

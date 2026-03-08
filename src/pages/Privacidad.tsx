@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Mail, Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import {
   Table, TableBody, TableCell, TableHead, TableHeader, TableRow,
 } from "@/components/ui/table";
@@ -12,6 +13,7 @@ const tocIds = ["responsable", "datos", "conservacion", "terceros", "seguridad",
 
 const Privacidad = () => {
   const { t, i18n } = useTranslation();
+  const lp = useLocalizedPath();
   const lang = i18n.language?.startsWith("pt") ? "pt" : i18n.language?.startsWith("en") ? "en" : "es";
 
   const datosTable = [
@@ -140,7 +142,7 @@ const Privacidad = () => {
 
             <div className="mt-20 pt-10 border-t border-border flex flex-col sm:flex-row gap-4">
               <Button variant="outline" asChild className="rounded-none">
-                <Link to="/"><ArrowLeft className="mr-2 h-4 w-4" />{t("privacidad.backBtn")}</Link>
+                <Link to={lp("home")}><ArrowLeft className="mr-2 h-4 w-4" />{t("privacidad.backBtn")}</Link>
               </Button>
               <Button variant="outline" asChild className="rounded-none">
                 <a href="mailto:hola@skyview.es"><Mail className="mr-2 h-4 w-4" />{t("privacidad.supportBtn")}</a>

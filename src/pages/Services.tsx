@@ -12,6 +12,7 @@ import logoPinecone from "@/assets/logos/pinecone.png";
 import aboutFilosofia from "@/assets/about-filosofia.jpg";
 import ImpactAreas from "@/components/ImpactAreas";
 import { Link } from "react-router-dom";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 const techLogos = [
   { src: logoOpenAI, alt: "OpenAI" },
@@ -24,6 +25,7 @@ const techLogos = [
 
 const Services = () => {
   const { t } = useTranslation();
+  const lp = useLocalizedPath();
 
   const timelineYears = ["2014", "2016", "2017", "2022", "2024"];
 
@@ -177,7 +179,7 @@ const Services = () => {
               {t("services.ctaDesc")}
             </p>
             <Link
-              to="/contacto"
+              to={lp("contact")}
               className="inline-block bg-accent text-accent-foreground px-12 py-5 text-sm font-bold tracking-widest uppercase shadow-lg hover:shadow-xl hover:brightness-110 hover:-translate-y-0.5 transition-all duration-300"
             >
               {t("services.ctaCta")}

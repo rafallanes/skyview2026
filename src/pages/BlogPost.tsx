@@ -4,10 +4,12 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { getBlogPosts } from "@/data/blogPosts";
 import { useTranslation } from "react-i18next";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 const BlogPost = () => {
   const { id } = useParams<{ id: string }>();
   const { t } = useTranslation();
+  const lp = useLocalizedPath();
   const posts = getBlogPosts(t);
   const post = posts.find(p => p.id === id);
 
@@ -21,7 +23,7 @@ const BlogPost = () => {
               <h1 className="text-4xl md:text-6xl font-light text-architectural mb-8">
                 {t("blogPage.postNotFound")}
               </h1>
-              <Link to="/recursos" className="text-minimal text-foreground hover:text-muted-foreground transition-colors duration-300">
+              <Link to={lp("blog")} className="text-minimal text-foreground hover:text-muted-foreground transition-colors duration-300">
                 {t("blogPage.backToBlog")}
               </Link>
             </div>
@@ -39,7 +41,7 @@ const BlogPost = () => {
       <article className="pt-32 pb-32">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
-            <Link to="/recursos" className="inline-block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300 mb-12">
+            <Link to={lp("blog")} className="inline-block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300 mb-12">
               {t("blogPage.backToBlog")}
             </Link>
             
@@ -102,7 +104,7 @@ const BlogPost = () => {
                   .filter(p => p.id !== post.id && p.category === post.category)
                   .slice(0, 2)
                   .map(relatedPost => (
-                    <Link key={relatedPost.id} to={`/recursos/${relatedPost.id}`} className="group">
+                    <Link key={relatedPost.id} to={lp("blogPost", { id: relatedPost.id })} className="group">
                       <div className="w-full h-48 mb-4 overflow-hidden">
                         <img src={relatedPost.image} alt={relatedPost.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                       </div>

@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
@@ -22,6 +24,7 @@ const CATEGORY_FILTER_MAP: Record<string, string> = {
 const Work = () => {
   const [activeCatKey, setActiveCatKey] = useState("catAll");
   const { t } = useTranslation();
+  const lp = useLocalizedPath();
 
   const projects = [
     { image: project1, title: "AMURA", key: "amura", filterCat: "Oficina IA", subTag: "START" as string | undefined, area: "areaPersonas", year: "2019" },
@@ -140,13 +143,13 @@ const Work = () => {
               {t("work.ctaTitle")}
             </h2>
             <p className="text-xl text-muted-foreground mb-12">{t("work.ctaDesc")}</p>
-            <a
-              href="/contacto"
+            <Link
+              to={lp("contact")}
               className="inline-block text-minimal text-foreground hover:text-muted-foreground transition-colors duration-300 relative group"
             >
               {t("work.ctaCta")}
               <span className="absolute bottom-0 left-0 w-full h-px bg-foreground group-hover:bg-muted-foreground transition-colors duration-300"></span>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
