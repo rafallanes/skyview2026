@@ -421,7 +421,7 @@ const CondicionesSow = () => {
               {/* Footer legal */}
               <div className="pt-12 border-t border-[hsl(0_0%_90%)]">
                 <p className="text-sm font-medium text-[hsl(240_6%_10%)] text-center mb-2">
-                  SkyView 2026 — Making AI easy
+                  SkyView Iberia, S.L. — Making AI easy
                 </p>
                 <p className="text-xs text-[hsl(0_0%_60%)] text-center">
                   Madrid, España &nbsp;|&nbsp; Documento ID: SOW-IA-MASTER-v0.2 &nbsp;|&nbsp; Versión 0.2 — 23/02/2025

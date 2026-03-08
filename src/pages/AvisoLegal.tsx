@@ -76,7 +76,7 @@ const AvisoLegal = () => {
                   2. Objeto y aceptación
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  Este Aviso Legal regula el acceso y uso del sitio web de SkyView 2026. El acceso al sitio implica la aceptación de las presentes condiciones. SkyView Iberia, S.L. se reserva el derecho a actualizarlas cuando sea necesario por cambios normativos o estratégicos, publicando siempre la fecha de la última revisión.
+                  Este Aviso Legal regula el acceso y uso del sitio web de SkyView Iberia, S.L. El acceso al sitio implica la aceptación de las presentes condiciones. SkyView Iberia, S.L. se reserva el derecho a actualizarlas cuando sea necesario por cambios normativos o estratégicos, publicando siempre la fecha de la última revisión.
                 </p>
               </section>
 
