@@ -4,8 +4,13 @@ import { ArrowRight, Download, Mail, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import aboutLaberinto from "@/assets/about-laberinto.jpg";
-import aboutFilosofia from "@/assets/about-filosofia.jpg";
 import aboutCta from "@/assets/about-cta.jpg";
+
+const methodologySteps = [
+{ number: "01", title: "START", subtitle: "DIAGNÓSTICO", description: "PRIMERAS DOS SEMANAS - Consultoría Intensiva. Asignamos Comité IA, definimos objetivos y planificamos primer trimestre con casos de uso." },
+{ number: "02", title: "SPRINT", subtitle: "ESTRATEGIA", description: "PRIMER TRIMESTRE - Ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real." },
+{ number: "03", title: "OFICINA IA AS A SERVICE", subtitle: "IMPLEMENTACIÓN", description: "PRIMER AÑO - Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo." },
+{ number: "04", title: "OFICINA IA PROPIA (OPCIONAL)", subtitle: "CONSOLIDACIÓN", description: "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% autónoma e independiente." }];
 
 /* ── DATA ── */
 

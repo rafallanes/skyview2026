@@ -135,39 +135,45 @@ const Services = () => {
       {/* ─── ÁREAS DE IMPACTO ─── */}
       <ImpactAreas />
 
-      {/* ─── METODOLOGÍA ─── */}
-      <section className="pt-8 md:pt-10 pb-12 md:pb-16 bg-background">
-        <div className="container mx-auto px-6">
-          <div className="max-w-7xl mx-auto">
-            <h3 className="text-minimal text-muted-foreground mb-6">METODOLOGÍA</h3>
-            <h2 className="text-3xl md:text-5xl font-light text-architectural mb-16 max-w-3xl">
-              Tu Oficina IA en 4 pasos.
-            </h2>
+      {/* ─── FILOSOFÍA AUMENTADA ─── */}
+      <section className="bg-background">
+        <div className="grid md:grid-cols-2 min-h-[85vh]">
+          {/* Left: Full-bleed photo */}
+          <div className="relative overflow-hidden">
+            <img
+              src={aboutFilosofia}
+              alt="Pasillo de hormigón con luz al fondo"
+              className="w-full h-full object-cover min-h-[50vh] md:min-h-full"
+              loading="lazy" />
+            <div className="absolute inset-0 bg-gradient-to-r from-background/20 to-transparent" />
+          </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-              {methodologySteps.map((step, index) =>
-              <div
-                key={index}
-                className="group relative border-t border-border py-12 md:py-16 md:pr-16 md:odd:pr-16 md:even:pl-16 md:even:pr-0 overflow-hidden">
-                
-                  <span className="absolute top-4 right-4 md:top-6 md:right-8 text-7xl md:text-8xl font-bold text-foreground/[0.12] select-none pointer-events-none leading-none">
-                    {step.number}
-                  </span>
-                  <div className="relative z-10">
-                    <h4 className="text-xl md:text-2xl font-semibold text-architectural mb-1 group-hover:text-muted-foreground transition-colors duration-500">
-                      {step.title}
-                    </h4>
-                    <span className="text-minimal text-muted-foreground/60 block mb-4">
-                      {step.subtitle}
-                    </span>
-                    <p className="text-muted-foreground leading-relaxed font-light">
-                      {step.description}
-                    </p>
-                  </div>
+          {/* Right: Philosophy text */}
+          <div className="flex items-center py-12 md:py-16 px-8 md:px-16 lg:px-24">
+            <div className="max-w-xl">
+              <h4 className="text-minimal text-muted-foreground mb-4">TECNOLOGÍA AL SERVICIO DE LAS PERSONAS</h4>
+              <h3 className="text-4xl md:text-5xl lg:text-6xl font-light text-architectural mb-10">
+                Filosofía<br />"Aumentada"
+              </h3>
+              <div className="space-y-6">
+                <p className="text-lg text-muted-foreground leading-relaxed font-light">
+                  No sustituimos personas, potenciamos su talento. Creamos Inteligencia Aumentada uniendo el criterio humano a la potencia tecnológica.
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed font-light">
+                  El resultado son Equipos Aumentados y resultados multiplicados. Menos tareas manuales, más impacto estratégico. Así de sencillo.
+                </p>
+              </div>
+              <div className="mt-12 pt-8 border-t border-border flex gap-12">
+                <div>
+                  <span className="text-minimal text-muted-foreground">FOUNDED</span>
+                  <p className="text-2xl font-semibold mt-1">2012</p>
                 </div>
-              )}
+                <div>
+                  <span className="text-minimal text-muted-foreground">PROJECTS</span>
+                  <p className="text-2xl font-semibold mt-1">200+</p>
+                </div>
+              </div>
             </div>
-            <div className="border-t border-border" />
           </div>
         </div>
       </section>
