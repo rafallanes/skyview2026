@@ -52,7 +52,7 @@ const Privacidad = () => {
                   3. Finalidad y Conservación de Datos
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  SkyView 2026 trata la información con el fin de facilitar la adopción de IA en su organización. Los datos se conservarán mientras exista un interés mutuo para mantener el fin del tratamiento y, cuando ya no sea necesario, se suprimirán con medidas de seguridad adecuadas para garantizar la seudonimización o destrucción total.
+                  SkyView Iberia S.L. trata la información con el fin de facilitar la adopción de IA en su organización. Los datos se conservarán mientras exista un interés mutuo para mantener el fin del tratamiento y, cuando ya no sea necesario, se suprimirán con medidas de seguridad adecuadas para garantizar la seudonimización o destrucción total.
                 </p>
               </section>
 
