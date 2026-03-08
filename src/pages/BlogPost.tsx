@@ -1,13 +1,15 @@
 import { useParams, Link } from "react-router-dom";
 import DOMPurify from "dompurify";
 import Navigation from "@/components/Navigation";
-import { blogPosts } from "@/data/blogPosts";
+import Footer from "@/components/Footer";
+import { getBlogPosts } from "@/data/blogPosts";
 import { useTranslation } from "react-i18next";
 
 const BlogPost = () => {
   const { id } = useParams<{ id: string }>();
   const { t } = useTranslation();
-  const post = blogPosts.find(p => p.id === id);
+  const posts = getBlogPosts(t);
+  const post = posts.find(p => p.id === id);
 
   if (!post) {
     return (
@@ -19,12 +21,13 @@ const BlogPost = () => {
               <h1 className="text-4xl md:text-6xl font-light text-architectural mb-8">
                 {t("blogPage.postNotFound")}
               </h1>
-              <Link to="/blog" className="text-minimal text-foreground hover:text-muted-foreground transition-colors duration-300">
+              <Link to="/recursos" className="text-minimal text-foreground hover:text-muted-foreground transition-colors duration-300">
                 {t("blogPage.backToBlog")}
               </Link>
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
@@ -36,7 +39,7 @@ const BlogPost = () => {
       <article className="pt-32 pb-32">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
-            <Link to="/blog" className="inline-block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300 mb-12">
+            <Link to="/recursos" className="inline-block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300 mb-12">
               {t("blogPage.backToBlog")}
             </Link>
             
@@ -95,11 +98,11 @@ const BlogPost = () => {
             <div className="mt-20">
               <h3 className="text-2xl font-light text-architectural mb-8">{t("blogPage.relatedArticles")}</h3>
               <div className="grid md:grid-cols-2 gap-8">
-                {blogPosts
+                {posts
                   .filter(p => p.id !== post.id && p.category === post.category)
                   .slice(0, 2)
                   .map(relatedPost => (
-                    <Link key={relatedPost.id} to={`/blog/${relatedPost.id}`} className="group">
+                    <Link key={relatedPost.id} to={`/recursos/${relatedPost.id}`} className="group">
                       <div className="w-full h-48 mb-4 overflow-hidden">
                         <img src={relatedPost.image} alt={relatedPost.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                       </div>
@@ -113,6 +116,7 @@ const BlogPost = () => {
           </div>
         </div>
       </article>
+      <Footer />
     </div>
   );
 };
