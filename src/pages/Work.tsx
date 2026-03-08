@@ -57,7 +57,15 @@ const Work = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <SEO titleKey="seo.work.title" descriptionKey="seo.work.description" routeKey="work" />
+      <SEO
+        titleKey="seo.work.title"
+        descriptionKey="seo.work.description"
+        routeKey="work"
+        breadcrumbs={[
+          { name: t("nav.home", "Home"), routeKey: "home" },
+          { name: t("nav.caseStudies"), routeKey: "work" },
+        ]}
+      />
       <Navigation />
 
       <section className="pt-32 pb-12">
