@@ -136,7 +136,7 @@ const Services = () => {
       <section className="bg-background">
         <div className="grid md:grid-cols-2 min-h-[85vh]">
           <div className="relative overflow-hidden">
-            <img src={aboutFilosofia} alt="" className="w-full h-full object-cover min-h-[50vh] md:min-h-full" loading="lazy" />
+            <img src={aboutFilosofia} alt={t("imageAlt.servicesPhilosophy")} className="w-full h-full object-cover min-h-[50vh] md:min-h-full" loading="lazy" width={800} height={600} />
             <div className="absolute inset-0 bg-gradient-to-r from-background/20 to-transparent" />
           </div>
           <div className="flex items-center py-12 md:py-16 px-8 md:px-16 lg:px-24">
