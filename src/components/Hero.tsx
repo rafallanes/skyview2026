@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import heroImage from "@/assets/hero-architecture.jpg";
 
 const Hero = () => {
   const { t } = useTranslation();
+  const lp = useLocalizedPath();
 
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -22,7 +24,7 @@ const Hero = () => {
           {t("hero.subtitle")}
         </p>
         <Link
-          to="/que-hacemos"
+          to={lp("services")}
           className="inline-block bg-white/10 backdrop-blur-sm border border-white/30 text-white px-10 py-4 text-sm font-semibold tracking-widest uppercase hover:bg-white/20 transition-all duration-300 reveal-delayed"
         >
           {t("hero.cta")}
