@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "whatWeDo": "Qué Hacemos",
+    "officeIA": "Oficina IA",
+    "caseStudies": "Casos de Éxito",
+    "contact": "Contacto",
+    "resources": "Recursos"
+  },
+  "hero": {
+    "title1": "MAKING",
+    "title2": "AI EASY",
+    "subtitle": "Hacemos que la IA funcione\nde forma real, segura y medible.",
+    "cta": "Explorar soluciones por departamento",
+    "scroll": "SCROLL"
+  },
+  "index": {
+    "techStack": "STACK TECNOLÓGICO",
+    "experience": "EXPERIENCIA",
+    "experienceTitle": "15 años diseñando eficiencia.",
+    "experienceDesc": "Más de una década optimizando procesos corporativos. No solo implementamos IA; aplicamos toda nuestra experiencia en eficiencia operativa para garantizar que la tecnología genere retorno desde el primer día.",
+    "sprintPath": "EL CAMINO MÁS RÁPIDO HACIA TU OFICINA IA",
+    "sprintTitle": "Metodología SPRINT: Resultados en semanas.",
+    "sprintDesc": "Un proceso de alto rendimiento diseñado para la gran empresa. Sin esperas, sin incertidumbre.",
+    "sprintCta": "Ver nuestra metodología",
+    "resourcesLabel": "RECURSOS ESTRATÉGICOS",
+    "resourcesTitle": "Centro de Recursos Estratégicos",
+    "resourcesDesc": "Datos, no promesas. Acceda a nuestra biblioteca de implementaciones reales y descubra el impacto de la Inteligencia Aumentada en su sector.",
+    "resourcesCta1": "Guía para CEOs: El ROI de la IA en 2026",
+    "resourcesCta2": "Radiografía del CFO: Automatización y Control Financiero"
+  },
+  "impact": {
+    "label": "ÁREAS DE IMPACTO",
+    "title": "Soluciones con impacto real en su organización.",
+    "areas": {
+      "operations": { "title": "Operaciones y Procesos", "department": "Operaciones", "desc": "Automatización de tareas críticas y optimización de flujos para reducir costes operativos." },
+      "sales": { "title": "Ventas y Marketing", "department": "Ventas", "desc": "Modelos predictivos de demanda y personalización de la experiencia de cliente para acelerar el crecimiento." },
+      "finance": { "title": "Departamento Financiero (CFO)", "department": "Financiero", "desc": "Optimización de flujos de caja, detección de anomalías y proyecciones inteligentes para decisiones basadas en datos." },
+      "talent": { "title": "Talento Humano", "department": "Talento", "desc": "Herramientas de IA para multiplicar la productividad de sus equipos y facilitar la gestión del cambio." }
+    },
+    "downloadCase": "Descargar Caso de Uso: {{department}}"
+  },
+  "services": {
+    "heroLabel": "MAKING AI EASY",
+    "heroTitle": "15 años optimizando procesos, ahora potenciados por IA.",
+    "heroDesc": "Nuestra historia no empieza con el auge de la IA generativa; llevamos una década eliminando fricciones operativas en grandes organizaciones. La IA es el motor que hemos integrado para que su empresa sea más inteligente y rentable.",
+    "reinforcement": "Nuestra experiencia nace de la eficiencia operativa y evoluciona hacia la inteligencia estratégica.",
+    "philosophyLabel": "TECNOLOGÍA AL SERVICIO DE LAS PERSONAS",
+    "philosophyTitle1": "Filosofía",
+    "philosophyTitle2": "\"Aumentada\"",
+    "philosophyP1": "No sustituimos personas, potenciamos su talento. Creamos Inteligencia Aumentada uniendo el criterio humano a la potencia tecnológica.",
+    "philosophyP2": "El resultado son Equipos Aumentados y resultados multiplicados. Menos tareas manuales, más impacto estratégico. Así de sencillo.",
+    "founded": "FOUNDED",
+    "projects": "PROJECTS",
+    "techStackLabel": "STACK TECNOLÓGICO",
+    "techStackTitle": "Stack Tecnológico de Vanguardia",
+    "clientsLabel": "CLIENTES",
+    "clientsTitle": "Empresas que ya simplifican su futuro con nosotros.",
+    "ctaTitle": "¿Está preparado para liderar el cambio?",
+    "ctaDesc": "El riesgo no es implementar la IA, es quedarse atrás mientras su competencia lo hace.",
+    "ctaCta": "Agendar sesión estratégica",
+    "methodLabel": "METODOLOGÍA",
+    "methodTitle": "Tu Oficina IA en 4 pasos."
+  },
+  "timeline": {
+    "2014": { "label": "EL ORIGEN", "desc": "Enfoque fundacional en el ahorro de tiempo y dinero gracias a la tecnología." },
+    "2016": { "label": "ECOSISTEMA SAAS", "desc": "Alianzas estratégicas para la agilidad operativa (Monday, Signaturit, Odoo, Zoho, Xeerpa, Captio)." },
+    "2017": { "label": "LA FÁBRICA RPA", "desc": "Especialización en automatización robótica de procesos como factoría para 'Big Four' del norte de Europa." },
+    "2022": { "label": "INTELIGENCIA\nARTIFICIAL", "desc": "Colaboración en proyectos de gran escala con líderes mundiales en visión artificial y ML (ML6, Robovision)." },
+    "2024": { "label": "INTELIGENCIA\nAUMENTADA", "desc": "Desarrollo de metodología propia para hacer la IA fácil y puesta en marcha de las primeras Oficinas IA." }
+  },
+  "about": {
+    "heroLabel": "OFICINA IA",
+    "heroTitle": "Del Caos a la Claridad:",
+    "heroTitle2": "Su Oficina de IA Operativa.",
+    "heroDesc": "Transformamos la incertidumbre tecnológica en una ventaja competitiva medible y estructurada. Sin complicaciones. Making AI easy.",
+    "methodLabel": "MAKING AI EASY",
+    "methodTitle": "Tu Oficina IA en 4 pasos.",
+    "steps": {
+      "01": { "title": "START", "subtitle": "DIAGNÓSTICO", "desc": "PRIMERAS DOS SEMANAS - Consultoría Intensiva. Asignamos Comité IA, definimos objetivos y planificamos primer trimestre con casos de uso." },
+      "02": { "title": "SPRINT", "subtitle": "ESTRATEGIA", "desc": "PRIMER TRIMESTRE - Ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real." },
+      "03": { "title": "OFICINA IA AS A SERVICE", "subtitle": "IMPLEMENTACIÓN", "desc": "PRIMER AÑO - Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo." },
+      "04": { "title": "OFICINA IA PROPIA (OPCIONAL)", "subtitle": "CONSOLIDACIÓN", "desc": "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% autónoma e independiente." }
+    },
+    "diagnosisLabel": "EL DIAGNÓSTICO",
+    "diagnosisTitle": "El Laberinto de la IA:",
+    "diagnosisTitle2": "¿Por qué no avanzas?",
+    "diagnosisDesc": "El 85% de los proyectos de IA fallan por falta de método. Diseñamos la estructura que garantiza el impacto real en tu cuenta de resultados.",
+    "diagnosis": {
+      "01": { "title": "Valor Inexistente", "stat": "BOSTON CONSULTING GROUP\nTHE WIDENING AI VALUE GAP, 2025", "desc": "El 78% usa GenAI, pero solo el 5% extrae valor sustancial." },
+      "02": { "title": "El Vacío del EBIT", "stat": "STANFORD HAI\nAI INDEZ REPORT 2025, 2025", "desc": "El 80% de las empresas no perciben impacto en EBIT tras 12 meses." },
+      "03": { "title": "Shadow AI", "stat": "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025", "desc": "El 78% de empleados usa IA 'informal'. El 57% lo oculta, arriesgando datos corporativos." },
+      "04": { "title": "Gobernanza llega 'Tarde'", "stat": "DELOITTE\nTHE STATE OF GENERATIVE AI IN ENTERPRISE, 2024", "desc": "Solo el 15% se siente preparado en riesgos. Se acelera sin guardrails o se frena por miedo." },
+      "05": { "title": "\"Pruebas eternas\" que no avanzan", "stat": "MCKINSEY\nTHE STATE OF AI: HOW ORGANIZATIONS ARE REWRITING, 2025", "desc": "El 80-85% de los pilotos nunca llegan a producción. Sólo el 10% reporta usar agentes en alguna función." },
+      "06": { "title": "Resistencias Invisibles", "stat": "KPMG 6 UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025", "desc": "Miedo al empleo y formación genérica que no cambia hábitos." }
+    },
+    "sprintLabel": "NUESTRO MODELO",
+    "sprintTitle": "Metodología S-P-R-I-N-T",
+    "sprintDesc": "Seis pilares que transforman la incertidumbre en un sistema operativo de IA productivo y medible.",
+    "sprint": {
+      "S": { "title": "Squads", "desc": "Especialización por equipos (squads) para aterrizar casos reales del día a día. Nada de demos genéricas." },
+      "P": { "title": "Priorities", "desc": "El negocio decide y prioriza qué cambiar primero. Siempre está al volante. Y tiene la Oficina IA activa desde el minuto uno." },
+      "R": { "title": "Roadmap", "desc": "Mapa de ruta claro y 'fast tracks' o periodos cortos para replicar lo que funciona." },
+      "I": { "title": "Impact", "desc": "Equilibrio entre formación, consultoría y automatización para procesos eficientes." },
+      "N": { "title": "Numbers", "desc": "Objetivos medibles y ROI (OPEX y CAPEX). Claridad y objetividad total." },
+      "T": { "title": "Trust", "desc": "Gobernanza, ética y seguridad desde el inicio para garantizar la integridad de la información." }
+    },
+    "leadLabel": "RECURSO DESTACADO",
+    "leadTitle": "Descarga el Paper:",
+    "leadTitle2": "El Laberinto de la IA",
+    "leadDesc": "Todo lo que necesitas saber sobre por qué fallan los proyectos de IA y cómo evitarlo. Datos, frameworks y casos reales.",
+    "leadWhitePaper": "WHITE PAPER",
+    "leadPaperTitle": "El Laberinto\nde la IA",
+    "leadPaperYear": "SKYVIEW · 2026",
+    "leadEmailPlaceholder": "Email corporativo",
+    "leadCompanyPlaceholder": "Empresa",
+    "leadDownload": "DESCARGAR PAPER",
+    "ctaLabel": "SIGUIENTE PASO",
+    "ctaTitle": "Agenda tu sesión START de 25 minutos.",
+    "ctaDesc": "Sin compromiso. Te mostramos cómo aplicar nuestra metodología a tu caso concreto y qué resultados puedes esperar.",
+    "ctaCta": "AGENDAR SESIÓN START",
+    "trustProjects": "Proyectos",
+    "trustSprint": "Sprint medio",
+    "trustSince": "Desde"
+  },
+  "contact": {
+    "directLabel": "CONTACTO DIRECTO",
+    "directTitle": "Estamos a un clic de transformar su operativa.",
+    "email": "EMAIL",
+    "phone": "TELÉFONO",
+    "offices": "OFICINAS",
+    "followUs": "SÍGUENOS",
+    "ctaLabel": "SIGUIENTE PASO",
+    "ctaTitle": "Agenda tu sesión",
+    "ctaTitle2": "START de 25 minutos.",
+    "ctaDesc": "Sin compromiso. Te mostramos cómo aplicar nuestra metodología a tu caso concreto y qué resultados puedes esperar.",
+    "ctaCta": "AGENDAR SESIÓN START",
+    "trustProjects": "Proyectos",
+    "trustSprint": "Sprint medio",
+    "trustSince": "Desde"
+  },
+  "work": {
+    "title": "PROYECTOS",
+    "desc": "Desde su creación en 2012 la misión de SKYVIEW ha sido poner la tecnología al servicio de las personas. Multitud de clientes en todos los sectores se benefician de nuestra experiencia aportando eficiencia a los procesos.",
+    "desc2": "Nuestra obsesión es conseguir resultados medibles al automatizar tareas repetitivas. Transformamos la complejidad técnica en modelos operativos que escalan. De la visión a la producción real.",
+    "area": "AREA",
+    "year": "YEAR",
+    "ctaTitle": "¿Preparado para\nempezar su proyecto?",
+    "ctaDesc": "Hablemos de cómo podemos transformar su visión en resultados reales",
+    "ctaCta": "CONTACTAR"
+  },
+  "logoCarousel": {
+    "title": "CONFÍAN EN NOSOTROS"
+  },
+  "footer": {
+    "tagline": "Making AI easy.",
+    "services": "SERVICIOS",
+    "whatWeDo": "Qué Hacemos",
+    "officeIA": "Oficina IA",
+    "clients": "Clientes",
+    "company": "EMPRESA",
+    "resources": "Recursos",
+    "contact": "Contacto",
+    "legal": "LEGAL",
+    "legalNotice": "Aviso Legal",
+    "privacy": "Privacidad y RGPD",
+    "sowConditions": "Condiciones SOW",
+    "rights": "© {{year}} Skyview. Todos los derechos reservados."
+  },
+  "methodology": {
+    "steps": {
+      "01": { "title": "START", "subtitle": "EL GERMEN", "desc": "PRIMERAS DOS SEMANAS - Consultoría Intensiva. Asignamos Comité IA, definimos objetivos y planificamos primer trimestre con casos de uso." },
+      "02": { "title": "SPRINT", "subtitle": "EL MOTOR", "desc": "PRIMER TRIMESTRE - Ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real." },
+      "03": { "title": "OFICINA IA AS A SERVICE", "subtitle": "LA CONSOLIDACIÓN", "desc": "PRIMER AÑO - Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo." },
+      "04": { "title": "OFICINA IA PROPIA (OPCIONAL)", "subtitle": "LA AUTONOMÍA", "desc": "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% autónoma e independiente." }
+    }
+  }
+}
