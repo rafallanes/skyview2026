@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import {
   Table, TableHeader, TableBody, TableHead, TableRow, TableCell,
 } from "@/components/ui/table";
+import SEO from "@/components/SEO";
 
 const tocIds = ["introduccion", "descripcion", "fases", "entregables", "raci", "economicas", "propiedad", "confidencialidad", "advertencia-ia", "supervision", "cambios", "relacion", "vigencia", "jurisdiccion"];
 

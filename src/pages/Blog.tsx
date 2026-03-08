@@ -29,6 +29,7 @@ const Blog = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO titleKey="seo.blog.title" descriptionKey="seo.blog.description" routeKey="blog" />
       <Navigation />
       
       <section className="pt-32 pb-12">

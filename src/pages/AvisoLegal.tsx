@@ -5,6 +5,7 @@ import { ArrowLeft, Mail, Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
+import SEO from "@/components/SEO";
 
 const tocIds = ["identificativa", "objeto", "propiedad", "responsabilidad", "cookies", "enlaces", "datos", "jurisdiccion"];
 
