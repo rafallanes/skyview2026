@@ -16,6 +16,7 @@ const AvisoLegal = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO titleKey="seo.avisoLegal.title" descriptionKey="seo.avisoLegal.description" routeKey="avisoLegal" noIndex />
       <Navigation />
 
       <main className="flex-1 pt-32 pb-20 bg-background">

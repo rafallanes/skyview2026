@@ -26,6 +26,7 @@ const Privacidad = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO titleKey="seo.privacidad.title" descriptionKey="seo.privacidad.description" routeKey="privacidad" noIndex />
       <Navigation />
 
       <main className="flex-1 pt-32 pb-20 bg-background">

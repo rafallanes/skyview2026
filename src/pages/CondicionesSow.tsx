@@ -67,6 +67,7 @@ const CondicionesSow = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO titleKey="seo.sow.title" descriptionKey="seo.sow.description" routeKey="sow" noIndex />
       <div className="print:hidden"><Navigation /></div>
 
       <main className="flex-1 pt-32 pb-20 bg-[hsl(0_0%_100%)]" ref={contentRef}>
