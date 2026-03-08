@@ -13,6 +13,7 @@ const tocIds = ["responsable", "datos", "conservacion", "terceros", "seguridad",
 
 const Privacidad = () => {
   const { t, i18n } = useTranslation();
+  const lp = useLocalizedPath();
   const lang = i18n.language?.startsWith("pt") ? "pt" : i18n.language?.startsWith("en") ? "en" : "es";
 
   const datosTable = [
