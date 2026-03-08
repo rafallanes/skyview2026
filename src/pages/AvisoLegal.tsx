@@ -111,7 +111,7 @@ const AvisoLegal = () => {
 
             <div className="mt-20 pt-10 border-t border-border flex flex-col sm:flex-row gap-4">
               <Button variant="outline" asChild className="rounded-none">
-                <Link to="/"><ArrowLeft className="mr-2 h-4 w-4" />{t("avisoLegal.backBtn")}</Link>
+                <Link to={lp("home")}><ArrowLeft className="mr-2 h-4 w-4" />{t("avisoLegal.backBtn")}</Link>
               </Button>
               <Button variant="outline" asChild className="rounded-none">
                 <a href="mailto:hola@skyview.es"><Mail className="mr-2 h-4 w-4" />{t("avisoLegal.supportBtn")}</a>
