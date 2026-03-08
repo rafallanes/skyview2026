@@ -60,7 +60,7 @@ const BlogPost = () => {
             </div>
             
             <div className="w-full h-96 mb-12 overflow-hidden">
-              <img src={post.image} alt={post.title} className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+              <img src={post.image} alt={post.title} className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" loading="eager" width={1200} height={384} />
             </div>
             
             <div className="prose prose-lg max-w-none">
