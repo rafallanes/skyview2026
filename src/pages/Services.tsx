@@ -25,6 +25,7 @@ const techLogos = [
 
 const Services = () => {
   const { t } = useTranslation();
+  const lp = useLocalizedPath();
 
   const timelineYears = ["2014", "2016", "2017", "2022", "2024"];
 
