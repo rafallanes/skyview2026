@@ -48,7 +48,7 @@ const AvisoLegal = () => {
                   2. Objeto y Ámbito de Aplicación
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  El presente Aviso Legal regula el acceso, navegación y utilización del sitio web skyview2026.lovable.app (en adelante, el "Sitio Web"). El acceso al Sitio Web le atribuye la condición de Usuario, lo cual implica la aceptación sin reservas de todas las cláusulas aquí expuestas. SkyView 2026 se reserva el derecho a modificar estas condiciones para adaptarlas a novedades legislativas o estrategias de negocio.
+                  El presente Aviso Legal regula el acceso, navegación y utilización del sitio web skyview2026.lovable.app (en adelante, el "Sitio Web"). El acceso al Sitio Web le atribuye la condición de Usuario, lo cual implica la aceptación sin reservas de todas las cláusulas aquí expuestas. El presente Aviso Legal regula el acceso, navegación y utilización del sitio web skyview2026.lovable.app (en adelante, el "Sitio Web"). El acceso al Sitio Web le atribuye la condición de Usuario, lo cual implica la aceptación sin reservas de todas las cláusulas aquí expuestas. SkyView Iberia S.L. se reserva el derecho a modificar estas condiciones para adaptarlas a novedades legislativas o estrategias de negocio.
                 </p>
               </section>
 
@@ -58,7 +58,7 @@ const AvisoLegal = () => {
                   3. Propiedad Intelectual e Industrial
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed mb-6">
-                  SkyView 2026 es titular de todos los derechos de propiedad intelectual e industrial de este Sitio Web. Esto incluye, a título enunciativo:
+                  SkyView Iberia S.L. es titular de todos los derechos de propiedad intelectual e industrial de este Sitio Web. Esto incluye, a título enunciativo:
                 </p>
                 <ul className="ml-6 space-y-2 text-base text-muted-foreground leading-relaxed list-disc">
                   <li>Diseño gráfico, interfaces de usuario, arquitectura de información y código fuente.</li>
@@ -76,17 +76,17 @@ const AvisoLegal = () => {
                   4. Exclusión de Garantías y Responsabilidad
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed mb-6">
-                  SkyView 2026 desarrolla sus mejores esfuerzos para que el contenido sea preciso y actualizado. No obstante, dada la naturaleza cambiante de la Inteligencia Artificial, el titular no se hace responsable de:
+                  SkyView Iberia S.L. desarrolla sus mejores esfuerzos para que el contenido sea preciso y actualizado. No obstante, dada la naturaleza cambiante de la Inteligencia Artificial, el titular no se hace responsable de:
                 </p>
                 <ul className="ml-6 space-y-4 text-base text-muted-foreground leading-relaxed list-disc">
                   <li>
                     <strong className="text-foreground/80">Exactitud de la información:</strong> Los contenidos son informativos y no constituyen un diagnóstico vinculante sin una auditoría previa personalizada.
                   </li>
-                  <li>Disponibilidad Técnica: El acceso puede verse interrumpido por mantenimiento o causas de fuerza mayor ajenas a SkyView Iberia S.L.
-                    <strong className="text-foreground/80">Disponibilidad Técnica:</strong> El acceso puede verse interrumpido por mantenimiento o causas de fuerza mayor ajenas a SkyView 2026.
+                  <li>
+                    <strong className="text-foreground/80">Disponibilidad Técnica:</strong> El acceso puede verse interrumpido por mantenimiento o causas de fuerza mayor ajenas a SkyView Iberia S.L.
                   </li>
-                  <li>Uso de la Información: SkyView Iberia S.L. no se hace responsable del uso que el Usuario realice de la información contenida en la web, ni de las decisiones tomadas en base a la misma.
-                    <strong className="text-foreground/80">Uso de la Información:</strong> SkyView 2026 no se hace responsable del uso que el Usuario realice de la información contenida en la web, ni de las decisiones tomadas en base a la misma.
+                  <li>
+                    <strong className="text-foreground/80">Uso de la Información:</strong> SkyView Iberia S.L. no se hace responsable del uso que el Usuario realice de la información contenida en la web, ni de las decisiones tomadas en base a la misma.
                   </li>
                 </ul>
               </section>
@@ -97,7 +97,7 @@ const AvisoLegal = () => {
                   5. Protección de Datos y Seguridad
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  El tratamiento de los datos de carácter personal que el Usuario facilite a través de los formularios de contacto o sesiones estratégicas se rige por nuestra <Link to="/privacidad" className="underline underline-offset-4 hover:text-foreground transition-colors duration-300">Política de Privacidad</Link>, la cual cumple estrictamente con el Reglamento (UE) 2016/679 (RGPD) y la LOPDGDD 3/2018. SkyView 2026 emplea protocolos de seguridad para proteger la integridad y confidencialidad de los datos.
+                  El tratamiento de los datos de carácter personal que el Usuario facilite a través de los formularios de contacto o sesiones estratégicas se rige por nuestra <Link to="/privacidad" className="underline underline-offset-4 hover:text-foreground transition-colors duration-300">Política de Privacidad</Link>, la cual cumple estrictamente con el Reglamento (UE) 2016/679 (RGPD) y la LOPDGDD 3/2018. El tratamiento de los datos de carácter personal que el Usuario facilite a través de los formularios de contacto o sesiones estratégicas se rige por nuestra <Link to="/privacidad" className="underline underline-offset-4 hover:text-foreground transition-colors duration-300">Política de Privacidad</Link>, la cual cumple estrictamente con el Reglamento (UE) 2016/679 (RGPD) y la LOPDGDD 3/2018. SkyView Iberia S.L. emplea protocolos de seguridad para proteger la integridad y confidencialidad de los datos.
                 </p>
               </section>
 
@@ -107,7 +107,7 @@ const AvisoLegal = () => {
                   6. Política de Enlaces
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  El Sitio Web puede contener enlaces a sitios de terceros (partners tecnológicos como OpenAI, Microsoft o Google). SkyView 2026 no asume responsabilidad alguna por el contenido, políticas de privacidad o prácticas de dichos sitios web.
+                  El Sitio Web puede contener enlaces a sitios de terceros (partners tecnológicos como OpenAI, Microsoft o Google). El Sitio Web puede contener enlaces a sitios de terceros (partners tecnológicos como OpenAI, Microsoft o Google). SkyView Iberia S.L. no asume responsabilidad alguna por el contenido, políticas de privacidad o prácticas de dichos sitios web.
                 </p>
               </section>
 
