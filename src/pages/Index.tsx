@@ -53,7 +53,6 @@ const Index = () => {
                       width={120}
                       height={48}
                     />
-                    />
                   </div>
                   <span className="text-xs text-muted-foreground/60 font-medium tracking-wide">{logo.alt}</span>
                 </div>
