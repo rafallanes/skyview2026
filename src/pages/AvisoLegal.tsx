@@ -65,8 +65,8 @@ const AvisoLegal = () => {
                   <li>Textos, logotipos, marcas comerciales y lemas (incluyendo "Making AI easy").</li>
                   <li>Metodologías propias descritas (como la Metodología SPRINT o el concepto de Inteligencia Aumentada).</li>
                 </ul>
-                <p className="text-base text-muted-foreground leading-relaxed mt-6">
-                  Queda estrictamente prohibida la reproducción, distribución o transformación de cualquier contenido de este sitio sin la autorización expresa y por escrito de SkyView 2026. Cualquier uso no autorizado será considerado un incumplimiento grave de los derechos de propiedad intelectual.
+                <p className="text-base text-muted-foreground leading-relaxed mt-6">Queda estrictamente prohibida la reproducción, distribución o transformación de cualquier contenido de este sitio sin la autorización expresa y por escrito de SkyView Iberia, S.L. Cualquier uso no autorizado será considerado un incumplimiento grave de los derechos de propiedad intelectual.
+
                 </p>
               </section>
 
@@ -82,10 +82,10 @@ const AvisoLegal = () => {
                   <li>
                     <strong className="text-foreground/80">Exactitud de la información:</strong> Los contenidos son informativos y no constituyen un diagnóstico vinculante sin una auditoría previa personalizada.
                   </li>
-                  <li>
+                  <li>Disponibilidad Técnica: El acceso puede verse interrumpido por mantenimiento o causas de fuerza mayor ajenas a SkyView Iberia S.L.
                     <strong className="text-foreground/80">Disponibilidad Técnica:</strong> El acceso puede verse interrumpido por mantenimiento o causas de fuerza mayor ajenas a SkyView 2026.
                   </li>
-                  <li>
+                  <li>Uso de la Información: SkyView Iberia S.L. no se hace responsable del uso que el Usuario realice de la información contenida en la web, ni de las decisiones tomadas en base a la misma.
                     <strong className="text-foreground/80">Uso de la Información:</strong> SkyView 2026 no se hace responsable del uso que el Usuario realice de la información contenida en la web, ni de las decisiones tomadas en base a la misma.
                   </li>
                 </ul>
@@ -143,8 +143,8 @@ const AvisoLegal = () => {
       </main>
 
       <Footer />
-    </div>
-  );
+    </div>);
+
 };
 
 export default AvisoLegal;
