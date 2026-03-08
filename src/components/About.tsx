@@ -117,7 +117,7 @@ const About = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <Reveal>
-              <h3 className="text-minimal text-muted-foreground mb-6">METODOLOGÍA</h3>
+              <h3 className="text-minimal text-muted-foreground mb-6">LA IA NO TIENE QUE SER COMPLEJA. TIENE QUE FUNCIONAR. ¡EN UN AÑO!</h3>
             </Reveal>
             <Reveal delay={0.1}>
               <h2 className="text-3xl md:text-5xl font-light text-architectural mb-16 max-w-3xl">
