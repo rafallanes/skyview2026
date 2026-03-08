@@ -79,7 +79,7 @@ const CondicionesSow = () => {
             {/* Meta */}
             <div className="text-xs text-[hsl(0_0%_50%)] space-y-1 mb-12">
               <p>Documento ID: SOW-IA-MASTER-v0.2 &nbsp;|&nbsp; Versión 0.2 — 23/02/2025</p>
-              <p>Preparado por: <strong>SkyView 2026</strong> (en adelante, "el Consultor")</p>
+              <p>Preparado por: <strong>SkyView Iberia, S.L.</strong> (en adelante, "el Consultor")</p>
               <p>Preparado para: <strong>El Cliente</strong> (según se define en la Orden de Pedido correspondiente)</p>
             </div>
 
