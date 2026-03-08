@@ -41,7 +41,7 @@ const BlogPost = () => {
       <article className="pt-32 pb-32">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
-            <Link to="/recursos" className="inline-block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300 mb-12">
+            <Link to={lp("blog")} className="inline-block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300 mb-12">
               {t("blogPage.backToBlog")}
             </Link>
             
