@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, FileText } from "lucide-react";
 import ImpactAreas from "@/components/ImpactAreas";
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
 
 import logoOpenAI from "@/assets/logos/openai.png";
 import logoAzure from "@/assets/logos/azure.png";
@@ -15,17 +16,17 @@ import logoLangChain from "@/assets/logos/langchain.png";
 import logoPinecone from "@/assets/logos/pinecone.png";
 
 const techLogos = [
-{ src: logoOpenAI, alt: "OpenAI" },
-{ src: logoAzure, alt: "Microsoft Azure" },
-{ src: logoGoogleCloud, alt: "Google Cloud" },
-{ src: logoAnthropic, alt: "Anthropic" },
-{ src: logoLangChain, alt: "LangChain" },
-{ src: logoPinecone, alt: "Pinecone" }];
-
-
-
+  { src: logoOpenAI, alt: "OpenAI" },
+  { src: logoAzure, alt: "Microsoft Azure" },
+  { src: logoGoogleCloud, alt: "Google Cloud" },
+  { src: logoAnthropic, alt: "Anthropic" },
+  { src: logoLangChain, alt: "LangChain" },
+  { src: logoPinecone, alt: "Pinecone" },
+];
 
 const Index = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen">
       <Navigation />
@@ -35,58 +36,57 @@ const Index = () => {
       <section className="py-10 md:py-12 bg-muted/30">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
-            <h4 className="text-minimal text-muted-foreground mb-10 text-center tracking-widest">STACK TECNOLÓGICO</h4>
+            <h4 className="text-minimal text-muted-foreground mb-10 text-center tracking-widest">{t("index.techStack")}</h4>
             <div className="grid grid-cols-3 sm:grid-cols-6 gap-8 md:gap-12">
-              {techLogos.map((logo, index) =>
-              <div key={index} className="flex flex-col items-center justify-center gap-3 py-4">
+              {techLogos.map((logo, index) => (
+                <div key={index} className="flex flex-col items-center justify-center gap-3 py-4">
                   <div className="h-16 w-full flex items-center justify-center">
                     <img
-                    src={logo.src}
-                    alt={logo.alt}
-                    className="max-h-12 w-auto object-contain brightness-0 invert opacity-70 hover:opacity-100 transition-all duration-500"
-                    loading="lazy" />
-                  
+                      src={logo.src}
+                      alt={logo.alt}
+                      className="max-h-12 w-auto object-contain brightness-0 invert opacity-70 hover:opacity-100 transition-all duration-500"
+                      loading="lazy"
+                    />
                   </div>
                   <span className="text-xs text-muted-foreground/60 font-medium tracking-wide">{logo.alt}</span>
                 </div>
-              )}
+              ))}
             </div>
           </div>
         </div>
       </section>
 
-      {/* ─── EXPERIENCIA (Simplificado) ─── */}
+      {/* ─── EXPERIENCIA ─── */}
       <section className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-minimal text-muted-foreground mb-6">EXPERIENCIA</h2>
+            <h2 className="text-minimal text-muted-foreground mb-6">{t("index.experience")}</h2>
             <h3 className="text-4xl md:text-6xl lg:text-7xl font-light text-architectural max-w-4xl mb-10">
-              15 años diseñando eficiencia.
+              {t("index.experienceTitle")}
             </h3>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl">
-              Más de una década optimizando procesos corporativos. No solo implementamos IA; aplicamos toda nuestra experiencia en eficiencia operativa para garantizar que la tecnología genere retorno desde el primer día.
+              {t("index.experienceDesc")}
             </p>
           </div>
         </div>
       </section>
 
-      {/* ─── ÁREAS DE IMPACTO (Router de Personas) ─── */}
       <ImpactAreas />
 
       {/* ─── METODOLOGÍA SPRINT (Teaser) ─── */}
       <section className="py-12 md:py-16 bg-muted/30">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-minimal text-muted-foreground mb-6">EL CAMINO MÁS RÁPIDO HACIA TU OFICINA IA</h2>
+            <h2 className="text-minimal text-muted-foreground mb-6">{t("index.sprintPath")}</h2>
             <h3 className="text-3xl md:text-5xl lg:text-6xl font-light text-architectural max-w-4xl mb-8">
-              Metodología SPRINT: Resultados en semanas.
+              {t("index.sprintTitle")}
             </h3>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-12">
-              Un proceso de alto rendimiento diseñado para la gran empresa. Sin esperas, sin incertidumbre.
+              {t("index.sprintDesc")}
             </p>
             <Button asChild variant="outline" className="rounded-none px-10 py-6 text-sm tracking-wide font-semibold">
               <Link to="/oficina-IA">
-                Ver nuestra metodología
+                {t("index.sprintCta")}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
@@ -94,38 +94,38 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ─── CENTRO DE RECURSOS (Inbound / Lead Magnet) ─── */}
+      {/* ─── CENTRO DE RECURSOS ─── */}
       <section className="py-12 md:py-16 bg-foreground text-primary-foreground">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-minimal text-primary-foreground/40 mb-6">RECURSOS ESTRATÉGICOS</h2>
+            <h2 className="text-minimal text-primary-foreground/40 mb-6">{t("index.resourcesLabel")}</h2>
             <h3 className="text-3xl md:text-5xl lg:text-6xl font-bold text-architectural mb-8 max-w-4xl" style={{ lineHeight: 1.1 }}>
-              Centro de Recursos Estratégicos
+              {t("index.resourcesTitle")}
             </h3>
             <p className="text-lg md:text-xl text-primary-foreground/50 leading-relaxed max-w-3xl mb-14 font-light">
-              Datos, no promesas. Acceda a nuestra biblioteca de implementaciones reales y descubra el impacto de la Inteligencia Aumentada en su sector.
+              {t("index.resourcesDesc")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#"
-                className="inline-flex items-center gap-3 bg-primary-foreground text-foreground px-8 py-5 text-sm font-semibold tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300">
-                
+                className="inline-flex items-center gap-3 bg-primary-foreground text-foreground px-8 py-5 text-sm font-semibold tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300"
+              >
                 <FileText size={18} />
-                Guía para CEOs: El ROI de la IA en 2026
+                {t("index.resourcesCta1")}
               </a>
               <a
                 href="#"
-                className="inline-flex items-center gap-3 border border-primary-foreground/30 text-primary-foreground px-8 py-5 text-sm font-semibold tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300">
-                
+                className="inline-flex items-center gap-3 border border-primary-foreground/30 text-primary-foreground px-8 py-5 text-sm font-semibold tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300"
+              >
                 <FileText size={18} />
-                Radiografía del CFO: Automatización y Control Financiero
+                {t("index.resourcesCta2")}
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ─── SOCIAL PROOF / LOGO CAROUSEL ─── */}
+      {/* ─── SOCIAL PROOF ─── */}
       <section className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
@@ -137,8 +137,8 @@ const Index = () => {
       </section>
 
       <Footer />
-    </div>);
-
+    </div>
+  );
 };
 
 export default Index;

@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "whatWeDo": "What We Do",
+    "officeIA": "AI Office",
+    "caseStudies": "Case Studies",
+    "contact": "Contact",
+    "resources": "Resources"
+  },
+  "hero": {
+    "title1": "MAKING",
+    "title2": "AI EASY",
+    "subtitle": "We make AI work\nin a real, secure and measurable way.",
+    "cta": "Explore solutions by department",
+    "scroll": "SCROLL"
+  },
+  "index": {
+    "techStack": "TECH STACK",
+    "experience": "EXPERIENCE",
+    "experienceTitle": "15 years designing efficiency.",
+    "experienceDesc": "Over a decade optimizing corporate processes. We don't just implement AI; we apply all our operational efficiency expertise to ensure technology delivers returns from day one.",
+    "sprintPath": "THE FASTEST PATH TO YOUR AI OFFICE",
+    "sprintTitle": "SPRINT Methodology: Results in weeks.",
+    "sprintDesc": "A high-performance process designed for enterprise. No delays, no uncertainty.",
+    "sprintCta": "See our methodology",
+    "resourcesLabel": "STRATEGIC RESOURCES",
+    "resourcesTitle": "Strategic Resource Center",
+    "resourcesDesc": "Data, not promises. Access our library of real implementations and discover the impact of Augmented Intelligence in your industry.",
+    "resourcesCta1": "CEO Guide: The ROI of AI in 2026",
+    "resourcesCta2": "CFO Report: Automation & Financial Control"
+  },
+  "impact": {
+    "label": "IMPACT AREAS",
+    "title": "Solutions with real impact on your organization.",
+    "areas": {
+      "operations": { "title": "Operations & Processes", "department": "Operations", "desc": "Automation of critical tasks and workflow optimization to reduce operational costs." },
+      "sales": { "title": "Sales & Marketing", "department": "Sales", "desc": "Demand prediction models and customer experience personalization to accelerate growth." },
+      "finance": { "title": "Finance Department (CFO)", "department": "Finance", "desc": "Cash flow optimization, anomaly detection and intelligent projections for data-driven decisions." },
+      "talent": { "title": "Human Talent", "department": "Talent", "desc": "AI tools to multiply your team's productivity and facilitate change management." }
+    },
+    "downloadCase": "Download Use Case: {{department}}"
+  },
+  "services": {
+    "heroLabel": "MAKING AI EASY",
+    "heroTitle": "15 years optimizing processes, now powered by AI.",
+    "heroDesc": "Our story doesn't start with the rise of generative AI; we've spent a decade eliminating operational friction in large organizations. AI is the engine we've integrated to make your company smarter and more profitable.",
+    "reinforcement": "Our expertise is born from operational efficiency and evolves toward strategic intelligence.",
+    "philosophyLabel": "TECHNOLOGY AT THE SERVICE OF PEOPLE",
+    "philosophyTitle1": "Augmented",
+    "philosophyTitle2": "\"Philosophy\"",
+    "philosophyP1": "We don't replace people, we empower their talent. We create Augmented Intelligence by combining human judgment with technological power.",
+    "philosophyP2": "The result is Augmented Teams and multiplied results. Fewer manual tasks, more strategic impact. It's that simple.",
+    "founded": "FOUNDED",
+    "projects": "PROJECTS",
+    "techStackLabel": "TECH STACK",
+    "techStackTitle": "Cutting-Edge Tech Stack",
+    "clientsLabel": "CLIENTS",
+    "clientsTitle": "Companies already simplifying their future with us.",
+    "ctaTitle": "Ready to lead the change?",
+    "ctaDesc": "The risk isn't implementing AI—it's falling behind while your competition does.",
+    "ctaCta": "Schedule strategic session",
+    "methodLabel": "METHODOLOGY",
+    "methodTitle": "Your AI Office in 4 steps."
+  },
+  "timeline": {
+    "2014": { "label": "THE ORIGIN", "desc": "Foundational focus on saving time and money through technology." },
+    "2016": { "label": "SAAS ECOSYSTEM", "desc": "Strategic alliances for operational agility (Monday, Signaturit, Odoo, Zoho, Xeerpa, Captio)." },
+    "2017": { "label": "THE RPA FACTORY", "desc": "Specialization in robotic process automation as a factory for 'Big Four' in Northern Europe." },
+    "2022": { "label": "ARTIFICIAL\nINTELLIGENCE", "desc": "Collaboration on large-scale projects with world leaders in computer vision and ML (ML6, Robovision)." },
+    "2024": { "label": "AUGMENTED\nINTELLIGENCE", "desc": "Development of proprietary methodology to make AI easy and launch of the first AI Offices." }
+  },
+  "about": {
+    "heroLabel": "AI OFFICE",
+    "heroTitle": "From Chaos to Clarity:",
+    "heroTitle2": "Your Operational AI Office.",
+    "heroDesc": "We transform technological uncertainty into a measurable and structured competitive advantage. No complications. Making AI easy.",
+    "methodLabel": "MAKING AI EASY",
+    "methodTitle": "Your AI Office in 4 steps.",
+    "steps": {
+      "01": { "title": "START", "subtitle": "DIAGNOSIS", "desc": "FIRST TWO WEEKS - Intensive Consulting. We assign an AI Committee, define objectives and plan the first quarter with use cases." },
+      "02": { "title": "SPRINT", "subtitle": "STRATEGY", "desc": "FIRST QUARTER - Intensive execution. Regular meetings, measurable objectives and automation with real impact assessment." },
+      "03": { "title": "AI OFFICE AS A SERVICE", "subtitle": "IMPLEMENTATION", "desc": "FIRST YEAR - Continuous professional management. Regularly automated processes and constant model evolution." },
+      "04": { "title": "YOUR OWN AI OFFICE (OPTIONAL)", "subtitle": "CONSOLIDATION", "desc": "Optional final step. We transfer our capabilities to your own staff so the office is 100% autonomous and independent." }
+    },
+    "diagnosisLabel": "THE DIAGNOSIS",
+    "diagnosisTitle": "The AI Labyrinth:",
+    "diagnosisTitle2": "Why aren't you moving forward?",
+    "diagnosisDesc": "85% of AI projects fail due to lack of methodology. We design the structure that guarantees real impact on your bottom line.",
+    "diagnosis": {
+      "01": { "title": "Non-Existent Value", "stat": "BOSTON CONSULTING GROUP\nTHE WIDENING AI VALUE GAP, 2025", "desc": "78% use GenAI, but only 5% extract substantial value." },
+      "02": { "title": "The EBIT Gap", "stat": "STANFORD HAI\nAI INDEX REPORT 2025, 2025", "desc": "80% of companies see no EBIT impact after 12 months." },
+      "03": { "title": "Shadow AI", "stat": "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025", "desc": "78% of employees use 'informal' AI. 57% hide it, risking corporate data." },
+      "04": { "title": "Governance Arrives 'Late'", "stat": "DELOITTE\nTHE STATE OF GENERATIVE AI IN ENTERPRISE, 2024", "desc": "Only 15% feel prepared for risks. They accelerate without guardrails or freeze out of fear." },
+      "05": { "title": "\"Eternal pilots\" that go nowhere", "stat": "MCKINSEY\nTHE STATE OF AI: HOW ORGANIZATIONS ARE REWRITING, 2025", "desc": "80-85% of pilots never reach production. Only 10% report using agents in any function." },
+      "06": { "title": "Invisible Resistance", "stat": "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025", "desc": "Fear of job loss and generic training that doesn't change habits." }
+    },
+    "sprintLabel": "OUR MODEL",
+    "sprintTitle": "S-P-R-I-N-T Methodology",
+    "sprintDesc": "Six pillars that transform uncertainty into a productive and measurable AI operating system.",
+    "sprint": {
+      "S": { "title": "Squads", "desc": "Specialized teams (squads) to ground real day-to-day use cases. No generic demos." },
+      "P": { "title": "Priorities", "desc": "The business decides and prioritizes what to change first. Always in the driver's seat. With the AI Office active from minute one." },
+      "R": { "title": "Roadmap", "desc": "Clear roadmap and 'fast tracks' or short periods to replicate what works." },
+      "I": { "title": "Impact", "desc": "Balance between training, consulting and automation for efficient processes." },
+      "N": { "title": "Numbers", "desc": "Measurable objectives and ROI (OPEX and CAPEX). Total clarity and objectivity." },
+      "T": { "title": "Trust", "desc": "Governance, ethics and security from the start to ensure information integrity." }
+    },
+    "leadLabel": "FEATURED RESOURCE",
+    "leadTitle": "Download the Paper:",
+    "leadTitle2": "The AI Labyrinth",
+    "leadDesc": "Everything you need to know about why AI projects fail and how to avoid it. Data, frameworks and real cases.",
+    "leadWhitePaper": "WHITE PAPER",
+    "leadPaperTitle": "The AI\nLabyrinth",
+    "leadPaperYear": "SKYVIEW · 2026",
+    "leadEmailPlaceholder": "Corporate email",
+    "leadCompanyPlaceholder": "Company",
+    "leadDownload": "DOWNLOAD PAPER",
+    "ctaLabel": "NEXT STEP",
+    "ctaTitle": "Book your 25-minute START session.",
+    "ctaDesc": "No commitment. We show you how to apply our methodology to your specific case and what results you can expect.",
+    "ctaCta": "BOOK START SESSION",
+    "trustProjects": "Projects",
+    "trustSprint": "Avg Sprint",
+    "trustSince": "Since"
+  },
+  "contact": {
+    "directLabel": "DIRECT CONTACT",
+    "directTitle": "We're one click away from transforming your operations.",
+    "email": "EMAIL",
+    "phone": "PHONE",
+    "offices": "OFFICES",
+    "followUs": "FOLLOW US",
+    "ctaLabel": "NEXT STEP",
+    "ctaTitle": "Book your",
+    "ctaTitle2": "25-minute START session.",
+    "ctaDesc": "No commitment. We show you how to apply our methodology to your specific case and what results you can expect.",
+    "ctaCta": "BOOK START SESSION",
+    "trustProjects": "Projects",
+    "trustSprint": "Avg Sprint",
+    "trustSince": "Since"
+  },
+  "work": {
+    "title": "PROJECTS",
+    "desc": "Since its founding in 2012, SKYVIEW's mission has been to put technology at the service of people. Clients across all industries benefit from our expertise in bringing efficiency to processes.",
+    "desc2": "Our obsession is achieving measurable results by automating repetitive tasks. We transform technical complexity into scalable operating models. From vision to real production.",
+    "area": "AREA",
+    "year": "YEAR",
+    "ctaTitle": "Ready to start\nyour project?",
+    "ctaDesc": "Let's discuss how we can transform your vision into real results",
+    "ctaCta": "GET IN TOUCH"
+  },
+  "logoCarousel": {
+    "title": "TRUSTED BY"
+  },
+  "footer": {
+    "tagline": "Making AI easy.",
+    "services": "SERVICES",
+    "whatWeDo": "What We Do",
+    "officeIA": "AI Office",
+    "clients": "Clients",
+    "company": "COMPANY",
+    "resources": "Resources",
+    "contact": "Contact",
+    "legal": "LEGAL",
+    "legalNotice": "Legal Notice",
+    "privacy": "Privacy & GDPR",
+    "sowConditions": "SOW Terms",
+    "rights": "© {{year}} Skyview. All rights reserved."
+  },
+  "methodology": {
+    "steps": {
+      "01": { "title": "START", "subtitle": "THE SEED", "desc": "FIRST TWO WEEKS - Intensive Consulting. We assign an AI Committee, define objectives and plan the first quarter with use cases." },
+      "02": { "title": "SPRINT", "subtitle": "THE ENGINE", "desc": "FIRST QUARTER - Intensive execution. Regular meetings, measurable objectives and automation with real impact assessment." },
+      "03": { "title": "AI OFFICE AS A SERVICE", "subtitle": "CONSOLIDATION", "desc": "FIRST YEAR - Continuous professional management. Regularly automated processes and constant model evolution." },
+      "04": { "title": "YOUR OWN AI OFFICE (OPTIONAL)", "subtitle": "AUTONOMY", "desc": "Optional final step. We transfer our capabilities to your own staff so the office is 100% autonomous and independent." }
+    }
+  }
+}

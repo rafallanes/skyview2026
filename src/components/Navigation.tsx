@@ -1,11 +1,19 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
 import { Globe, Menu, X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import logoSkyview from "@/assets/logo-skyview-alpha.png";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t, i18n } = useTranslation();
+
+  const toggleLanguage = () => {
+    const newLang = i18n.language === "es" ? "en" : "es";
+    i18n.changeLanguage(newLang);
+  };
+
+  const currentLang = i18n.language?.startsWith("en") ? "EN" : "ES";
 
   const linkClass =
     "text-[hsl(0_0%_100%/0.8)] hover:text-[hsl(0_0%_100%)] text-xs font-medium tracking-widest uppercase transition-colors duration-300";
@@ -24,19 +32,21 @@ const Navigation = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-10">
-          <Link to="/que-hacemos" className={linkClass}>Qué Hacemos</Link>
-          <Link to="/oficina-IA" className={linkClass}>Oficina IA</Link>
-          <Link to="/casos-de-exito" className={linkClass}>Casos de Éxito</Link>
-          {/* Recursos - oculto temporalmente */}
-          <Link to="/contacto" className={linkClass}>Contacto</Link>
+          <Link to="/que-hacemos" className={linkClass}>{t("nav.whatWeDo")}</Link>
+          <Link to="/oficina-IA" className={linkClass}>{t("nav.officeIA")}</Link>
+          <Link to="/casos-de-exito" className={linkClass}>{t("nav.caseStudies")}</Link>
+          <Link to="/contacto" className={linkClass}>{t("nav.contact")}</Link>
         </div>
 
         {/* Language Toggle */}
         <div className="hidden md:flex items-center">
-          <span className={`${linkClass} flex items-center gap-1.5 cursor-default`}>
+          <button
+            onClick={toggleLanguage}
+            className={`${linkClass} flex items-center gap-1.5 cursor-pointer`}
+          >
             <Globe className="h-3.5 w-3.5" />
-            ES
-          </span>
+            {currentLang}
+          </button>
         </div>
 
         {/* Mobile Toggle */}
@@ -52,7 +62,6 @@ const Navigation = () => {
       {/* Mobile Menu */}
       {isMenuOpen && (
         <>
-          {/* Overlay */}
           <div
             className="fixed inset-0 top-0 bg-[hsl(0_0%_0%/0.3)] z-[-1] md:hidden"
             onClick={() => setIsMenuOpen(false)}
@@ -60,16 +69,18 @@ const Navigation = () => {
           />
           <div className="md:hidden bg-[hsl(0_0%_0%)] border-t border-[hsl(0_0%_15%)]">
             <div className="container mx-auto px-6 py-6 space-y-5 flex flex-col items-end">
-              <Link to="/que-hacemos" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>Qué Hacemos</Link>
-              <Link to="/oficina-IA" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>Oficina IA</Link>
-              <Link to="/casos-de-exito" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>Casos de Éxito</Link>
-              {/* Recursos - oculto temporalmente */}
-              <Link to="/contacto" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>Contacto</Link>
-              <div className="pt-4 border-t border-[hsl(0_0%_15%)]">
-                <span className={`${linkClass} flex items-center gap-1.5 justify-end cursor-default`}>
+              <Link to="/que-hacemos" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>{t("nav.whatWeDo")}</Link>
+              <Link to="/oficina-IA" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>{t("nav.officeIA")}</Link>
+              <Link to="/casos-de-exito" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>{t("nav.caseStudies")}</Link>
+              <Link to="/contacto" onClick={() => setIsMenuOpen(false)} className={`block ${linkClass}`}>{t("nav.contact")}</Link>
+              <div className="pt-4 border-t border-[hsl(0_0%_15%)] w-full flex justify-end">
+                <button
+                  onClick={toggleLanguage}
+                  className={`${linkClass} flex items-center gap-1.5 cursor-pointer`}
+                >
                   <Globe className="h-3.5 w-3.5" />
-                  ES
-                </span>
+                  {currentLang}
+                </button>
               </div>
             </div>
           </div>

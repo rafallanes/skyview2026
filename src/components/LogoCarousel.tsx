@@ -1,4 +1,5 @@
 import { useRef, useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import logoRafaNadal from "@/assets/logos/rafa-nadal-academy.svg";
 import logoReigJofre from "@/assets/logos/reig-jofre.png";
 import logoViessmann from "@/assets/logos/viessmann.png";
@@ -42,25 +43,23 @@ const logos = [
 const LogoCarousel = () => {
   const trackRef = useRef<HTMLDivElement>(null);
   const [setWidth, setSetWidth] = useState(0);
+  const { t } = useTranslation();
 
-  // Calculate the total width of one set of logos
   useEffect(() => {
     const totalWidth = logos.reduce((sum, logo) => sum + (logo.width || 200), 0);
     setSetWidth(totalWidth);
   }, []);
 
-  // We duplicate logos twice for seamless loop (scroll one full set width)
   const repeated = [...logos, ...logos];
 
   return (
     <div className="py-16 md:py-24 overflow-hidden bg-black rounded-sm">
       <h4 className="text-minimal text-white/40 mb-12 text-center tracking-widest">
-        CONFÍAN EN NOSOTROS
+        {t("logoCarousel.title")}
       </h4>
       <div className="relative w-full">
         <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-black to-transparent z-10" />
         <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-black to-transparent z-10" />
-
         <div
           ref={trackRef}
           className="flex items-center"
@@ -86,7 +85,6 @@ const LogoCarousel = () => {
           ))}
         </div>
       </div>
-
       <style>{`
         @keyframes logo-scroll-custom {
           0% { transform: translateX(0); }
