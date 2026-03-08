@@ -98,7 +98,7 @@ const AvisoLegal = () => {
                 <h3 className="text-xl font-semibold text-foreground mb-4">{t("avisoLegal.s7Title")}</h3>
                 <p className="text-base text-muted-foreground leading-relaxed">
                   {t("avisoLegal.s7Content")}{" "}
-                  <Link to="/privacidad" className="underline underline-offset-4 hover:text-foreground transition-colors duration-300">{t("avisoLegal.s7LinkText")}</Link>
+                  <Link to={lp("privacidad")} className="underline underline-offset-4 hover:text-foreground transition-colors duration-300">{t("avisoLegal.s7LinkText")}</Link>
                   {t("avisoLegal.s7ContentAfter")}
                 </p>
               </section>
