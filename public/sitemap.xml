@@ -38,6 +38,114 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/" />
   </url>
   
+  <!-- Services ES -->
+  <url>
+    <loc>https://skyview.es/que-hacemos</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/que-hacemos" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/what-we-do" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/o-que-fazemos" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/que-hacemos" />
+  </url>
+  
+  <!-- Services EN -->
+  <url>
+    <loc>https://skyview.es/en/what-we-do</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/que-hacemos" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/what-we-do" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/o-que-fazemos" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/que-hacemos" />
+  </url>
+  
+  <!-- Services PT -->
+  <url>
+    <loc>https://skyview.es/pt/o-que-fazemos</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/que-hacemos" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/what-we-do" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/o-que-fazemos" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/que-hacemos" />
+  </url>
+  
+  <!-- About ES -->
+  <url>
+    <loc>https://skyview.es/oficina-IA</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/oficina-IA" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/ai-office" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/escritorio-ia" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/oficina-IA" />
+  </url>
+  
+  <!-- About EN -->
+  <url>
+    <loc>https://skyview.es/en/ai-office</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/oficina-IA" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/ai-office" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/escritorio-ia" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/oficina-IA" />
+  </url>
+  
+  <!-- About PT -->
+  <url>
+    <loc>https://skyview.es/pt/escritorio-ia</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/oficina-IA" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/ai-office" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/escritorio-ia" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/oficina-IA" />
+  </url>
+  
+  <!-- Work ES -->
+  <url>
+    <loc>https://skyview.es/casos-de-exito</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/casos-de-exito" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/case-studies" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/casos-de-sucesso" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/casos-de-exito" />
+  </url>
+  
+  <!-- Work EN -->
+  <url>
+    <loc>https://skyview.es/en/case-studies</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/casos-de-exito" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/case-studies" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/casos-de-sucesso" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/casos-de-exito" />
+  </url>
+  
+  <!-- Work PT -->
+  <url>
+    <loc>https://skyview.es/pt/casos-de-sucesso</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/casos-de-exito" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/case-studies" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/casos-de-sucesso" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/casos-de-exito" />
+  </url>
+  
   <!-- Contact ES -->
   <url>
     <loc>https://skyview.es/contacto</loc>
@@ -46,7 +154,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/contacto" />
     <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/contact" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/contato" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/contacto" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/contacto" />
   </url>
   
@@ -58,56 +166,56 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/contacto" />
     <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/contact" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/contato" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/contacto" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/contacto" />
   </url>
   
   <!-- Contact PT -->
   <url>
-    <loc>https://skyview.es/pt/contato</loc>
+    <loc>https://skyview.es/pt/contacto</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/contacto" />
     <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/contact" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/contato" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/contacto" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/contacto" />
   </url>
   
-  <!-- Services ES -->
+  <!-- Resources/Blog ES -->
   <url>
-    <loc>https://skyview.es/servicios</loc>
+    <loc>https://skyview.es/recursos</loc>
     <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/servicios" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/services" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/servicos" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/servicios" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/recursos" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/resources" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/recursos" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/recursos" />
   </url>
   
-  <!-- Services EN -->
+  <!-- Resources/Blog EN -->
   <url>
-    <loc>https://skyview.es/en/services</loc>
+    <loc>https://skyview.es/en/resources</loc>
     <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/servicios" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/services" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/servicos" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/servicios" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/recursos" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/resources" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/recursos" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/recursos" />
   </url>
   
-  <!-- Services PT -->
+  <!-- Resources/Blog PT -->
   <url>
-    <loc>https://skyview.es/pt/servicos</loc>
+    <loc>https://skyview.es/pt/recursos</loc>
     <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/servicios" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/services" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/servicos" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/servicios" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://skyview.es/recursos" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://skyview.es/en/resources" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://skyview.es/pt/recursos" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skyview.es/recursos" />
   </url>
   
 </urlset>

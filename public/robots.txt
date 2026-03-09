@@ -1,13 +1,19 @@
 User-agent: *
 Allow: /
+
+# Disallow legal pages - ES
 Disallow: /aviso-legal
-Disallow: /en/legal-notice
-Disallow: /pt/aviso-legal
 Disallow: /privacidad
-Disallow: /en/privacy
-Disallow: /pt/privacidade
 Disallow: /condiciones-sow
-Disallow: /en/terms
-Disallow: /pt/termos
+
+# Disallow legal pages - EN
+Disallow: /en/legal-notice
+Disallow: /en/privacy
+Disallow: /en/sow-terms
+
+# Disallow legal pages - PT
+Disallow: /pt/aviso-legal
+Disallow: /pt/privacidade
+Disallow: /pt/condicoes-sow
 
 Sitemap: https://skyview.es/sitemap.xml
