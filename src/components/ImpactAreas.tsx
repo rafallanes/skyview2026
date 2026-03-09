@@ -13,7 +13,7 @@ const ImpactAreas = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={servicesArch}
-          alt={t("imageAlt.impactBackground")}
+          alt=""
           className="w-full h-full object-cover opacity-[0.15] grayscale contrast-[1.8] brightness-[1.2] mix-blend-multiply"
           aria-hidden="true"
           loading="lazy"
