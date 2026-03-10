@@ -50,7 +50,7 @@ const App = () => {
               <Route path="/en/resources/:id" element={<BlogPost />} />
               <Route path="/en/legal-notice" element={<AvisoLegal />} />
               <Route path="/en/privacy" element={<Privacidad />} />
-              <Route path="/en/sow-terms" element={<CondicionesSow />} />
+              <Route path="/en/sow" element={<CondicionesSow />} />
 
               {/* ─── PT routes ─── */}
               <Route path="/pt" element={<Index />} />
@@ -62,7 +62,7 @@ const App = () => {
               <Route path="/pt/recursos/:id" element={<BlogPost />} />
               <Route path="/pt/aviso-legal" element={<AvisoLegal />} />
               <Route path="/pt/privacidade" element={<Privacidad />} />
-              <Route path="/pt/condicoes-sow" element={<CondicionesSow />} />
+              <Route path="/pt/sow" element={<CondicionesSow />} />
 
               {/* ─── Catch-all ─── */}
               <Route path="*" element={<NotFound />} />
