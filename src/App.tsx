@@ -50,7 +50,7 @@ const App = () => {
               <Route path="/en/resources/:id" element={<BlogPost />} />
               <Route path="/en/legal-notice" element={<AvisoLegal />} />
               <Route path="/en/privacy" element={<Privacidad />} />
-              <Route path="/en/sow-terms" element={<CondicionesSow />} />
+              <Route path="/en/sow" element={<CondicionesSow />} />
 
               {/* ─── PT routes ─── */}
               <Route path="/pt" element={<Index />} />
