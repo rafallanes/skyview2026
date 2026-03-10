@@ -38,7 +38,7 @@ const App = () => {
               <Route path="/recursos/:id" element={<BlogPost />} />
               <Route path="/aviso-legal" element={<AvisoLegal />} />
               <Route path="/privacidad" element={<Privacidad />} />
-              <Route path="/condiciones-sow" element={<CondicionesSow />} />
+              <Route path="/sow" element={<CondicionesSow />} />
 
               {/* ─── EN routes ─── */}
               <Route path="/en" element={<Index />} />

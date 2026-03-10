@@ -14,10 +14,14 @@ const LanguageLayout = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
+  // Scroll to top on route change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   useEffect(() => {
     const { lang, routeKey } = parsePathname(location.pathname);
 
-    // Sync i18n with URL language
     const currentI18nLang = (
       i18n.language?.startsWith("pt") ? "pt" :
       i18n.language?.startsWith("en") ? "en" : "es"
@@ -27,12 +31,9 @@ const LanguageLayout = () => {
       i18n.changeLanguage(lang);
     }
 
-    // Update HTML lang attribute
     document.documentElement.lang = lang;
 
-    // If route was not matched and we're at root, handle first-visit detection
     if (location.pathname === "/" && !routeKey) {
-      // This is handled by the home route, no redirect needed
     }
   }, [location.pathname, i18n]);
 
