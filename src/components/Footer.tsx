@@ -37,7 +37,6 @@ const Footer = () => {
               <div className="space-y-3">
                 <Link to={lp("avisoLegal")} className="block text-sm text-muted-foreground hover:text-foreground transition-colors duration-300">{t("footer.legalNotice")}</Link>
                 <Link to={lp("privacidad")} className="block text-sm text-muted-foreground hover:text-foreground transition-colors duration-300">{t("footer.privacy")}</Link>
-                <Link to={lp("sow")} className="block text-sm text-muted-foreground hover:text-foreground transition-colors duration-300">{t("footer.sowConditions")}</Link>
               </div>
             </div>
           </div>
