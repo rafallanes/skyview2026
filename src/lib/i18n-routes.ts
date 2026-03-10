@@ -23,7 +23,7 @@ export const ROUTES: RouteEntry[] = [
   { key: "blogPost",    slugs: { es: "recursos/:id",     en: "resources/:id",    pt: "recursos/:id" } },
   { key: "avisoLegal",  slugs: { es: "aviso-legal",      en: "legal-notice",     pt: "aviso-legal" } },
   { key: "privacidad",  slugs: { es: "privacidad",       en: "privacy",          pt: "privacidade" } },
-  { key: "sow",         slugs: { es: "sow",              en: "sow-terms",        pt: "condicoes-sow" } },
+  { key: "sow",         slugs: { es: "sow",              en: "sow",              pt: "sow" } },
 ];
 
 /**
