@@ -62,7 +62,7 @@ const App = () => {
               <Route path="/pt/recursos/:id" element={<BlogPost />} />
               <Route path="/pt/aviso-legal" element={<AvisoLegal />} />
               <Route path="/pt/privacidade" element={<Privacidad />} />
-              <Route path="/pt/condicoes-sow" element={<CondicionesSow />} />
+              <Route path="/pt/sow" element={<CondicionesSow />} />
 
               {/* ─── Catch-all ─── */}
               <Route path="*" element={<NotFound />} />
