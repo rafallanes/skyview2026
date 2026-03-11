@@ -74,12 +74,12 @@
     "heroTitle2": "Su Oficina de IA Operativa.",
     "heroDesc": "Transformamos la incertidumbre tecnológica en una ventaja competitiva medible y estructurada. Sin complicaciones. Making AI easy.",
     "methodLabel": "MAKING AI EASY",
-    "methodTitle": "Tu Oficina IA en 4 pasos.",
+    "methodTitle": "De cero a tu Oficina IA. Sin complicaciones.",
     "steps": {
-      "01": { "title": "START", "subtitle": "DIAGNÓSTICO", "desc": "PRIMERAS DOS SEMANAS - Consultoría Intensiva. Asignamos Comité IA, definimos objetivos y planificamos primer trimestre con casos de uso." },
-      "02": { "title": "SPRINT", "subtitle": "ESTRATEGIA", "desc": "PRIMER TRIMESTRE - Ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real." },
-      "03": { "title": "OFICINA IA AS A SERVICE", "subtitle": "IMPLEMENTACIÓN", "desc": "PRIMER AÑO - Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo." },
-      "04": { "title": "OFICINA IA PROPIA (OPCIONAL)", "subtitle": "CONSOLIDACIÓN", "desc": "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% autónoma e independiente." }
+      "01": { "title": "START", "subtitle": "DIAGNÓSTICO", "time": "PRIMERAS 4 SEMANAS", "desc": "Mapa de oportunidades IA en tu organización. Constituimos tu Comité IA, identificamos el primer caso de uso de alto impacto y diseñamos la hoja de ruta del primer trimestre. Entregable concreto, decisión informada." },
+      "02": { "title": "OFICINA IA — PRIMER SPRINT", "subtitle": "VALIDACIÓN", "time": "PRIMER TRIMESTRE", "desc": "Tu primer caso de uso en producción real. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto directo en tu cuenta de resultados. Resultado tangible antes de 90 días." },
+      "03": { "title": "OFICINA IA AS A SERVICE", "subtitle": "OPERACIÓN", "time": "ANTES DEL PRIMER AÑO", "desc": "Gestión profesional continua de tu estrategia IA. Nuevos casos de uso cada trimestre, procesos automatizados en producción y evolución constante del modelo. Tu departamento IA externo, operativo desde el primer día." },
+      "04": { "title": "OFICINA IA PROPIA", "subtitle": "AUTONOMÍA", "time": "PASO FINAL · OPCIONAL", "desc": "Transferimos metodología, conocimiento y capacidades a tu equipo propio. Tu oficina IA opera de forma 100% autónoma e independiente. Nuestro objetivo es hacerte crecer, no quedarnos para siempre." }
     },
     "diagnosisLabel": "EL DIAGNÓSTICO",
     "diagnosisTitle": "El Laberinto de la IA:",

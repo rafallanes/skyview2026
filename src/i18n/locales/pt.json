@@ -74,12 +74,12 @@
     "heroTitle2": "O Seu Escritório de IA Operacional.",
     "heroDesc": "Transformamos a incerteza tecnológica numa vantagem competitiva mensurável e estruturada. Sem complicações. Making AI easy.",
     "methodLabel": "MAKING AI EASY",
-    "methodTitle": "O seu Escritório IA em 4 passos.",
+    "methodTitle": "De zero ao seu Escritório IA. Sem complicações.",
     "steps": {
-      "01": { "title": "START", "subtitle": "DIAGNÓSTICO", "desc": "PRIMEIRAS DUAS SEMANAS - Consultoria Intensiva. Atribuímos Comité IA, definimos objetivos e planeamos o primeiro trimestre com casos de uso." },
-      "02": { "title": "SPRINT", "subtitle": "ESTRATÉGIA", "desc": "PRIMEIRO TRIMESTRE - Execução intensiva. Reuniões periódicas, objetivos mensuráveis e automação com avaliação de impacto real." },
-      "03": { "title": "ESCRITÓRIO IA AS A SERVICE", "subtitle": "IMPLEMENTAÇÃO", "desc": "PRIMEIRO ANO - Gestão profissional contínua. Processos automatizados de forma regular e evolução constante do modelo." },
-      "04": { "title": "ESCRITÓRIO IA PRÓPRIO (OPCIONAL)", "subtitle": "CONSOLIDAÇÃO", "desc": "Passo opcional e final. Transferimos as nossas capacidades para o seu pessoal próprio para que o escritório seja 100% autónomo e independente." }
+      "01": { "title": "START", "subtitle": "DIAGNÓSTICO", "time": "PRIMEIRAS 4 SEMANAS", "desc": "Mapa de oportunidades IA na sua organização. Constituímos o seu Comité IA, identificamos o primeiro caso de uso de alto impacto e desenhamos a folha de rota do primeiro trimestre. Entregável concreto, decisão informada." },
+      "02": { "title": "ESCRITÓRIO IA — PRIMEIRO SPRINT", "subtitle": "VALIDAÇÃO", "time": "PRIMEIRO TRIMESTRE", "desc": "O seu primeiro caso de uso em produção real. Reuniões periódicas, objetivos mensuráveis e automação com avaliação de impacto direto na sua conta de resultados. Resultado tangível antes de 90 dias." },
+      "03": { "title": "ESCRITÓRIO IA AS A SERVICE", "subtitle": "OPERAÇÃO", "time": "ANTES DO PRIMEIRO ANO", "desc": "Gestão profissional contínua da sua estratégia IA. Novos casos de uso cada trimestre, processos automatizados em produção e evolução constante do modelo. O seu departamento IA externo, operacional desde o primeiro dia." },
+      "04": { "title": "ESCRITÓRIO IA PRÓPRIO", "subtitle": "AUTONOMIA", "time": "PASSO FINAL · OPCIONAL", "desc": "Transferimos metodologia, conhecimento e capacidades para a sua equipa própria. O seu escritório IA opera de forma 100% autónoma e independente. O nosso objetivo é fazer você crescer, não ficar para sempre." }
     },
     "diagnosisLabel": "O DIAGNÓSTICO",
     "diagnosisTitle": "O Labirinto da IA:",

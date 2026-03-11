@@ -29,10 +29,10 @@ const About = () => {
   const { t } = useTranslation();
 
   const methodologySteps = [
-    { number: "01", title: t("about.steps.01.title"), subtitle: t("about.steps.01.subtitle"), description: t("about.steps.01.desc") },
-    { number: "02", title: t("about.steps.02.title"), subtitle: t("about.steps.02.subtitle"), description: t("about.steps.02.desc") },
-    { number: "03", title: t("about.steps.03.title"), subtitle: t("about.steps.03.subtitle"), description: t("about.steps.03.desc") },
-    { number: "04", title: t("about.steps.04.title"), subtitle: t("about.steps.04.subtitle"), description: t("about.steps.04.desc") },
+    { number: "01", title: t("about.steps.01.title"), subtitle: t("about.steps.01.subtitle"), time: t("about.steps.01.time"), description: t("about.steps.01.desc") },
+    { number: "02", title: t("about.steps.02.title"), subtitle: t("about.steps.02.subtitle"), time: t("about.steps.02.time"), description: t("about.steps.02.desc") },
+    { number: "03", title: t("about.steps.03.title"), subtitle: t("about.steps.03.subtitle"), time: t("about.steps.03.time"), description: t("about.steps.03.desc") },
+    { number: "04", title: t("about.steps.04.title"), subtitle: t("about.steps.04.subtitle"), time: t("about.steps.04.time"), description: t("about.steps.04.desc") },
   ];
 
   const diagnosisItems = [
@@ -75,8 +75,9 @@ const About = () => {
                       <h4 className="text-xl md:text-2xl font-semibold text-architectural mb-1 group-hover:text-muted-foreground transition-colors duration-500">
                         {step.title}
                       </h4>
-                      <span className="text-minimal text-muted-foreground/60 block mb-4">{step.subtitle}</span>
-                      <p className="text-muted-foreground leading-relaxed font-light">{step.description}</p>
+                      <span className="text-[11px] uppercase tracking-[0.15em] text-[#888888] block mb-3">{step.subtitle}</span>
+                      <span className="text-base font-semibold text-foreground block mb-3">{step.time}</span>
+                      <p className="text-[#999999] leading-relaxed font-light text-[15px]">{step.description}</p>
                     </div>
                   </div>
                 </Reveal>
