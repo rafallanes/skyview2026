@@ -74,12 +74,12 @@
     "heroTitle2": "Your Operational AI Office.",
     "heroDesc": "We transform technological uncertainty into a measurable and structured competitive advantage. No complications. Making AI easy.",
     "methodLabel": "MAKING AI EASY",
-    "methodTitle": "Your AI Office in 4 steps.",
+    "methodTitle": "From zero to your AI Office. No complications.",
     "steps": {
-      "01": { "title": "START", "subtitle": "DIAGNOSIS", "desc": "FIRST TWO WEEKS - Intensive Consulting. We assign an AI Committee, define objectives and plan the first quarter with use cases." },
-      "02": { "title": "SPRINT", "subtitle": "STRATEGY", "desc": "FIRST QUARTER - Intensive execution. Regular meetings, measurable objectives and automation with real impact assessment." },
-      "03": { "title": "AI OFFICE AS A SERVICE", "subtitle": "IMPLEMENTATION", "desc": "FIRST YEAR - Continuous professional management. Regularly automated processes and constant model evolution." },
-      "04": { "title": "YOUR OWN AI OFFICE (OPTIONAL)", "subtitle": "CONSOLIDATION", "desc": "Optional final step. We transfer our capabilities to your own staff so the office is 100% autonomous and independent." }
+      "01": { "title": "START", "subtitle": "DIAGNOSIS", "time": "FIRST 4 WEEKS", "desc": "AI opportunity map for your organization. We set up your AI Committee, identify your first high-impact use case and design your first quarter roadmap. Concrete deliverable, informed decision." },
+      "02": { "title": "AI OFFICE — FIRST SPRINT", "subtitle": "VALIDATION", "time": "FIRST QUARTER", "desc": "Your first use case in real production. Regular meetings, measurable objectives and automation with direct impact assessment on your bottom line. Tangible result before 90 days." },
+      "03": { "title": "AI OFFICE AS A SERVICE", "subtitle": "OPERATION", "time": "BEFORE FIRST YEAR", "desc": "Continuous professional management of your AI strategy. New use cases every quarter, automated processes in production and constant model evolution. Your external AI department, operational from day one." },
+      "04": { "title": "YOUR OWN AI OFFICE", "subtitle": "AUTONOMY", "time": "FINAL STEP · OPTIONAL", "desc": "We transfer methodology, knowledge and capabilities to your own team. Your AI office operates 100% autonomously and independently. Our goal is to make you grow, not stay forever." }
     },
     "diagnosisLabel": "THE DIAGNOSIS",
     "diagnosisTitle": "The AI Labyrinth:",
