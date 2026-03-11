@@ -29,10 +29,10 @@ const Hero = () => {
           {t("hero.subtitle")}
         </p>
         <Link
-          to={lp("services")}
+          to={lp("about")}
           className="inline-block bg-white/10 backdrop-blur-sm border border-white/30 text-white px-10 py-4 text-sm font-semibold tracking-widest uppercase hover:bg-white/20 transition-all duration-300 reveal-delayed"
         >
-          {t("hero.cta")}
+          TU OFICINA IA →
         </Link>
       </div>
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 reveal-delayed">
