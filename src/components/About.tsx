@@ -29,10 +29,10 @@ const About = () => {
   const { t } = useTranslation();
 
   const methodologySteps = [
-    { number: "01", title: t("about.steps.01.title"), subtitle: t("about.steps.01.subtitle"), description: t("about.steps.01.desc") },
-    { number: "02", title: t("about.steps.02.title"), subtitle: t("about.steps.02.subtitle"), description: t("about.steps.02.desc") },
-    { number: "03", title: t("about.steps.03.title"), subtitle: t("about.steps.03.subtitle"), description: t("about.steps.03.desc") },
-    { number: "04", title: t("about.steps.04.title"), subtitle: t("about.steps.04.subtitle"), description: t("about.steps.04.desc") },
+    { number: "01", title: t("about.steps.01.title"), subtitle: t("about.steps.01.subtitle"), time: t("about.steps.01.time"), description: t("about.steps.01.desc") },
+    { number: "02", title: t("about.steps.02.title"), subtitle: t("about.steps.02.subtitle"), time: t("about.steps.02.time"), description: t("about.steps.02.desc") },
+    { number: "03", title: t("about.steps.03.title"), subtitle: t("about.steps.03.subtitle"), time: t("about.steps.03.time"), description: t("about.steps.03.desc") },
+    { number: "04", title: t("about.steps.04.title"), subtitle: t("about.steps.04.subtitle"), time: t("about.steps.04.time"), description: t("about.steps.04.desc") },
   ];
 
   const diagnosisItems = [
