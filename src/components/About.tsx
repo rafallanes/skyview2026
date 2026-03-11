@@ -75,8 +75,9 @@ const About = () => {
                       <h4 className="text-xl md:text-2xl font-semibold text-architectural mb-1 group-hover:text-muted-foreground transition-colors duration-500">
                         {step.title}
                       </h4>
-                      <span className="text-minimal text-muted-foreground/60 block mb-4">{step.subtitle}</span>
-                      <p className="text-muted-foreground leading-relaxed font-light">{step.description}</p>
+                      <span className="text-[11px] uppercase tracking-[0.15em] text-[#888888] block mb-3">{step.subtitle}</span>
+                      <span className="text-base font-semibold text-foreground block mb-3">{step.time}</span>
+                      <p className="text-[#999999] leading-relaxed font-light text-[15px]">{step.description}</p>
                     </div>
                   </div>
                 </Reveal>
