@@ -55,7 +55,7 @@ const ORGANIZATION_JSONLD = {
     "addressCountry": "ES",
   },
   "slogan": "Making AI easy",
-  "foundingDate": "2012",
+  "foundingDate": "2014",
   "areaServed": ["ES", "PT", "GB"],
 };
 

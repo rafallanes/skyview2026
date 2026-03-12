@@ -152,7 +152,7 @@ const Services = () => {
               <div className="mt-12 pt-8 border-t border-border flex gap-12">
                 <div>
                   <span className="text-minimal text-muted-foreground">{t("services.founded")}</span>
-                  <p className="text-2xl font-semibold mt-1">2012</p>
+                  <p className="text-2xl font-semibold mt-1">2014</p>
                 </div>
                 <div>
                   <span className="text-minimal text-muted-foreground">{t("services.projects")}</span>
