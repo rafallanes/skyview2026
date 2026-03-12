@@ -97,12 +97,12 @@
     "sprintTitle": "S-P-R-I-N-T Methodology",
     "sprintDesc": "Six pillars that transform uncertainty into a productive and measurable AI operating system.",
     "sprint": {
-      "S": { "title": "Squads", "desc": "Specialized teams (squads) to ground real day-to-day use cases. No generic demos." },
-      "P": { "title": "Priorities", "desc": "The business decides and prioritizes what to change first. Always in the driver's seat. With the AI Office active from minute one." },
-      "R": { "title": "Roadmap", "desc": "Clear roadmap and 'fast tracks' or short periods to replicate what works." },
-      "I": { "title": "Impact", "desc": "Balance between training, consulting and automation for efficient processes." },
+      "S": { "title": "Squads", "desc": "Specialized teams (squads) to ground real day-to-day use cases. Technology that adapts to your way of working." },
+      "P": { "title": "Priorities", "desc": "The business decides and prioritizes what to change first. Always in the driver's seat. AI Office active from minute one." },
+      "R": { "title": "Roadmap", "desc": "Clear roadmap and 'fast tracks' or short periods. You get used to automating processes from the first quarter." },
+      "I": { "title": "Impact", "desc": "Training creates digital culture and automation brings efficiency. The balance between both is essential to move forward." },
       "N": { "title": "Numbers", "desc": "Measurable objectives and ROI (OPEX and CAPEX). Total clarity and objectivity." },
-      "T": { "title": "Trust", "desc": "Governance, ethics and security from the start to ensure information integrity." }
+      "T": { "title": "Trust", "desc": "Governance, ethics and security from the start to ensure your information integrity." }
     },
     "leadLabel": "FEATURED RESOURCE",
     "leadTitle": "Download the Paper:",

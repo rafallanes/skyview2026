@@ -97,12 +97,12 @@
     "sprintTitle": "Metodologia S-P-R-I-N-T",
     "sprintDesc": "Seis pilares que transformam a incerteza num sistema operativo de IA produtivo e mensurável.",
     "sprint": {
-      "S": { "title": "Squads", "desc": "Especialização por equipas (squads) para aterrar casos reais do dia-a-dia. Nada de demos genéricas." },
-      "P": { "title": "Priorities", "desc": "O negócio decide e prioriza o que mudar primeiro. Está sempre ao volante. E tem o Escritório IA ativo desde o minuto um." },
-      "R": { "title": "Roadmap", "desc": "Mapa de rota claro e 'fast tracks' ou períodos curtos para replicar o que funciona." },
-      "I": { "title": "Impact", "desc": "Equilíbrio entre formação, consultoria e automação para processos eficientes." },
+      "S": { "title": "Squads", "desc": "Especialização por equipas (squads) para aterrar casos reais do dia-a-dia. Tecnologia que se adapta à sua forma de trabalhar." },
+      "P": { "title": "Priorities", "desc": "O negócio decide e prioriza o que mudar primeiro. Está sempre ao volante. E Escritório IA ativo desde o minuto um." },
+      "R": { "title": "Roadmap", "desc": "Mapa de rota claro e 'fast tracks' ou períodos curtos. Acostuma-se a automatizar processos desde o primeiro trimestre." },
+      "I": { "title": "Impact", "desc": "A formação cria cultura digital e a automação traz eficiência. O equilíbrio entre ambas é essencial para avançar." },
       "N": { "title": "Numbers", "desc": "Objetivos mensuráveis e ROI (OPEX e CAPEX). Clareza e objetividade total." },
-      "T": { "title": "Trust", "desc": "Governança, ética e segurança desde o início para garantir a integridade da informação." }
+      "T": { "title": "Trust", "desc": "Governança, ética e segurança desde o início para garantir a integridade da sua informação." }
     },
     "leadLabel": "RECURSO DESTACADO",
     "leadTitle": "Descarregue o Paper:",
