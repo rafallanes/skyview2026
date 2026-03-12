@@ -76,9 +76,9 @@
     "methodLabel": "MAKING AI EASY",
     "methodTitle": "From zero to your AI Office. No complications.",
     "steps": {
-      "01": { "title": "START", "subtitle": "DIAGNOSIS", "time": "FIRST 4 WEEKS", "desc": "AI opportunity map for your organization. We set up your AI Committee, identify your first high-impact use case and design your first quarter roadmap. Concrete deliverable, informed decision." },
-      "02": { "title": "AI OFFICE — FIRST SPRINT", "subtitle": "VALIDATION", "time": "FIRST QUARTER", "desc": "Your first use case in real production. Regular meetings, measurable objectives and automation with direct impact assessment on your bottom line. Tangible result before 90 days." },
-      "03": { "title": "AI OFFICE AS A SERVICE", "subtitle": "OPERATION", "time": "BEFORE FIRST YEAR", "desc": "Continuous professional management of your AI strategy. New use cases every quarter, automated processes in production and constant model evolution. Your external AI department, operational from day one." },
+      "01": { "title": "START", "subtitle": "DIAGNOSIS", "time": "FIRST 2 WEEKS", "desc": "AI opportunity map for your organization. We set up your AI Committee, identify your first high-impact use cases and design your first quarter roadmap. Concrete deliverable, informed decision." },
+      "02": { "title": "AI OFFICE — FIRST SPRINT", "subtitle": "VALIDATION", "time": "FIRST QUARTER", "desc": "Real automations to test or deploy in the AI Office. Regular meetings, measurable objectives and automation with direct impact assessment on your bottom line. Tangible results in the first quarter." },
+      "03": { "title": "AI OFFICE AS A SERVICE", "subtitle": "OPERATION", "time": "BEFORE FIRST YEAR", "desc": "Continuous professional management of your AI strategy. New use cases every quarter, automated processes in production and constant model evolution. Your external AI office, 100% operational from day one." },
       "04": { "title": "YOUR OWN AI OFFICE", "subtitle": "AUTONOMY", "time": "FINAL STEP · OPTIONAL", "desc": "We transfer methodology, knowledge and capabilities to your own team. Your AI office operates 100% autonomously and independently. Our goal is to make you grow, not stay forever." }
     },
     "diagnosisLabel": "THE DIAGNOSIS",
@@ -97,12 +97,12 @@
     "sprintTitle": "S-P-R-I-N-T Methodology",
     "sprintDesc": "Six pillars that transform uncertainty into a productive and measurable AI operating system.",
     "sprint": {
-      "S": { "title": "Squads", "desc": "Specialized teams (squads) to ground real day-to-day use cases. No generic demos." },
-      "P": { "title": "Priorities", "desc": "The business decides and prioritizes what to change first. Always in the driver's seat. With the AI Office active from minute one." },
-      "R": { "title": "Roadmap", "desc": "Clear roadmap and 'fast tracks' or short periods to replicate what works." },
-      "I": { "title": "Impact", "desc": "Balance between training, consulting and automation for efficient processes." },
+      "S": { "title": "Squads", "desc": "Specialized teams (squads) to ground real day-to-day use cases. Technology that adapts to your way of working." },
+      "P": { "title": "Priorities", "desc": "The business decides and prioritizes what to change first. Always in the driver's seat. AI Office active from minute one." },
+      "R": { "title": "Roadmap", "desc": "Clear roadmap and 'fast tracks' or short periods. You get used to automating processes from the first quarter." },
+      "I": { "title": "Impact", "desc": "Training creates digital culture and automation brings efficiency. The balance between both is essential to move forward." },
       "N": { "title": "Numbers", "desc": "Measurable objectives and ROI (OPEX and CAPEX). Total clarity and objectivity." },
-      "T": { "title": "Trust", "desc": "Governance, ethics and security from the start to ensure information integrity." }
+      "T": { "title": "Trust", "desc": "Governance, ethics and security from the start to ensure your information integrity." }
     },
     "leadLabel": "FEATURED RESOURCE",
     "leadTitle": "Download the Paper:",

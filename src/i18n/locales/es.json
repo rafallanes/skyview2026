@@ -76,9 +76,9 @@
     "methodLabel": "MAKING AI EASY",
     "methodTitle": "De cero a tu Oficina IA. Sin complicaciones.",
     "steps": {
-      "01": { "title": "START", "subtitle": "DIAGNÓSTICO", "time": "PRIMERAS 4 SEMANAS", "desc": "Mapa de oportunidades IA en tu organización. Constituimos tu Comité IA, identificamos el primer caso de uso de alto impacto y diseñamos la hoja de ruta del primer trimestre. Entregable concreto, decisión informada." },
-      "02": { "title": "OFICINA IA — PRIMER SPRINT", "subtitle": "VALIDACIÓN", "time": "PRIMER TRIMESTRE", "desc": "Tu primer caso de uso en producción real. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto directo en tu cuenta de resultados. Resultado tangible antes de 90 días." },
-      "03": { "title": "OFICINA IA AS A SERVICE", "subtitle": "OPERACIÓN", "time": "ANTES DEL PRIMER AÑO", "desc": "Gestión profesional continua de tu estrategia IA. Nuevos casos de uso cada trimestre, procesos automatizados en producción y evolución constante del modelo. Tu departamento IA externo, operativo desde el primer día." },
+      "01": { "title": "START", "subtitle": "DIAGNÓSTICO", "time": "PRIMERAS 2 SEMANAS", "desc": "Mapa de oportunidades IA en tu organización. Constituimos tu Comité IA, identificamos los primeros casos de uso de alto impacto y diseñamos la hoja de ruta del primer trimestre. Entregable concreto, decisión informada." },
+      "02": { "title": "OFICINA IA — PRIMER SPRINT", "subtitle": "VALIDACIÓN", "time": "PRIMER TRIMESTRE", "desc": "Automatizaciones reales para testar o pasar a producción en la Oficina IA. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto directo en tu cuenta de resultados. Resultados tangibles en el primer trimestre." },
+      "03": { "title": "OFICINA IA AS A SERVICE", "subtitle": "OPERACIÓN", "time": "ANTES DEL PRIMER AÑO", "desc": "Gestión profesional continua de tu estrategia IA. Nuevos casos de uso cada trimestre, procesos automatizados en producción y evolución constante del modelo. Tu Oficina IA externa y operativa al 100% desde el primer día." },
       "04": { "title": "OFICINA IA PROPIA", "subtitle": "AUTONOMÍA", "time": "PASO FINAL · OPCIONAL", "desc": "Transferimos metodología, conocimiento y capacidades a tu equipo propio. Tu oficina IA opera de forma 100% autónoma e independiente. Nuestro objetivo es hacerte crecer, no quedarnos para siempre." }
     },
     "diagnosisLabel": "EL DIAGNÓSTICO",
@@ -97,12 +97,12 @@
     "sprintTitle": "Metodología S-P-R-I-N-T",
     "sprintDesc": "Seis pilares que transforman la incertidumbre en un sistema operativo de IA productivo y medible.",
     "sprint": {
-      "S": { "title": "Squads", "desc": "Especialización por equipos (squads) para aterrizar casos reales del día a día. Nada de demos genéricas." },
-      "P": { "title": "Priorities", "desc": "El negocio decide y prioriza qué cambiar primero. Siempre está al volante. Y tiene la Oficina IA activa desde el minuto uno." },
-      "R": { "title": "Roadmap", "desc": "Mapa de ruta claro y 'fast tracks' o periodos cortos para replicar lo que funciona." },
-      "I": { "title": "Impact", "desc": "Equilibrio entre formación, consultoría y automatización para procesos eficientes." },
+      "S": { "title": "Squads", "desc": "Especialización por equipos (squads) para aterrizar casos reales del día a día. Tecnología que se adapta a tu forma de trabajar." },
+      "P": { "title": "Priorities", "desc": "El negocio decide y prioriza qué cambiar primero. Siempre está al volante. Y Oficina IA activa desde el minuto uno." },
+      "R": { "title": "Roadmap", "desc": "Mapa de ruta claro y 'fast tracks' o periodos cortos. Te acostumbras a automatizar procesos desde el primer trimestre." },
+      "I": { "title": "Impact", "desc": "La formación crea cultura digital y la automatización aporta eficiecia. El equilibrio entre ambas es imprescindible para avanzar." },
       "N": { "title": "Numbers", "desc": "Objetivos medibles y ROI (OPEX y CAPEX). Claridad y objetividad total." },
-      "T": { "title": "Trust", "desc": "Gobernanza, ética y seguridad desde el inicio para garantizar la integridad de la información." }
+      "T": { "title": "Trust", "desc": "Gobernanza, ética y seguridad desde el inicio para garantizar la integridad de tu información." }
     },
     "leadLabel": "RECURSO DESTACADO",
     "leadTitle": "Descarga el Paper:",
