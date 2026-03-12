@@ -4,7 +4,7 @@ import { ROUTES, type SupportedLang } from "@/lib/i18n-routes";
 
 const BASE_URL = "https://skyview.es";
 const OG_IMAGE = `${BASE_URL}/og-image.png`;
-const SITE_NAME = "SkyView 2026";
+const SITE_NAME = "SkyView";
 
 const LOCALE_MAP: Record<SupportedLang, string> = {
   es: "es_ES",
