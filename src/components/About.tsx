@@ -8,7 +8,7 @@ import aboutLaberinto from "@/assets/about-laberinto.jpg";
 import aboutCta from "@/assets/about-cta.jpg";
 
 /* ── REVEAL WRAPPER ── */
-function Reveal({ children, className = "", delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
+function Reveal({ children, className = "", delay = 0 }: {children: React.ReactNode;className?: string;delay?: number;}) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-60px" });
   return (
@@ -17,11 +17,11 @@ function Reveal({ children, className = "", delay = 0 }: { children: React.React
       initial={{ opacity: 0, y: 36 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 36 }}
       transition={{ duration: 0.9, delay, ease: [0.16, 1, 0.3, 1] }}
-      className={className}
-    >
+      className={className}>
+      
       {children}
-    </motion.div>
-  );
+    </motion.div>);
+
 }
 
 /* ── COMPONENT ── */
@@ -29,25 +29,25 @@ const About = () => {
   const { t } = useTranslation();
 
   const methodologySteps = [
-    { number: "01", title: t("about.steps.01.title"), subtitle: t("about.steps.01.subtitle"), time: t("about.steps.01.time"), description: t("about.steps.01.desc") },
-    { number: "02", title: t("about.steps.02.title"), subtitle: t("about.steps.02.subtitle"), time: t("about.steps.02.time"), description: t("about.steps.02.desc") },
-    { number: "03", title: t("about.steps.03.title"), subtitle: t("about.steps.03.subtitle"), time: t("about.steps.03.time"), description: t("about.steps.03.desc") },
-    { number: "04", title: t("about.steps.04.title"), subtitle: t("about.steps.04.subtitle"), time: t("about.steps.04.time"), description: t("about.steps.04.desc") },
-  ];
+  { number: "01", title: t("about.steps.01.title"), subtitle: t("about.steps.01.subtitle"), time: t("about.steps.01.time"), description: t("about.steps.01.desc") },
+  { number: "02", title: t("about.steps.02.title"), subtitle: t("about.steps.02.subtitle"), time: t("about.steps.02.time"), description: t("about.steps.02.desc") },
+  { number: "03", title: t("about.steps.03.title"), subtitle: t("about.steps.03.subtitle"), time: t("about.steps.03.time"), description: t("about.steps.03.desc") },
+  { number: "04", title: t("about.steps.04.title"), subtitle: t("about.steps.04.subtitle"), time: t("about.steps.04.time"), description: t("about.steps.04.desc") }];
+
 
   const diagnosisItems = [
-    { ghost: "01", title: t("about.diagnosis.01.title"), stat: t("about.diagnosis.01.stat"), description: t("about.diagnosis.01.desc") },
-    { ghost: "02", title: t("about.diagnosis.02.title"), stat: t("about.diagnosis.02.stat"), description: t("about.diagnosis.02.desc") },
-    { ghost: "03", title: t("about.diagnosis.03.title"), stat: t("about.diagnosis.03.stat"), description: t("about.diagnosis.03.desc") },
-    { ghost: "04", title: t("about.diagnosis.04.title"), stat: t("about.diagnosis.04.stat"), description: t("about.diagnosis.04.desc") },
-    { ghost: "05", title: t("about.diagnosis.05.title"), stat: t("about.diagnosis.05.stat"), description: t("about.diagnosis.05.desc") },
-    { ghost: "06", title: t("about.diagnosis.06.title"), stat: t("about.diagnosis.06.stat"), description: t("about.diagnosis.06.desc") },
-  ];
+  { ghost: "01", title: t("about.diagnosis.01.title"), stat: t("about.diagnosis.01.stat"), description: t("about.diagnosis.01.desc") },
+  { ghost: "02", title: t("about.diagnosis.02.title"), stat: t("about.diagnosis.02.stat"), description: t("about.diagnosis.02.desc") },
+  { ghost: "03", title: t("about.diagnosis.03.title"), stat: t("about.diagnosis.03.stat"), description: t("about.diagnosis.03.desc") },
+  { ghost: "04", title: t("about.diagnosis.04.title"), stat: t("about.diagnosis.04.stat"), description: t("about.diagnosis.04.desc") },
+  { ghost: "05", title: t("about.diagnosis.05.title"), stat: t("about.diagnosis.05.stat"), description: t("about.diagnosis.05.desc") },
+  { ghost: "06", title: t("about.diagnosis.06.title"), stat: t("about.diagnosis.06.stat"), description: t("about.diagnosis.06.desc") }];
+
 
   const sprintPillars = ["S", "P", "R", "I", "N", "T"].map((letter) => ({
     letter,
     title: t(`about.sprint.${letter}.title`),
-    description: t(`about.sprint.${letter}.desc`),
+    description: t(`about.sprint.${letter}.desc`)
   }));
 
   return (
@@ -65,8 +65,8 @@ const About = () => {
               </h2>
             </Reveal>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-              {methodologySteps.map((step, index) => (
-                <Reveal key={index} delay={index * 0.08}>
+              {methodologySteps.map((step, index) =>
+              <Reveal key={index} delay={index * 0.08}>
                   <div className="group relative border-t border-border py-12 md:py-16 md:pr-16 md:odd:pr-16 md:even:pl-16 md:even:pr-0 overflow-hidden">
                     <span className="absolute top-4 right-4 md:top-6 md:right-8 text-7xl md:text-8xl font-bold text-foreground/[0.12] select-none pointer-events-none leading-none">
                       {step.number}
@@ -81,7 +81,7 @@ const About = () => {
                     </div>
                   </div>
                 </Reveal>
-              ))}
+              )}
             </div>
             <div className="border-t border-border" />
           </div>
@@ -108,8 +108,8 @@ const About = () => {
                 </p>
               </Reveal>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
-                {diagnosisItems.map((item, i) => (
-                  <Reveal key={i} delay={i * 0.08}>
+                {diagnosisItems.map((item, i) =>
+                <Reveal key={i} delay={i * 0.08}>
                     <div className="group relative border-t border-gray-200 py-10 md:py-14 pr-8 overflow-hidden">
                       <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-gray-400 select-none pointer-events-none leading-none">
                         {item.ghost}
@@ -123,7 +123,7 @@ const About = () => {
                       </div>
                     </div>
                   </Reveal>
-                ))}
+                )}
               </div>
               <div className="border-t border-gray-200" />
             </div>
@@ -147,8 +147,8 @@ const About = () => {
               </p>
             </Reveal>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-0">
-              {sprintPillars.map((pillar, i) => (
-                <Reveal key={i} delay={i * 0.08}>
+              {sprintPillars.map((pillar, i) =>
+              <Reveal key={i} delay={i * 0.08}>
                   <div className="group relative border-t xl:border-t-0 xl:border-l border-border py-10 xl:py-0 xl:pl-6 xl:pr-4 xl:min-h-[320px] flex flex-col justify-start">
                     <span className="text-[6rem] xl:text-[7rem] font-bold text-foreground/[0.12] leading-none select-none pointer-events-none -mb-6 xl:-mb-4">
                       {pillar.letter}
@@ -161,7 +161,7 @@ const About = () => {
                     </div>
                   </div>
                 </Reveal>
-              ))}
+              )}
             </div>
           </div>
         </div>
@@ -227,7 +227,7 @@ const About = () => {
                         <p className="text-xs text-white/40 mt-1">{t("about.trustSprint")}</p>
                       </div>
                       <div>
-                        <span className="text-2xl font-bold">2012</span>
+                        <span className="text-2xl font-bold">2014</span>
                         <p className="text-xs text-white/40 mt-1">{t("about.trustSince")}</p>
                       </div>
                     </div>
@@ -238,8 +238,8 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default About;
