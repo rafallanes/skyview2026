@@ -89,7 +89,7 @@ const Contact = () => {
                     <p className="text-xs text-primary-foreground/40 mt-1">{t("contact.trustSprint")}</p>
                   </div>
                   <div>
-                    <span className="text-2xl font-bold">2012</span>
+                    <span className="text-2xl font-bold">2014</span>
                     <p className="text-xs text-primary-foreground/40 mt-1">{t("contact.trustSince")}</p>
                   </div>
                 </div>
