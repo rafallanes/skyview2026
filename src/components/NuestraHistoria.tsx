@@ -3,8 +3,7 @@ const blocks = [
 { label: "INTEGRACIONES A MEDIDA" },
 { label: "RPA" },
 { label: "Programa START" },
-{ label: "OFICINA IA as a service" },
-{ label: "OFICINA IA propia" }];
+{ label: "OFICINA IA as a service" }];
 
 
 export default function NuestraHistoria() {
