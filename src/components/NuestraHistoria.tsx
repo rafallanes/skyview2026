@@ -9,43 +9,31 @@ const blocks = [
 
 export default function NuestraHistoria() {
   return (
-    <div className="min-h-screen bg-background py-12 px-4 sm:px-6 lg:px-8">
+    <div className="bg-background px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        {/* Header */}
-        <div className="text-center mb-16">
-          <p className="text-muted-foreground mb-2 uppercase tracking-wide">NUESTRA HISTORIA</p>
-          <h1>Tecnología al servicio de las personas.</h1>
-        </div>
         {/* Horizontal Timeline */}
         <div className="relative px-4 md:px-16 max-w-6xl mx-auto">
           {/* Years and titles at same height */}
           <div className="flex items-center justify-between relative mb-4">
-            {/* 2014 */}
             <div className="bg-primary text-primary-foreground px-4 py-1.5 rounded-full relative z-10 flex-shrink-0">
               <p className="text-sm">2014</p>
             </div>
-            {/* AUTOMATIZACIÓN title */}
             <div className="flex-1 px-4">
               <h3 className="text-center uppercase tracking-tight">Automatización de procesos</h3>
             </div>
-            {/* 2022 */}
             <div className="bg-primary text-primary-foreground px-4 py-1.5 rounded-full relative z-10 flex-shrink-0">
               <p className="text-sm">2022</p>
             </div>
-            {/* OFICINA IA title */}
             <div className="flex-1 px-4">
               <h3 className="text-center uppercase tracking-tight">Oficina IA</h3>
             </div>
-            {/* Hoy */}
             <div className="bg-primary text-primary-foreground px-4 py-1.5 rounded-full relative z-10 flex-shrink-0">
               <p className="text-sm">Hoy</p>
             </div>
           </div>
           {/* Timeline line with dots */}
           <div className="relative mb-8">
-            {/* Horizontal line */}
             <div className="absolute top-1/2 left-0 right-0 h-px bg-border -translate-y-1/2" />
-            {/* Dots aligned with years */}
             <div className="flex items-center justify-between relative">
               <div className="w-2 h-2 bg-foreground rounded-full relative z-10" style={{ marginLeft: '32px' }} />
               <div className="w-2 h-2 bg-foreground rounded-full relative z-10" />
@@ -54,7 +42,6 @@ export default function NuestraHistoria() {
           </div>
           {/* Content sections below timeline */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8">
-            {/* Automatización de procesos */}
             <div className="space-y-4">
               <p className="text-muted-foreground text-center text-sm mb-4">
                 Liberamos a las personas de tareas manuales y repetitivas para que dedicasen su tiempo a lo táctico y estratégico.
@@ -71,7 +58,6 @@ export default function NuestraHistoria() {
                 </div>
               </div>
             </div>
-            {/* Oficina IA */}
             <div className="space-y-4">
               <p className="text-muted-foreground text-center text-sm mb-4">
                 Misma misión, nueva tecnología. Desplegamos Oficinas de IA que transforman cómo trabajan los equipos.
@@ -90,7 +76,7 @@ export default function NuestraHistoria() {
             </div>
           </div>
         </div>
-        {/* Slogan at the bottom */}
+        {/* Slogan */}
         <div className="text-center mt-16">
           <p className="text-muted-foreground italic mb-8">
             Lo que no ha cambiado: liberar a las personas del trabajo del "trabajo robot".

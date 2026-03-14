@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import SEO from "@/components/SEO";
+import NuestraHistoria from "@/components/NuestraHistoria";
 
 import logoOpenAI from "@/assets/logos/openai.png";
 import logoAzure from "@/assets/logos/azure.png";
@@ -62,7 +63,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ─── EXPERIENCIA ─── */}
+      {/* ─── NUESTRA HISTORIA ─── */}
       <section className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
@@ -70,11 +71,9 @@ const Index = () => {
             <h3 className="text-4xl md:text-6xl lg:text-7xl font-light text-architectural max-w-4xl mb-10">
               {t("index.experienceTitle")}
             </h3>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl">
-              {t("index.experienceDesc")}
-            </p>
           </div>
         </div>
+        <NuestraHistoria />
       </section>
 
       <ImpactAreas />
