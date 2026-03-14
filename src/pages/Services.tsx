@@ -73,9 +73,19 @@ const Services = () => {
       />
       <Navigation />
 
-      {/* ─── HERO: NUESTRA HISTORIA ─── */}
-      <section className="pt-32 bg-background">
-        <NuestraHistoria />
+      {/* ─── HERO ─── */}
+      <section className="pt-32 pb-10 md:pb-12 bg-background">
+        <div className="container mx-auto px-6">
+          <div className="max-w-7xl mx-auto">
+            <h1 className="text-minimal text-muted-foreground mb-6">{t("services.heroLabel")}</h1>
+            <h2 className="text-4xl md:text-6xl lg:text-7xl font-light text-architectural max-w-4xl mb-10">
+              {t("services.heroTitle")}
+            </h2>
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl">
+              {t("services.heroDesc")}
+            </p>
+          </div>
+        </div>
       </section>
 
       {/* ─── TIMELINE ─── */}
