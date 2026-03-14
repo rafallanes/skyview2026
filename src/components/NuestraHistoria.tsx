@@ -14,19 +14,19 @@ export default function NuestraHistoria() {
         <div className="relative px-4 md:px-16 max-w-6xl mx-auto">
           {/* Years and titles at same height */}
           <div className="flex items-center justify-between relative mb-4">
-            <div className="bg-primary text-primary-foreground px-4 py-1.5 rounded-full relative z-10 flex-shrink-0">
+            <div className="bg-primary text-primary-foreground px-4 py-1.5 rounded-none relative z-10 flex-shrink-0">
               <p className="text-sm">2014</p>
             </div>
             <div className="flex-1 px-4">
               <h3 className="text-center uppercase tracking-tight">Automatización de procesos</h3>
             </div>
-            <div className="bg-primary text-primary-foreground px-4 py-1.5 rounded-full relative z-10 flex-shrink-0">
+            <div className="bg-primary text-primary-foreground px-4 py-1.5 rounded-none relative z-10 flex-shrink-0">
               <p className="text-sm">2022</p>
             </div>
             <div className="flex-1 px-4">
               <h3 className="text-center uppercase tracking-tight">Oficina IA</h3>
             </div>
-            <div className="bg-primary text-primary-foreground px-4 py-1.5 rounded-full relative z-10 flex-shrink-0">
+            <div className="bg-primary text-primary-foreground px-4 py-1.5 rounded-none relative z-10 flex-shrink-0">
               <p className="text-sm">Hoy</p>
             </div>
           </div>
