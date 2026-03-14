@@ -68,9 +68,6 @@ export default function NuestraHistoria() {
                 <div className="bg-secondary px-3 py-1.5 rounded text-sm">
                   <p className="text-secondary-foreground">OFICINA IA as a service</p>
                 </div>
-                <div className="bg-secondary px-3 py-1.5 rounded text-sm">
-                  <p className="text-secondary-foreground">OFICINA IA propia</p>
-                </div>
               </div>
             </div>
           </div>
