@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import LogoCarousel from "@/components/LogoCarousel";
+import NuestraHistoria from "@/components/NuestraHistoria";
 import { useTranslation } from "react-i18next";
 import SEO from "@/components/SEO";
 
