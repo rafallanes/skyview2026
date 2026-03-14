@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import SEO from "@/components/SEO";
+import NuestraHistoria from "@/components/NuestraHistoria";
 
 import logoOpenAI from "@/assets/logos/openai.png";
 import logoAzure from "@/assets/logos/azure.png";
