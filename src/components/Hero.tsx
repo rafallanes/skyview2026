@@ -25,7 +25,7 @@ const Hero = () => {
           <br />
           {t("hero.title2")}
         </h1>
-        <p className="text-xl md:text-2xl text-white/80 font-light tracking-wide max-w-2xl mx-auto mb-3 reveal-delayed whitespace-pre-line">
+        <p className="text-xl md:text-2xl text-white/80 font-light tracking-wide max-w-2xl mx-auto mb-10 reveal-delayed whitespace-pre-line">
           {t("hero.subtitle")}
         </p>
         <Link
