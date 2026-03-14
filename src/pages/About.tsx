@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import AboutSection from "@/components/About";
+import NuestraHistoria from "@/components/NuestraHistoria";
 import { useTranslation } from "react-i18next";
 import SEO from "@/components/SEO";
 
@@ -38,6 +39,7 @@ const About = () => {
       </section>
 
       <AboutSection />
+      <NuestraHistoria />
       <Footer />
     </div>
   );
