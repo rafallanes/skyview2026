@@ -3,8 +3,7 @@ const blocks = [
 { label: "INTEGRACIONES A MEDIDA" },
 { label: "RPA" },
 { label: "Programa START" },
-{ label: "OFICINA IA as a service" },
-{ label: "OFICINA IA propia" }];
+{ label: "OFICINA IA as a service" }];
 
 
 export default function NuestraHistoria() {
@@ -68,9 +67,6 @@ export default function NuestraHistoria() {
                 </div>
                 <div className="bg-secondary px-3 py-1.5 rounded text-sm">
                   <p className="text-secondary-foreground">OFICINA IA as a service</p>
-                </div>
-                <div className="bg-secondary px-3 py-1.5 rounded text-sm">
-                  <p className="text-secondary-foreground">OFICINA IA propia</p>
                 </div>
               </div>
             </div>
