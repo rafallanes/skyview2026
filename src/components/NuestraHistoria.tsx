@@ -1,11 +1,11 @@
 const blocks = [
-  { label: "APPS B2B" },
-  { label: "INTEGRACIONES A MEDIDA" },
-  { label: "RPA" },
-  { label: "Programa START" },
-  { label: "OFICINA IA as a service" },
-  { label: "OFICINA IA propia" },
-];
+{ label: "APPS B2B" },
+{ label: "INTEGRACIONES A MEDIDA" },
+{ label: "RPA" },
+{ label: "Programa START" },
+{ label: "OFICINA IA as a service" },
+{ label: "OFICINA IA propia" }];
+
 
 export default function NuestraHistoria() {
   return (
@@ -43,8 +43,8 @@ export default function NuestraHistoria() {
           {/* Content sections below timeline */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8">
             <div className="space-y-4">
-              <p className="text-muted-foreground text-center text-sm mb-4">
-                Liberamos a las personas de tareas manuales y repetitivas para que dedicasen su tiempo a lo táctico y estratégico.
+              <p className="text-muted-foreground text-center text-sm mb-4">Liberamos a las personas de tareas manuales y repetitivas para que dedicasen su tiempo a lo importante.
+
               </p>
               <div className="flex flex-wrap gap-2 justify-center">
                 <div className="bg-secondary px-3 py-1.5 rounded text-sm">
@@ -78,11 +78,11 @@ export default function NuestraHistoria() {
         </div>
         {/* Slogan */}
         <div className="text-center mt-16">
-          <p className="text-muted-foreground italic mb-8">
-            Lo que no ha cambiado: liberar a las personas del trabajo del "trabajo robot".
+          <p className="text-muted-foreground italic mb-8">Lo que no ha cambiado: "poner la tecnología al servicio de las personas".
+
           </p>
         </div>
       </div>
-    </div>
-  );
+    </div>);
+
 }
