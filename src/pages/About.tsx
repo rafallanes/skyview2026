@@ -39,6 +39,7 @@ const About = () => {
       </section>
 
       <AboutSection />
+      <NuestraHistoria />
       <Footer />
     </div>
   );
