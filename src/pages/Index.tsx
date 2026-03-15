@@ -19,13 +19,13 @@ import logoLangChain from "@/assets/logos/langchain.png";
 import logoPinecone from "@/assets/logos/pinecone.png";
 
 const techLogos = [
-{ src: logoOpenAI, alt: "OpenAI" },
-{ src: logoAzure, alt: "Microsoft Azure" },
-{ src: logoGoogleCloud, alt: "Google Cloud" },
-{ src: logoAnthropic, alt: "Anthropic" },
-{ src: logoLangChain, alt: "LangChain" },
-{ src: logoPinecone, alt: "Pinecone" }];
-
+  { src: logoOpenAI, alt: "OpenAI" },
+  { src: logoAzure, alt: "Microsoft Azure" },
+  { src: logoGoogleCloud, alt: "Google Cloud" },
+  { src: logoAnthropic, alt: "Anthropic" },
+  { src: logoLangChain, alt: "LangChain" },
+  { src: logoPinecone, alt: "Pinecone" },
+];
 
 const Index = () => {
   const { t } = useTranslation();
@@ -37,43 +37,40 @@ const Index = () => {
       <Navigation />
       <Hero />
 
-      {/* ─── TECH STACK ─── */}
-      <section className="py-10 md:py-12 bg-muted/30">
-        <div className="container mx-auto px-6">
-          <div className="max-w-7xl mx-auto">
-            <h4 className="text-minimal text-muted-foreground mb-10 text-center tracking-widest">{t("index.techStack")}</h4>
-            <div className="grid grid-cols-3 sm:grid-cols-6 gap-8 md:gap-12">
-              {techLogos.map((logo, index) =>
-              <div key={index} className="flex flex-col items-center justify-center gap-3 py-4">
-                  <div className="h-16 w-full flex items-center justify-center">
-                    <img
-                    src={logo.src}
-                    alt={logo.alt}
-                    className="max-h-12 w-auto object-contain brightness-0 invert opacity-70 hover:opacity-100 transition-all duration-500"
-                    loading="lazy"
-                    width={120}
-                    height={48} />
-                  
-                  </div>
-                  <span className="text-xs text-muted-foreground/60 font-medium tracking-wide">{logo.alt}</span>
-                </div>
-              )}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ─── NUESTRA HISTORIA ─── */}
       <section className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-minimal text-muted-foreground mb-6">{t("index.experience")}</h2>
-            
-
-            
           </div>
         </div>
         <NuestraHistoria />
+      </section>
+
+      {/* ─── TECH STACK ─── */}
+      <section className="py-10 md:py-12 bg-muted/30">
+        <div className="container mx-auto px-6">
+          <div className="max-w-7xl mx-auto">
+            <h4 className="text-minimal text-muted-foreground mb-10 tracking-widest">{t("index.techStack")}</h4>
+            <div className="grid grid-cols-3 sm:grid-cols-6 gap-8 md:gap-12">
+              {techLogos.map((logo, index) => (
+                <div key={index} className="flex flex-col items-center justify-center gap-3 py-4">
+                  <div className="h-16 w-full flex items-center justify-center">
+                    <img
+                      src={logo.src}
+                      alt={logo.alt}
+                      className="max-h-12 w-auto object-contain brightness-0 invert opacity-70 hover:opacity-100 transition-all duration-500"
+                      loading="lazy"
+                      width={120}
+                      height={48}
+                    />
+                  </div>
+                  <span className="text-xs text-muted-foreground/60 font-medium tracking-wide">{logo.alt}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </section>
 
       <ImpactAreas />
@@ -99,6 +96,17 @@ const Index = () => {
         </div>
       </section>
 
+      {/* ─── SOCIAL PROOF ─── */}
+      <section className="py-12 md:py-16 bg-background">
+        <div className="container mx-auto px-6">
+          <div className="max-w-7xl mx-auto">
+            <div className="-mx-6 md:mx-0">
+              <LogoCarousel />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ─── CENTRO DE RECURSOS ─── */}
       <section className="py-12 md:py-16 bg-foreground text-primary-foreground">
         <div className="container mx-auto px-6">
@@ -113,15 +121,15 @@ const Index = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#"
-                className="inline-flex items-center gap-3 bg-primary-foreground text-foreground px-8 py-5 text-sm font-semibold tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300">
-                
+                className="inline-flex items-center gap-3 bg-primary-foreground text-foreground px-8 py-5 text-sm font-semibold tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300"
+              >
                 <FileText size={18} />
                 {t("index.resourcesCta1")}
               </a>
               <a
                 href="#"
-                className="inline-flex items-center gap-3 border border-primary-foreground/30 text-primary-foreground px-8 py-5 text-sm font-semibold tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300">
-                
+                className="inline-flex items-center gap-3 border border-primary-foreground/30 text-primary-foreground px-8 py-5 text-sm font-semibold tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300"
+              >
                 <FileText size={18} />
                 {t("index.resourcesCta2")}
               </a>
@@ -130,20 +138,9 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ─── SOCIAL PROOF ─── */}
-      <section className="py-12 md:py-16 bg-background">
-        <div className="container mx-auto px-6">
-          <div className="max-w-7xl mx-auto">
-            <div className="-mx-6 md:mx-0">
-              <LogoCarousel />
-            </div>
-          </div>
-        </div>
-      </section>
-
       <Footer />
-    </div>);
-
+    </div>
+  );
 };
 
 export default Index;
