@@ -5,11 +5,11 @@ import LogoCarousel from "@/components/LogoCarousel";
 import { Link } from "react-router-dom";
 import { ArrowRight, FileText } from "lucide-react";
 import ImpactAreas from "@/components/ImpactAreas";
-import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import SEO from "@/components/SEO";
 import NuestraHistoria from "@/components/NuestraHistoria";
+import AIMaturityChart from "@/components/AIMaturityChart";
 
 import logoOpenAI from "@/assets/logos/openai.png";
 import logoAzure from "@/assets/logos/azure.png";
@@ -75,26 +75,8 @@ const Index = () => {
 
       <ImpactAreas />
 
-      {/* ─── METODOLOGÍA SPRINT (Teaser) ─── */}
-      <section className="py-12 md:py-16 bg-muted/30">
-        <div className="container mx-auto px-6">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-minimal text-muted-foreground mb-6">{t("index.sprintPath")}</h2>
-            <h3 className="text-3xl md:text-5xl lg:text-6xl font-light text-architectural max-w-4xl mb-8">
-              {t("index.sprintTitle")}
-            </h3>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-12">
-              {t("index.sprintDesc")}
-            </p>
-            <Button asChild variant="outline" className="rounded-none px-10 py-6 text-sm tracking-wide font-semibold">
-              <Link to={lp("about")}>
-                {t("index.sprintCta")}
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
+      {/* ─── AI MATURITY CHART ─── */}
+      <AIMaturityChart />
 
       {/* ─── SOCIAL PROOF ─── */}
       <section className="py-12 md:py-16 bg-background">
