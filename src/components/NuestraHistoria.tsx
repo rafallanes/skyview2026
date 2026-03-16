@@ -61,6 +61,9 @@ export default function NuestraHistoria() {
                 <div className="bg-secondary px-3 py-1.5 rounded-none text-sm">
                   <p className="text-secondary-foreground">OFICINA IA as a service</p>
                 </div>
+                <div className="bg-secondary px-3 py-1.5 rounded-none text-sm">
+                  <p className="text-secondary-foreground">Oficina IA propia</p>
+                </div>
               </div>
             </div>
           </div>
@@ -101,6 +104,7 @@ export default function NuestraHistoria() {
             <div className="flex flex-wrap gap-2">
               <span className="bg-secondary text-secondary-foreground px-3 py-1.5 text-sm">Programa START</span>
               <span className="bg-secondary text-secondary-foreground px-3 py-1.5 text-sm">OFICINA IA as a service</span>
+              <span className="bg-secondary text-secondary-foreground px-3 py-1.5 text-sm">Oficina IA propia</span>
             </div>
           </div>
 
