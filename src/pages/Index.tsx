@@ -47,6 +47,9 @@ const Index = () => {
         <NuestraHistoria />
       </section>
 
+      {/* ─── INTELIGENCIA AUMENTADA ─── */}
+      <AIMaturityChart />
+
       {/* ─── TECH STACK ─── */}
       <section className="py-10 md:py-12 bg-muted/30">
         <div className="container mx-auto px-6">
@@ -74,9 +77,6 @@ const Index = () => {
       </section>
 
       <ImpactAreas />
-
-      {/* ─── AI MATURITY CHART ─── */}
-      <AIMaturityChart />
 
       {/* ─── SOCIAL PROOF ─── */}
       <section className="py-12 md:py-16 bg-background">
