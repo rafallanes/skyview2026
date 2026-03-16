@@ -50,14 +50,14 @@ export default function AIMaturityChart() {
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-10 md:mb-14">
+          <div className="text-left mb-10 md:mb-14">
             <p
               className="uppercase text-muted-foreground/60 mb-3"
               style={{ fontSize: "11px", letterSpacing: "2.4px" }}
             >
               MAKING AI EASY
             </p>
-            <div className="flex flex-wrap items-center justify-center gap-2 md:gap-3 text-2xl md:text-4xl">
+            <div className="flex flex-wrap items-center gap-2 md:gap-3 text-2xl md:text-4xl">
               <span className="text-muted-foreground font-light">Talento</span>
               <span className="text-muted-foreground/40 font-light">+</span>
               <span className="text-muted-foreground font-light">Tecnología</span>
