@@ -8,37 +8,44 @@ const Hero = () => {
   const lp = useLocalizedPath();
 
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
       <img
         src={heroImage}
         alt={t("imageAlt.hero")}
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover opacity-70"
         loading="eager"
         fetchPriority="high"
         width={1920}
         height={1080}
       />
       <div className="absolute inset-0 hero-overlay" />
-      <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
-        <h1 className="text-6xl md:text-8xl font-light text-white text-architectural mb-8 reveal lg:text-8xl">
-          {t("hero.title1")}
-          <br />
-          {t("hero.title2")}
-        </h1>
-        <p className="text-xl md:text-2xl text-white/80 font-light tracking-wide max-w-2xl mx-auto mb-10 reveal-delayed whitespace-pre-line">
-          {t("hero.subtitle")}
+      <div className="relative z-10 max-w-7xl w-full mx-auto px-6 py-32 flex flex-col">
+        <p className="text-xs uppercase tracking-widest text-gray-400 mb-8 reveal">
+          MAKING AI EASY
         </p>
-        <Link
-          to={lp("about")}
-          className="inline-block bg-white/10 backdrop-blur-sm border border-white/30 text-white px-10 py-4 text-sm font-semibold tracking-widest uppercase hover:bg-white/20 transition-all duration-300 reveal-delayed"
-        >
-          DESCUBRE TU OFICINA IA →
-        </Link>
-      </div>
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 reveal-delayed">
-        <div className="w-px h-16 bg-white/40" />
-        <div className="text-minimal text-white/60 mt-4 rotate-90 origin-center">
-          {t("hero.scroll")}
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-light text-white uppercase tracking-[-0.02em] leading-[1.05] mb-8 reveal">
+          TU OFICINA IA.
+          <br />
+          OPERATIVA EN SEMANAS.
+        </h1>
+        <p className="text-base text-gray-400 max-w-xl mb-12 reveal-delayed leading-relaxed">
+          Montamos tu departamento de IA completo — equipo, tecnología y metodología — para que tu gente deje
+          de hacer trabajo repetitivo y se centre en hacer crecer el negocio.
+        </p>
+        <div className="reveal-delayed">
+          <Link
+            to={lp("about")}
+            className="inline-block bg-white text-black px-7 py-3 text-xs uppercase tracking-widest font-medium hover:bg-gray-100 transition-colors"
+          >
+            DESCUBRE TU OFICINA IA →
+          </Link>
+        </div>
+        <div className="mt-20 pt-8 border-t border-white/10 flex flex-wrap items-center gap-x-10 gap-y-3 text-xs uppercase tracking-widest text-gray-400 reveal-delayed">
+          <span>Madrid · Desde 2014</span>
+          <span className="hidden md:inline text-white/20">|</span>
+          <span>200+ Proyectos</span>
+          <span className="hidden md:inline text-white/20">|</span>
+          <span>Making AI Easy</span>
         </div>
       </div>
     </section>
