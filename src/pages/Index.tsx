@@ -2,14 +2,16 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import LogoCarousel from "@/components/LogoCarousel";
-import { Link } from "react-router-dom";
-import { ArrowRight, FileText } from "lucide-react";
+import { FileText } from "lucide-react";
 import ImpactAreas from "@/components/ImpactAreas";
 import { useTranslation } from "react-i18next";
-import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import SEO from "@/components/SEO";
-import NuestraHistoria from "@/components/NuestraHistoria";
 import AIMaturityChart from "@/components/AIMaturityChart";
+import QueEsOficinaIA from "@/components/QueEsOficinaIA";
+import LoQueIncluye from "@/components/LoQueIncluye";
+import Velocidad from "@/components/Velocidad";
+import ROIGarantizado from "@/components/ROIGarantizado";
+import Desde2014 from "@/components/Desde2014";
 
 import logoOpenAI from "@/assets/logos/openai.png";
 import logoAzure from "@/assets/logos/azure.png";
@@ -29,28 +31,34 @@ const techLogos = [
 
 const Index = () => {
   const { t } = useTranslation();
-  const lp = useLocalizedPath();
 
   return (
     <div className="min-h-screen">
       <SEO titleKey="seo.home.title" descriptionKey="seo.home.description" routeKey="home" />
       <Navigation />
+
+      {/* 1. HERO */}
       <Hero />
 
-      {/* ─── NUESTRA HISTORIA ─── */}
-      <section className="py-12 md:py-16 bg-background">
-        <div className="container mx-auto px-6">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-minimal text-muted-foreground mb-6">{t("index.experience")}</h2>
-          </div>
-        </div>
-        <NuestraHistoria />
-      </section>
+      {/* 2. QUÉ ES UNA OFICINA IA */}
+      <QueEsOficinaIA />
 
-      {/* ─── INTELIGENCIA AUMENTADA ─── */}
+      {/* 3. LO QUE INCLUYE */}
+      <LoQueIncluye />
+
+      {/* 4. VELOCIDAD */}
+      <Velocidad />
+
+      {/* 5. ROI GARANTIZADO */}
+      <ROIGarantizado />
+
+      {/* 6. DESDE 2014 */}
+      <Desde2014 />
+
+      {/* 7. INTELIGENCIA AUMENTADA */}
       <AIMaturityChart />
 
-      {/* ─── TECH STACK ─── */}
+      {/* 8. TECH STACK */}
       <section className="py-10 md:py-12 bg-muted/30">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
@@ -76,9 +84,10 @@ const Index = () => {
         </div>
       </section>
 
+      {/* 9. ÁREAS DE IMPACTO */}
       <ImpactAreas />
 
-      {/* ─── SOCIAL PROOF ─── */}
+      {/* 10. SOCIAL PROOF */}
       <section className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
@@ -89,7 +98,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ─── CENTRO DE RECURSOS ─── */}
+      {/* 11. CENTRO DE RECURSOS */}
       <section className="py-12 md:py-16 bg-foreground text-primary-foreground">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
@@ -120,6 +129,7 @@ const Index = () => {
         </div>
       </section>
 
+      {/* 12. FOOTER */}
       <Footer />
     </div>
   );
