@@ -1,3 +1,5 @@
+import bgImage from "@/assets/bg-roi.png";
+
 const cards = [
   {
     title: "Indicadores financieros",
@@ -15,8 +17,19 @@ const cards = [
 
 export default function ROIGarantizado() {
   return (
-    <section className="bg-black text-white py-24">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="relative bg-black text-white py-24 overflow-hidden">
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: `url(${bgImage})`, filter: "grayscale(100%)" }}
+      />
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            "linear-gradient(to bottom, rgba(15, 23, 42, 0.85), rgba(0, 0, 0, 0.80))",
+        }}
+      />
+      <div className="relative z-10 max-w-7xl mx-auto px-6">
         <p className="text-xs uppercase tracking-widest text-gray-500 mb-6">ROI garantizado</p>
         <h2 className="text-3xl md:text-4xl font-bold text-white max-w-3xl" style={{ lineHeight: 1.15 }}>
           Todo se mide. Todo se planifica. Tu equipo financiero lo valida.
