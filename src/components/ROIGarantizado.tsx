@@ -36,7 +36,7 @@ export default function ROIGarantizado() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-0 mt-12">
           {cards.map((c) => (
-            <div key={c.title} className="border border-zinc-800 p-10 -ml-px -mt-px">
+            <div key={c.title} className="border border-zinc-700/50 backdrop-blur-sm bg-black/30 p-10 -ml-px -mt-px">
               <h3 className="text-lg font-medium text-white mb-3">{c.title}</h3>
               <p className="text-sm text-gray-400 leading-relaxed">{c.desc}</p>
             </div>
