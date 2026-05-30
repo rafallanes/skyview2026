@@ -32,12 +32,12 @@
     "label": "ÁREAS DE IMPACTO",
     "title": "Soluciones con impacto real en su organización.",
     "areas": {
-      "operations": { "title": "Operaciones y Procesos", "department": "Operaciones", "desc": "Automatización de tareas críticas y optimización de flujos para reducir costes operativos." },
-      "sales": { "title": "Ventas y Marketing", "department": "Ventas", "desc": "Modelos predictivos de demanda y personalización de la experiencia de cliente para acelerar el crecimiento." },
-      "finance": { "title": "Departamento Financiero (CFO)", "department": "Financiero", "desc": "Optimización de flujos de caja, detección de anomalías y proyecciones inteligentes para decisiones basadas en datos." },
-      "talent": { "title": "Talento Humano", "department": "Talento", "desc": "Herramientas de IA para multiplicar la productividad de sus equipos y facilitar la gestión del cambio." }
+      "operations": { "title": "Operaciones", "department": "Operaciones", "desc": "Tus equipos dejan de hacer tareas repetitivas. Más tiempo para lo que importa, menos errores." },
+      "sales": { "title": "Ventas", "department": "Ventas", "desc": "Previsiones más precisas, oportunidades que antes se escapaban. Tu pipeline trabaja solo." },
+      "finance": { "title": "Finanzas", "department": "Financiero", "desc": "Cierres más rápidos, anomalías detectadas a tiempo. Tu equipo financiero respira." },
+      "talent": { "title": "Talento", "department": "Talento", "desc": "Equipos que trabajan con IA en su día a día. No como herramienta — como compañero." }
     },
-    "downloadCase": "Descargar Caso de Uso: {{department}}"
+    "downloadCase": "Descargar caso de uso →"
   },
   "services": {
     "heroLabel": "MAKING AI EASY",
