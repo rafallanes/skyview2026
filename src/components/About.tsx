@@ -216,7 +216,7 @@ const About = () => {
               {methodologySteps.map((step, index) => (
                 <Reveal key={index} delay={index * 0.08}>
                   <div className="group relative border-t border-border py-12 md:py-16 md:pr-16 md:odd:pr-16 md:even:pl-16 md:even:pr-0 overflow-hidden">
-                    <span className="absolute top-4 right-4 md:top-6 md:right-8 text-7xl md:text-8xl font-bold text-zinc-200 select-none pointer-events-none leading-none">
+                    <span className="absolute top-4 right-4 md:top-6 md:right-8 text-7xl md:text-8xl font-bold text-foreground/[0.12] select-none pointer-events-none leading-none">
                       {step.number}
                     </span>
                     <div className="relative z-10">
