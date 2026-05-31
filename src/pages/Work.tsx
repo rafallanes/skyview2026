@@ -184,7 +184,7 @@ const Work = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-6">
           <p className="text-xs uppercase tracking-widest text-gray-500 mb-6">TU TURNO</p>
           <h2 className="text-4xl font-bold text-white mb-6 max-w-3xl">
-            ¿Quieres ver resultados como estos en tu empresa.
+            ¿Quieres ver resultados como estos en tu empresa?
           </h2>
           <p className="text-base text-gray-400 leading-relaxed max-w-xl mb-10">
             Agenda una sesión START de 25 minutos. Analizamos tu caso, te mostramos oportunidades concretas y te damos un plan con plazos y retorno esperado.

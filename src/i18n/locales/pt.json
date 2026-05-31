@@ -28,6 +28,15 @@
     "resourcesCta1": "Guia para CEOs: O ROI da IA em 2026",
     "resourcesCta2": "Radiografia do CFO: Automação e Controlo Financeiro"
   },
+  "incluye": {
+    "label": "Tudo incluído",
+    "title": "Isto é o que pomos a trabalhar para si.",
+    "closing": "Consultoria, desenvolvimento, formação, compliance e medição de resultados. Tudo incluído. Tudo gerido. Sem que tenha de improvisar.",
+    "01": { "title": "Estratégia clara desde o primeiro dia.", "desc": "Mapa de oportunidades, roteiro priorizado e um Comité IA constituído com a sua equipa. Sabe exatamente o que automatizar, em que ordem e que retorno esperar." },
+    "02": { "title": "Automatizações em produção, não protótipos.", "desc": "Processos automatizados e integrados nos seus sistemas reais. Soluções que a sua equipa usa desde o primeiro trimestre — sem demos, sem pilotos eternos." },
+    "03": { "title": "A sua equipa trabalha com IA, não contra ela.", "desc": "Formação aplicada ao dia a dia de cada departamento. A sua gente aprende fazendo, com ferramentas já configuradas para o seu contexto." },
+    "04": { "title": "Impacto medido e validado pela sua equipa financeira.", "desc": "KPIs financeiros, de adoção e operacionais definidos desde o início. Tudo alimenta uma calculadora ROI que a própria equipa do cliente supervisiona." }
+  },
   "impact": {
     "label": "ÁREAS DE IMPACTO",
     "title": "Soluções com impacto real na sua organização.",
@@ -41,8 +50,8 @@
   },
   "services": {
     "heroLabel": "MAKING AI EASY",
-    "heroTitle": "10 anos a otimizar processos, agora potenciados por IA.",
-    "heroDesc": "A nossa história não começa com o auge da IA generativa; levamos uma década a eliminar fricções operacionais em grandes organizações. A IA é o motor que integrámos para tornar a sua empresa mais inteligente e rentável.",
+    "heroTitle": "Mais de 10 anos a colocar a tecnologia ao serviço das pessoas.",
+    "heroDesc": "A nossa história não começa com o boom da IA. Desde 2014 que automatizamos processos e eliminamos fricções em grandes organizações. A tecnologia muda; a nossa missão não.",
     "reinforcement": "A nossa experiência nasce da eficiência operacional e evolui para a inteligência estratégica.",
     "philosophyLabel": "TECNOLOGIA AO SERVIÇO DAS PESSOAS",
     "philosophyTitle1": "Filosofia",
@@ -578,7 +587,7 @@
       "description": "Consultoria de IA em Madrid. Ajudamos empresas a integrar inteligência artificial para melhorar a eficiência operacional com metodologia START, SPRINT e Escritório IA."
     },
     "services": {
-      "title": "O Que Fazemos | SkyView 2026 · Serviços de IA",
+      "title": "Quem Somos | SkyView · Making AI easy",
       "description": "Descubra os nossos serviços: START (diagnóstico IA em 25 min), SPRINT (implementação em 90 dias) e Escritório IA (integração contínua). Consultoria IA em Madrid."
     },
     "about": {
