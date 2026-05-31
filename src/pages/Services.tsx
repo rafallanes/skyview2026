@@ -11,6 +11,8 @@ import logoAnthropic from "@/assets/logos/anthropic.png";
 import logoLangChain from "@/assets/logos/langchain.png";
 import logoPinecone from "@/assets/logos/pinecone.png";
 import aboutFilosofia from "@/assets/about-filosofia.jpg";
+import heroBg from "@/assets/hero-architecture.jpg";
+import ctaBg from "@/assets/about-cta.jpg";
 import ImpactAreas from "@/components/ImpactAreas";
 import { Link } from "react-router-dom";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
