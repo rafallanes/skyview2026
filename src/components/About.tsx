@@ -131,7 +131,7 @@ const About = () => {
             {queObtienes.map((it, i) => (
               <Reveal key={it.n} delay={i * 0.08}>
                 <div className="border border-zinc-200 p-10 -ml-px -mt-px h-full">
-                  <div className="text-7xl font-light text-foreground/[0.12] mb-4 leading-none">{it.n}</div>
+                  <div className="text-7xl font-light text-black/[0.12] mb-4 leading-none">{it.n}</div>
                   <h3 className="text-lg font-medium text-zinc-900 mb-3">{it.title}</h3>
                   <p className="text-sm text-zinc-600 leading-relaxed">{it.desc}</p>
                 </div>
@@ -180,7 +180,7 @@ const About = () => {
                 {diagnosisItems.map((item, i) => (
                   <Reveal key={i} delay={i * 0.08}>
                     <div className="group relative border-t border-gray-200 py-10 md:py-14 pr-8 overflow-hidden">
-                      <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-foreground/[0.25] select-none pointer-events-none leading-none">
+                      <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-black/[0.12] select-none pointer-events-none leading-none">
                         {item.ghost}
                       </span>
                       <div className="relative z-10">
