@@ -52,15 +52,22 @@ export default function LoQueIncluye() {
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-16 max-w-3xl" style={{ lineHeight: 1.15 }}>
           Esto es lo que ponemos a trabajar para ti.
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
           {items.map((it) => (
-            <div key={it.n} className="border border-zinc-600/40 backdrop-blur-sm bg-black/30 p-10 -ml-px -mt-px">
-              <div className="text-6xl font-bold text-white/10 mb-4 leading-none">{it.n}</div>
-              <h3 className="text-lg font-medium text-white mb-2">{it.title}</h3>
-              <p className="text-sm text-gray-400 leading-relaxed">{it.desc}</p>
+            <div key={it.n} className="group relative border-t border-white/15 py-12 md:py-16 md:pr-16 md:odd:pr-16 md:even:pl-16 md:even:pr-0 overflow-hidden">
+              <span className="absolute top-4 right-4 md:top-6 md:right-8 text-7xl md:text-8xl font-bold text-white/[0.12] select-none pointer-events-none leading-none">
+                {it.n}
+              </span>
+              <div className="relative z-10">
+                <h3 className="text-xl md:text-2xl font-semibold text-white mb-3 group-hover:text-white/70 transition-colors duration-500">
+                  {it.title}
+                </h3>
+                <p className="text-[15px] text-white/60 leading-relaxed font-light">{it.desc}</p>
+              </div>
             </div>
           ))}
         </div>
+        <div className="border-t border-white/15" />
         <p className="text-base text-gray-400 leading-relaxed max-w-2xl mx-auto text-center mt-16">
           Todo esto, operativo desde el primer trimestre. Sin contratar perfiles que no encuentras. Sin curva
           de aprendizaje de meses.
