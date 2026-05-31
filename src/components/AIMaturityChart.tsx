@@ -5,41 +5,11 @@ import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
-const bars = [
-  {
-    icon: User,
-    title: "Persona aumentada",
-    focus: "FOCO: LA TAREA",
-    description: "Productividad personal con IA generativa. Formación, adopción, buenas prácticas.",
-    label: "OFICINA IA — PRIMER SPRINT",
-    heightClass: "h-[180px] md:h-[200px]",
-    bg: "bg-zinc-300",
-    textColor: "text-foreground",
-    iconColor: "currentColor",
-  },
-  {
-    icon: Users,
-    title: "Equipo aumentado",
-    focus: "FOCO: EL PROCESO",
-    description: "Automatizaciones recurrentes de tareas manuales. El equipo deja de hacer lo repetitivo.",
-    label: "OFICINA IA AS A SERVICE",
-    heightClass: "h-[220px] md:h-[260px]",
-    bg: "bg-zinc-400",
-    textColor: "text-foreground",
-    iconColor: "currentColor",
-  },
-  {
-    icon: Building,
-    title: "Empresa aumentada",
-    focus: "FOCO: EL NEGOCIO",
-    description: "Modelos y agentes a escala en el core del negocio. La IA opera en lo estratégico.",
-    label: "OFICINA IA PROPIA",
-    heightClass: "h-[260px] md:h-[320px]",
-    bg: "bg-zinc-600",
-    textColor: "text-white",
-    iconColor: "white",
-  },
-];
+const barConfig = [
+  { key: "b1", icon: User, heightClass: "h-[180px] md:h-[200px]", bg: "bg-zinc-300", textColor: "text-foreground", iconColor: "currentColor" },
+  { key: "b2", icon: Users, heightClass: "h-[220px] md:h-[260px]", bg: "bg-zinc-400", textColor: "text-foreground", iconColor: "currentColor" },
+  { key: "b3", icon: Building, heightClass: "h-[260px] md:h-[320px]", bg: "bg-zinc-600", textColor: "text-white", iconColor: "white" },
+] as const;
 
 export default function AIMaturityChart() {
   const { t } = useTranslation();
