@@ -180,7 +180,7 @@ const About = () => {
                 {diagnosisItems.map((item, i) => (
                   <Reveal key={i} delay={i * 0.08}>
                     <div className="group relative border-t border-gray-200 py-10 md:py-14 pr-8 overflow-hidden">
-                      <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-zinc-200 select-none pointer-events-none leading-none">
+                      <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-zinc-400 select-none pointer-events-none leading-none">
                         {item.ghost}
                       </span>
                       <div className="relative z-10">
