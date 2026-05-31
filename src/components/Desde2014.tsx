@@ -1,20 +1,21 @@
-const stats = [
-  { num: "2014", label: "Desde" },
-  { num: "200+", label: "Proyectos" },
-  { num: "90d", label: "Sprint medio" },
-];
+import { useTranslation } from "react-i18next";
 
 export default function Desde2014() {
+  const { t } = useTranslation();
+  const stats = [
+    { num: "2014", label: t("home.desde2014.s1") },
+    { num: "200+", label: t("home.desde2014.s2") },
+    { num: "90d", label: t("home.desde2014.s3") },
+  ];
   return (
     <section className="bg-white text-zinc-900 py-24">
       <div className="max-w-7xl mx-auto px-6">
-        <p className="text-xs uppercase tracking-widest text-zinc-500 mb-6">Desde 2014</p>
+        <p className="text-xs uppercase tracking-widest text-zinc-500 mb-6">{t("home.desde2014.label")}</p>
         <h2 className="text-3xl md:text-4xl font-bold text-zinc-900" style={{ lineHeight: 1.15 }}>
-          No somos nuevos en esto.
+          {t("home.desde2014.title")}
         </h2>
         <p className="text-base text-zinc-600 max-w-xl mt-6 leading-relaxed">
-          Más de 10 años automatizando procesos en grandes organizaciones. La tecnología cambia; nuestra
-          misión no.
+          {t("home.desde2014.desc")}
         </p>
         <div className="flex flex-wrap gap-12 mt-12">
           {stats.map((s) => (

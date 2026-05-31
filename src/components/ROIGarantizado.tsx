@@ -1,21 +1,12 @@
+import { useTranslation } from "react-i18next";
 import bgImage from "@/assets/bg-roi.png";
 
-const cards = [
-  {
-    title: "Indicadores financieros",
-    desc: "Ahorro en CAPEX y OPEX. Los números que importan al comité de dirección.",
-  },
-  {
-    title: "Indicadores de adopción",
-    desc: "Tareas automatizadas, calidad de entregables, ratios de uso de herramientas IA.",
-  },
-  {
-    title: "Indicadores operativos",
-    desc: "Eficiencia de procesos, reducción de errores, tiempo recuperado por equipo.",
-  },
-];
-
 export default function ROIGarantizado() {
+  const { t } = useTranslation();
+  const cards = ["c1", "c2", "c3"].map((k) => ({
+    title: t(`home.roi.${k}.title`),
+    desc: t(`home.roi.${k}.desc`),
+  }));
   return (
     <section className="relative bg-black text-white py-24 overflow-hidden">
       <div
@@ -30,9 +21,9 @@ export default function ROIGarantizado() {
         }}
       />
       <div className="relative z-10 max-w-7xl mx-auto px-6">
-        <p className="text-xs uppercase tracking-widest text-gray-500 mb-6">ROI garantizado</p>
+        <p className="text-xs uppercase tracking-widest text-gray-500 mb-6">{t("home.roi.label")}</p>
         <h2 className="text-3xl md:text-4xl font-bold text-white max-w-3xl" style={{ lineHeight: 1.15 }}>
-          Todo se mide. Todo se planifica. Tu equipo financiero lo valida.
+          {t("home.roi.title")}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-0 mt-12">
           {cards.map((c) => (
@@ -43,9 +34,7 @@ export default function ROIGarantizado() {
           ))}
         </div>
         <p className="text-base text-gray-400 leading-relaxed max-w-2xl mt-12">
-          Cada proyecto arranca con KPIs definidos. Todo alimenta una calculadora ROI supervisada por el
-          Comité IA — un órgano donde participan perfiles del propio equipo financiero del cliente. El cliente
-          valida el retorno como parte natural de la metodología.
+          {t("home.roi.closing")}
         </p>
       </div>
     </section>

@@ -867,5 +867,91 @@
     "contactBackground": "Decorative background for the contact section",
     "aboutLaberinto": "Decorative background for AI maturity diagnostic",
     "aboutCta": "Decorative background for AI consulting section"
+  },
+  "home": {
+    "hero": {
+      "label": "MAKING AI EASY",
+      "title1": "YOUR AI OFFICE.",
+      "title2": "OPERATIONAL IN WEEKS.",
+      "desc": "We build your complete AI department — team, technology and methodology — so your people stop doing repetitive work and focus on growing the business.",
+      "cta": "DISCOVER YOUR AI OFFICE →",
+      "trust1": "Madrid · Since 2014",
+      "trust2": "200+ Projects",
+      "trust3": "Making AI Easy"
+    },
+    "queEs": {
+      "label": "What is an AI Office?",
+      "title": "A full AI team working for your company. From day one.",
+      "desc": "An AI Office is a dedicated team that identifies opportunities, automates processes and measures results. Consultants, developers, data engineers, MLOps, training, compliance and specialized digital talent by function. All included. All operational. Without having to hire, train or improvise."
+    },
+    "velocidad": {
+      "label": "Results, not promises",
+      "title": "We start in 2 weeks. In 90 days, your AI Office is already automating processes.",
+      "cta": "BOOK YOUR START SESSION →",
+      "c1": {
+        "num": "2 wks",
+        "title": "Diagnostic",
+        "desc": "Opportunity map, formation of the AI Committee and a clear roadmap. In two weeks we are already working."
+      },
+      "c2": {
+        "num": "90 days",
+        "title": "First automations",
+        "desc": "Automations in production with measurable impact. Your team already feels the difference."
+      },
+      "c3": {
+        "num": "< 1 year",
+        "title": "AI Office at 100%",
+        "desc": "AI Office fully operational, new cases every quarter, team trained. Ongoing professional service."
+      }
+    },
+    "roi": {
+      "label": "Guaranteed ROI",
+      "title": "Everything is measured. Everything is planned. Your finance team validates it.",
+      "closing": "Every project starts with defined KPIs. Everything feeds a ROI calculator supervised by the AI Committee — a body in which profiles from the client's own finance team take part. The client validates the return as a natural part of the methodology.",
+      "c1": {
+        "title": "Financial indicators",
+        "desc": "Savings in CAPEX and OPEX. The numbers that matter to the board."
+      },
+      "c2": {
+        "title": "Adoption indicators",
+        "desc": "Automated tasks, deliverable quality, AI tool usage ratios."
+      },
+      "c3": {
+        "title": "Operational indicators",
+        "desc": "Process efficiency, error reduction, time recovered per team."
+      }
+    },
+    "desde2014": {
+      "label": "Since 2014",
+      "title": "We are not new at this.",
+      "desc": "Over 10 years automating processes in large organizations. Technology changes; our mission does not.",
+      "s1": "Since",
+      "s2": "Projects",
+      "s3": "Average sprint"
+    },
+    "maturity": {
+      "label": "MAKING AI EASY",
+      "talento": "Talent",
+      "tecnologia": "Technology",
+      "ia": "Augmented Intelligence",
+      "b1": {
+        "title": "Augmented person",
+        "focus": "FOCUS: THE TASK",
+        "desc": "Personal productivity with generative AI. Training, adoption, best practices.",
+        "label": "AI OFFICE — FIRST SPRINT"
+      },
+      "b2": {
+        "title": "Augmented team",
+        "focus": "FOCUS: THE PROCESS",
+        "desc": "Recurring automations of manual tasks. The team stops doing repetitive work.",
+        "label": "AI OFFICE AS A SERVICE"
+      },
+      "b3": {
+        "title": "Augmented company",
+        "focus": "FOCUS: THE BUSINESS",
+        "desc": "Models and agents at scale in the core of the business. AI operates at the strategic level.",
+        "label": "OWN AI OFFICE"
+      }
+    }
   }
 }

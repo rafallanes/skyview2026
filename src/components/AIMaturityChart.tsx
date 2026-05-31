@@ -5,45 +5,22 @@ import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
-const bars = [
-  {
-    icon: User,
-    title: "Persona aumentada",
-    focus: "FOCO: LA TAREA",
-    description: "Productividad personal con IA generativa. Formación, adopción, buenas prácticas.",
-    label: "OFICINA IA — PRIMER SPRINT",
-    heightClass: "h-[180px] md:h-[200px]",
-    bg: "bg-zinc-300",
-    textColor: "text-foreground",
-    iconColor: "currentColor",
-  },
-  {
-    icon: Users,
-    title: "Equipo aumentado",
-    focus: "FOCO: EL PROCESO",
-    description: "Automatizaciones recurrentes de tareas manuales. El equipo deja de hacer lo repetitivo.",
-    label: "OFICINA IA AS A SERVICE",
-    heightClass: "h-[220px] md:h-[260px]",
-    bg: "bg-zinc-400",
-    textColor: "text-foreground",
-    iconColor: "currentColor",
-  },
-  {
-    icon: Building,
-    title: "Empresa aumentada",
-    focus: "FOCO: EL NEGOCIO",
-    description: "Modelos y agentes a escala en el core del negocio. La IA opera en lo estratégico.",
-    label: "OFICINA IA PROPIA",
-    heightClass: "h-[260px] md:h-[320px]",
-    bg: "bg-zinc-600",
-    textColor: "text-white",
-    iconColor: "white",
-  },
-];
+const barConfig = [
+  { key: "b1", icon: User, heightClass: "h-[180px] md:h-[200px]", bg: "bg-zinc-300", textColor: "text-foreground", iconColor: "currentColor" },
+  { key: "b2", icon: Users, heightClass: "h-[220px] md:h-[260px]", bg: "bg-zinc-400", textColor: "text-foreground", iconColor: "currentColor" },
+  { key: "b3", icon: Building, heightClass: "h-[260px] md:h-[320px]", bg: "bg-zinc-600", textColor: "text-white", iconColor: "white" },
+] as const;
 
 export default function AIMaturityChart() {
   const { t } = useTranslation();
   const lp = useLocalizedPath();
+  const bars = barConfig.map((b) => ({
+    ...b,
+    title: t(`home.maturity.${b.key}.title`),
+    focus: t(`home.maturity.${b.key}.focus`),
+    description: t(`home.maturity.${b.key}.desc`),
+    label: t(`home.maturity.${b.key}.label`),
+  }));
 
   return (
     <div className="bg-background py-12 md:py-16">
@@ -55,14 +32,14 @@ export default function AIMaturityChart() {
               className="uppercase text-muted-foreground/60 mb-3 text-left"
               style={{ fontSize: "11px", letterSpacing: "2.4px" }}
             >
-              MAKING AI EASY
+              {t("home.maturity.label")}
             </p>
             <div className="flex flex-wrap items-center justify-center gap-2 md:gap-3 text-2xl md:text-4xl">
-              <span className="text-muted-foreground font-light">Talento</span>
+              <span className="text-muted-foreground font-light">{t("home.maturity.talento")}</span>
               <span className="text-muted-foreground/40 font-light">+</span>
-              <span className="text-muted-foreground font-light">Tecnología</span>
+              <span className="text-muted-foreground font-light">{t("home.maturity.tecnologia")}</span>
               <span className="text-muted-foreground/40 font-light">=</span>
-              <span className="text-foreground font-bold">Inteligencia Aumentada</span>
+              <span className="text-foreground font-bold">{t("home.maturity.ia")}</span>
             </div>
           </div>
 
@@ -127,6 +104,7 @@ export default function AIMaturityChart() {
               </div>
             ))}
           </div>
+
 
           {/* CTA */}
           <div className="flex justify-center mt-12">
