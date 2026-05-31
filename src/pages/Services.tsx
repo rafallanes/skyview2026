@@ -11,6 +11,8 @@ import logoAnthropic from "@/assets/logos/anthropic.png";
 import logoLangChain from "@/assets/logos/langchain.png";
 import logoPinecone from "@/assets/logos/pinecone.png";
 import aboutFilosofia from "@/assets/about-filosofia.jpg";
+import heroBg from "@/assets/hero-architecture.jpg";
+import ctaBg from "@/assets/about-cta.jpg";
 import ImpactAreas from "@/components/ImpactAreas";
 import { Link } from "react-router-dom";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
@@ -74,17 +76,25 @@ const Services = () => {
       <Navigation />
 
       {/* ─── HERO ─── */}
-      <section className="pt-32 pb-10 md:pb-12 bg-background">
-        <div className="container mx-auto px-6">
-          <div className="max-w-7xl mx-auto">
-            <h1 className="text-minimal text-muted-foreground mb-6">{t("services.heroLabel")}</h1>
-            <h2 className="text-4xl md:text-6xl lg:text-7xl font-light text-architectural max-w-4xl mb-10">
-              {t("services.heroTitle")}
-            </h2>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl">
-              {t("services.heroDesc")}
-            </p>
-          </div>
+      <section className="relative bg-black text-white pt-32 pb-20 overflow-hidden" style={{ minHeight: "60vh" }}>
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${heroBg})`, filter: "grayscale(100%)" }}
+          aria-hidden="true"
+        />
+        <div
+          className="absolute inset-0"
+          style={{ background: "linear-gradient(to bottom, rgba(15, 23, 42, 0.85), rgba(0, 0, 0, 0.80))" }}
+          aria-hidden="true"
+        />
+        <div className="relative z-10 max-w-7xl mx-auto px-6">
+          <h1 className="text-xs uppercase tracking-widest text-gray-500 mb-6">{t("services.heroLabel")}</h1>
+          <h2 className="text-6xl md:text-8xl font-light text-white uppercase leading-[1.05] max-w-5xl mb-10">
+            {t("services.heroTitle")}
+          </h2>
+          <p className="text-base text-gray-400 leading-relaxed max-w-xl">
+            {t("services.heroDesc")}
+          </p>
         </div>
       </section>
 
@@ -208,22 +218,31 @@ const Services = () => {
       </section>
 
       {/* ─── CTA FINAL ─── */}
-      <section className="py-12 md:py-16 bg-foreground text-background">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-5xl lg:text-6xl font-light mb-8 leading-tight">
-              {t("services.ctaTitle")}
-            </h2>
-            <p className="text-lg md:text-xl text-background/60 leading-relaxed max-w-2xl mx-auto mb-12">
-              {t("services.ctaDesc")}
-            </p>
-            <Link
-              to={lp("contact")}
-              className="inline-block bg-accent text-accent-foreground px-12 py-5 text-sm font-bold tracking-widest uppercase shadow-lg hover:shadow-xl hover:brightness-110 hover:-translate-y-0.5 transition-all duration-300"
-            >
-              {t("services.ctaCta")}
-            </Link>
-          </div>
+      <section className="relative bg-black text-white py-24 overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${ctaBg})`, filter: "grayscale(100%)" }}
+          aria-hidden="true"
+        />
+        <div
+          className="absolute inset-0"
+          style={{ background: "linear-gradient(to bottom, rgba(15, 23, 42, 0.85), rgba(0, 0, 0, 0.80))" }}
+          aria-hidden="true"
+        />
+        <div className="relative z-10 max-w-7xl mx-auto px-6">
+          <p className="text-xs uppercase tracking-widest text-gray-500 mb-6">EMPIEZA AQUÍ</p>
+          <h2 className="text-4xl font-bold text-white mb-6 max-w-3xl">
+            {t("services.ctaTitle")}
+          </h2>
+          <p className="text-base text-gray-400 leading-relaxed max-w-xl mb-10">
+            {t("services.ctaDesc")}
+          </p>
+          <Link
+            to={lp("contact")}
+            className="inline-block bg-white text-black px-7 py-3 text-xs uppercase tracking-widest font-medium hover:bg-gray-100 transition-colors"
+          >
+            {t("services.ctaCta")}
+          </Link>
         </div>
       </section>
 
