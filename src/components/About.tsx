@@ -180,7 +180,7 @@ const About = () => {
                 {diagnosisItems.map((item, i) => (
                   <Reveal key={i} delay={i * 0.08}>
                     <div className="group relative border-t border-gray-200 py-10 md:py-14 pr-8 overflow-hidden">
-                      <span className="absolute top-3 right-3 text-7xl font-light text-black/[0.12] select-none pointer-events-none leading-none">
+                      <span className="absolute top-3 right-3 text-[5rem] md:text-[6rem] font-bold text-black/[0.12] select-none pointer-events-none leading-none">
                         {item.ghost}
                       </span>
                       <div className="relative z-10">
@@ -216,7 +216,7 @@ const About = () => {
               {methodologySteps.map((step, index) => (
                 <Reveal key={index} delay={index * 0.08}>
                   <div className="group relative border-t border-border py-12 md:py-16 md:pr-16 md:odd:pr-16 md:even:pl-16 md:even:pr-0 overflow-hidden">
-                    <span className="absolute top-4 right-4 md:top-6 md:right-8 text-7xl font-light text-foreground/[0.12] select-none pointer-events-none leading-none">
+                    <span className="absolute top-4 right-4 md:top-6 md:right-8 text-7xl md:text-8xl font-bold text-foreground/[0.12] select-none pointer-events-none leading-none">
                       {step.number}
                     </span>
                     <div className="relative z-10">
