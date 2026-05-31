@@ -12,55 +12,16 @@ type Category = "all" | "oficina" | "automatizacion";
 
 interface CaseStudy {
   category: "oficina" | "automatizacion";
-  badge: string;
-  sector: string;
-  title: string;
-  result: string;
+  idx: number;
 }
 
 const cases: CaseStudy[] = [
-  {
-    category: "oficina",
-    badge: "OFICINA IA",
-    sector: "ENERGÍA",
-    title: "Oficina IA operativa en 90 días.",
-    result: "Automatización de procesos de reporting que ahorraron 120 horas mensuales al equipo de operaciones.",
-  },
-  {
-    category: "oficina",
-    badge: "OFICINA IA",
-    sector: "SEGUROS",
-    title: "De cero a Comité IA en 4 semanas.",
-    result: "Equipo de 40 personas formado en herramientas IA aplicadas a suscripción y siniestros.",
-  },
-  {
-    category: "oficina",
-    badge: "OFICINA IA",
-    sector: "RETAIL",
-    title: "IA integrada en la cadena de suministro.",
-    result: "Previsión de demanda automatizada con reducción del 30% en exceso de stock.",
-  },
-  {
-    category: "automatizacion",
-    badge: "AUTOMATIZACIÓN",
-    sector: "BANCA",
-    title: "Procesamiento documental automatizado.",
-    result: "Reducción del 85% en tiempo de revisión de documentación KYC.",
-  },
-  {
-    category: "automatizacion",
-    badge: "AUTOMATIZACIÓN",
-    sector: "INDUSTRIA",
-    title: "Mantenimiento predictivo en planta.",
-    result: "Detección temprana de anomalías con reducción del 40% en paradas no planificadas.",
-  },
-  {
-    category: "automatizacion",
-    badge: "AUTOMATIZACIÓN",
-    sector: "SALUD",
-    title: "Automatización de informes clínicos.",
-    result: "Generación automatizada de informes que liberó 15 horas semanales por profesional.",
-  },
+  { category: "oficina", idx: 0 },
+  { category: "oficina", idx: 1 },
+  { category: "oficina", idx: 2 },
+  { category: "automatizacion", idx: 3 },
+  { category: "automatizacion", idx: 4 },
+  { category: "automatizacion", idx: 5 },
 ];
 
 const Work = () => {
@@ -100,12 +61,12 @@ const Work = () => {
           aria-hidden="true"
         />
         <div className="relative z-10 max-w-7xl mx-auto px-6">
-          <p className="text-xs uppercase tracking-widest text-gray-500 mb-6">CASOS DE ÉXITO</p>
+          <p className="text-xs uppercase tracking-widest text-gray-500 mb-6">{t("work.heroLabel")}</p>
           <h1 className="text-6xl md:text-8xl font-light text-white uppercase leading-[1.05] max-w-5xl mb-10">
-            Resultados reales.<br />Empresas reales.
+            {t("work.heroTitle1")}<br />{t("work.heroTitle2")}
           </h1>
           <p className="text-base text-gray-400 leading-relaxed max-w-xl">
-            Cada proyecto se mide en ahorro de tiempo, eficiencia operativa y retorno financiero. Estos son algunos de los resultados que hemos conseguido con nuestros clientes.
+            {t("work.heroDesc")}
           </p>
         </div>
       </section>
@@ -118,19 +79,19 @@ const Work = () => {
               onClick={() => setActiveCat("all")}
               className={`${tabBase} ${activeCat === "all" ? tabActive : tabInactive}`}
             >
-              Todos
+              {t("work.filterAll")}
             </button>
             <button
               onClick={() => setActiveCat("oficina")}
               className={`${tabBase} ${activeCat === "oficina" ? tabActive : tabInactive}`}
             >
-              Oficina IA
+              {t("work.filterOficina")}
             </button>
             <button
               onClick={() => setActiveCat("automatizacion")}
               className={`${tabBase} ${activeCat === "automatizacion" ? tabActive : tabInactive}`}
             >
-              Automatización de procesos
+              {t("work.filterAutomatizacion")}
             </button>
           </div>
         </div>
