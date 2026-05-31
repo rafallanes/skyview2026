@@ -12,8 +12,13 @@ const barConfig = [
 ] as const;
 
 export default function AIMaturityChart() {
-  const { t } = useTranslation();
-  const lp = useLocalizedPath();
+  const bars = barConfig.map((b) => ({
+    ...b,
+    title: t(`home.maturity.${b.key}.title`),
+    focus: t(`home.maturity.${b.key}.focus`),
+    description: t(`home.maturity.${b.key}.desc`),
+    label: t(`home.maturity.${b.key}.label`),
+  }));
 
   return (
     <div className="bg-background py-12 md:py-16">
@@ -25,14 +30,14 @@ export default function AIMaturityChart() {
               className="uppercase text-muted-foreground/60 mb-3 text-left"
               style={{ fontSize: "11px", letterSpacing: "2.4px" }}
             >
-              MAKING AI EASY
+              {t("home.maturity.label")}
             </p>
             <div className="flex flex-wrap items-center justify-center gap-2 md:gap-3 text-2xl md:text-4xl">
-              <span className="text-muted-foreground font-light">Talento</span>
+              <span className="text-muted-foreground font-light">{t("home.maturity.talento")}</span>
               <span className="text-muted-foreground/40 font-light">+</span>
-              <span className="text-muted-foreground font-light">Tecnología</span>
+              <span className="text-muted-foreground font-light">{t("home.maturity.tecnologia")}</span>
               <span className="text-muted-foreground/40 font-light">=</span>
-              <span className="text-foreground font-bold">Inteligencia Aumentada</span>
+              <span className="text-foreground font-bold">{t("home.maturity.ia")}</span>
             </div>
           </div>
 
@@ -97,6 +102,7 @@ export default function AIMaturityChart() {
               </div>
             ))}
           </div>
+
 
           {/* CTA */}
           <div className="flex justify-center mt-12">
