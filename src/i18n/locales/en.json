@@ -28,6 +28,15 @@
     "resourcesCta1": "CEO Guide: The ROI of AI in 2026",
     "resourcesCta2": "CFO Report: Automation & Financial Control"
   },
+  "incluye": {
+    "label": "All included",
+    "title": "This is what we put to work for you.",
+    "closing": "Consulting, development, training, compliance and results measurement. All included. All managed. No improvisation required.",
+    "01": { "title": "Clear strategy from day one.", "desc": "Opportunity map, prioritized roadmap and an AI Committee set up with your team. You know exactly what to automate, in what order and what return to expect." },
+    "02": { "title": "Automations in production, not prototypes.", "desc": "Automated processes integrated into your real systems. Solutions your team uses from the first quarter — no demos, no endless pilots." },
+    "03": { "title": "Your team works with AI, not against it.", "desc": "Training applied to each department's day-to-day. Your people learn by doing, with tools already configured for their context." },
+    "04": { "title": "Impact measured and validated by your finance team.", "desc": "Financial, adoption and operational KPIs defined from the start. Everything feeds an ROI calculator that the client's own team supervises." }
+  },
   "impact": {
     "label": "IMPACT AREAS",
     "title": "Solutions with real impact on your organization.",
@@ -41,8 +50,8 @@
   },
   "services": {
     "heroLabel": "MAKING AI EASY",
-    "heroTitle": "10 years optimizing processes, now powered by AI.",
-    "heroDesc": "Our story doesn't start with the rise of generative AI; we've spent a decade eliminating operational friction in large organizations. AI is the engine we've integrated to make your company smarter and more profitable.",
+    "heroTitle": "Over 10 years putting technology at the service of people.",
+    "heroDesc": "Our story didn't start with the AI boom. Since 2014 we've been automating processes and eliminating friction in large organizations. The technology changes; our mission doesn't.",
     "reinforcement": "Our expertise is born from operational efficiency and evolves toward strategic intelligence.",
     "philosophyLabel": "TECHNOLOGY AT THE SERVICE OF PEOPLE",
     "philosophyTitle1": "Augmented",
@@ -578,7 +587,7 @@
       "description": "Madrid-based AI consultancy. We help businesses integrate artificial intelligence to boost operational efficiency with our START, SPRINT and AI Office methodology."
     },
     "services": {
-      "title": "What We Do | SkyView 2026 · AI Services",
+      "title": "About Us | SkyView · Making AI easy",
       "description": "Explore our services: START (25-min AI diagnostic), SPRINT (90-day implementation) and AI Office (ongoing integration). AI consulting from Madrid."
     },
     "about": {

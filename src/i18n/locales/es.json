@@ -28,6 +28,15 @@
     "resourcesCta1": "Guía para CEOs: El ROI de la IA en 2026",
     "resourcesCta2": "Radiografía del CFO: Automatización y Control Financiero"
   },
+  "incluye": {
+    "label": "Todo incluido",
+    "title": "Esto es lo que ponemos a trabajar para ti.",
+    "closing": "Consultoría, desarrollo, formación, compliance y medición de resultados. Todo incluido. Todo gestionado. Sin que tengas que improvisar.",
+    "01": { "title": "Estrategia clara desde el día uno.", "desc": "Mapa de oportunidades, hoja de ruta priorizada y un Comité IA constituido con tu equipo. Sabes exactamente qué automatizar, en qué orden y qué retorno esperar." },
+    "02": { "title": "Automatizaciones en producción, no prototipos.", "desc": "Procesos automatizados e integrados en tus sistemas reales. Soluciones que tu equipo usa desde el primer trimestre — no demos, no pilotos eternos." },
+    "03": { "title": "Tu equipo trabaja con IA, no contra ella.", "desc": "Formación aplicada al día a día de cada departamento. Tu gente aprende haciendo, con herramientas que ya están configuradas para su contexto." },
+    "04": { "title": "Impacto medido y validado por tu equipo financiero.", "desc": "KPIs financieros, de adopción y operativos definidos desde el arranque. Todo alimenta una calculadora ROI que el propio equipo del cliente supervisa." }
+  },
   "impact": {
     "label": "ÁREAS DE IMPACTO",
     "title": "Soluciones con impacto real en su organización.",
@@ -578,7 +587,7 @@
       "description": "Consultoría de IA en Madrid. Ayudamos a empresas a integrar inteligencia artificial para mejorar la eficiencia operativa con metodología START, SPRINT y Oficina IA."
     },
     "services": {
-      "title": "Qué Hacemos | SkyView 2026 · Servicios de IA",
+      "title": "Quiénes Somos | SkyView · Making AI easy",
       "description": "Descubre nuestros servicios: START (diagnóstico IA en 25 min), SPRINT (implementación en 90 días) y Oficina IA (integración continua). Consultoría IA en Madrid."
     },
     "about": {
