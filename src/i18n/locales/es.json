@@ -867,5 +867,91 @@
     "contactBackground": "Fondo decorativo de la sección de contacto",
     "aboutLaberinto": "Fondo decorativo del diagnóstico de madurez IA",
     "aboutCta": "Fondo decorativo de la sección de consultoría IA"
+  },
+  "home": {
+    "hero": {
+      "label": "MAKING AI EASY",
+      "title1": "TU OFICINA IA.",
+      "title2": "OPERATIVA EN SEMANAS.",
+      "desc": "Montamos tu departamento de IA completo — equipo, tecnología y metodología — para que tu gente deje de hacer trabajo repetitivo y se centre en hacer crecer el negocio.",
+      "cta": "DESCUBRE TU OFICINA IA →",
+      "trust1": "Madrid · Desde 2014",
+      "trust2": "200+ Proyectos",
+      "trust3": "Making AI Easy"
+    },
+    "queEs": {
+      "label": "¿Qué es una Oficina IA?",
+      "title": "Un equipo completo de IA trabajando para tu empresa. Desde el primer día.",
+      "desc": "Una Oficina IA es un equipo dedicado que identifica oportunidades, automatiza procesos y mide resultados. Consultores, desarrolladores, ingenieros de datos, MLOps, formación, compliance y talento digital especializado por función. Todo incluido. Todo operativo. Sin que tengas que contratar, formar ni improvisar."
+    },
+    "velocidad": {
+      "label": "Resultados, no promesas",
+      "title": "En 2 semanas arrancamos. En 90 días, tu Oficina IA ya automatiza procesos.",
+      "cta": "AGENDA TU SESIÓN START →",
+      "c1": {
+        "num": "2 sem.",
+        "title": "Diagnóstico",
+        "desc": "Mapa de oportunidades, constitución del Comité IA y hoja de ruta clara. En dos semanas ya trabajamos."
+      },
+      "c2": {
+        "num": "90 días",
+        "title": "Primeras automatizaciones",
+        "desc": "Automatizaciones en producción con impacto medible. Tu equipo ya nota la diferencia."
+      },
+      "c3": {
+        "num": "< 1 año",
+        "title": "Oficina IA al 100%",
+        "desc": "Oficina IA operativa, nuevos casos cada trimestre, equipo formado. Servicio profesional continuo."
+      }
+    },
+    "roi": {
+      "label": "ROI garantizado",
+      "title": "Todo se mide. Todo se planifica. Tu equipo financiero lo valida.",
+      "closing": "Cada proyecto arranca con KPIs definidos. Todo alimenta una calculadora ROI supervisada por el Comité IA — un órgano donde participan perfiles del propio equipo financiero del cliente. El cliente valida el retorno como parte natural de la metodología.",
+      "c1": {
+        "title": "Indicadores financieros",
+        "desc": "Ahorro en CAPEX y OPEX. Los números que importan al comité de dirección."
+      },
+      "c2": {
+        "title": "Indicadores de adopción",
+        "desc": "Tareas automatizadas, calidad de entregables, ratios de uso de herramientas IA."
+      },
+      "c3": {
+        "title": "Indicadores operativos",
+        "desc": "Eficiencia de procesos, reducción de errores, tiempo recuperado por equipo."
+      }
+    },
+    "desde2014": {
+      "label": "Desde 2014",
+      "title": "No somos nuevos en esto.",
+      "desc": "Más de 10 años automatizando procesos en grandes organizaciones. La tecnología cambia; nuestra misión no.",
+      "s1": "Desde",
+      "s2": "Proyectos",
+      "s3": "Sprint medio"
+    },
+    "maturity": {
+      "label": "MAKING AI EASY",
+      "talento": "Talento",
+      "tecnologia": "Tecnología",
+      "ia": "Inteligencia Aumentada",
+      "b1": {
+        "title": "Persona aumentada",
+        "focus": "FOCO: LA TAREA",
+        "desc": "Productividad personal con IA generativa. Formación, adopción, buenas prácticas.",
+        "label": "OFICINA IA — PRIMER SPRINT"
+      },
+      "b2": {
+        "title": "Equipo aumentado",
+        "focus": "FOCO: EL PROCESO",
+        "desc": "Automatizaciones recurrentes de tareas manuales. El equipo deja de hacer lo repetitivo.",
+        "label": "OFICINA IA AS A SERVICE"
+      },
+      "b3": {
+        "title": "Empresa aumentada",
+        "focus": "FOCO: EL NEGOCIO",
+        "desc": "Modelos y agentes a escala en el core del negocio. La IA opera en lo estratégico.",
+        "label": "OFICINA IA PROPIA"
+      }
+    }
   }
 }

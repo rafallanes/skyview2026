@@ -867,5 +867,91 @@
     "contactBackground": "Fundo decorativo da secção de contacto",
     "aboutLaberinto": "Fundo decorativo do diagnóstico de maturidade IA",
     "aboutCta": "Fundo decorativo da secção de consultoria IA"
+  },
+  "home": {
+    "hero": {
+      "label": "MAKING AI EASY",
+      "title1": "O SEU ESCRITÓRIO IA.",
+      "title2": "OPERACIONAL EM SEMANAS.",
+      "desc": "Montamos o seu departamento de IA completo — equipa, tecnologia e metodologia — para que a sua gente deixe de fazer trabalho repetitivo e se concentre em fazer crescer o negócio.",
+      "cta": "DESCUBRA O SEU ESCRITÓRIO IA →",
+      "trust1": "Madrid · Desde 2014",
+      "trust2": "200+ Projetos",
+      "trust3": "Making AI Easy"
+    },
+    "queEs": {
+      "label": "O que é um Escritório IA?",
+      "title": "Uma equipa completa de IA a trabalhar para a sua empresa. Desde o primeiro dia.",
+      "desc": "Um Escritório IA é uma equipa dedicada que identifica oportunidades, automatiza processos e mede resultados. Consultores, programadores, engenheiros de dados, MLOps, formação, compliance e talento digital especializado por função. Tudo incluído. Tudo operacional. Sem que tenha de contratar, formar ou improvisar."
+    },
+    "velocidad": {
+      "label": "Resultados, não promessas",
+      "title": "Em 2 semanas arrancamos. Em 90 dias, o seu Escritório IA já automatiza processos.",
+      "cta": "AGENDE A SUA SESSÃO START →",
+      "c1": {
+        "num": "2 sem.",
+        "title": "Diagnóstico",
+        "desc": "Mapa de oportunidades, constituição do Comité IA e roadmap claro. Em duas semanas já trabalhamos."
+      },
+      "c2": {
+        "num": "90 dias",
+        "title": "Primeiras automatizações",
+        "desc": "Automatizações em produção com impacto mensurável. A sua equipa já nota a diferença."
+      },
+      "c3": {
+        "num": "< 1 ano",
+        "title": "Escritório IA a 100%",
+        "desc": "Escritório IA operacional, novos casos a cada trimestre, equipa formada. Serviço profissional contínuo."
+      }
+    },
+    "roi": {
+      "label": "ROI garantido",
+      "title": "Tudo se mede. Tudo se planeia. A sua equipa financeira valida-o.",
+      "closing": "Cada projeto arranca com KPIs definidos. Tudo alimenta uma calculadora de ROI supervisionada pelo Comité IA — um órgão onde participam perfis da própria equipa financeira do cliente. O cliente valida o retorno como parte natural da metodologia.",
+      "c1": {
+        "title": "Indicadores financeiros",
+        "desc": "Poupança em CAPEX e OPEX. Os números que importam ao comité de direção."
+      },
+      "c2": {
+        "title": "Indicadores de adoção",
+        "desc": "Tarefas automatizadas, qualidade de entregáveis, rácios de utilização de ferramentas IA."
+      },
+      "c3": {
+        "title": "Indicadores operacionais",
+        "desc": "Eficiência de processos, redução de erros, tempo recuperado por equipa."
+      }
+    },
+    "desde2014": {
+      "label": "Desde 2014",
+      "title": "Não somos novos nisto.",
+      "desc": "Mais de 10 anos a automatizar processos em grandes organizações. A tecnologia muda; a nossa missão não.",
+      "s1": "Desde",
+      "s2": "Projetos",
+      "s3": "Sprint médio"
+    },
+    "maturity": {
+      "label": "MAKING AI EASY",
+      "talento": "Talento",
+      "tecnologia": "Tecnologia",
+      "ia": "Inteligência Aumentada",
+      "b1": {
+        "title": "Pessoa aumentada",
+        "focus": "FOCO: A TAREFA",
+        "desc": "Produtividade pessoal com IA generativa. Formação, adoção, boas práticas.",
+        "label": "ESCRITÓRIO IA — PRIMEIRO SPRINT"
+      },
+      "b2": {
+        "title": "Equipa aumentada",
+        "focus": "FOCO: O PROCESSO",
+        "desc": "Automatizações recorrentes de tarefas manuais. A equipa deixa de fazer o repetitivo.",
+        "label": "ESCRITÓRIO IA AS A SERVICE"
+      },
+      "b3": {
+        "title": "Empresa aumentada",
+        "focus": "FOCO: O NEGÓCIO",
+        "desc": "Modelos e agentes à escala no core do negócio. A IA opera no estratégico.",
+        "label": "ESCRITÓRIO IA PRÓPRIO"
+      }
+    }
   }
 }
