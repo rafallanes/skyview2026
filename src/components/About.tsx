@@ -130,10 +130,14 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
             {queObtienes.map((it, i) => (
               <Reveal key={it.n} delay={i * 0.08}>
-                <div className="border border-zinc-200 p-10 -ml-px -mt-px h-full">
-                  <div className="text-7xl font-light text-black/[0.12] mb-4 leading-none">{it.n}</div>
-                  <h3 className="text-lg font-medium text-zinc-900 mb-3">{it.title}</h3>
-                  <p className="text-sm text-zinc-600 leading-relaxed">{it.desc}</p>
+                <div className="group relative border border-zinc-200 p-10 -ml-px -mt-px h-full overflow-hidden">
+                  <span className="absolute top-3 right-3 text-7xl font-light text-black/[0.12] select-none pointer-events-none leading-none">
+                    {it.n}
+                  </span>
+                  <div className="relative z-10">
+                    <h3 className="text-lg font-medium text-zinc-900 mb-3 mt-20">{it.title}</h3>
+                    <p className="text-sm text-zinc-600 leading-relaxed">{it.desc}</p>
+                  </div>
                 </div>
               </Reveal>
             ))}
