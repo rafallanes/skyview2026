@@ -55,7 +55,7 @@ export default function LoQueIncluye() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
           {items.map((it) => (
             <div key={it.n} className="border border-zinc-600/40 backdrop-blur-sm bg-black/30 p-10 -ml-px -mt-px">
-              <div className="text-6xl font-bold text-white/5 mb-4 leading-none">{it.n}</div>
+              <div className="text-6xl font-bold text-white/10 mb-4 leading-none">{it.n}</div>
               <h3 className="text-lg font-medium text-white mb-2">{it.title}</h3>
               <p className="text-sm text-gray-400 leading-relaxed">{it.desc}</p>
             </div>
