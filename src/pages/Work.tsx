@@ -112,16 +112,16 @@ const Work = () => {
                   className="border border-zinc-200 p-10 flex flex-col"
                 >
                   <span className={`${badgeClasses} text-xs uppercase tracking-widest px-3 py-1 mb-6 inline-block self-start`}>
-                    {c.badge}
+                    {isOficina ? t("work.badgeOficina") : t("work.badgeAutomatizacion")}
                   </span>
-                  <p className="text-xs uppercase tracking-widest text-gray-500 mb-3">{c.sector}</p>
-                  <h3 className="text-lg font-medium text-zinc-900 mb-2">{c.title}</h3>
-                  <p className="text-sm text-zinc-600 leading-relaxed">{c.result}</p>
+                  <p className="text-xs uppercase tracking-widest text-gray-500 mb-3">{t(`work.cases.${c.idx}.sector`)}</p>
+                  <h3 className="text-lg font-medium text-zinc-900 mb-2">{t(`work.cases.${c.idx}.title`)}</h3>
+                  <p className="text-sm text-zinc-600 leading-relaxed">{t(`work.cases.${c.idx}.result`)}</p>
                   <a
                     href="#"
                     className="text-xs uppercase tracking-widest text-zinc-900 font-medium mt-6 border-b border-zinc-900 self-start pb-0.5 hover:opacity-70 transition-opacity"
                   >
-                    Ver caso →
+                    {t("work.viewCase")}
                   </a>
                 </article>
               );
@@ -143,25 +143,25 @@ const Work = () => {
           aria-hidden="true"
         />
         <div className="relative z-10 max-w-7xl mx-auto px-6">
-          <p className="text-xs uppercase tracking-widest text-gray-500 mb-6">TU TURNO</p>
+          <p className="text-xs uppercase tracking-widest text-gray-500 mb-6">{t("work.finalLabel")}</p>
           <h2 className="text-4xl font-bold text-white mb-6 max-w-3xl">
-            ¿Quieres ver resultados como estos en tu empresa?
+            {t("work.finalTitle")}
           </h2>
           <p className="text-base text-gray-400 leading-relaxed max-w-xl mb-10">
-            Agenda una sesión START de 25 minutos. Analizamos tu caso, te mostramos oportunidades concretas y te damos un plan con plazos y retorno esperado.
+            {t("work.finalDesc")}
           </p>
           <Link
             to={lp("contact")}
             className="inline-block bg-white text-black px-7 py-3 text-xs uppercase tracking-widest font-medium hover:bg-gray-100 transition-colors"
           >
-            AGENDAR SESIÓN START →
+            {t("work.finalCta")}
           </Link>
           <div className="flex flex-wrap gap-8 mt-10 text-xs uppercase tracking-widest text-gray-500">
-            <span>200+ proyectos</span>
+            <span>{t("work.trust1")}</span>
             <span>·</span>
-            <span>90 días sprint medio</span>
+            <span>{t("work.trust2")}</span>
             <span>·</span>
-            <span>Desde 2014</span>
+            <span>{t("work.trust3")}</span>
           </div>
         </div>
       </section>
