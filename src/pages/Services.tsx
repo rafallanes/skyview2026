@@ -76,17 +76,25 @@ const Services = () => {
       <Navigation />
 
       {/* ─── HERO ─── */}
-      <section className="pt-32 pb-10 md:pb-12 bg-background">
-        <div className="container mx-auto px-6">
-          <div className="max-w-7xl mx-auto">
-            <h1 className="text-minimal text-muted-foreground mb-6">{t("services.heroLabel")}</h1>
-            <h2 className="text-4xl md:text-6xl lg:text-7xl font-light text-architectural max-w-4xl mb-10">
-              {t("services.heroTitle")}
-            </h2>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl">
-              {t("services.heroDesc")}
-            </p>
-          </div>
+      <section className="relative bg-black text-white pt-32 pb-20 overflow-hidden" style={{ minHeight: "60vh" }}>
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${heroBg})`, filter: "grayscale(100%)" }}
+          aria-hidden="true"
+        />
+        <div
+          className="absolute inset-0"
+          style={{ background: "linear-gradient(to bottom, rgba(15, 23, 42, 0.85), rgba(0, 0, 0, 0.80))" }}
+          aria-hidden="true"
+        />
+        <div className="relative z-10 max-w-7xl mx-auto px-6">
+          <h1 className="text-xs uppercase tracking-widest text-gray-500 mb-6">{t("services.heroLabel")}</h1>
+          <h2 className="text-6xl md:text-8xl font-light text-white uppercase leading-[1.05] max-w-5xl mb-10">
+            {t("services.heroTitle")}
+          </h2>
+          <p className="text-base text-gray-400 leading-relaxed max-w-xl">
+            {t("services.heroDesc")}
+          </p>
         </div>
       </section>
 
