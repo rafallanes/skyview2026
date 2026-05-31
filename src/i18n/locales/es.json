@@ -32,19 +32,47 @@
     "label": "Todo incluido",
     "title": "Esto es lo que ponemos a trabajar para ti.",
     "closing": "Consultoría, desarrollo, formación, compliance y medición de resultados. Todo incluido. Todo gestionado. Sin que tengas que improvisar.",
-    "01": { "title": "Estrategia clara desde el día uno.", "desc": "Mapa de oportunidades, hoja de ruta priorizada y un Comité IA constituido con tu equipo. Sabes exactamente qué automatizar, en qué orden y qué retorno esperar." },
-    "02": { "title": "Automatizaciones en producción, no prototipos.", "desc": "Procesos automatizados e integrados en tus sistemas reales. Soluciones que tu equipo usa desde el primer trimestre — no demos, no pilotos eternos." },
-    "03": { "title": "Tu equipo trabaja con IA, no contra ella.", "desc": "Formación aplicada al día a día de cada departamento. Tu gente aprende haciendo, con herramientas que ya están configuradas para su contexto." },
-    "04": { "title": "Impacto medido y validado por tu equipo financiero.", "desc": "KPIs financieros, de adopción y operativos definidos desde el arranque. Todo alimenta una calculadora ROI que el propio equipo del cliente supervisa." }
+    "01": {
+      "title": "Estrategia clara desde el día uno.",
+      "desc": "Mapa de oportunidades, hoja de ruta priorizada y un Comité IA constituido con tu equipo. Sabes exactamente qué automatizar, en qué orden y qué retorno esperar."
+    },
+    "02": {
+      "title": "Automatizaciones en producción, no prototipos.",
+      "desc": "Procesos automatizados e integrados en tus sistemas reales. Soluciones que tu equipo usa desde el primer trimestre — no demos, no pilotos eternos."
+    },
+    "03": {
+      "title": "Tu equipo trabaja con IA, no contra ella.",
+      "desc": "Formación aplicada al día a día de cada departamento. Tu gente aprende haciendo, con herramientas que ya están configuradas para su contexto."
+    },
+    "04": {
+      "title": "Impacto medido y validado por tu equipo financiero.",
+      "desc": "KPIs financieros, de adopción y operativos definidos desde el arranque. Todo alimenta una calculadora ROI que el propio equipo del cliente supervisa."
+    }
   },
   "impact": {
     "label": "ÁREAS DE IMPACTO",
     "title": "Soluciones con impacto real en su organización.",
     "areas": {
-      "operations": { "title": "Operaciones", "department": "Operaciones", "desc": "Tus equipos dejan de hacer tareas repetitivas. Más tiempo para lo que importa, menos errores." },
-      "sales": { "title": "Ventas", "department": "Ventas", "desc": "Previsiones más precisas, oportunidades que antes se escapaban. Tu pipeline trabaja solo." },
-      "finance": { "title": "Finanzas", "department": "Financiero", "desc": "Cierres más rápidos, anomalías detectadas a tiempo. Tu equipo financiero respira." },
-      "talent": { "title": "Talento", "department": "Talento", "desc": "Equipos que trabajan con IA en su día a día. No como herramienta — como compañero." }
+      "operations": {
+        "title": "Operaciones",
+        "department": "Operaciones",
+        "desc": "Tus equipos dejan de hacer tareas repetitivas. Más tiempo para lo que importa, menos errores."
+      },
+      "sales": {
+        "title": "Ventas",
+        "department": "Ventas",
+        "desc": "Previsiones más precisas, oportunidades que antes se escapaban. Tu pipeline trabaja solo."
+      },
+      "finance": {
+        "title": "Finanzas",
+        "department": "Financiero",
+        "desc": "Cierres más rápidos, anomalías detectadas a tiempo. Tu equipo financiero respira."
+      },
+      "talent": {
+        "title": "Talento",
+        "department": "Talento",
+        "desc": "Equipos que trabajan con IA en su día a día. No como herramienta — como compañero."
+      }
     },
     "downloadCase": "Descargar caso de uso →"
   },
@@ -71,11 +99,26 @@
     "methodTitle": "Tu Oficina IA en 4 pasos."
   },
   "timeline": {
-    "2014": { "label": "EL ORIGEN", "desc": "Enfoque fundacional en el ahorro de tiempo y dinero gracias a la tecnología." },
-    "2016": { "label": "ECOSISTEMA SAAS", "desc": "Alianzas estratégicas para la agilidad operativa (Monday, Signaturit, Odoo, Zoho, Xeerpa, Captio)." },
-    "2017": { "label": "LA FÁBRICA RPA", "desc": "Especialización en automatización robótica de procesos como factoría para 'Big Four' del norte de Europa." },
-    "2022": { "label": "INTELIGENCIA\nARTIFICIAL", "desc": "Colaboración en proyectos de gran escala con líderes mundiales en visión artificial y ML (ML6, Robovision)." },
-    "2024": { "label": "INTELIGENCIA\nAUMENTADA", "desc": "Desarrollo de metodología propia para hacer la IA fácil y puesta en marcha de las primeras Oficinas IA." }
+    "2014": {
+      "label": "EL ORIGEN",
+      "desc": "Enfoque fundacional en el ahorro de tiempo y dinero gracias a la tecnología."
+    },
+    "2016": {
+      "label": "ECOSISTEMA SAAS",
+      "desc": "Alianzas estratégicas para la agilidad operativa (Monday, Signaturit, Odoo, Zoho, Xeerpa, Captio)."
+    },
+    "2017": {
+      "label": "LA FÁBRICA RPA",
+      "desc": "Especialización en automatización robótica de procesos como factoría para 'Big Four' del norte de Europa."
+    },
+    "2022": {
+      "label": "INTELIGENCIA\nARTIFICIAL",
+      "desc": "Colaboración en proyectos de gran escala con líderes mundiales en visión artificial y ML (ML6, Robovision)."
+    },
+    "2024": {
+      "label": "INTELIGENCIA\nAUMENTADA",
+      "desc": "Desarrollo de metodología propia para hacer la IA fácil y puesta en marcha de las primeras Oficinas IA."
+    }
   },
   "about": {
     "heroLabel": "OFICINA IA",
@@ -85,33 +128,95 @@
     "methodLabel": "MAKING AI EASY",
     "methodTitle": "De cero a tu Oficina IA. Sin complicaciones.",
     "steps": {
-      "01": { "title": "START", "subtitle": "DIAGNÓSTICO", "time": "PRIMERAS 2 SEMANAS", "desc": "Mapa de oportunidades IA en tu organización. Constituimos tu Comité IA, identificamos los primeros casos de uso de alto impacto y diseñamos la hoja de ruta del primer trimestre. Entregable concreto, decisión informada." },
-      "02": { "title": "OFICINA IA — PRIMER SPRINT", "subtitle": "VALIDACIÓN", "time": "PRIMER TRIMESTRE", "desc": "Automatizaciones reales para testar o pasar a producción en la Oficina IA. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto directo en tu cuenta de resultados. Resultados tangibles en el primer trimestre." },
-      "03": { "title": "OFICINA IA AS A SERVICE", "subtitle": "OPERACIÓN", "time": "ANTES DEL PRIMER AÑO", "desc": "Gestión profesional continua de tu estrategia IA. Nuevos casos de uso cada trimestre, procesos automatizados en producción y evolución constante del modelo. Tu Oficina IA externa y operativa al 100% desde el primer día." },
-      "04": { "title": "OFICINA IA PROPIA", "subtitle": "AUTONOMÍA", "time": "PASO FINAL · OPCIONAL", "desc": "Transferimos metodología, conocimiento y capacidades a tu equipo propio. Tu oficina IA opera de forma 100% autónoma e independiente. Nuestro objetivo es hacerte crecer, no quedarnos para siempre." }
+      "01": {
+        "title": "START",
+        "subtitle": "DIAGNÓSTICO",
+        "time": "PRIMERAS 2 SEMANAS",
+        "desc": "Mapa de oportunidades IA en tu organización. Constituimos tu Comité IA, identificamos los primeros casos de uso de alto impacto y diseñamos la hoja de ruta del primer trimestre. Entregable concreto, decisión informada."
+      },
+      "02": {
+        "title": "OFICINA IA — PRIMER SPRINT",
+        "subtitle": "VALIDACIÓN",
+        "time": "PRIMER TRIMESTRE",
+        "desc": "Automatizaciones reales para testar o pasar a producción en la Oficina IA. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto directo en tu cuenta de resultados. Resultados tangibles en el primer trimestre."
+      },
+      "03": {
+        "title": "OFICINA IA AS A SERVICE",
+        "subtitle": "OPERACIÓN",
+        "time": "ANTES DEL PRIMER AÑO",
+        "desc": "Gestión profesional continua de tu estrategia IA. Nuevos casos de uso cada trimestre, procesos automatizados en producción y evolución constante del modelo. Tu Oficina IA externa y operativa al 100% desde el primer día."
+      },
+      "04": {
+        "title": "OFICINA IA PROPIA",
+        "subtitle": "AUTONOMÍA",
+        "time": "PASO FINAL · OPCIONAL",
+        "desc": "Transferimos metodología, conocimiento y capacidades a tu equipo propio. Tu oficina IA opera de forma 100% autónoma e independiente. Nuestro objetivo es hacerte crecer, no quedarnos para siempre."
+      }
     },
     "diagnosisLabel": "EL DIAGNÓSTICO",
     "diagnosisTitle": "El Laberinto de la IA:",
     "diagnosisTitle2": "¿Por qué no avanzas?",
     "diagnosisDesc": "El 85% de los proyectos de IA fallan por falta de método. Diseñamos la estructura que garantiza el impacto real en tu cuenta de resultados.",
     "diagnosis": {
-      "01": { "title": "Valor Inexistente", "stat": "BOSTON CONSULTING GROUP\nTHE WIDENING AI VALUE GAP, 2025", "desc": "El 78% usa GenAI, pero solo el 5% extrae valor sustancial." },
-      "02": { "title": "El Vacío del EBIT", "stat": "STANFORD HAI\nAI INDEZ REPORT 2025, 2025", "desc": "El 80% de las empresas no perciben impacto en EBIT tras 12 meses." },
-      "03": { "title": "Shadow AI", "stat": "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025", "desc": "El 78% de empleados usa IA 'informal'. El 57% lo oculta, arriesgando datos corporativos." },
-      "04": { "title": "Gobernanza llega 'Tarde'", "stat": "DELOITTE\nTHE STATE OF GENERATIVE AI IN ENTERPRISE, 2024", "desc": "Solo el 15% se siente preparado en riesgos. Se acelera sin guardrails o se frena por miedo." },
-      "05": { "title": "\"Pruebas eternas\" que no avanzan", "stat": "MCKINSEY\nTHE STATE OF AI: HOW ORGANIZATIONS ARE REWRITING, 2025", "desc": "El 80-85% de los pilotos nunca llegan a producción. Sólo el 10% reporta usar agentes en alguna función." },
-      "06": { "title": "Resistencias Invisibles", "stat": "KPMG 6 UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025", "desc": "Miedo al empleo y formación genérica que no cambia hábitos." }
+      "01": {
+        "title": "Valor Inexistente",
+        "stat": "BOSTON CONSULTING GROUP\nTHE WIDENING AI VALUE GAP, 2025",
+        "desc": "El 78% usa GenAI, pero solo el 5% extrae valor sustancial."
+      },
+      "02": {
+        "title": "El Vacío del EBIT",
+        "stat": "STANFORD HAI\nAI INDEZ REPORT 2025, 2025",
+        "desc": "El 80% de las empresas no perciben impacto en EBIT tras 12 meses."
+      },
+      "03": {
+        "title": "Shadow AI",
+        "stat": "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025",
+        "desc": "El 78% de empleados usa IA 'informal'. El 57% lo oculta, arriesgando datos corporativos."
+      },
+      "04": {
+        "title": "Gobernanza llega 'Tarde'",
+        "stat": "DELOITTE\nTHE STATE OF GENERATIVE AI IN ENTERPRISE, 2024",
+        "desc": "Solo el 15% se siente preparado en riesgos. Se acelera sin guardrails o se frena por miedo."
+      },
+      "05": {
+        "title": "\"Pruebas eternas\" que no avanzan",
+        "stat": "MCKINSEY\nTHE STATE OF AI: HOW ORGANIZATIONS ARE REWRITING, 2025",
+        "desc": "El 80-85% de los pilotos nunca llegan a producción. Sólo el 10% reporta usar agentes en alguna función."
+      },
+      "06": {
+        "title": "Resistencias Invisibles",
+        "stat": "KPMG 6 UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025",
+        "desc": "Miedo al empleo y formación genérica que no cambia hábitos."
+      }
     },
     "sprintLabel": "NUESTRO MODELO",
     "sprintTitle": "Metodología S-P-R-I-N-T",
     "sprintDesc": "Seis pilares que transforman la incertidumbre en un sistema operativo de IA productivo y medible.",
     "sprint": {
-      "S": { "title": "Squads", "desc": "Especialización por equipos (squads) para aterrizar casos reales del día a día. Tecnología que se adapta a tu forma de trabajar." },
-      "P": { "title": "Priorities", "desc": "El negocio decide y prioriza qué cambiar primero. Siempre está al volante. Y Oficina IA activa desde el minuto uno." },
-      "R": { "title": "Roadmap", "desc": "Mapa de ruta claro y 'fast tracks' o periodos cortos. Te acostumbras a automatizar procesos desde el primer trimestre." },
-      "I": { "title": "Impact", "desc": "La formación crea cultura digital y la automatización aporta eficiecia. El equilibrio entre ambas es imprescindible para avanzar." },
-      "N": { "title": "Numbers", "desc": "Objetivos medibles y ROI (OPEX y CAPEX). Claridad y objetividad total." },
-      "T": { "title": "Trust", "desc": "Gobernanza, ética y seguridad desde el inicio para garantizar la integridad de tu información." }
+      "S": {
+        "title": "Squads",
+        "desc": "Especialización por equipos (squads) para aterrizar casos reales del día a día. Tecnología que se adapta a tu forma de trabajar."
+      },
+      "P": {
+        "title": "Priorities",
+        "desc": "El negocio decide y prioriza qué cambiar primero. Siempre está al volante. Y Oficina IA activa desde el minuto uno."
+      },
+      "R": {
+        "title": "Roadmap",
+        "desc": "Mapa de ruta claro y 'fast tracks' o periodos cortos. Te acostumbras a automatizar procesos desde el primer trimestre."
+      },
+      "I": {
+        "title": "Impact",
+        "desc": "La formación crea cultura digital y la automatización aporta eficiecia. El equilibrio entre ambas es imprescindible para avanzar."
+      },
+      "N": {
+        "title": "Numbers",
+        "desc": "Objetivos medibles y ROI (OPEX y CAPEX). Claridad y objetividad total."
+      },
+      "T": {
+        "title": "Trust",
+        "desc": "Gobernanza, ética y seguridad desde el inicio para garantizar la integridad de tu información."
+      }
     },
     "leadLabel": "RECURSO DESTACADO",
     "leadTitle": "Descarga el Paper:",
@@ -129,7 +234,30 @@
     "ctaCta": "AGENDAR SESIÓN START",
     "trustProjects": "Proyectos",
     "trustSprint": "Sprint medio",
-    "trustSince": "Desde"
+    "trustSince": "Desde",
+    "hero2Label": "OFICINA IA",
+    "hero2Title1": "TU OFICINA IA.",
+    "hero2Title2": "COMPLETA Y OPERATIVA",
+    "hero2Title3": "DESDE EL PRIMER TRIMESTRE.",
+    "hero2Desc": "No necesitas contratar un equipo de IA ni esperar meses para ver resultados. Nosotros montamos tu Oficina IA con todo lo que necesita. Tú solo tienes que decidir empezar.",
+    "hero2Cta": "AGENDA TU SESIÓN START →",
+    "obtienesLabel": "QUÉ OBTIENES",
+    "obtienesTitle": "Todo lo que tu empresa necesita para funcionar con IA. Sin montar nada internamente.",
+    "obtienesClosing": "Consultoría, desarrollo, formación, compliance y medición de resultados. Todo incluido. Todo gestionado. Sin que tengas que improvisar.",
+    "methodResult": "Resultado:",
+    "stepResults": {
+      "01": "plan claro y Comité IA constituido.",
+      "02": "primeras automatizaciones en producción con impacto medible.",
+      "03": "Oficina IA operativa con nuevos casos cada trimestre.",
+      "04": "tu equipo gestiona la Oficina IA con capacidad propia."
+    },
+    "finalLabel": "EMPIEZA AQUÍ",
+    "finalTitle": "Agenda tu sesión START. 25 minutos. Sin compromiso.",
+    "finalDesc": "Te mostramos cómo sería tu Oficina IA, qué resultados puedes esperar y en cuánto tiempo. Sin presentaciones genéricas — con datos de tu sector y tu tipo de empresa.",
+    "finalCta": "AGENDAR SESIÓN START →",
+    "trustProj": "200+ proyectos",
+    "trustSprintMed": "90 días sprint medio",
+    "trustSince2014": "Desde 2014"
   },
   "contact": {
     "directLabel": "CONTACTO DIRECTO",
@@ -155,7 +283,56 @@
     "year": "YEAR",
     "ctaTitle": "¿Preparado para\nempezar su proyecto?",
     "ctaDesc": "Hablemos de cómo podemos transformar su visión en resultados reales",
-    "ctaCta": "CONTACTAR"
+    "ctaCta": "CONTACTAR",
+    "heroLabel": "CASOS DE ÉXITO",
+    "heroTitle1": "Resultados reales.",
+    "heroTitle2": "Empresas reales.",
+    "heroDesc": "Cada proyecto se mide en ahorro de tiempo, eficiencia operativa y retorno financiero. Estos son algunos de los resultados que hemos conseguido con nuestros clientes.",
+    "filterAll": "Todos",
+    "filterOficina": "Oficina IA",
+    "filterAutomatizacion": "Automatización de procesos",
+    "badgeOficina": "OFICINA IA",
+    "badgeAutomatizacion": "AUTOMATIZACIÓN",
+    "viewCase": "Ver caso →",
+    "finalLabel": "TU TURNO",
+    "finalTitle": "¿Quieres ver resultados como estos en tu empresa?",
+    "finalDesc": "Agenda una sesión START de 25 minutos. Analizamos tu caso, te mostramos oportunidades concretas y te damos un plan con plazos y retorno esperado.",
+    "finalCta": "AGENDAR SESIÓN START →",
+    "trust1": "200+ proyectos",
+    "trust2": "90 días sprint medio",
+    "trust3": "Desde 2014",
+    "cases": [
+      {
+        "sector": "ENERGÍA",
+        "title": "Oficina IA operativa en 90 días.",
+        "result": "Automatización de procesos de reporting que ahorraron 120 horas mensuales al equipo de operaciones."
+      },
+      {
+        "sector": "SEGUROS",
+        "title": "De cero a Comité IA en 4 semanas.",
+        "result": "Equipo de 40 personas formado en herramientas IA aplicadas a suscripción y siniestros."
+      },
+      {
+        "sector": "RETAIL",
+        "title": "IA integrada en la cadena de suministro.",
+        "result": "Previsión de demanda automatizada con reducción del 30% en exceso de stock."
+      },
+      {
+        "sector": "BANCA",
+        "title": "Procesamiento documental automatizado.",
+        "result": "Reducción del 85% en tiempo de revisión de documentación KYC."
+      },
+      {
+        "sector": "INDUSTRIA",
+        "title": "Mantenimiento predictivo en planta.",
+        "result": "Detección temprana de anomalías con reducción del 40% en paradas no planificadas."
+      },
+      {
+        "sector": "SALUD",
+        "title": "Automatización de informes clínicos.",
+        "result": "Generación automatizada de informes que liberó 15 horas semanales por profesional."
+      }
+    ]
   },
   "logoCarousel": {
     "title": "CONFÍAN EN NOSOTROS"
@@ -177,10 +354,26 @@
   },
   "methodology": {
     "steps": {
-      "01": { "title": "START", "subtitle": "EL GERMEN", "desc": "PRIMERAS DOS SEMANAS - Consultoría Intensiva. Asignamos Comité IA, definimos objetivos y planificamos primer trimestre con casos de uso." },
-      "02": { "title": "SPRINT", "subtitle": "EL MOTOR", "desc": "PRIMER TRIMESTRE - Ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real." },
-      "03": { "title": "OFICINA IA AS A SERVICE", "subtitle": "LA CONSOLIDACIÓN", "desc": "PRIMER AÑO - Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo." },
-      "04": { "title": "OFICINA IA PROPIA (OPCIONAL)", "subtitle": "LA AUTONOMÍA", "desc": "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% autónoma e independiente." }
+      "01": {
+        "title": "START",
+        "subtitle": "EL GERMEN",
+        "desc": "PRIMERAS DOS SEMANAS - Consultoría Intensiva. Asignamos Comité IA, definimos objetivos y planificamos primer trimestre con casos de uso."
+      },
+      "02": {
+        "title": "SPRINT",
+        "subtitle": "EL MOTOR",
+        "desc": "PRIMER TRIMESTRE - Ejecución intensiva. Reuniones periódicas, objetivos medibles y automatización con evaluación de impacto real."
+      },
+      "03": {
+        "title": "OFICINA IA AS A SERVICE",
+        "subtitle": "LA CONSOLIDACIÓN",
+        "desc": "PRIMER AÑO - Gestión profesional continua. Procesos automatizados de forma regular y evolución constante del modelo."
+      },
+      "04": {
+        "title": "OFICINA IA PROPIA (OPCIONAL)",
+        "subtitle": "LA AUTONOMÍA",
+        "desc": "Paso opcional y final. Transferimos nuestras capacidades a tu personal propio para que la oficina sea 100% autónoma e independiente."
+      }
     }
   },
   "avisoLegal": {
@@ -550,19 +743,58 @@
     "areaPersonas": "PERSONAS",
     "areaFinanciero": "FINANCIERO",
     "areaOperaciones": "OPERACIONES",
-    "amura": { "location": "TECH, 2019", "desc": "Oficina IA para el departamento de Personas y cultura. Segmentando el \"viaje\" del empleado: selección, on-boarding, formación, desarrollo,... y automatizando progresivamente tareas de todos los procesos." },
-    "bbraun": { "location": "HEALTH, 2016", "desc": "Automatización de tareas repetitivas en proceso de gestión de datos en fábrica y volcado automático a AS400. ROI Ahorro anual del 70% de tiempo y dinero." },
-    "caritas": { "location": "NGO, 2024", "desc": "START y SPRINT para instaurar buenas prácticas en relación a la IA. Comité de IA desde día uno. Objetivo final a 18 meses: Oficina IA." },
-    "codorniu": { "location": "RETAIL, 2014", "desc": "Automatización de tareas repetitivas en proceso financiero. Eficiencia que aporta un ahorro del 72% de tiempo y dinero. Cálculo realizado por el propio cliente." },
-    "desigual": { "location": "RETAIL, 2019", "desc": "Automatización de tareas repetitivas en proceso financiero. Ahorro del 65% de tiempo y dinero. ROI calculado por Controlling Financiero." },
-    "diafarm": { "location": "HEALTH, 2020", "desc": "Solución B2B SaaS para el departamento financiero con eficiencias superiores al 50% calculadas por el propio departamento financiero." },
-    "euskaltel": { "location": "TECH, 2023", "desc": "Oficina IA como servicio enfocada en la gobernanza y escalabilidad de procesos operativos." },
-    "hm": { "location": "RETAIL, 2022", "desc": "Digitalización de facturas simplificadas homologadas por la AEAT. Automatización del 80% del proceso y volcado automático en ERP." },
-    "globalia": { "location": "TURISM, 2018", "desc": "Automatización del procesamiento de reclamaciones (papel y email). Extracción de metadatos y volcado en sistemas centrales." },
-    "infojobs": { "location": "TECH, 2018", "desc": "Automatización de tareas repetitivas en proceso financiero. Ahorro de tiempo y mejora de eficiencia superior al 60%." },
-    "kluber": { "location": "INDUSTRIA, 2024", "desc": "Programa de Oficina IA para operaciones industriales. Definición de hoja de ruta estratégica y adopción de buenas prácticas de IA." },
-    "lantero": { "location": "INDUSTRIA, 2018", "desc": "Oficina IA aplicada a procesos financieros industriales. Identificación y priorización de casos de uso para automatización." },
-    "leroymerlin": { "location": "RETAIL, 2019", "desc": "Digitalización de documentos y facturas simplificadas (AEAT). Automatización del 80% del proceso con integración en ERP y Oracle." }
+    "amura": {
+      "location": "TECH, 2019",
+      "desc": "Oficina IA para el departamento de Personas y cultura. Segmentando el \"viaje\" del empleado: selección, on-boarding, formación, desarrollo,... y automatizando progresivamente tareas de todos los procesos."
+    },
+    "bbraun": {
+      "location": "HEALTH, 2016",
+      "desc": "Automatización de tareas repetitivas en proceso de gestión de datos en fábrica y volcado automático a AS400. ROI Ahorro anual del 70% de tiempo y dinero."
+    },
+    "caritas": {
+      "location": "NGO, 2024",
+      "desc": "START y SPRINT para instaurar buenas prácticas en relación a la IA. Comité de IA desde día uno. Objetivo final a 18 meses: Oficina IA."
+    },
+    "codorniu": {
+      "location": "RETAIL, 2014",
+      "desc": "Automatización de tareas repetitivas en proceso financiero. Eficiencia que aporta un ahorro del 72% de tiempo y dinero. Cálculo realizado por el propio cliente."
+    },
+    "desigual": {
+      "location": "RETAIL, 2019",
+      "desc": "Automatización de tareas repetitivas en proceso financiero. Ahorro del 65% de tiempo y dinero. ROI calculado por Controlling Financiero."
+    },
+    "diafarm": {
+      "location": "HEALTH, 2020",
+      "desc": "Solución B2B SaaS para el departamento financiero con eficiencias superiores al 50% calculadas por el propio departamento financiero."
+    },
+    "euskaltel": {
+      "location": "TECH, 2023",
+      "desc": "Oficina IA como servicio enfocada en la gobernanza y escalabilidad de procesos operativos."
+    },
+    "hm": {
+      "location": "RETAIL, 2022",
+      "desc": "Digitalización de facturas simplificadas homologadas por la AEAT. Automatización del 80% del proceso y volcado automático en ERP."
+    },
+    "globalia": {
+      "location": "TURISM, 2018",
+      "desc": "Automatización del procesamiento de reclamaciones (papel y email). Extracción de metadatos y volcado en sistemas centrales."
+    },
+    "infojobs": {
+      "location": "TECH, 2018",
+      "desc": "Automatización de tareas repetitivas en proceso financiero. Ahorro de tiempo y mejora de eficiencia superior al 60%."
+    },
+    "kluber": {
+      "location": "INDUSTRIA, 2024",
+      "desc": "Programa de Oficina IA para operaciones industriales. Definición de hoja de ruta estratégica y adopción de buenas prácticas de IA."
+    },
+    "lantero": {
+      "location": "INDUSTRIA, 2018",
+      "desc": "Oficina IA aplicada a procesos financieros industriales. Identificación y priorización de casos de uso para automatización."
+    },
+    "leroymerlin": {
+      "location": "RETAIL, 2019",
+      "desc": "Digitalización de documentos y facturas simplificadas (AEAT). Automatización del 80% del proceso con integración en ERP y Oracle."
+    }
   },
   "blogPosts": {
     "post1": {
