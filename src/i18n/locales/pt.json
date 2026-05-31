@@ -32,19 +32,47 @@
     "label": "Tudo incluído",
     "title": "Isto é o que pomos a trabalhar para si.",
     "closing": "Consultoria, desenvolvimento, formação, compliance e medição de resultados. Tudo incluído. Tudo gerido. Sem que tenha de improvisar.",
-    "01": { "title": "Estratégia clara desde o primeiro dia.", "desc": "Mapa de oportunidades, roteiro priorizado e um Comité IA constituído com a sua equipa. Sabe exatamente o que automatizar, em que ordem e que retorno esperar." },
-    "02": { "title": "Automatizações em produção, não protótipos.", "desc": "Processos automatizados e integrados nos seus sistemas reais. Soluções que a sua equipa usa desde o primeiro trimestre — sem demos, sem pilotos eternos." },
-    "03": { "title": "A sua equipa trabalha com IA, não contra ela.", "desc": "Formação aplicada ao dia a dia de cada departamento. A sua gente aprende fazendo, com ferramentas já configuradas para o seu contexto." },
-    "04": { "title": "Impacto medido e validado pela sua equipa financeira.", "desc": "KPIs financeiros, de adoção e operacionais definidos desde o início. Tudo alimenta uma calculadora ROI que a própria equipa do cliente supervisiona." }
+    "01": {
+      "title": "Estratégia clara desde o primeiro dia.",
+      "desc": "Mapa de oportunidades, roteiro priorizado e um Comité IA constituído com a sua equipa. Sabe exatamente o que automatizar, em que ordem e que retorno esperar."
+    },
+    "02": {
+      "title": "Automatizações em produção, não protótipos.",
+      "desc": "Processos automatizados e integrados nos seus sistemas reais. Soluções que a sua equipa usa desde o primeiro trimestre — sem demos, sem pilotos eternos."
+    },
+    "03": {
+      "title": "A sua equipa trabalha com IA, não contra ela.",
+      "desc": "Formação aplicada ao dia a dia de cada departamento. A sua gente aprende fazendo, com ferramentas já configuradas para o seu contexto."
+    },
+    "04": {
+      "title": "Impacto medido e validado pela sua equipa financeira.",
+      "desc": "KPIs financeiros, de adoção e operacionais definidos desde o início. Tudo alimenta uma calculadora ROI que a própria equipa do cliente supervisiona."
+    }
   },
   "impact": {
     "label": "ÁREAS DE IMPACTO",
     "title": "Soluções com impacto real na sua organização.",
     "areas": {
-      "operations": { "title": "Operações e Processos", "department": "Operações", "desc": "Automação de tarefas críticas e otimização de fluxos para reduzir custos operacionais." },
-      "sales": { "title": "Vendas e Marketing", "department": "Vendas", "desc": "Modelos preditivos de procura e personalização da experiência do cliente para acelerar o crescimento." },
-      "finance": { "title": "Departamento Financeiro (CFO)", "department": "Financeiro", "desc": "Otimização de fluxos de caixa, deteção de anomalias e projeções inteligentes para decisões baseadas em dados." },
-      "talent": { "title": "Talento Humano", "department": "Talento", "desc": "Ferramentas de IA para multiplicar a produtividade das suas equipas e facilitar a gestão da mudança." }
+      "operations": {
+        "title": "Operações e Processos",
+        "department": "Operações",
+        "desc": "Automação de tarefas críticas e otimização de fluxos para reduzir custos operacionais."
+      },
+      "sales": {
+        "title": "Vendas e Marketing",
+        "department": "Vendas",
+        "desc": "Modelos preditivos de procura e personalização da experiência do cliente para acelerar o crescimento."
+      },
+      "finance": {
+        "title": "Departamento Financeiro (CFO)",
+        "department": "Financeiro",
+        "desc": "Otimização de fluxos de caixa, deteção de anomalias e projeções inteligentes para decisões baseadas em dados."
+      },
+      "talent": {
+        "title": "Talento Humano",
+        "department": "Talento",
+        "desc": "Ferramentas de IA para multiplicar a produtividade das suas equipas e facilitar a gestão da mudança."
+      }
     },
     "downloadCase": "Descarregar Caso de Uso: {{department}}"
   },
@@ -71,11 +99,26 @@
     "methodTitle": "O seu Escritório IA em 4 passos."
   },
   "timeline": {
-    "2014": { "label": "A ORIGEM", "desc": "Foco fundacional na poupança de tempo e dinheiro através da tecnologia." },
-    "2016": { "label": "ECOSSISTEMA SAAS", "desc": "Alianças estratégicas para a agilidade operacional (Monday, Signaturit, Odoo, Zoho, Xeerpa, Captio)." },
-    "2017": { "label": "A FÁBRICA RPA", "desc": "Especialização em automação robótica de processos como fábrica para 'Big Four' do norte da Europa." },
-    "2022": { "label": "INTELIGÊNCIA\nARTIFICIAL", "desc": "Colaboração em projetos de grande escala com líderes mundiais em visão artificial e ML (ML6, Robovision)." },
-    "2024": { "label": "INTELIGÊNCIA\nAUMENTADA", "desc": "Desenvolvimento de metodologia própria para tornar a IA fácil e arranque dos primeiros Escritórios IA." }
+    "2014": {
+      "label": "A ORIGEM",
+      "desc": "Foco fundacional na poupança de tempo e dinheiro através da tecnologia."
+    },
+    "2016": {
+      "label": "ECOSSISTEMA SAAS",
+      "desc": "Alianças estratégicas para a agilidade operacional (Monday, Signaturit, Odoo, Zoho, Xeerpa, Captio)."
+    },
+    "2017": {
+      "label": "A FÁBRICA RPA",
+      "desc": "Especialização em automação robótica de processos como fábrica para 'Big Four' do norte da Europa."
+    },
+    "2022": {
+      "label": "INTELIGÊNCIA\nARTIFICIAL",
+      "desc": "Colaboração em projetos de grande escala com líderes mundiais em visão artificial e ML (ML6, Robovision)."
+    },
+    "2024": {
+      "label": "INTELIGÊNCIA\nAUMENTADA",
+      "desc": "Desenvolvimento de metodologia própria para tornar a IA fácil e arranque dos primeiros Escritórios IA."
+    }
   },
   "about": {
     "heroLabel": "ESCRITÓRIO IA",
@@ -85,33 +128,95 @@
     "methodLabel": "MAKING AI EASY",
     "methodTitle": "De zero ao seu Escritório IA. Sem complicações.",
     "steps": {
-      "01": { "title": "START", "subtitle": "DIAGNÓSTICO", "time": "PRIMEIRAS 2 SEMANAS", "desc": "Mapa de oportunidades IA na sua organização. Constituímos o seu Comité IA, identificamos os primeiros casos de uso de alto impacto e desenhamos a folha de rota do primeiro trimestre. Entregável concreto, decisão informada." },
-      "02": { "title": "ESCRITÓRIO IA — PRIMEIRO SPRINT", "subtitle": "VALIDAÇÃO", "time": "PRIMEIRO TRIMESTRE", "desc": "Automações reais para testar ou colocar em produção no Escritório IA. Reuniões periódicas, objetivos mensuráveis e automação com avaliação de impacto direto na sua conta de resultados. Resultados tangíveis no primeiro trimestre." },
-      "03": { "title": "ESCRITÓRIO IA AS A SERVICE", "subtitle": "OPERAÇÃO", "time": "ANTES DO PRIMEIRO ANO", "desc": "Gestão profissional contínua da sua estratégia IA. Novos casos de uso cada trimestre, processos automatizados em produção e evolução constante do modelo. O seu Escritório IA externo e 100% operacional desde o primeiro dia." },
-      "04": { "title": "ESCRITÓRIO IA PRÓPRIO", "subtitle": "AUTONOMIA", "time": "PASSO FINAL · OPCIONAL", "desc": "Transferimos metodologia, conhecimento e capacidades para a sua equipa própria. O seu escritório IA opera de forma 100% autónoma e independente. O nosso objetivo é fazer você crescer, não ficar para sempre." }
+      "01": {
+        "title": "START",
+        "subtitle": "DIAGNÓSTICO",
+        "time": "PRIMEIRAS 2 SEMANAS",
+        "desc": "Mapa de oportunidades IA na sua organização. Constituímos o seu Comité IA, identificamos os primeiros casos de uso de alto impacto e desenhamos a folha de rota do primeiro trimestre. Entregável concreto, decisão informada."
+      },
+      "02": {
+        "title": "ESCRITÓRIO IA — PRIMEIRO SPRINT",
+        "subtitle": "VALIDAÇÃO",
+        "time": "PRIMEIRO TRIMESTRE",
+        "desc": "Automações reais para testar ou colocar em produção no Escritório IA. Reuniões periódicas, objetivos mensuráveis e automação com avaliação de impacto direto na sua conta de resultados. Resultados tangíveis no primeiro trimestre."
+      },
+      "03": {
+        "title": "ESCRITÓRIO IA AS A SERVICE",
+        "subtitle": "OPERAÇÃO",
+        "time": "ANTES DO PRIMEIRO ANO",
+        "desc": "Gestão profissional contínua da sua estratégia IA. Novos casos de uso cada trimestre, processos automatizados em produção e evolução constante do modelo. O seu Escritório IA externo e 100% operacional desde o primeiro dia."
+      },
+      "04": {
+        "title": "ESCRITÓRIO IA PRÓPRIO",
+        "subtitle": "AUTONOMIA",
+        "time": "PASSO FINAL · OPCIONAL",
+        "desc": "Transferimos metodologia, conhecimento e capacidades para a sua equipa própria. O seu escritório IA opera de forma 100% autónoma e independente. O nosso objetivo é fazer você crescer, não ficar para sempre."
+      }
     },
     "diagnosisLabel": "O DIAGNÓSTICO",
     "diagnosisTitle": "O Labirinto da IA:",
     "diagnosisTitle2": "Porque não avança?",
     "diagnosisDesc": "85% dos projetos de IA falham por falta de método. Desenhamos a estrutura que garante o impacto real na sua conta de resultados.",
     "diagnosis": {
-      "01": { "title": "Valor Inexistente", "stat": "BOSTON CONSULTING GROUP\nTHE WIDENING AI VALUE GAP, 2025", "desc": "78% usa GenAI, mas apenas 5% extrai valor substancial." },
-      "02": { "title": "O Vazio do EBIT", "stat": "STANFORD HAI\nAI INDEX REPORT 2025, 2025", "desc": "80% das empresas não percecionam impacto no EBIT após 12 meses." },
-      "03": { "title": "Shadow AI", "stat": "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025", "desc": "78% dos colaboradores usam IA 'informal'. 57% ocultam-no, arriscando dados corporativos." },
-      "04": { "title": "Governança chega 'Tarde'", "stat": "DELOITTE\nTHE STATE OF GENERATIVE AI IN ENTERPRISE, 2024", "desc": "Apenas 15% sentem-se preparados para riscos. Acelera-se sem guardrails ou trava-se por medo." },
-      "05": { "title": "\"Pilotos eternos\" que não avançam", "stat": "MCKINSEY\nTHE STATE OF AI: HOW ORGANIZATIONS ARE REWRITING, 2025", "desc": "80-85% dos pilotos nunca chegam a produção. Apenas 10% reportam usar agentes em alguma função." },
-      "06": { "title": "Resistências Invisíveis", "stat": "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025", "desc": "Medo do emprego e formação genérica que não muda hábitos." }
+      "01": {
+        "title": "Valor Inexistente",
+        "stat": "BOSTON CONSULTING GROUP\nTHE WIDENING AI VALUE GAP, 2025",
+        "desc": "78% usa GenAI, mas apenas 5% extrai valor substancial."
+      },
+      "02": {
+        "title": "O Vazio do EBIT",
+        "stat": "STANFORD HAI\nAI INDEX REPORT 2025, 2025",
+        "desc": "80% das empresas não percecionam impacto no EBIT após 12 meses."
+      },
+      "03": {
+        "title": "Shadow AI",
+        "stat": "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025",
+        "desc": "78% dos colaboradores usam IA 'informal'. 57% ocultam-no, arriscando dados corporativos."
+      },
+      "04": {
+        "title": "Governança chega 'Tarde'",
+        "stat": "DELOITTE\nTHE STATE OF GENERATIVE AI IN ENTERPRISE, 2024",
+        "desc": "Apenas 15% sentem-se preparados para riscos. Acelera-se sem guardrails ou trava-se por medo."
+      },
+      "05": {
+        "title": "\"Pilotos eternos\" que não avançam",
+        "stat": "MCKINSEY\nTHE STATE OF AI: HOW ORGANIZATIONS ARE REWRITING, 2025",
+        "desc": "80-85% dos pilotos nunca chegam a produção. Apenas 10% reportam usar agentes em alguma função."
+      },
+      "06": {
+        "title": "Resistências Invisíveis",
+        "stat": "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025",
+        "desc": "Medo do emprego e formação genérica que não muda hábitos."
+      }
     },
     "sprintLabel": "O NOSSO MODELO",
     "sprintTitle": "Metodologia S-P-R-I-N-T",
     "sprintDesc": "Seis pilares que transformam a incerteza num sistema operativo de IA produtivo e mensurável.",
     "sprint": {
-      "S": { "title": "Squads", "desc": "Especialização por equipas (squads) para aterrar casos reais do dia-a-dia. Tecnologia que se adapta à sua forma de trabalhar." },
-      "P": { "title": "Priorities", "desc": "O negócio decide e prioriza o que mudar primeiro. Está sempre ao volante. E Escritório IA ativo desde o minuto um." },
-      "R": { "title": "Roadmap", "desc": "Mapa de rota claro e 'fast tracks' ou períodos curtos. Acostuma-se a automatizar processos desde o primeiro trimestre." },
-      "I": { "title": "Impact", "desc": "A formação cria cultura digital e a automação traz eficiência. O equilíbrio entre ambas é essencial para avançar." },
-      "N": { "title": "Numbers", "desc": "Objetivos mensuráveis e ROI (OPEX e CAPEX). Clareza e objetividade total." },
-      "T": { "title": "Trust", "desc": "Governança, ética e segurança desde o início para garantir a integridade da sua informação." }
+      "S": {
+        "title": "Squads",
+        "desc": "Especialização por equipas (squads) para aterrar casos reais do dia-a-dia. Tecnologia que se adapta à sua forma de trabalhar."
+      },
+      "P": {
+        "title": "Priorities",
+        "desc": "O negócio decide e prioriza o que mudar primeiro. Está sempre ao volante. E Escritório IA ativo desde o minuto um."
+      },
+      "R": {
+        "title": "Roadmap",
+        "desc": "Mapa de rota claro e 'fast tracks' ou períodos curtos. Acostuma-se a automatizar processos desde o primeiro trimestre."
+      },
+      "I": {
+        "title": "Impact",
+        "desc": "A formação cria cultura digital e a automação traz eficiência. O equilíbrio entre ambas é essencial para avançar."
+      },
+      "N": {
+        "title": "Numbers",
+        "desc": "Objetivos mensuráveis e ROI (OPEX e CAPEX). Clareza e objetividade total."
+      },
+      "T": {
+        "title": "Trust",
+        "desc": "Governança, ética e segurança desde o início para garantir a integridade da sua informação."
+      }
     },
     "leadLabel": "RECURSO DESTACADO",
     "leadTitle": "Descarregue o Paper:",
@@ -129,7 +234,30 @@
     "ctaCta": "AGENDAR SESSÃO START",
     "trustProjects": "Projetos",
     "trustSprint": "Sprint médio",
-    "trustSince": "Desde"
+    "trustSince": "Desde",
+    "hero2Label": "ESCRITÓRIO IA",
+    "hero2Title1": "O TEU ESCRITÓRIO IA.",
+    "hero2Title2": "COMPLETO E OPERACIONAL",
+    "hero2Title3": "DESDE O PRIMEIRO TRIMESTRE.",
+    "hero2Desc": "Não precisas de contratar uma equipa de IA nem esperar meses para ver resultados. Nós montamos o teu Escritório IA com tudo o que precisa. Só tens de decidir começar.",
+    "hero2Cta": "AGENDA A TUA SESSÃO START →",
+    "obtienesLabel": "O QUE OBTÉNS",
+    "obtienesTitle": "Tudo o que a tua empresa precisa para funcionar com IA. Sem montar nada internamente.",
+    "obtienesClosing": "Consultoria, desenvolvimento, formação, compliance e medição de resultados. Tudo incluído. Tudo gerido. Sem teres de improvisar.",
+    "methodResult": "Resultado:",
+    "stepResults": {
+      "01": "plano claro e Comité IA constituído.",
+      "02": "primeiras automatizações em produção com impacto mensurável.",
+      "03": "Escritório IA operacional com novos casos cada trimestre.",
+      "04": "a tua equipa gere o Escritório IA com capacidade própria."
+    },
+    "finalLabel": "COMEÇA AQUI",
+    "finalTitle": "Agenda a tua sessão START. 25 minutos. Sem compromisso.",
+    "finalDesc": "Mostramos-te como seria o teu Escritório IA, que resultados podes esperar e em quanto tempo. Sem apresentações genéricas — com dados do teu setor e do teu tipo de empresa.",
+    "finalCta": "AGENDAR SESSÃO START →",
+    "trustProj": "200+ projetos",
+    "trustSprintMed": "90 dias sprint médio",
+    "trustSince2014": "Desde 2014"
   },
   "contact": {
     "directLabel": "CONTACTO DIRETO",
@@ -155,7 +283,56 @@
     "year": "ANO",
     "ctaTitle": "Preparado para\niniciar o seu projeto?",
     "ctaDesc": "Falemos sobre como podemos transformar a sua visão em resultados reais",
-    "ctaCta": "CONTACTAR"
+    "ctaCta": "CONTACTAR",
+    "heroLabel": "CASOS DE SUCESSO",
+    "heroTitle1": "Resultados reais.",
+    "heroTitle2": "Empresas reais.",
+    "heroDesc": "Cada projeto é medido em poupança de tempo, eficiência operacional e retorno financeiro. Estes são alguns dos resultados que conseguimos com os nossos clientes.",
+    "filterAll": "Todos",
+    "filterOficina": "Escritório IA",
+    "filterAutomatizacion": "Automatização de processos",
+    "badgeOficina": "ESCRITÓRIO IA",
+    "badgeAutomatizacion": "AUTOMATIZAÇÃO",
+    "viewCase": "Ver caso →",
+    "finalLabel": "A TUA VEZ",
+    "finalTitle": "Queres ver resultados como estes na tua empresa?",
+    "finalDesc": "Agenda uma sessão START de 25 minutos. Analisamos o teu caso, mostramos oportunidades concretas e damos-te um plano com prazos e retorno esperado.",
+    "finalCta": "AGENDAR SESSÃO START →",
+    "trust1": "200+ projetos",
+    "trust2": "90 dias sprint médio",
+    "trust3": "Desde 2014",
+    "cases": [
+      {
+        "sector": "ENERGIA",
+        "title": "Escritório IA operacional em 90 dias.",
+        "result": "Automatização de processos de reporting que pouparam 120 horas mensais à equipa de operações."
+      },
+      {
+        "sector": "SEGUROS",
+        "title": "De zero a Comité IA em 4 semanas.",
+        "result": "Equipa de 40 pessoas formada em ferramentas IA aplicadas a subscrição e sinistros."
+      },
+      {
+        "sector": "RETALHO",
+        "title": "IA integrada na cadeia de abastecimento.",
+        "result": "Previsão de procura automatizada com redução de 30% no excesso de stock."
+      },
+      {
+        "sector": "BANCA",
+        "title": "Processamento documental automatizado.",
+        "result": "Redução de 85% no tempo de revisão de documentação KYC."
+      },
+      {
+        "sector": "INDÚSTRIA",
+        "title": "Manutenção preditiva em fábrica.",
+        "result": "Deteção precoce de anomalias com redução de 40% em paragens não planeadas."
+      },
+      {
+        "sector": "SAÚDE",
+        "title": "Automatização de relatórios clínicos.",
+        "result": "Geração automatizada de relatórios que libertou 15 horas semanais por profissional."
+      }
+    ]
   },
   "logoCarousel": {
     "title": "CONFIAM EM NÓS"
@@ -177,10 +354,26 @@
   },
   "methodology": {
     "steps": {
-      "01": { "title": "START", "subtitle": "A SEMENTE", "desc": "PRIMEIRAS DUAS SEMANAS - Consultoria Intensiva. Atribuímos Comité IA, definimos objetivos e planeamos o primeiro trimestre com casos de uso." },
-      "02": { "title": "SPRINT", "subtitle": "O MOTOR", "desc": "PRIMEIRO TRIMESTRE - Execução intensiva. Reuniões periódicas, objetivos mensuráveis e automação com avaliação de impacto real." },
-      "03": { "title": "ESCRITÓRIO IA AS A SERVICE", "subtitle": "A CONSOLIDAÇÃO", "desc": "PRIMEIRO ANO - Gestão profissional contínua. Processos automatizados de forma regular e evolução constante do modelo." },
-      "04": { "title": "ESCRITÓRIO IA PRÓPRIO (OPCIONAL)", "subtitle": "A AUTONOMIA", "desc": "Passo opcional e final. Transferimos as nossas capacidades para o seu pessoal próprio para que o escritório seja 100% autónomo e independente." }
+      "01": {
+        "title": "START",
+        "subtitle": "A SEMENTE",
+        "desc": "PRIMEIRAS DUAS SEMANAS - Consultoria Intensiva. Atribuímos Comité IA, definimos objetivos e planeamos o primeiro trimestre com casos de uso."
+      },
+      "02": {
+        "title": "SPRINT",
+        "subtitle": "O MOTOR",
+        "desc": "PRIMEIRO TRIMESTRE - Execução intensiva. Reuniões periódicas, objetivos mensuráveis e automação com avaliação de impacto real."
+      },
+      "03": {
+        "title": "ESCRITÓRIO IA AS A SERVICE",
+        "subtitle": "A CONSOLIDAÇÃO",
+        "desc": "PRIMEIRO ANO - Gestão profissional contínua. Processos automatizados de forma regular e evolução constante do modelo."
+      },
+      "04": {
+        "title": "ESCRITÓRIO IA PRÓPRIO (OPCIONAL)",
+        "subtitle": "A AUTONOMIA",
+        "desc": "Passo opcional e final. Transferimos as nossas capacidades para o seu pessoal próprio para que o escritório seja 100% autónomo e independente."
+      }
     }
   },
   "avisoLegal": {
@@ -550,19 +743,58 @@
     "areaPersonas": "PESSOAS",
     "areaFinanciero": "FINANCEIRO",
     "areaOperaciones": "OPERAÇÕES",
-    "amura": { "location": "TECH, 2019", "desc": "Escritório IA para o departamento de Pessoas e cultura. Segmentando a \"jornada\" do colaborador: seleção, onboarding, formação, desenvolvimento... e automatizando progressivamente tarefas de todos os processos." },
-    "bbraun": { "location": "SAÚDE, 2016", "desc": "Automação de tarefas repetitivas no processo de gestão de dados em fábrica e transferência automática para AS400. ROI: poupança anual de 70% em tempo e custos." },
-    "caritas": { "location": "ONG, 2024", "desc": "START e SPRINT para instaurar boas práticas em relação à IA. Comité de IA desde o primeiro dia. Objetivo final a 18 meses: Escritório IA." },
-    "codorniu": { "location": "RETAIL, 2014", "desc": "Automação de tarefas repetitivas no processo financeiro. Eficiência que proporciona uma poupança de 72% em tempo e custos. Cálculo realizado pelo próprio cliente." },
-    "desigual": { "location": "RETAIL, 2019", "desc": "Automação de tarefas repetitivas no processo financeiro. Poupança de 65% em tempo e custos. ROI calculado pelo Controlo Financeiro." },
-    "diafarm": { "location": "SAÚDE, 2020", "desc": "Solução B2B SaaS para o departamento financeiro com eficiências superiores a 50%, calculadas pelo próprio departamento financeiro." },
-    "euskaltel": { "location": "TECH, 2023", "desc": "Escritório IA como serviço focado na governança e escalabilidade de processos operacionais." },
-    "hm": { "location": "RETAIL, 2022", "desc": "Digitalização de faturas simplificadas homologadas pela AEAT. Automação de 80% do processo e transferência automática para ERP." },
-    "globalia": { "location": "TURISMO, 2018", "desc": "Automação do processamento de reclamações (papel e email). Extração de metadados e transferência para sistemas centrais." },
-    "infojobs": { "location": "TECH, 2018", "desc": "Automação de tarefas repetitivas no processo financeiro. Poupança de tempo e melhoria de eficiência superior a 60%." },
-    "kluber": { "location": "INDÚSTRIA, 2024", "desc": "Programa de Escritório IA para operações industriais. Definição de roteiro estratégico e adoção de boas práticas de IA." },
-    "lantero": { "location": "INDÚSTRIA, 2018", "desc": "Escritório IA aplicado a processos financeiros industriais. Identificação e priorização de casos de uso para automação." },
-    "leroymerlin": { "location": "RETAIL, 2019", "desc": "Digitalização de documentos e faturas simplificadas (AEAT). Automação de 80% do processo com integração em ERP e Oracle." }
+    "amura": {
+      "location": "TECH, 2019",
+      "desc": "Escritório IA para o departamento de Pessoas e cultura. Segmentando a \"jornada\" do colaborador: seleção, onboarding, formação, desenvolvimento... e automatizando progressivamente tarefas de todos os processos."
+    },
+    "bbraun": {
+      "location": "SAÚDE, 2016",
+      "desc": "Automação de tarefas repetitivas no processo de gestão de dados em fábrica e transferência automática para AS400. ROI: poupança anual de 70% em tempo e custos."
+    },
+    "caritas": {
+      "location": "ONG, 2024",
+      "desc": "START e SPRINT para instaurar boas práticas em relação à IA. Comité de IA desde o primeiro dia. Objetivo final a 18 meses: Escritório IA."
+    },
+    "codorniu": {
+      "location": "RETAIL, 2014",
+      "desc": "Automação de tarefas repetitivas no processo financeiro. Eficiência que proporciona uma poupança de 72% em tempo e custos. Cálculo realizado pelo próprio cliente."
+    },
+    "desigual": {
+      "location": "RETAIL, 2019",
+      "desc": "Automação de tarefas repetitivas no processo financeiro. Poupança de 65% em tempo e custos. ROI calculado pelo Controlo Financeiro."
+    },
+    "diafarm": {
+      "location": "SAÚDE, 2020",
+      "desc": "Solução B2B SaaS para o departamento financeiro com eficiências superiores a 50%, calculadas pelo próprio departamento financeiro."
+    },
+    "euskaltel": {
+      "location": "TECH, 2023",
+      "desc": "Escritório IA como serviço focado na governança e escalabilidade de processos operacionais."
+    },
+    "hm": {
+      "location": "RETAIL, 2022",
+      "desc": "Digitalização de faturas simplificadas homologadas pela AEAT. Automação de 80% do processo e transferência automática para ERP."
+    },
+    "globalia": {
+      "location": "TURISMO, 2018",
+      "desc": "Automação do processamento de reclamações (papel e email). Extração de metadados e transferência para sistemas centrais."
+    },
+    "infojobs": {
+      "location": "TECH, 2018",
+      "desc": "Automação de tarefas repetitivas no processo financeiro. Poupança de tempo e melhoria de eficiência superior a 60%."
+    },
+    "kluber": {
+      "location": "INDÚSTRIA, 2024",
+      "desc": "Programa de Escritório IA para operações industriais. Definição de roteiro estratégico e adoção de boas práticas de IA."
+    },
+    "lantero": {
+      "location": "INDÚSTRIA, 2018",
+      "desc": "Escritório IA aplicado a processos financeiros industriais. Identificação e priorização de casos de uso para automação."
+    },
+    "leroymerlin": {
+      "location": "RETAIL, 2019",
+      "desc": "Digitalização de documentos e faturas simplificadas (AEAT). Automação de 80% do processo com integração em ERP e Oracle."
+    }
   },
   "blogPosts": {
     "post1": {

@@ -26,35 +26,8 @@ function Reveal({ children, className = "", delay = 0 }: { children: React.React
   );
 }
 
-const queObtienes = [
-  {
-    n: "01",
-    title: "Estrategia clara desde el día uno.",
-    desc: "Mapa de oportunidades, hoja de ruta priorizada y un Comité IA constituido con tu equipo. Sabes exactamente qué automatizar, en qué orden y qué retorno esperar.",
-  },
-  {
-    n: "02",
-    title: "Automatizaciones en producción, no prototipos.",
-    desc: "Procesos automatizados e integrados en tus sistemas reales. Soluciones que tu equipo usa desde el primer trimestre — no demos, no pilotos eternos.",
-  },
-  {
-    n: "03",
-    title: "Tu equipo trabaja con IA, no contra ella.",
-    desc: "Formación aplicada al día a día de cada departamento. Tu gente aprende haciendo, con herramientas que ya están configuradas para su contexto.",
-  },
-  {
-    n: "04",
-    title: "Impacto medido y validado por tu equipo financiero.",
-    desc: "KPIs financieros, de adopción y operativos definidos desde el arranque. Todo alimenta una calculadora ROI que el propio equipo del cliente supervisa.",
-  },
-];
+const queObtienesKeys = ["01", "02", "03", "04"] as const;
 
-const stepResults: Record<string, string> = {
-  "01": "plan claro y Comité IA constituido.",
-  "02": "primeras automatizaciones en producción con impacto medible.",
-  "03": "Oficina IA operativa con nuevos casos cada trimestre.",
-  "04": "tu equipo gestiona la Oficina IA con capacidad propia.",
-};
 
 const About = () => {
   const { t } = useTranslation();
@@ -66,6 +39,12 @@ const About = () => {
     { number: "03", title: t("about.steps.03.title"), subtitle: t("about.steps.03.subtitle"), time: t("about.steps.03.time"), description: t("about.steps.03.desc") },
     { number: "04", title: t("about.steps.04.title"), subtitle: t("about.steps.04.subtitle"), time: t("about.steps.04.time"), description: t("about.steps.04.desc") },
   ];
+
+  const queObtienes = queObtienesKeys.map((n) => ({
+    n,
+    title: t(`incluye.${n}.title`),
+    desc: t(`incluye.${n}.desc`),
+  }));
 
   const diagnosisItems = [
     { ghost: "01", title: t("about.diagnosis.01.title"), stat: t("about.diagnosis.01.stat"), description: t("about.diagnosis.01.desc") },
@@ -95,24 +74,24 @@ const About = () => {
           style={{ background: "linear-gradient(to bottom, rgba(15, 23, 42, 0.85), rgba(0, 0, 0, 0.80))" }}
         />
         <div className="relative z-10 max-w-7xl w-full mx-auto px-6">
-          <p className="text-xs uppercase tracking-widest text-gray-400 mb-8">OFICINA IA</p>
+          <p className="text-xs uppercase tracking-widest text-gray-400 mb-8">{t("about.hero2Label")}</p>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-light text-white uppercase tracking-[-0.02em] leading-[1.05] mb-8">
-            TU OFICINA IA.
+            {t("about.hero2Title1")}
             <br />
-            COMPLETA Y OPERATIVA
+            {t("about.hero2Title2")}
             <br />
-            DESDE EL PRIMER TRIMESTRE.
+            {t("about.hero2Title3")}
           </h1>
           <p className="text-base text-gray-400 max-w-xl mb-12 leading-relaxed">
-            No necesitas contratar un equipo de IA ni esperar meses para ver resultados. Nosotros montamos tu
-            Oficina IA con todo lo que necesita. Tú solo tienes que decidir empezar.
+            {t("about.hero2Desc")}
           </p>
           <Link
             to={lp("contact")}
             className="inline-block bg-white text-black px-7 py-3 text-xs uppercase tracking-widest font-medium hover:bg-gray-100 transition-colors"
           >
-            AGENDA TU SESIÓN START →
+            {t("about.hero2Cta")}
           </Link>
+
         </div>
       </section>
 
@@ -120,11 +99,11 @@ const About = () => {
       <section className="bg-white text-zinc-900 py-24">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal>
-            <p className="text-xs uppercase tracking-widest text-gray-500 mb-6">QUÉ OBTIENES</p>
+            <p className="text-xs uppercase tracking-widest text-gray-500 mb-6">{t("about.obtienesLabel")}</p>
           </Reveal>
           <Reveal delay={0.1}>
             <h2 className="text-3xl md:text-5xl font-bold text-zinc-900 mb-16 max-w-4xl" style={{ lineHeight: 1.15 }}>
-              Todo lo que tu empresa necesita para funcionar con IA. Sin montar nada internamente.
+              {t("about.obtienesTitle")}
             </h2>
           </Reveal>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
@@ -139,8 +118,7 @@ const About = () => {
             ))}
           </div>
           <p className="text-base text-zinc-600 max-w-2xl mx-auto text-center mt-12 leading-relaxed">
-            Consultoría, desarrollo, formación, compliance y medición de resultados. Todo incluido. Todo
-            gestionado. Sin que tengas que improvisar.
+            {t("about.obtienesClosing")}
           </p>
         </div>
       </section>
@@ -227,8 +205,8 @@ const About = () => {
                       <span className="text-base font-semibold text-foreground block mb-3">{step.time}</span>
                       <p className="text-[#999999] leading-relaxed font-light text-[15px]">{step.description}</p>
                       <div className="mt-4 pt-4 border-t border-zinc-200">
-                        <span className="font-medium text-zinc-900">Resultado: </span>
-                        <span className="text-zinc-600">{stepResults[step.number]}</span>
+                        <span className="font-medium text-zinc-900">{t("about.methodResult")} </span>
+                        <span className="text-zinc-600">{t(`about.stepResults.${step.number}`)}</span>
                       </div>
                     </div>
                   </div>
@@ -343,17 +321,16 @@ const About = () => {
         />
         <div className="relative z-10 max-w-7xl mx-auto px-6">
           <Reveal>
-            <p className="text-xs uppercase tracking-widest text-gray-500 mb-6">EMPIEZA AQUÍ</p>
+            <p className="text-xs uppercase tracking-widest text-gray-500 mb-6">{t("about.finalLabel")}</p>
           </Reveal>
           <Reveal delay={0.1}>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6" style={{ lineHeight: 1.15 }}>
-              Agenda tu sesión START. 25 minutos. Sin compromiso.
+              {t("about.finalTitle")}
             </h2>
           </Reveal>
           <Reveal delay={0.15}>
             <p className="text-base text-gray-400 max-w-xl leading-relaxed mb-10">
-              Te mostramos cómo sería tu Oficina IA, qué resultados puedes esperar y en cuánto tiempo. Sin
-              presentaciones genéricas — con datos de tu sector y tu tipo de empresa.
+              {t("about.finalDesc")}
             </p>
           </Reveal>
           <Reveal delay={0.2}>
@@ -361,16 +338,16 @@ const About = () => {
               to={lp("contact")}
               className="inline-block bg-white text-black px-7 py-3 text-xs uppercase tracking-widest font-medium hover:bg-gray-100 transition-colors"
             >
-              AGENDAR SESIÓN START →
+              {t("about.finalCta")}
             </Link>
           </Reveal>
           <Reveal delay={0.25}>
             <div className="flex flex-wrap gap-x-8 gap-y-3 mt-8 text-xs uppercase tracking-widest text-gray-500">
-              <span>200+ proyectos</span>
+              <span>{t("about.trustProj")}</span>
               <span className="text-white/20">·</span>
-              <span>90 días sprint medio</span>
+              <span>{t("about.trustSprintMed")}</span>
               <span className="text-white/20">·</span>
-              <span>Desde 2014</span>
+              <span>{t("about.trustSince2014")}</span>
             </div>
           </Reveal>
         </div>

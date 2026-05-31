@@ -32,19 +32,47 @@
     "label": "All included",
     "title": "This is what we put to work for you.",
     "closing": "Consulting, development, training, compliance and results measurement. All included. All managed. No improvisation required.",
-    "01": { "title": "Clear strategy from day one.", "desc": "Opportunity map, prioritized roadmap and an AI Committee set up with your team. You know exactly what to automate, in what order and what return to expect." },
-    "02": { "title": "Automations in production, not prototypes.", "desc": "Automated processes integrated into your real systems. Solutions your team uses from the first quarter — no demos, no endless pilots." },
-    "03": { "title": "Your team works with AI, not against it.", "desc": "Training applied to each department's day-to-day. Your people learn by doing, with tools already configured for their context." },
-    "04": { "title": "Impact measured and validated by your finance team.", "desc": "Financial, adoption and operational KPIs defined from the start. Everything feeds an ROI calculator that the client's own team supervises." }
+    "01": {
+      "title": "Clear strategy from day one.",
+      "desc": "Opportunity map, prioritized roadmap and an AI Committee set up with your team. You know exactly what to automate, in what order and what return to expect."
+    },
+    "02": {
+      "title": "Automations in production, not prototypes.",
+      "desc": "Automated processes integrated into your real systems. Solutions your team uses from the first quarter — no demos, no endless pilots."
+    },
+    "03": {
+      "title": "Your team works with AI, not against it.",
+      "desc": "Training applied to each department's day-to-day. Your people learn by doing, with tools already configured for their context."
+    },
+    "04": {
+      "title": "Impact measured and validated by your finance team.",
+      "desc": "Financial, adoption and operational KPIs defined from the start. Everything feeds an ROI calculator that the client's own team supervises."
+    }
   },
   "impact": {
     "label": "IMPACT AREAS",
     "title": "Solutions with real impact on your organization.",
     "areas": {
-      "operations": { "title": "Operations & Processes", "department": "Operations", "desc": "Automation of critical tasks and workflow optimization to reduce operational costs." },
-      "sales": { "title": "Sales & Marketing", "department": "Sales", "desc": "Demand prediction models and customer experience personalization to accelerate growth." },
-      "finance": { "title": "Finance Department (CFO)", "department": "Finance", "desc": "Cash flow optimization, anomaly detection and intelligent projections for data-driven decisions." },
-      "talent": { "title": "Human Talent", "department": "Talent", "desc": "AI tools to multiply your team's productivity and facilitate change management." }
+      "operations": {
+        "title": "Operations & Processes",
+        "department": "Operations",
+        "desc": "Automation of critical tasks and workflow optimization to reduce operational costs."
+      },
+      "sales": {
+        "title": "Sales & Marketing",
+        "department": "Sales",
+        "desc": "Demand prediction models and customer experience personalization to accelerate growth."
+      },
+      "finance": {
+        "title": "Finance Department (CFO)",
+        "department": "Finance",
+        "desc": "Cash flow optimization, anomaly detection and intelligent projections for data-driven decisions."
+      },
+      "talent": {
+        "title": "Human Talent",
+        "department": "Talent",
+        "desc": "AI tools to multiply your team's productivity and facilitate change management."
+      }
     },
     "downloadCase": "Download Use Case: {{department}}"
   },
@@ -71,11 +99,26 @@
     "methodTitle": "Your AI Office in 4 steps."
   },
   "timeline": {
-    "2014": { "label": "THE ORIGIN", "desc": "Foundational focus on saving time and money through technology." },
-    "2016": { "label": "SAAS ECOSYSTEM", "desc": "Strategic alliances for operational agility (Monday, Signaturit, Odoo, Zoho, Xeerpa, Captio)." },
-    "2017": { "label": "THE RPA FACTORY", "desc": "Specialization in robotic process automation as a factory for 'Big Four' in Northern Europe." },
-    "2022": { "label": "ARTIFICIAL\nINTELLIGENCE", "desc": "Collaboration on large-scale projects with world leaders in computer vision and ML (ML6, Robovision)." },
-    "2024": { "label": "AUGMENTED\nINTELLIGENCE", "desc": "Development of proprietary methodology to make AI easy and launch of the first AI Offices." }
+    "2014": {
+      "label": "THE ORIGIN",
+      "desc": "Foundational focus on saving time and money through technology."
+    },
+    "2016": {
+      "label": "SAAS ECOSYSTEM",
+      "desc": "Strategic alliances for operational agility (Monday, Signaturit, Odoo, Zoho, Xeerpa, Captio)."
+    },
+    "2017": {
+      "label": "THE RPA FACTORY",
+      "desc": "Specialization in robotic process automation as a factory for 'Big Four' in Northern Europe."
+    },
+    "2022": {
+      "label": "ARTIFICIAL\nINTELLIGENCE",
+      "desc": "Collaboration on large-scale projects with world leaders in computer vision and ML (ML6, Robovision)."
+    },
+    "2024": {
+      "label": "AUGMENTED\nINTELLIGENCE",
+      "desc": "Development of proprietary methodology to make AI easy and launch of the first AI Offices."
+    }
   },
   "about": {
     "heroLabel": "AI OFFICE",
@@ -85,33 +128,95 @@
     "methodLabel": "MAKING AI EASY",
     "methodTitle": "From zero to your AI Office. No complications.",
     "steps": {
-      "01": { "title": "START", "subtitle": "DIAGNOSIS", "time": "FIRST 2 WEEKS", "desc": "AI opportunity map for your organization. We set up your AI Committee, identify your first high-impact use cases and design your first quarter roadmap. Concrete deliverable, informed decision." },
-      "02": { "title": "AI OFFICE — FIRST SPRINT", "subtitle": "VALIDATION", "time": "FIRST QUARTER", "desc": "Real automations to test or deploy in the AI Office. Regular meetings, measurable objectives and automation with direct impact assessment on your bottom line. Tangible results in the first quarter." },
-      "03": { "title": "AI OFFICE AS A SERVICE", "subtitle": "OPERATION", "time": "BEFORE FIRST YEAR", "desc": "Continuous professional management of your AI strategy. New use cases every quarter, automated processes in production and constant model evolution. Your external AI office, 100% operational from day one." },
-      "04": { "title": "YOUR OWN AI OFFICE", "subtitle": "AUTONOMY", "time": "FINAL STEP · OPTIONAL", "desc": "We transfer methodology, knowledge and capabilities to your own team. Your AI office operates 100% autonomously and independently. Our goal is to make you grow, not stay forever." }
+      "01": {
+        "title": "START",
+        "subtitle": "DIAGNOSIS",
+        "time": "FIRST 2 WEEKS",
+        "desc": "AI opportunity map for your organization. We set up your AI Committee, identify your first high-impact use cases and design your first quarter roadmap. Concrete deliverable, informed decision."
+      },
+      "02": {
+        "title": "AI OFFICE — FIRST SPRINT",
+        "subtitle": "VALIDATION",
+        "time": "FIRST QUARTER",
+        "desc": "Real automations to test or deploy in the AI Office. Regular meetings, measurable objectives and automation with direct impact assessment on your bottom line. Tangible results in the first quarter."
+      },
+      "03": {
+        "title": "AI OFFICE AS A SERVICE",
+        "subtitle": "OPERATION",
+        "time": "BEFORE FIRST YEAR",
+        "desc": "Continuous professional management of your AI strategy. New use cases every quarter, automated processes in production and constant model evolution. Your external AI office, 100% operational from day one."
+      },
+      "04": {
+        "title": "YOUR OWN AI OFFICE",
+        "subtitle": "AUTONOMY",
+        "time": "FINAL STEP · OPTIONAL",
+        "desc": "We transfer methodology, knowledge and capabilities to your own team. Your AI office operates 100% autonomously and independently. Our goal is to make you grow, not stay forever."
+      }
     },
     "diagnosisLabel": "THE DIAGNOSIS",
     "diagnosisTitle": "The AI Labyrinth:",
     "diagnosisTitle2": "Why aren't you moving forward?",
     "diagnosisDesc": "85% of AI projects fail due to lack of methodology. We design the structure that guarantees real impact on your bottom line.",
     "diagnosis": {
-      "01": { "title": "Non-Existent Value", "stat": "BOSTON CONSULTING GROUP\nTHE WIDENING AI VALUE GAP, 2025", "desc": "78% use GenAI, but only 5% extract substantial value." },
-      "02": { "title": "The EBIT Gap", "stat": "STANFORD HAI\nAI INDEX REPORT 2025, 2025", "desc": "80% of companies see no EBIT impact after 12 months." },
-      "03": { "title": "Shadow AI", "stat": "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025", "desc": "78% of employees use 'informal' AI. 57% hide it, risking corporate data." },
-      "04": { "title": "Governance Arrives 'Late'", "stat": "DELOITTE\nTHE STATE OF GENERATIVE AI IN ENTERPRISE, 2024", "desc": "Only 15% feel prepared for risks. They accelerate without guardrails or freeze out of fear." },
-      "05": { "title": "\"Eternal pilots\" that go nowhere", "stat": "MCKINSEY\nTHE STATE OF AI: HOW ORGANIZATIONS ARE REWRITING, 2025", "desc": "80-85% of pilots never reach production. Only 10% report using agents in any function." },
-      "06": { "title": "Invisible Resistance", "stat": "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025", "desc": "Fear of job loss and generic training that doesn't change habits." }
+      "01": {
+        "title": "Non-Existent Value",
+        "stat": "BOSTON CONSULTING GROUP\nTHE WIDENING AI VALUE GAP, 2025",
+        "desc": "78% use GenAI, but only 5% extract substantial value."
+      },
+      "02": {
+        "title": "The EBIT Gap",
+        "stat": "STANFORD HAI\nAI INDEX REPORT 2025, 2025",
+        "desc": "80% of companies see no EBIT impact after 12 months."
+      },
+      "03": {
+        "title": "Shadow AI",
+        "stat": "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025",
+        "desc": "78% of employees use 'informal' AI. 57% hide it, risking corporate data."
+      },
+      "04": {
+        "title": "Governance Arrives 'Late'",
+        "stat": "DELOITTE\nTHE STATE OF GENERATIVE AI IN ENTERPRISE, 2024",
+        "desc": "Only 15% feel prepared for risks. They accelerate without guardrails or freeze out of fear."
+      },
+      "05": {
+        "title": "\"Eternal pilots\" that go nowhere",
+        "stat": "MCKINSEY\nTHE STATE OF AI: HOW ORGANIZATIONS ARE REWRITING, 2025",
+        "desc": "80-85% of pilots never reach production. Only 10% report using agents in any function."
+      },
+      "06": {
+        "title": "Invisible Resistance",
+        "stat": "KPMG & UNIVERSITY OF MELBOURNE\nTRUST, ATTITUDES AND USE OF AI, 2025",
+        "desc": "Fear of job loss and generic training that doesn't change habits."
+      }
     },
     "sprintLabel": "OUR MODEL",
     "sprintTitle": "S-P-R-I-N-T Methodology",
     "sprintDesc": "Six pillars that transform uncertainty into a productive and measurable AI operating system.",
     "sprint": {
-      "S": { "title": "Squads", "desc": "Specialized teams (squads) to ground real day-to-day use cases. Technology that adapts to your way of working." },
-      "P": { "title": "Priorities", "desc": "The business decides and prioritizes what to change first. Always in the driver's seat. AI Office active from minute one." },
-      "R": { "title": "Roadmap", "desc": "Clear roadmap and 'fast tracks' or short periods. You get used to automating processes from the first quarter." },
-      "I": { "title": "Impact", "desc": "Training creates digital culture and automation brings efficiency. The balance between both is essential to move forward." },
-      "N": { "title": "Numbers", "desc": "Measurable objectives and ROI (OPEX and CAPEX). Total clarity and objectivity." },
-      "T": { "title": "Trust", "desc": "Governance, ethics and security from the start to ensure your information integrity." }
+      "S": {
+        "title": "Squads",
+        "desc": "Specialized teams (squads) to ground real day-to-day use cases. Technology that adapts to your way of working."
+      },
+      "P": {
+        "title": "Priorities",
+        "desc": "The business decides and prioritizes what to change first. Always in the driver's seat. AI Office active from minute one."
+      },
+      "R": {
+        "title": "Roadmap",
+        "desc": "Clear roadmap and 'fast tracks' or short periods. You get used to automating processes from the first quarter."
+      },
+      "I": {
+        "title": "Impact",
+        "desc": "Training creates digital culture and automation brings efficiency. The balance between both is essential to move forward."
+      },
+      "N": {
+        "title": "Numbers",
+        "desc": "Measurable objectives and ROI (OPEX and CAPEX). Total clarity and objectivity."
+      },
+      "T": {
+        "title": "Trust",
+        "desc": "Governance, ethics and security from the start to ensure your information integrity."
+      }
     },
     "leadLabel": "FEATURED RESOURCE",
     "leadTitle": "Download the Paper:",
@@ -129,7 +234,30 @@
     "ctaCta": "BOOK START SESSION",
     "trustProjects": "Projects",
     "trustSprint": "Avg Sprint",
-    "trustSince": "Since"
+    "trustSince": "Since",
+    "hero2Label": "AI OFFICE",
+    "hero2Title1": "YOUR AI OFFICE.",
+    "hero2Title2": "COMPLETE AND OPERATIONAL",
+    "hero2Title3": "FROM THE FIRST QUARTER.",
+    "hero2Desc": "You don't need to hire an AI team or wait months to see results. We set up your AI Office with everything it needs. You just have to decide to start.",
+    "hero2Cta": "BOOK YOUR START SESSION →",
+    "obtienesLabel": "WHAT YOU GET",
+    "obtienesTitle": "Everything your company needs to run with AI. Without building anything in-house.",
+    "obtienesClosing": "Consulting, development, training, compliance and results measurement. All included. All managed. No improvisation required.",
+    "methodResult": "Result:",
+    "stepResults": {
+      "01": "clear plan and AI Committee set up.",
+      "02": "first automations in production with measurable impact.",
+      "03": "operational AI Office with new use cases each quarter.",
+      "04": "your team runs the AI Office with its own capabilities."
+    },
+    "finalLabel": "START HERE",
+    "finalTitle": "Book your START session. 25 minutes. No commitment.",
+    "finalDesc": "We show you what your AI Office would look like, what results to expect and how long it takes. No generic decks — with data from your industry and company type.",
+    "finalCta": "BOOK START SESSION →",
+    "trustProj": "200+ projects",
+    "trustSprintMed": "90-day average sprint",
+    "trustSince2014": "Since 2014"
   },
   "contact": {
     "directLabel": "DIRECT CONTACT",
@@ -155,7 +283,56 @@
     "year": "YEAR",
     "ctaTitle": "Ready to start\nyour project?",
     "ctaDesc": "Let's discuss how we can transform your vision into real results",
-    "ctaCta": "GET IN TOUCH"
+    "ctaCta": "GET IN TOUCH",
+    "heroLabel": "CASE STUDIES",
+    "heroTitle1": "Real results.",
+    "heroTitle2": "Real companies.",
+    "heroDesc": "Every project is measured in time saved, operational efficiency and financial return. These are some of the results we've achieved with our clients.",
+    "filterAll": "All",
+    "filterOficina": "AI Office",
+    "filterAutomatizacion": "Process automation",
+    "badgeOficina": "AI OFFICE",
+    "badgeAutomatizacion": "AUTOMATION",
+    "viewCase": "View case →",
+    "finalLabel": "YOUR TURN",
+    "finalTitle": "Want to see results like these in your company?",
+    "finalDesc": "Book a 25-minute START session. We analyze your case, show you concrete opportunities and give you a plan with timelines and expected return.",
+    "finalCta": "BOOK START SESSION →",
+    "trust1": "200+ projects",
+    "trust2": "90-day average sprint",
+    "trust3": "Since 2014",
+    "cases": [
+      {
+        "sector": "ENERGY",
+        "title": "Operational AI Office in 90 days.",
+        "result": "Automated reporting processes that saved 120 monthly hours for the operations team."
+      },
+      {
+        "sector": "INSURANCE",
+        "title": "From zero to AI Committee in 4 weeks.",
+        "result": "40-person team trained on AI tools applied to underwriting and claims."
+      },
+      {
+        "sector": "RETAIL",
+        "title": "AI integrated into the supply chain.",
+        "result": "Automated demand forecasting with a 30% reduction in excess stock."
+      },
+      {
+        "sector": "BANKING",
+        "title": "Automated document processing.",
+        "result": "85% reduction in KYC documentation review time."
+      },
+      {
+        "sector": "INDUSTRY",
+        "title": "Predictive maintenance on the plant floor.",
+        "result": "Early anomaly detection with a 40% reduction in unplanned downtime."
+      },
+      {
+        "sector": "HEALTHCARE",
+        "title": "Automated clinical reporting.",
+        "result": "Automated report generation that freed up 15 weekly hours per professional."
+      }
+    ]
   },
   "logoCarousel": {
     "title": "TRUSTED BY"
@@ -177,10 +354,26 @@
   },
   "methodology": {
     "steps": {
-      "01": { "title": "START", "subtitle": "THE SEED", "desc": "FIRST TWO WEEKS - Intensive Consulting. We assign an AI Committee, define objectives and plan the first quarter with use cases." },
-      "02": { "title": "SPRINT", "subtitle": "THE ENGINE", "desc": "FIRST QUARTER - Intensive execution. Regular meetings, measurable objectives and automation with real impact assessment." },
-      "03": { "title": "AI OFFICE AS A SERVICE", "subtitle": "CONSOLIDATION", "desc": "FIRST YEAR - Continuous professional management. Regularly automated processes and constant model evolution." },
-      "04": { "title": "YOUR OWN AI OFFICE (OPTIONAL)", "subtitle": "AUTONOMY", "desc": "Optional final step. We transfer our capabilities to your own staff so the office is 100% autonomous and independent." }
+      "01": {
+        "title": "START",
+        "subtitle": "THE SEED",
+        "desc": "FIRST TWO WEEKS - Intensive Consulting. We assign an AI Committee, define objectives and plan the first quarter with use cases."
+      },
+      "02": {
+        "title": "SPRINT",
+        "subtitle": "THE ENGINE",
+        "desc": "FIRST QUARTER - Intensive execution. Regular meetings, measurable objectives and automation with real impact assessment."
+      },
+      "03": {
+        "title": "AI OFFICE AS A SERVICE",
+        "subtitle": "CONSOLIDATION",
+        "desc": "FIRST YEAR - Continuous professional management. Regularly automated processes and constant model evolution."
+      },
+      "04": {
+        "title": "YOUR OWN AI OFFICE (OPTIONAL)",
+        "subtitle": "AUTONOMY",
+        "desc": "Optional final step. We transfer our capabilities to your own staff so the office is 100% autonomous and independent."
+      }
     }
   },
   "avisoLegal": {
@@ -550,19 +743,58 @@
     "areaPersonas": "PEOPLE",
     "areaFinanciero": "FINANCE",
     "areaOperaciones": "OPERATIONS",
-    "amura": { "location": "TECH, 2019", "desc": "AI Office for the People & Culture department. Segmenting the employee \"journey\": selection, onboarding, training, development... and progressively automating tasks across all processes." },
-    "bbraun": { "location": "HEALTH, 2016", "desc": "Automation of repetitive tasks in factory data management and automatic transfer to AS400. ROI: 70% annual savings in time and cost." },
-    "caritas": { "location": "NGO, 2024", "desc": "START and SPRINT to establish AI best practices. AI Committee from day one. Final goal at 18 months: AI Office." },
-    "codorniu": { "location": "RETAIL, 2014", "desc": "Automation of repetitive tasks in financial processes. Efficiency delivering 72% savings in time and cost. Calculated by the client." },
-    "desigual": { "location": "RETAIL, 2019", "desc": "Automation of repetitive tasks in financial processes. 65% savings in time and cost. ROI calculated by Financial Controlling." },
-    "diafarm": { "location": "HEALTH, 2020", "desc": "B2B SaaS solution for the finance department with efficiencies exceeding 50%, calculated by the finance department itself." },
-    "euskaltel": { "location": "TECH, 2023", "desc": "AI Office as a service focused on governance and scalability of operational processes." },
-    "hm": { "location": "RETAIL, 2022", "desc": "Digitization of simplified invoices certified by AEAT. 80% process automation with automatic ERP upload." },
-    "globalia": { "location": "TOURISM, 2018", "desc": "Automation of claims processing (paper and email). Metadata extraction and upload to central systems." },
-    "infojobs": { "location": "TECH, 2018", "desc": "Automation of repetitive tasks in financial processes. Time savings and efficiency improvement exceeding 60%." },
-    "kluber": { "location": "INDUSTRY, 2024", "desc": "AI Office program for industrial operations. Strategic roadmap definition and adoption of AI best practices." },
-    "lantero": { "location": "INDUSTRY, 2018", "desc": "AI Office applied to industrial financial processes. Identification and prioritization of use cases for automation." },
-    "leroymerlin": { "location": "RETAIL, 2019", "desc": "Document and simplified invoice digitization (AEAT). 80% process automation with ERP and Oracle integration." }
+    "amura": {
+      "location": "TECH, 2019",
+      "desc": "AI Office for the People & Culture department. Segmenting the employee \"journey\": selection, onboarding, training, development... and progressively automating tasks across all processes."
+    },
+    "bbraun": {
+      "location": "HEALTH, 2016",
+      "desc": "Automation of repetitive tasks in factory data management and automatic transfer to AS400. ROI: 70% annual savings in time and cost."
+    },
+    "caritas": {
+      "location": "NGO, 2024",
+      "desc": "START and SPRINT to establish AI best practices. AI Committee from day one. Final goal at 18 months: AI Office."
+    },
+    "codorniu": {
+      "location": "RETAIL, 2014",
+      "desc": "Automation of repetitive tasks in financial processes. Efficiency delivering 72% savings in time and cost. Calculated by the client."
+    },
+    "desigual": {
+      "location": "RETAIL, 2019",
+      "desc": "Automation of repetitive tasks in financial processes. 65% savings in time and cost. ROI calculated by Financial Controlling."
+    },
+    "diafarm": {
+      "location": "HEALTH, 2020",
+      "desc": "B2B SaaS solution for the finance department with efficiencies exceeding 50%, calculated by the finance department itself."
+    },
+    "euskaltel": {
+      "location": "TECH, 2023",
+      "desc": "AI Office as a service focused on governance and scalability of operational processes."
+    },
+    "hm": {
+      "location": "RETAIL, 2022",
+      "desc": "Digitization of simplified invoices certified by AEAT. 80% process automation with automatic ERP upload."
+    },
+    "globalia": {
+      "location": "TOURISM, 2018",
+      "desc": "Automation of claims processing (paper and email). Metadata extraction and upload to central systems."
+    },
+    "infojobs": {
+      "location": "TECH, 2018",
+      "desc": "Automation of repetitive tasks in financial processes. Time savings and efficiency improvement exceeding 60%."
+    },
+    "kluber": {
+      "location": "INDUSTRY, 2024",
+      "desc": "AI Office program for industrial operations. Strategic roadmap definition and adoption of AI best practices."
+    },
+    "lantero": {
+      "location": "INDUSTRY, 2018",
+      "desc": "AI Office applied to industrial financial processes. Identification and prioritization of use cases for automation."
+    },
+    "leroymerlin": {
+      "location": "RETAIL, 2019",
+      "desc": "Document and simplified invoice digitization (AEAT). 80% process automation with ERP and Oracle integration."
+    }
   },
   "blogPosts": {
     "post1": {
