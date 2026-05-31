@@ -12,6 +12,8 @@ const barConfig = [
 ] as const;
 
 export default function AIMaturityChart() {
+  const { t } = useTranslation();
+  const lp = useLocalizedPath();
   const bars = barConfig.map((b) => ({
     ...b,
     title: t(`home.maturity.${b.key}.title`),
