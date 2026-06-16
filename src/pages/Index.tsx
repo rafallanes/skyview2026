@@ -12,6 +12,7 @@ import LoQueIncluye from "@/components/LoQueIncluye";
 import Velocidad from "@/components/Velocidad";
 import ROIGarantizado from "@/components/ROIGarantizado";
 import Desde2014 from "@/components/Desde2014";
+import ElDolor from "@/components/ElDolor";
 
 import logoOpenAI from "@/assets/logos/openai.png";
 import logoAzure from "@/assets/logos/azure.png";
@@ -40,7 +41,10 @@ const Index = () => {
       {/* 1. HERO */}
       <Hero />
 
-      {/* 2. QUÉ ES UNA OFICINA IA */}
+      {/* 2. EL DOLOR */}
+      <ElDolor />
+
+      {/* 3. QUÉ ES UNA OFICINA IA */}
       <QueEsOficinaIA />
 
       {/* 3. LO QUE INCLUYE */}
