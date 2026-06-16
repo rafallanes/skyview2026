@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import ElDolor from "@/components/ElDolor";
 import LogoCarousel from "@/components/LogoCarousel";
 import { FileText } from "lucide-react";
 import ImpactAreas from "@/components/ImpactAreas";
@@ -40,25 +41,28 @@ const Index = () => {
       {/* 1. HERO */}
       <Hero />
 
-      {/* 2. QUÉ ES UNA OFICINA IA */}
+      {/* 2. EL DOLOR */}
+      <ElDolor />
+
+      {/* 3. QUÉ ES UNA OFICINA IA */}
       <QueEsOficinaIA />
 
-      {/* 3. LO QUE INCLUYE */}
+      {/* 4. LO QUE INCLUYE */}
       <LoQueIncluye />
 
-      {/* 4. VELOCIDAD */}
+      {/* 5. VELOCIDAD */}
       <Velocidad />
 
-      {/* 5. ROI GARANTIZADO */}
+      {/* 6. ROI GARANTIZADO */}
       <ROIGarantizado />
 
-      {/* 6. DESDE 2014 */}
+      {/* 7. DESDE 2014 */}
       <Desde2014 />
 
-      {/* 7. INTELIGENCIA AUMENTADA */}
+      {/* 8. INTELIGENCIA AUMENTADA */}
       <AIMaturityChart />
 
-      {/* 8. TECH STACK */}
+      {/* 9. TECH STACK */}
       <section className="py-10 md:py-12 bg-muted/30">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
@@ -84,10 +88,10 @@ const Index = () => {
         </div>
       </section>
 
-      {/* 9. ÁREAS DE IMPACTO */}
+      {/* 10. ÁREAS DE IMPACTO */}
       <ImpactAreas />
 
-      {/* 10. SOCIAL PROOF */}
+      {/* 11. SOCIAL PROOF */}
       <section className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
@@ -98,7 +102,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* 11. CENTRO DE RECURSOS */}
+      {/* 12. CENTRO DE RECURSOS */}
       <section className="py-12 md:py-16 bg-foreground text-primary-foreground">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
@@ -129,7 +133,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* 12. FOOTER */}
+      {/* 13. FOOTER */}
       <Footer />
     </div>
   );

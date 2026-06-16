@@ -85,7 +85,7 @@
     "philosophyTitle1": "Augmented",
     "philosophyTitle2": "\"Philosophy\"",
     "philosophyP1": "We don't replace people, we empower their talent. We create Augmented Intelligence by combining human judgment with technological power.",
-    "philosophyP2": "The result is Augmented Teams and multiplied results. Fewer manual tasks, more strategic impact. It's that simple.",
+    "philosophyP2": "The result: Augmented Teams and multiplied results. Fewer manual tasks, more strategic impact. Your people go back to doing what you hired them for.",
     "founded": "FOUNDED",
     "projects": "PROJECTS",
     "techStackLabel": "TECH STACK",
@@ -124,7 +124,7 @@
     "heroLabel": "AI OFFICE",
     "heroTitle": "From Chaos to Clarity:",
     "heroTitle2": "Your Operational AI Office.",
-    "heroDesc": "We transform technological uncertainty into a measurable and structured competitive advantage. No complications. Making AI easy.",
+    "heroDesc": "Your team stuck on work that adds no value. AI projects that never reach production. We turn that uncertainty into an operational, measurable, structured AI Office. No complications. Making AI easy.",
     "methodLabel": "MAKING AI EASY",
     "methodTitle": "From zero to your AI Office. No complications.",
     "steps": {
@@ -150,7 +150,7 @@
         "title": "YOUR OWN AI OFFICE",
         "subtitle": "AUTONOMY",
         "time": "FINAL STEP · OPTIONAL",
-        "desc": "We transfer methodology, knowledge and capabilities to your own team. Your AI office operates 100% autonomously and independently. Our goal is to make you grow, not stay forever."
+        "desc": "If your company wants to internalize the operation, we transfer methodology, knowledge and capabilities to your team. You decide the level of autonomy — and we remain your strategic AI layer whenever you need us. The freedom to choose is yours."
       }
     },
     "diagnosisLabel": "THE DIAGNOSIS",
@@ -249,7 +249,7 @@
       "01": "clear plan and AI Committee set up.",
       "02": "first automations in production with measurable impact.",
       "03": "operational AI Office with new use cases each quarter.",
-      "04": "your team runs the AI Office with its own capabilities."
+      "04": "your team operates with its own capacity and Skyview stays on as strategic partner."
     },
     "finalLabel": "START HERE",
     "finalTitle": "Book your START session. 25 minutes. No commitment.",
@@ -278,7 +278,7 @@
   "work": {
     "title": "PROJECTS",
     "desc": "Since its founding in 2014, SKYVIEW's mission has been to put technology at the service of people. Clients across all industries benefit from our expertise in bringing efficiency to processes.",
-    "desc2": "Our obsession is achieving measurable results by automating repetitive tasks. We transform technical complexity into scalable operating models. From vision to real production.",
+    "desc2": "Our obsession is measurable results by automating the repetitive. We turn technical complexity into operating models that scale — and we stay as your partner as your company grows. From vision to real production.",
     "area": "AREA",
     "year": "YEAR",
     "ctaTitle": "Ready to start\nyour project?",
@@ -871,10 +871,10 @@
   "home": {
     "hero": {
       "label": "MAKING AI EASY",
-      "title1": "YOUR AI OFFICE.",
-      "title2": "OPERATIONAL IN WEEKS.",
-      "desc": "We build your complete AI department — team, technology and methodology — so your people stop doing repetitive work and focus on growing the business.",
-      "cta": "DISCOVER YOUR AI OFFICE →",
+      "title1": "YOUR TEAM WASN'T BORN",
+      "title2": "TO DO ROBOT WORK.",
+      "desc": "While your people lose hours on manual tasks, the business waits. We set up your complete AI Office —team, technology and method— and in weeks your team gets its time back for what truly matters: growing the company.",
+      "cta": "GET YOUR TEAM'S TIME BACK →",
       "trust1": "Madrid · Since 2014",
       "trust2": "200+ Projects",
       "trust3": "Making AI Easy"
@@ -882,7 +882,7 @@
     "queEs": {
       "label": "What is an AI Office?",
       "title": "A full AI team working for your company. From day one.",
-      "desc": "An AI Office is a dedicated team that identifies opportunities, automates processes and measures results. Consultants, developers, data engineers, MLOps, training, compliance and specialized digital talent by function. All included. All operational. Without having to hire, train or improvise."
+      "desc": "An AI Office is a dedicated team that spots opportunities, automates processes and measures results. Consultants, developers, data engineers, MLOps, training, compliance and digital talent specialized by function. Everything included. Everything operational. We don't give you technology: we give you back time, energy and your team."
     },
     "velocidad": {
       "label": "Results, not promises",
@@ -949,9 +949,33 @@
       "b3": {
         "title": "Augmented company",
         "focus": "FOCUS: THE BUSINESS",
-        "desc": "Models and agents at scale in the core of the business. AI operates at the strategic level.",
+        "desc": "Models and agents at scale in the core of the business. AI operates at the strategic level, with us as your permanent partner.",
         "label": "OWN AI OFFICE"
       }
+    },
+    "dolor": {
+      "label": "WHY AI ISN'T WORKING IN YOUR COMPANY",
+      "title": "You have AI. Your team uses it in secret. And still nothing changes on your bottom line.",
+      "desc": "It's not a technology problem. It's a method problem. Loose AI doesn't move EBIT: an AI Office does — with goals, owners and measurement from day one.",
+      "c1": {
+        "stat": "80%",
+        "title": "No EBIT impact",
+        "desc": "8 in 10 companies see no impact on their bottom line after 12 months of AI.",
+        "source": "Stanford HAI · AI Index 2025"
+      },
+      "c2": {
+        "stat": "78%",
+        "title": "Shadow AI",
+        "desc": "Your employees already use AI on their own. 57% hide it — exposing company data along the way.",
+        "source": "KPMG & U. Melbourne · 2025"
+      },
+      "c3": {
+        "stat": "85%",
+        "title": "Pilots that stall",
+        "desc": "Most AI pilots never reach production. A lot of noise, zero results.",
+        "source": "McKinsey · State of AI 2025"
+      },
+      "cta": "HERE'S HOW WE FIX IT →"
     }
   }
 }

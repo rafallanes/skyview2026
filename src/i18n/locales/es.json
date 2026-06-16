@@ -85,7 +85,7 @@
     "philosophyTitle1": "Filosofía",
     "philosophyTitle2": "\"Aumentada\"",
     "philosophyP1": "No sustituimos personas, potenciamos su talento. Creamos Inteligencia Aumentada uniendo el criterio humano a la potencia tecnológica.",
-    "philosophyP2": "El resultado son Equipos Aumentados y resultados multiplicados. Menos tareas manuales, más impacto estratégico. Así de sencillo.",
+    "philosophyP2": "El resultado son Equipos Aumentados y resultados multiplicados. Menos tareas manuales, más impacto estratégico. Tu gente vuelve a hacer aquello para lo que la contrataste.",
     "founded": "FOUNDED",
     "projects": "PROJECTS",
     "techStackLabel": "STACK TECNOLÓGICO",
@@ -124,7 +124,7 @@
     "heroLabel": "OFICINA IA",
     "heroTitle": "Del Caos a la Claridad:",
     "heroTitle2": "Su Oficina IA Operativa.",
-    "heroDesc": "Transformamos la incertidumbre tecnológica en una ventaja competitiva medible y estructurada. Sin complicaciones. Making AI easy.",
+    "heroDesc": "Tu equipo atrapado en tareas que no aportan valor. Proyectos de IA que no llegan a producción. Convertimos esa incertidumbre en una Oficina IA operativa, medible y estructurada. Sin complicaciones. Making AI easy.",
     "methodLabel": "MAKING AI EASY",
     "methodTitle": "De cero a tu Oficina IA. Sin complicaciones.",
     "steps": {
@@ -150,7 +150,7 @@
         "title": "OFICINA IA PROPIA",
         "subtitle": "AUTONOMÍA",
         "time": "PASO FINAL · OPCIONAL",
-        "desc": "Transferimos metodología, conocimiento y capacidades a tu equipo propio. Tu oficina IA opera de forma 100% autónoma e independiente. Nuestro objetivo es hacerte crecer, no quedarnos para siempre."
+        "desc": "Si tu empresa quiere internalizar la operación, transferimos metodología, conocimiento y capacidades a tu equipo. Tú decides el nivel de autonomía — y nosotros seguimos siendo tu capa estratégica de IA siempre que nos necesites. La libertad de elegir es tuya."
       }
     },
     "diagnosisLabel": "EL DIAGNÓSTICO",
@@ -249,7 +249,7 @@
       "01": "plan claro y Comité IA constituido.",
       "02": "primeras automatizaciones en producción con impacto medible.",
       "03": "Oficina IA operativa con nuevos casos cada trimestre.",
-      "04": "tu equipo gestiona la Oficina IA con capacidad propia."
+      "04": "tu equipo opera con capacidad propia y Skyview sigue como socio estratégico."
     },
     "finalLabel": "EMPIEZA AQUÍ",
     "finalTitle": "Agenda tu sesión START. 25 minutos. Sin compromiso.",
@@ -278,7 +278,7 @@
   "work": {
     "title": "PROYECTOS",
     "desc": "Desde su creación en 2014 la misión de SKYVIEW ha sido poner la tecnología al servicio de las personas. Multitud de clientes en todos los sectores se benefician de nuestra experiencia aportando eficiencia a los procesos.",
-    "desc2": "Nuestra obsesión es conseguir resultados medibles al automatizar tareas repetitivas. Transformamos la complejidad técnica en modelos operativos que escalan. De la visión a la producción real.",
+    "desc2": "Nuestra obsesión es conseguir resultados medibles automatizando lo repetitivo. Transformamos la complejidad técnica en modelos operativos que escalan — y nos quedamos como socio mientras tu empresa crece. De la visión a la producción real.",
     "area": "AREA",
     "year": "YEAR",
     "ctaTitle": "¿Preparado para\nempezar su proyecto?",
@@ -871,10 +871,10 @@
   "home": {
     "hero": {
       "label": "MAKING AI EASY",
-      "title1": "TU OFICINA IA.",
-      "title2": "OPERATIVA EN SEMANAS.",
-      "desc": "Montamos tu departamento de IA completo — equipo, tecnología y metodología — para que tu gente deje de hacer trabajo repetitivo y se centre en hacer crecer el negocio.",
-      "cta": "DESCUBRE TU OFICINA IA →",
+      "title1": "TU EQUIPO NO NACIÓ",
+      "title2": "PARA HACER TRABAJO DE ROBOTS.",
+      "desc": "Mientras tu gente pierde horas en tareas manuales, el negocio espera. Montamos tu Oficina IA completa —equipo, tecnología y método— y en semanas tu equipo recupera el tiempo para lo único que importa: hacer crecer la empresa.",
+      "cta": "RECUPERA EL TIEMPO DE TU EQUIPO →",
       "trust1": "Madrid · Desde 2014",
       "trust2": "200+ Proyectos",
       "trust3": "Making AI Easy"
@@ -882,7 +882,7 @@
     "queEs": {
       "label": "¿Qué es una Oficina IA?",
       "title": "Un equipo completo de IA trabajando para tu empresa. Desde el primer día.",
-      "desc": "Una Oficina IA es un equipo dedicado que identifica oportunidades, automatiza procesos y mide resultados. Consultores, desarrolladores, ingenieros de datos, MLOps, formación, compliance y talento digital especializado por función. Todo incluido. Todo operativo. Sin que tengas que contratar, formar ni improvisar."
+      "desc": "Una Oficina IA es un equipo dedicado que identifica oportunidades, automatiza procesos y mide resultados. Consultores, desarrolladores, ingenieros de datos, MLOps, formación, compliance y talento digital especializado por función. Todo incluido. Todo operativo. No te damos tecnología: te devolvemos tiempo, energía y a tu equipo."
     },
     "velocidad": {
       "label": "Resultados, no promesas",
@@ -949,9 +949,33 @@
       "b3": {
         "title": "Empresa aumentada",
         "focus": "FOCO: EL NEGOCIO",
-        "desc": "Modelos y agentes a escala en el core del negocio. La IA opera en lo estratégico.",
+        "desc": "Modelos y agentes a escala en el core del negocio. La IA opera en lo estratégico, contigo como socio permanente.",
         "label": "OFICINA IA PROPIA"
       }
+    },
+    "dolor": {
+      "label": "POR QUÉ LA IA NO ESTÁ FUNCIONANDO EN TU EMPRESA",
+      "title": "Tienes IA. Tu equipo la usa a escondidas. Y aún así nada cambia en tu cuenta de resultados.",
+      "desc": "No es un problema de tecnología. Es un problema de método. La IA suelta no mueve el EBIT: lo mueve una Oficina IA con objetivos, responsables y medición desde el primer día.",
+      "c1": {
+        "stat": "80%",
+        "title": "Sin impacto en EBIT",
+        "desc": "8 de cada 10 empresas no perciben impacto en su cuenta de resultados tras 12 meses de IA.",
+        "source": "Stanford HAI · AI Index 2025"
+      },
+      "c2": {
+        "stat": "78%",
+        "title": "IA en la sombra",
+        "desc": "Tus empleados ya usan IA por su cuenta. El 57% lo oculta — y con ello expone los datos de la empresa.",
+        "source": "KPMG & U. Melbourne · 2025"
+      },
+      "c3": {
+        "stat": "85%",
+        "title": "Pilotos que no llegan",
+        "desc": "La gran mayoría de pruebas de IA nunca llegan a producción. Mucho ruido, cero resultados.",
+        "source": "McKinsey · State of AI 2025"
+      },
+      "cta": "ASÍ LO RESOLVEMOS →"
     }
   }
 }
