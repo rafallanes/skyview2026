@@ -12,6 +12,7 @@ import LoQueIncluye from "@/components/LoQueIncluye";
 import Velocidad from "@/components/Velocidad";
 import ROIGarantizado from "@/components/ROIGarantizado";
 import Desde2014 from "@/components/Desde2014";
+import ElDolor from "@/components/ElDolor";
 
 import logoOpenAI from "@/assets/logos/openai.png";
 import logoAzure from "@/assets/logos/azure.png";
