@@ -41,7 +41,10 @@ const Index = () => {
       {/* 1. HERO */}
       <Hero />
 
-      {/* 2. QUÉ ES UNA OFICINA IA */}
+      {/* 2. EL DOLOR */}
+      <ElDolor />
+
+      {/* 3. QUÉ ES UNA OFICINA IA */}
       <QueEsOficinaIA />
 
       {/* 3. LO QUE INCLUYE */}
