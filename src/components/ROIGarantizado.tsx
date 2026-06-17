@@ -22,7 +22,7 @@ export default function ROIGarantizado() {
       />
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         <p className="text-xs uppercase tracking-widest text-gray-500 mb-6">{t("home.roi.label")}</p>
-        <h2 className="text-3xl md:text-4xl font-bold text-white max-w-3xl" style={{ lineHeight: 1.15 }}>
+        <h2 className="text-3xl md:text-4xl font-bold text-white text-architectural max-w-3xl">
           {t("home.roi.title")}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-0 mt-12">
