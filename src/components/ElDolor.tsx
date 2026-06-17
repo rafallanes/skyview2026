@@ -15,8 +15,7 @@ export default function ElDolor() {
           {t("home.dolor.label")}
         </p>
         <h2
-          className="text-3xl md:text-5xl font-bold text-white mb-6 max-w-4xl"
-          style={{ lineHeight: 1.15 }}
+          className="text-3xl md:text-5xl font-bold text-white text-architectural mb-6 max-w-4xl"
         >
           {t("home.dolor.title")}
         </h2>
