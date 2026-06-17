@@ -186,7 +186,7 @@ const About = () => {
               <h3 className="text-minimal text-muted-foreground mb-6">{t("about.methodLabel")}</h3>
             </Reveal>
             <Reveal delay={0.1}>
-              <h2 className="text-3xl md:text-5xl font-light text-architectural mb-16 max-w-3xl">
+              <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-16 max-w-3xl" style={{ lineHeight: 1.15 }}>
                 {t("about.methodTitle")}
               </h2>
             </Reveal>

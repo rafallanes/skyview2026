@@ -14,7 +14,7 @@ export default function Velocidad() {
     <section className="bg-white text-zinc-900 py-24">
       <div className="max-w-7xl mx-auto px-6">
         <p className="text-xs uppercase tracking-widest text-gray-500 mb-6">{t("home.velocidad.label")}</p>
-        <h2 className="text-4xl md:text-5xl font-bold text-zinc-900 text-architectural max-w-4xl">
+        <h2 className="text-3xl md:text-5xl font-bold text-zinc-900 max-w-4xl" style={{ lineHeight: 1.15 }}>
           {t("home.velocidad.title")}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
