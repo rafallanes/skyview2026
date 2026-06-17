@@ -11,7 +11,7 @@ export default function Desde2014() {
     <section className="bg-white text-zinc-900 py-24">
       <div className="max-w-7xl mx-auto px-6">
         <p className="text-xs uppercase tracking-widest text-zinc-500 mb-6">{t("home.desde2014.label")}</p>
-        <h2 className="text-3xl md:text-4xl font-bold text-zinc-900" style={{ lineHeight: 1.15 }}>
+        <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 text-architectural">
           {t("home.desde2014.title")}
         </h2>
         <p className="text-base text-zinc-600 max-w-xl mt-6 leading-relaxed">
